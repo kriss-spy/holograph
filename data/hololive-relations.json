@@ -1,0 +1,5871 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "as_of": "2026-10-03",
+    "timezone": "Asia/Shanghai",
+    "stage": "Public relationship atlas",
+    "scope": "A selected roster of 78 talents, including alumni and affiliates. Named relationships are a curated primary-source-backed selection, not an exhaustive social graph.",
+    "interpretation_rules": [
+      "Do not infer friendship or romance from generation membership, duet credits, or proximity.",
+      "Multi-member units are hyperedges/groups, never automatic pairwise friendships.",
+      "Historical context JP/ID/EN/DEV_IS is not the current management hierarchy.",
+      "Unknown dates and continuing activity stay unknown; retrieved date is not relationship start date.",
+      "Character lore and in-game company roles must be labeled as such.",
+      "Listed status does not establish current streaming activity."
+    ],
+    "references": [
+      {
+        "url": "https://x.com/Shiratori_Amaha/status/966689529108180997",
+        "role": "layout",
+        "inspection": "X post and complete embedded chart viewed in browser; February 22, 2018 chart."
+      },
+      {
+        "url": "https://i.imgur.com/ZH92gnr.jpeg",
+        "role": "layout",
+        "inspection": "Direct image URL blocked. X post links same Imgur identifier with .jpg; used X-hosted copy for layout inspection."
+      }
+    ],
+    "layout_observations": [
+      "Circular portraits with labels below or beside them.",
+      "Pastel enclosing regions represent groups.",
+      "Labeled solid, dashed and colored links distinguish relationship types.",
+      "Uneven, manually arranged clusters with dense hubs and peripheral groups.",
+      "Small legend and visible date."
+    ],
+    "excluded_scope": [
+      "HOLOSTARS, staff and holoAN are outside this selected roster.",
+      "Some former members are outside this selected roster.",
+      "No private identities, inferred romance, rivalry, or automated closeness scores."
+    ],
+    "organization_source_ids": [
+      "s002",
+      "s003"
+    ],
+    "relationships_updated_on": "2026-10-04"
+  },
+  "talents": [
+    {
+      "id": "tokino-sora",
+      "name_en": "Tokino Sora",
+      "name_ja": "ときのそら",
+      "aliases": [
+        "Tokino Sora",
+        "そらちゃん"
+      ],
+      "primary_cohort_id": "gen-0",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2017-09-07",
+      "debut_source_text": "September 7, 2017",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokino-Sora_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/tokino-sora/",
+      "official_unit_source_text": "hololive Generation 0",
+      "source_ids": [
+        "s004",
+        "s001"
+      ]
+    },
+    {
+      "id": "roboco-san",
+      "name_en": "Robocosan",
+      "name_ja": "ロボ子さん",
+      "aliases": [
+        "Robocosan",
+        "ロボ子"
+      ],
+      "primary_cohort_id": "gen-0",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-03-09",
+      "debut_source_text": "March 9, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Robocosan_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/roboco-san/",
+      "official_unit_source_text": "hololive Generation 0",
+      "source_ids": [
+        "s005",
+        "s001"
+      ]
+    },
+    {
+      "id": "aki-rosenthal",
+      "name_en": "Aki Rosenthal",
+      "name_ja": "アキ・ローゼンタール",
+      "aliases": [
+        "Aki Rosenthal",
+        "アキロゼ"
+      ],
+      "primary_cohort_id": "gen-1",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-06-01",
+      "debut_source_text": "June 1, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Aki-Rosenthal_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/aki-rosenthal/",
+      "official_unit_source_text": "hololive 1st Generation",
+      "source_ids": [
+        "s006",
+        "s001"
+      ]
+    },
+    {
+      "id": "akai-haato",
+      "name_en": "Akai Haato",
+      "name_ja": "赤井はあと",
+      "aliases": [
+        "Akai Haato",
+        "はあとん"
+      ],
+      "primary_cohort_id": "gen-1",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-06-02",
+      "debut_source_text": "June 2, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Akai-Haato_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/akai-haato/",
+      "official_unit_source_text": "hololive 1st Generation",
+      "source_ids": [
+        "s007",
+        "s001"
+      ]
+    },
+    {
+      "id": "shirakami-fubuki",
+      "name_en": "Shirakami Fubuki",
+      "name_ja": "白上フブキ",
+      "aliases": [
+        "Shirakami Fubuki",
+        "フブちゃん"
+      ],
+      "primary_cohort_id": "gen-1",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-06-01",
+      "debut_source_text": "June 1, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirakami-Fubuki_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/shirakami-fubuki/",
+      "official_unit_source_text": "hololive 1st Generation/hololive GAMERS",
+      "source_ids": [
+        "s008",
+        "s001"
+      ]
+    },
+    {
+      "id": "natsuiro-matsuri",
+      "name_en": "Natsuiro Matsuri",
+      "name_ja": "夏色まつり",
+      "aliases": [
+        "Natsuiro Matsuri",
+        "まつり"
+      ],
+      "primary_cohort_id": "gen-1",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-06-01",
+      "debut_source_text": "June 1, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Natsuiro-Matsuri_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/natsuiro-matsuri/",
+      "official_unit_source_text": "hololive 1st Generation",
+      "source_ids": [
+        "s009",
+        "s001"
+      ]
+    },
+    {
+      "id": "nakiri-ayame",
+      "name_en": "Nakiri Ayame",
+      "name_ja": "百鬼あやめ",
+      "aliases": [
+        "Nakiri Ayame",
+        "あやめ"
+      ],
+      "primary_cohort_id": "gen-2",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-09-03",
+      "debut_source_text": "September 3, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nakiri-Ayame_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/nakiri-ayame/",
+      "official_unit_source_text": "hololive 2nd Generation",
+      "source_ids": [
+        "s010",
+        "s001"
+      ]
+    },
+    {
+      "id": "yuzuki-choco",
+      "name_en": "Yuzuki Choco",
+      "name_ja": "癒月ちょこ",
+      "aliases": [
+        "Yuzuki Choco",
+        "ちょこせんせー"
+      ],
+      "primary_cohort_id": "gen-2",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-09-04",
+      "debut_source_text": "September 4, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yuzuki-Choco_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/yuzuki-choco/",
+      "official_unit_source_text": "hololive 2nd Generation",
+      "source_ids": [
+        "s011",
+        "s001"
+      ]
+    },
+    {
+      "id": "oozora-subaru",
+      "name_en": "Oozora Subaru",
+      "name_ja": "大空スバル",
+      "aliases": [
+        "Oozora Subaru",
+        "すばる"
+      ],
+      "primary_cohort_id": "gen-2",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-09-16",
+      "debut_source_text": "September 16, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Oozora-Subaru_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/oozora-subaru/",
+      "official_unit_source_text": "hololive 2nd Generation",
+      "source_ids": [
+        "s012",
+        "s001"
+      ]
+    },
+    {
+      "id": "azki",
+      "name_en": "AZKi",
+      "name_ja": "AZKi",
+      "aliases": [
+        "AZKi"
+      ],
+      "primary_cohort_id": "gen-0",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": null,
+      "debut_source_text": null,
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/AZKi_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/azki/",
+      "official_unit_source_text": "hololive Generation 0 SorAZ Shotgun Rose",
+      "source_ids": [
+        "s013",
+        "s001"
+      ]
+    },
+    {
+      "id": "ookami-mio",
+      "name_en": "Ookami Mio",
+      "name_ja": "大神ミオ",
+      "aliases": [
+        "Ookami Mio",
+        "ミオしゃ"
+      ],
+      "primary_cohort_id": "gamers",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-12-07",
+      "debut_source_text": "December 7, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Ookami-Mio_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ookami-mio/",
+      "official_unit_source_text": "hololive GAMERS",
+      "source_ids": [
+        "s014",
+        "s001"
+      ]
+    },
+    {
+      "id": "sakuramiko",
+      "name_en": "Sakura Miko",
+      "name_ja": "さくらみこ",
+      "aliases": [
+        "Sakura Miko",
+        "みこち"
+      ],
+      "primary_cohort_id": "gen-0",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-08-01",
+      "debut_source_text": "August 1, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Sakura-Miko_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/sakuramiko/",
+      "official_unit_source_text": "hololive Generation 0",
+      "source_ids": [
+        "s015",
+        "s001"
+      ]
+    },
+    {
+      "id": "nekomata-okayu",
+      "name_en": "Nekomata Okayu",
+      "name_ja": "猫又おかゆ",
+      "aliases": [
+        "Nekomata Okayu",
+        "おかゆん"
+      ],
+      "primary_cohort_id": "gamers",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-04-06",
+      "debut_source_text": "April 6, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Nekomata-Okayu_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/nekomata-okayu/",
+      "official_unit_source_text": "hololive GAMERS",
+      "source_ids": [
+        "s016",
+        "s001"
+      ]
+    },
+    {
+      "id": "inugami-korone",
+      "name_en": "Inugami Korone",
+      "name_ja": "戌神ころね",
+      "aliases": [
+        "Inugami Korone",
+        "ころさん"
+      ],
+      "primary_cohort_id": "gamers",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-04-13",
+      "debut_source_text": "April 13, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Inugami-Korone_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/inugami-korone/",
+      "official_unit_source_text": "hololive GAMERS",
+      "source_ids": [
+        "s017",
+        "s001"
+      ]
+    },
+    {
+      "id": "hoshimachi-suisei",
+      "name_en": "Hoshimachi Suisei",
+      "name_ja": "星街すいせい",
+      "aliases": [
+        "Hoshimachi Suisei",
+        "すいちゃん"
+      ],
+      "primary_cohort_id": "gen-0",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2018-03-22",
+      "debut_source_text": "March 22, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Hoshimachi-Suisei_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/hoshimachi-suisei/",
+      "official_unit_source_text": "hololive Generation 0",
+      "source_ids": [
+        "s018",
+        "s001"
+      ]
+    },
+    {
+      "id": "usada-pekora",
+      "name_en": "Usada Pekora",
+      "name_ja": "兎田ぺこら",
+      "aliases": [
+        "Usada Pekora",
+        "ぺこら"
+      ],
+      "primary_cohort_id": "gen-3",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-07-17",
+      "debut_source_text": "July 17, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Usada-Pekora_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/usada-pekora/",
+      "official_unit_source_text": "hololive 3rd Generation",
+      "source_ids": [
+        "s019",
+        "s001"
+      ]
+    },
+    {
+      "id": "shiranui-flare",
+      "name_en": "Shiranui Flare",
+      "name_ja": "不知火フレア",
+      "aliases": [
+        "Shiranui Flare",
+        "フレア"
+      ],
+      "primary_cohort_id": "gen-3",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-08-07",
+      "debut_source_text": "August 7, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shiranui-Flare_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/shiranui-flare/",
+      "official_unit_source_text": "hololive 3rd Generation",
+      "source_ids": [
+        "s020",
+        "s001"
+      ]
+    },
+    {
+      "id": "shirogane-noel",
+      "name_en": "Shirogane Noel",
+      "name_ja": "白銀ノエル",
+      "aliases": [
+        "Shirogane Noel",
+        "団長"
+      ],
+      "primary_cohort_id": "gen-3",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-08-08",
+      "debut_source_text": "August 8, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Shirogane-Noel_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/shirogane-noel/",
+      "official_unit_source_text": "hololive 3rd Generation",
+      "source_ids": [
+        "s021",
+        "s001"
+      ]
+    },
+    {
+      "id": "houshou-marine",
+      "name_en": "Houshou Marine",
+      "name_ja": "宝鐘マリン",
+      "aliases": [
+        "Marine",
+        "Houshou Marine",
+        "船長"
+      ],
+      "primary_cohort_id": "gen-3",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-08-11",
+      "debut_source_text": "August 11, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Houshou-Marine_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/houshou-marine/",
+      "official_unit_source_text": "hololive 3rd Generation",
+      "source_ids": [
+        "s022",
+        "s001"
+      ]
+    },
+    {
+      "id": "tsunomaki-watame",
+      "name_en": "Tsunomaki Watame",
+      "name_ja": "角巻わため",
+      "aliases": [
+        "Tsunomaki Watame",
+        "わため"
+      ],
+      "primary_cohort_id": "gen-4",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2019-12-29",
+      "debut_source_text": "December 29, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tsunomaki-Watame_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/tsunomaki-watame/",
+      "official_unit_source_text": "hololive 4th Generation",
+      "source_ids": [
+        "s023",
+        "s001"
+      ]
+    },
+    {
+      "id": "tokoyami-towa",
+      "name_en": "Tokoyami Towa",
+      "name_ja": "常闇トワ",
+      "aliases": [
+        "Tokoyami Towa",
+        "トワ様"
+      ],
+      "primary_cohort_id": "gen-4",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-01-03",
+      "debut_source_text": "January 3, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Tokoyami-Towa_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/tokoyami-towa/",
+      "official_unit_source_text": "hololive 4th Generation",
+      "source_ids": [
+        "s024",
+        "s001"
+      ]
+    },
+    {
+      "id": "himemori-luna",
+      "name_en": "Himemori Luna",
+      "name_ja": "姫森ルーナ",
+      "aliases": [
+        "Himemori Luna",
+        "ルーナ"
+      ],
+      "primary_cohort_id": "gen-4",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-01-04",
+      "debut_source_text": "January 4, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Himemori-Luna_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/himemori-luna/",
+      "official_unit_source_text": "hololive 4th Generation",
+      "source_ids": [
+        "s025",
+        "s001"
+      ]
+    },
+    {
+      "id": "yukihana-lamy",
+      "name_en": "Yukihana Lamy",
+      "name_ja": "雪花ラミィ",
+      "aliases": [
+        "Yukihana Lamy",
+        "ラミィ"
+      ],
+      "primary_cohort_id": "gen-5",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-08-12",
+      "debut_source_text": "August 12, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Yukihana-Lamy_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/yukihana-lamy/",
+      "official_unit_source_text": "hololive 5th Generation",
+      "source_ids": [
+        "s026",
+        "s001"
+      ]
+    },
+    {
+      "id": "momosuzu-nene",
+      "name_en": "Momosuzu Nene",
+      "name_ja": "桃鈴ねね",
+      "aliases": [
+        "Momosuzu Nene",
+        "ねね"
+      ],
+      "primary_cohort_id": "gen-5",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-08-13",
+      "debut_source_text": "August 13, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Momosuzu-Nene_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/momosuzu-nene/",
+      "official_unit_source_text": "hololive 5th Generation",
+      "source_ids": [
+        "s027",
+        "s001"
+      ]
+    },
+    {
+      "id": "shishiro-botan",
+      "name_en": "Shishiro Botan",
+      "name_ja": "獅白ぼたん",
+      "aliases": [
+        "Shishiro Botan",
+        "ぼたん"
+      ],
+      "primary_cohort_id": "gen-5",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-08-14",
+      "debut_source_text": "August 14, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Shishiro-Botan_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/shishiro-botan/",
+      "official_unit_source_text": "hololive 5th Generation",
+      "source_ids": [
+        "s028",
+        "s001"
+      ]
+    },
+    {
+      "id": "omaru-polka",
+      "name_en": "Omaru Polka",
+      "name_ja": "尾丸ポルカ",
+      "aliases": [
+        "Omaru Polka",
+        "座長"
+      ],
+      "primary_cohort_id": "gen-5",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-08-16",
+      "debut_source_text": "August 16, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Omaru-Polka_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/omaru-polka/",
+      "official_unit_source_text": "hololive 5th Generation",
+      "source_ids": [
+        "s029",
+        "s001"
+      ]
+    },
+    {
+      "id": "la-darknesss",
+      "name_en": "La+ Darknesss",
+      "name_ja": "ラプラス・ダークネス",
+      "aliases": [
+        "La+ Darknesss",
+        "ラプ様"
+      ],
+      "primary_cohort_id": "holox",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-11-26",
+      "debut_source_text": "November 26, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/La-Darknesss_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/la-darknesss/",
+      "official_unit_source_text": "Secret Society holoX",
+      "source_ids": [
+        "s030",
+        "s001"
+      ]
+    },
+    {
+      "id": "takane-lui",
+      "name_en": "Takane Lui",
+      "name_ja": "鷹嶺ルイ",
+      "aliases": [
+        "Takane Lui",
+        "ルイ"
+      ],
+      "primary_cohort_id": "holox",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-11-27",
+      "debut_source_text": "November 27, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Takane-Lui_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/takane-lui/",
+      "official_unit_source_text": "Secret Society holoX",
+      "source_ids": [
+        "s031",
+        "s001"
+      ]
+    },
+    {
+      "id": "hakui-koyori",
+      "name_en": "Hakui Koyori",
+      "name_ja": "博衣こより",
+      "aliases": [
+        "Hakui Koyori",
+        "こより"
+      ],
+      "primary_cohort_id": "holox",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-11-28",
+      "debut_source_text": "November 28, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Hakui-Koyori_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/hakui-koyori/",
+      "official_unit_source_text": "Secret Society holoX",
+      "source_ids": [
+        "s032",
+        "s001"
+      ]
+    },
+    {
+      "id": "kazama-iroha",
+      "name_en": "Kazama Iroha",
+      "name_ja": "風真いろは",
+      "aliases": [
+        "Kazama Iroha",
+        "いろは"
+      ],
+      "primary_cohort_id": "holox",
+      "historical_context": "JP",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-11-30",
+      "debut_source_text": "November 30, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kazama-Iroha_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kazama-iroha/",
+      "official_unit_source_text": "Secret Society holoX",
+      "source_ids": [
+        "s033",
+        "s001"
+      ]
+    },
+    {
+      "id": "sakamata-chloe",
+      "name_en": "Sakamata Chloe",
+      "name_ja": "沙花叉クロヱ",
+      "aliases": [
+        "Sakamata Chloe",
+        "クロヱ"
+      ],
+      "primary_cohort_id": "holox",
+      "historical_context": "JP",
+      "status": "affiliate",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2021-11-29",
+      "debut_source_text": "November 29, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Sakamata-Chloe_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/sakamata-chloe/",
+      "official_unit_source_text": "Secret Society holoX",
+      "source_ids": [
+        "s034",
+        "s001"
+      ]
+    },
+    {
+      "id": "ayunda-risu",
+      "name_en": "Ayunda Risu",
+      "name_ja": "アユンダ・リス",
+      "aliases": [
+        "アユンダ・リス",
+        "リス",
+        "Risu"
+      ],
+      "primary_cohort_id": "area15",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-04-10",
+      "debut_source_text": "April 10, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Ayunda-Risu_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ayunda-risu/",
+      "official_unit_source_text": "hololive AREA15",
+      "source_ids": [
+        "s035",
+        "s001"
+      ]
+    },
+    {
+      "id": "moona-hoshinova",
+      "name_en": "Moona Hoshinova",
+      "name_ja": "ムーナ・ホシノヴァ",
+      "aliases": [
+        "ムーナ・ホシノヴァ",
+        "ムーナ",
+        "Moona"
+      ],
+      "primary_cohort_id": "area15",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-04-11",
+      "debut_source_text": "April 11, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Moona-Hoshinova_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/moona-hoshinova/",
+      "official_unit_source_text": "hololive AREA15",
+      "source_ids": [
+        "s036",
+        "s001"
+      ]
+    },
+    {
+      "id": "airani-iofifteen",
+      "name_en": "Airani Iofifteen",
+      "name_ja": "アイラニ・イオフィフティーン",
+      "aliases": [
+        "アイラニ・イオフィフティーン",
+        "イオフィ",
+        "Iofi"
+      ],
+      "primary_cohort_id": "area15",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-04-12",
+      "debut_source_text": "April 12, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Airani-Iofifteen_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/airani-iofifteen/",
+      "official_unit_source_text": "hololive AREA15",
+      "source_ids": [
+        "s037",
+        "s001"
+      ]
+    },
+    {
+      "id": "kureiji-ollie",
+      "name_en": "Kureiji Ollie",
+      "name_ja": "クレイジー・オリー",
+      "aliases": [
+        "クレイジー・オリー",
+        "オリー",
+        "Ollie"
+      ],
+      "primary_cohort_id": "holoro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-12-04",
+      "debut_source_text": "December 4,2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kureiji-Ollie_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kureiji-ollie/",
+      "official_unit_source_text": "hololive holoro",
+      "source_ids": [
+        "s038",
+        "s001"
+      ]
+    },
+    {
+      "id": "anya-melfissa",
+      "name_en": "Anya Melfissa",
+      "name_ja": "アーニャ・メルフィッサ",
+      "aliases": [
+        "アーニャ・メルフィッサ",
+        "アーニャ",
+        "Anya"
+      ],
+      "primary_cohort_id": "holoro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-12-05",
+      "debut_source_text": "December 5, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Anya-Melfissa_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/anya-melfissa/",
+      "official_unit_source_text": "hololive holoro",
+      "source_ids": [
+        "s039",
+        "s001"
+      ]
+    },
+    {
+      "id": "pavolia-reine",
+      "name_en": "Pavolia Reine",
+      "name_ja": "パヴォリア・レイネ",
+      "aliases": [
+        "パヴォリア・レイネ",
+        "レイネ",
+        "Reine"
+      ],
+      "primary_cohort_id": "holoro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-12-06",
+      "debut_source_text": "December 6, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Pavolia-Reine_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/pavolia-reine/",
+      "official_unit_source_text": "hololive holoro",
+      "source_ids": [
+        "s040",
+        "s001"
+      ]
+    },
+    {
+      "id": "vestia-zeta",
+      "name_en": "Vestia Zeta",
+      "name_ja": "ベスティア・ゼータ",
+      "aliases": [
+        "ベスティア・ゼータ",
+        "ゼータ",
+        "Zeta"
+      ],
+      "primary_cohort_id": "holoh3ro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2022-03-25",
+      "debut_source_text": "March 25, 2022",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Vestia-Zeta_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/vestia-zeta/",
+      "official_unit_source_text": "hololive holoh3ro",
+      "source_ids": [
+        "s041",
+        "s001"
+      ]
+    },
+    {
+      "id": "kaela-kovalskia",
+      "name_en": "Kaela Kovalskia",
+      "name_ja": "カエラ・コヴァルスキア",
+      "aliases": [
+        "カエラ・コヴァルスキア",
+        "カエラ",
+        "Kaela"
+      ],
+      "primary_cohort_id": "holoh3ro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2022-03-26",
+      "debut_source_text": "March 26, 2022",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kaela-Kovalskia_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kaela-kovalskia/",
+      "official_unit_source_text": "hololive holoh3ro",
+      "source_ids": [
+        "s042",
+        "s001"
+      ]
+    },
+    {
+      "id": "kobo-kanaeru",
+      "name_en": "Kobo Kanaeru",
+      "name_ja": "こぼ・かなえる",
+      "aliases": [
+        "こぼ・かなえる",
+        "こぼ",
+        "Kobo"
+      ],
+      "primary_cohort_id": "holoh3ro",
+      "historical_context": "ID",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2022-03-27",
+      "debut_source_text": "March 27, 2022",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Kobo-Kanaeru_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kobo-kanaeru/",
+      "official_unit_source_text": "hololive holoh3ro",
+      "source_ids": [
+        "s043",
+        "s001"
+      ]
+    },
+    {
+      "id": "mori-calliope",
+      "name_en": "Mori Calliope",
+      "name_ja": "森カリオペ",
+      "aliases": [
+        "森カリオペ",
+        "カリオペ",
+        "Calli"
+      ],
+      "primary_cohort_id": "myth",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-09-12",
+      "debut_source_text": "September 12, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Mori-Calliope_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/mori-calliope/",
+      "official_unit_source_text": "hololive -Myth-",
+      "source_ids": [
+        "s044",
+        "s001"
+      ]
+    },
+    {
+      "id": "takanashi-kiara",
+      "name_en": "Takanashi Kiara",
+      "name_ja": "小鳥遊キアラ",
+      "aliases": [
+        "小鳥遊キアラ",
+        "キアラ",
+        "Kiara"
+      ],
+      "primary_cohort_id": "myth",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-09-12",
+      "debut_source_text": "September 12, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Takanashi-Kiara_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/takanashi-kiara/",
+      "official_unit_source_text": "hololive -Myth-",
+      "source_ids": [
+        "s045",
+        "s001"
+      ]
+    },
+    {
+      "id": "ninomae-inanis",
+      "name_en": "Ninomae Ina’nis",
+      "name_ja": "一伊那尓栖",
+      "aliases": [
+        "一伊那尓栖",
+        "イナ",
+        "Ina"
+      ],
+      "primary_cohort_id": "myth",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2020-09-13",
+      "debut_source_text": "September 13, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Ninomae-Inanis_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ninomae-inanis/",
+      "official_unit_source_text": "hololive -Myth-",
+      "source_ids": [
+        "s046",
+        "s001"
+      ]
+    },
+    {
+      "id": "watson-amelia",
+      "name_en": "Watson Amelia",
+      "name_ja": "ワトソン・アメリア",
+      "aliases": [
+        "ワトソン・アメリア",
+        "アメリア",
+        "Ame"
+      ],
+      "primary_cohort_id": "myth",
+      "historical_context": "EN",
+      "status": "affiliate",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2020-09-13",
+      "debut_source_text": "September 13, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Watson-Amelia_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/watson-amelia/",
+      "official_unit_source_text": "hololive -Myth-",
+      "source_ids": [
+        "s047",
+        "s001"
+      ]
+    },
+    {
+      "id": "irys",
+      "name_en": "IRyS",
+      "name_ja": "IRyS",
+      "aliases": [
+        "IRyS"
+      ],
+      "primary_cohort_id": "promise",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-07-11",
+      "debut_source_text": "July 11, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/IRyS_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/irys/",
+      "official_unit_source_text": "hololive -Promise-",
+      "source_ids": [
+        "s048",
+        "s001"
+      ]
+    },
+    {
+      "id": "ouro-kronii",
+      "name_en": "Ouro Kronii",
+      "name_ja": "オーロ・クロニー",
+      "aliases": [
+        "オーロ・クロニー",
+        "クロニー",
+        "Kronii"
+      ],
+      "primary_cohort_id": "promise",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-08-23",
+      "debut_source_text": "August 23, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Ouro-Kronii_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ouro-kronii/",
+      "official_unit_source_text": "hololive -Promise-",
+      "source_ids": [
+        "s049",
+        "s001"
+      ]
+    },
+    {
+      "id": "hakos-baelz",
+      "name_en": "Hakos Baelz",
+      "name_ja": "ハコス・ベールズ",
+      "aliases": [
+        "ハコス・ベールズ",
+        "ベールズ",
+        "Bae"
+      ],
+      "primary_cohort_id": "promise",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2021-08-23",
+      "debut_source_text": "August 23, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Hakos-Baelz_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/hakos-baelz/",
+      "official_unit_source_text": "hololive -Promise-",
+      "source_ids": [
+        "s050",
+        "s001"
+      ]
+    },
+    {
+      "id": "shiori-novella",
+      "name_en": "Shiori Novella",
+      "name_ja": "シオリ・ノヴェラ",
+      "aliases": [
+        "シオリ・ノヴェラ",
+        "シオリ",
+        "Shiori"
+      ],
+      "primary_cohort_id": "advent",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-07-30",
+      "debut_source_text": "July 30, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2021/07/Shiori-Novella_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/shiori-novella/",
+      "official_unit_source_text": "hololive -Advent-",
+      "source_ids": [
+        "s051",
+        "s001"
+      ]
+    },
+    {
+      "id": "koseki-bijou",
+      "name_en": "Koseki Bijou",
+      "name_ja": "古石ビジュー",
+      "aliases": [
+        "古石ビジュー",
+        "ビジュー",
+        "Biboo"
+      ],
+      "primary_cohort_id": "advent",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-07-30",
+      "debut_source_text": "July 30, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2021/07/Koseki-Bijou_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/koseki-bijou/",
+      "official_unit_source_text": "hololive -Advent-",
+      "source_ids": [
+        "s052",
+        "s001"
+      ]
+    },
+    {
+      "id": "nerissa-ravencroft",
+      "name_en": "Nerissa Ravencroft",
+      "name_ja": "ネリッサ・レイヴンクロフト",
+      "aliases": [
+        "ネリッサ・レイヴンクロフト",
+        "ネリッサ",
+        "Nerissa"
+      ],
+      "primary_cohort_id": "advent",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-07-31",
+      "debut_source_text": "July 31, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2021/07/Nerissa-Ravencroft_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/nerissa-ravencroft/",
+      "official_unit_source_text": "hololive -Advent-",
+      "source_ids": [
+        "s053",
+        "s001"
+      ]
+    },
+    {
+      "id": "fuwawa-abyssgard",
+      "name_en": "Fuwawa Abyssgard",
+      "name_ja": "フワワ・アビスガード",
+      "aliases": [
+        "フワワ・アビスガード",
+        "フワワ",
+        "Fuwawa"
+      ],
+      "primary_cohort_id": "advent",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-07-31",
+      "debut_source_text": "July 31, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2021/07/Fuwawa-Abyssgard_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/fuwawa-abyssgard/",
+      "official_unit_source_text": "hololive -Advent-",
+      "source_ids": [
+        "s054",
+        "s001"
+      ]
+    },
+    {
+      "id": "mococo-abyssgard",
+      "name_en": "Mococo Abyssgard",
+      "name_ja": "モココ・アビスガード",
+      "aliases": [
+        "モココ・アビスガード",
+        "モココ",
+        "Mococo"
+      ],
+      "primary_cohort_id": "advent",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-07-31",
+      "debut_source_text": "July 31, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2021/07/Mococo-Abyssgard_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/mococo-abyssgard/",
+      "official_unit_source_text": "hololive -Advent-",
+      "source_ids": [
+        "s055",
+        "s001"
+      ]
+    },
+    {
+      "id": "elizabeth-rose-bloodflame",
+      "name_en": "Elizabeth Rose Bloodflame",
+      "name_ja": "エリザベス・ローズ・ブラッドフレイム",
+      "aliases": [
+        "エリザベス・ローズ・ブラッドフレイム",
+        "エリザベス",
+        "Liz"
+      ],
+      "primary_cohort_id": "justice",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-06-22",
+      "debut_source_text": "June 22, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/07/Elizabeth-Rose-Bloodflame_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/elizabeth-rose-bloodflame/",
+      "official_unit_source_text": "hololive -Justice-",
+      "source_ids": [
+        "s056",
+        "s001"
+      ]
+    },
+    {
+      "id": "gigi-murin",
+      "name_en": "Gigi Murin",
+      "name_ja": "ジジ・ムリン",
+      "aliases": [
+        "ジジ・ムリン",
+        "ジジ",
+        "Gigi"
+      ],
+      "primary_cohort_id": "justice",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-06-22",
+      "debut_source_text": "June 22, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/07/Gigi-Murin_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/gigi-murin/",
+      "official_unit_source_text": "hololive -Justice-",
+      "source_ids": [
+        "s057",
+        "s001"
+      ]
+    },
+    {
+      "id": "cecilia-immergreen",
+      "name_en": "Cecilia Immergreen",
+      "name_ja": "セシリア・イマーグリーン",
+      "aliases": [
+        "セシリア・イマーグリーン",
+        "セシリア",
+        "Ceci"
+      ],
+      "primary_cohort_id": "justice",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-06-23",
+      "debut_source_text": "June 23, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/07/Cecilia-Immergreen_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/cecilia-immergreen/",
+      "official_unit_source_text": "hololive -Justice-",
+      "source_ids": [
+        "s058",
+        "s001"
+      ]
+    },
+    {
+      "id": "raora-panthera",
+      "name_en": "Raora Panthera",
+      "name_ja": "ラオーラ・パンテーラ",
+      "aliases": [
+        "ラオーラ・パンテーラ",
+        "ラオーラ",
+        "Raora"
+      ],
+      "primary_cohort_id": "justice",
+      "historical_context": "EN",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-06-23",
+      "debut_source_text": "June 23, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/07/Raora-Panthera_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/raora-panthera/",
+      "official_unit_source_text": "hololive -Justice-",
+      "source_ids": [
+        "s059",
+        "s001"
+      ]
+    },
+    {
+      "id": "otonose-kanade",
+      "name_en": "Otonose Kanade",
+      "name_ja": "音乃瀬奏",
+      "aliases": [
+        "Otonose Kanade",
+        "かなで"
+      ],
+      "primary_cohort_id": "regloss",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-09-09",
+      "debut_source_text": "September 9, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Otonose-Kanade_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/otonose-kanade/",
+      "official_unit_source_text": "ReGLOSS",
+      "source_ids": [
+        "s060",
+        "s001"
+      ]
+    },
+    {
+      "id": "ichijou-ririka",
+      "name_en": "Ichijou Ririka",
+      "name_ja": "一条莉々華",
+      "aliases": [
+        "Ichijou Ririka",
+        "りりか"
+      ],
+      "primary_cohort_id": "regloss",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-09-09",
+      "debut_source_text": "September 9, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Ichijou-Ririka_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ichijou-ririka/",
+      "official_unit_source_text": "ReGLOSS",
+      "source_ids": [
+        "s061",
+        "s001"
+      ]
+    },
+    {
+      "id": "juufuutei-raden",
+      "name_en": "Juufuutei Raden",
+      "name_ja": "儒烏風亭らでん",
+      "aliases": [
+        "Juufuutei Raden",
+        "らでん"
+      ],
+      "primary_cohort_id": "regloss",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-09-10",
+      "debut_source_text": "September 10, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Juufuutei-Raden_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/juufuutei-raden/",
+      "official_unit_source_text": "ReGLOSS",
+      "source_ids": [
+        "s062",
+        "s001"
+      ]
+    },
+    {
+      "id": "todoroki-hajime",
+      "name_en": "Todoroki Hajime",
+      "name_ja": "轟はじめ",
+      "aliases": [
+        "Todoroki Hajime",
+        "はじめ"
+      ],
+      "primary_cohort_id": "regloss",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2023-09-10",
+      "debut_source_text": "September 10, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Todoroki-Hajime_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/todoroki-hajime/",
+      "official_unit_source_text": "ReGLOSS",
+      "source_ids": [
+        "s063",
+        "s001"
+      ]
+    },
+    {
+      "id": "isaki-riona",
+      "name_en": "Isaki Riona",
+      "name_ja": "響咲リオナ",
+      "aliases": [
+        "Isaki Riona",
+        "りおな"
+      ],
+      "primary_cohort_id": "flow-glow",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-11-09",
+      "debut_source_text": "November 9, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Isaki-Riona_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/isaki-riona/",
+      "official_unit_source_text": "FLOW GLOW",
+      "source_ids": [
+        "s064",
+        "s001"
+      ]
+    },
+    {
+      "id": "koganei-niko",
+      "name_en": "Koganei Niko",
+      "name_ja": "虎金妃笑虎",
+      "aliases": [
+        "Koganei Niko",
+        "にこ"
+      ],
+      "primary_cohort_id": "flow-glow",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-11-09",
+      "debut_source_text": "November 9, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Koganei-Niko_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/koganei-niko/",
+      "official_unit_source_text": "FLOW GLOW",
+      "source_ids": [
+        "s065",
+        "s001"
+      ]
+    },
+    {
+      "id": "mizumiya-su",
+      "name_en": "Mizumiya Su",
+      "name_ja": "水宮枢",
+      "aliases": [
+        "Mizumiya Su",
+        "すう"
+      ],
+      "primary_cohort_id": "flow-glow",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-11-09",
+      "debut_source_text": "November 9, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Mizumiya-Su_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/mizumiya-su/",
+      "official_unit_source_text": "FLOW GLOW",
+      "source_ids": [
+        "s066",
+        "s001"
+      ]
+    },
+    {
+      "id": "rindo-chihaya",
+      "name_en": "Rindo Chihaya",
+      "name_ja": "輪堂千速",
+      "aliases": [
+        "Rindo Chihaya",
+        "ちはや"
+      ],
+      "primary_cohort_id": "flow-glow",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-11-09",
+      "debut_source_text": "November 9, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Rindo-Chihaya_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/rindo-chihaya/",
+      "official_unit_source_text": "FLOW GLOW",
+      "source_ids": [
+        "s067",
+        "s001"
+      ]
+    },
+    {
+      "id": "kikirara-vivi",
+      "name_en": "Kikirara Vivi",
+      "name_ja": "綺々羅々ヴィヴィ",
+      "aliases": [
+        "Kikirara Vivi",
+        "ヴィヴィ"
+      ],
+      "primary_cohort_id": "flow-glow",
+      "historical_context": "DEV_IS",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2024-11-09",
+      "debut_source_text": "November 9, 2024",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Kikirara-Vivi_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kikirara-vivi/",
+      "official_unit_source_text": "FLOW GLOW",
+      "source_ids": [
+        "s068",
+        "s001"
+      ]
+    },
+    {
+      "id": "achichi-mela",
+      "name_en": "Achichi Mela",
+      "name_ja": "熱千めら",
+      "aliases": [
+        "Achichi Mela",
+        "めら"
+      ],
+      "primary_cohort_id": "asobi-mawari-tai",
+      "historical_context": "post-unification",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2026-09-24",
+      "debut_source_text": "September 24, 2026",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Achichi-Mela_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/achichi-mela/",
+      "official_unit_source_text": "ASOBI★MAWARI-TAI!",
+      "source_ids": [
+        "s069",
+        "s001"
+      ]
+    },
+    {
+      "id": "sorashina-sopia",
+      "name_en": "Sorashina Sopia",
+      "name_ja": "宙科そぴあ",
+      "aliases": [
+        "Sorashina Sopia",
+        "そぴあ"
+      ],
+      "primary_cohort_id": "asobi-mawari-tai",
+      "historical_context": "post-unification",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2026-09-24",
+      "debut_source_text": "September 24, 2026",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Sorashina-Sopia_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/sorashina-sopia/",
+      "official_unit_source_text": "ASOBI★MAWARI-TAI!",
+      "source_ids": [
+        "s070",
+        "s001"
+      ]
+    },
+    {
+      "id": "suzuna-tsuzuri",
+      "name_en": "Suzuna Tsuzuri",
+      "name_ja": "鈴鳴つづり",
+      "aliases": [
+        "Suzuna Tsuzuri",
+        "つづり"
+      ],
+      "primary_cohort_id": "asobi-mawari-tai",
+      "historical_context": "post-unification",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2026-09-25",
+      "debut_source_text": "September 25, 2026",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Suzuna-Tsuzuri_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/suzuna-tsuzuri/",
+      "official_unit_source_text": "ASOBI★MAWARI-TAI!",
+      "source_ids": [
+        "s071",
+        "s001"
+      ]
+    },
+    {
+      "id": "hyakuto-kyoko",
+      "name_en": "Hyakuto Kyoko",
+      "name_ja": "百灯キョーコ",
+      "aliases": [
+        "Hyakuto Kyoko",
+        "キョーコ"
+      ],
+      "primary_cohort_id": "asobi-mawari-tai",
+      "historical_context": "post-unification",
+      "status": "listed",
+      "status_meaning": "Listed without affiliate/alum label; not a claim of current streaming activity.",
+      "debut": "2026-09-25",
+      "debut_source_text": "September 25, 2026",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Hyakuto-Kyoko_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/hyakuto-kyoko/",
+      "official_unit_source_text": "ASOBI★MAWARI-TAI!",
+      "source_ids": [
+        "s072",
+        "s001"
+      ]
+    },
+    {
+      "id": "minato-aqua",
+      "name_en": "Minato Aqua",
+      "name_ja": "湊あくあ",
+      "aliases": [
+        "Minato Aqua",
+        "あくあ"
+      ],
+      "primary_cohort_id": "gen-2",
+      "historical_context": "JP",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2018-08-08",
+      "debut_source_text": "August 8, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Minato-Aqua_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/minato-aqua/",
+      "official_unit_source_text": "hololive 2nd Generation",
+      "source_ids": [
+        "s073",
+        "s001"
+      ]
+    },
+    {
+      "id": "murasaki-shion",
+      "name_en": "Murasaki Shion",
+      "name_ja": "紫咲シオン",
+      "aliases": [
+        "Murasaki Shion",
+        "シオン"
+      ],
+      "primary_cohort_id": "gen-2",
+      "historical_context": "JP",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2018-08-17",
+      "debut_source_text": "August 17, 2018",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Murasaki-Shion_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/murasaki-shion/",
+      "official_unit_source_text": "hololive 2nd Generation",
+      "source_ids": [
+        "s074",
+        "s001"
+      ]
+    },
+    {
+      "id": "amane-kanata",
+      "name_en": "Amane Kanata",
+      "name_ja": "天音かなた",
+      "aliases": [
+        "Amane Kanata",
+        "かなたん"
+      ],
+      "primary_cohort_id": "gen-4",
+      "historical_context": "JP",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2019-12-27",
+      "debut_source_text": "December 27, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/06/Amane-Kanata_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/amane-kanata/",
+      "official_unit_source_text": "hololive 4th Generation",
+      "source_ids": [
+        "s075",
+        "s001"
+      ]
+    },
+    {
+      "id": "kiryu-coco",
+      "name_en": "Kiryu Coco",
+      "name_ja": "桐生ココ",
+      "aliases": [
+        "Kiryu Coco",
+        "会長"
+      ],
+      "primary_cohort_id": "gen-4",
+      "historical_context": "JP",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2019-12-28",
+      "debut_source_text": "December 28, 2019",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Kiryu-Coco_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/kiryu-coco/",
+      "official_unit_source_text": "hololive 4th Generation",
+      "source_ids": [
+        "s076",
+        "s001"
+      ]
+    },
+    {
+      "id": "gawr-gura",
+      "name_en": "Gawr Gura",
+      "name_ja": "がうる・ぐら",
+      "aliases": [
+        "がうる・ぐら",
+        "Gura"
+      ],
+      "primary_cohort_id": "myth",
+      "historical_context": "EN",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2020-09-13",
+      "debut_source_text": "September 13, 2020",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Gawr-Gura_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/gawr-gura/",
+      "official_unit_source_text": "hololive English -Myth-",
+      "source_ids": [
+        "s077",
+        "s001"
+      ]
+    },
+    {
+      "id": "tsukumo-sana",
+      "name_en": "Tsukumo Sana",
+      "name_ja": "九十九佐命",
+      "aliases": [
+        "九十九佐命",
+        "サナ",
+        "Sana"
+      ],
+      "primary_cohort_id": "council",
+      "historical_context": "EN",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2021-08-23",
+      "debut_source_text": "August 23, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Tsukumo-Sana_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/tsukumo-sana/",
+      "official_unit_source_text": "hololive English -Council-",
+      "source_ids": [
+        "s078",
+        "s001"
+      ]
+    },
+    {
+      "id": "ceres-fauna",
+      "name_en": "Ceres Fauna",
+      "name_ja": "セレス・ファウナ",
+      "aliases": [
+        "セレス・ファウナ",
+        "ファウナ",
+        "Fauna"
+      ],
+      "primary_cohort_id": "promise",
+      "historical_context": "EN",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2021-08-23",
+      "debut_source_text": "August 23, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Ceres-Fauna_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/ceres-fauna/",
+      "official_unit_source_text": "hololive English -Promise-",
+      "source_ids": [
+        "s079",
+        "s001"
+      ]
+    },
+    {
+      "id": "nanashi-mumei",
+      "name_en": "Nanashi Mumei",
+      "name_ja": "七詩ムメイ",
+      "aliases": [
+        "七詩ムメイ",
+        "ムメイ",
+        "Mumei"
+      ],
+      "primary_cohort_id": "promise",
+      "historical_context": "EN",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2021-08-23",
+      "debut_source_text": "August 23, 2021",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2020/07/Nanashi-Mumei_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/nanashi-mumei/",
+      "official_unit_source_text": "hololive English -Promise-",
+      "source_ids": [
+        "s080",
+        "s001"
+      ]
+    },
+    {
+      "id": "hiodoshi-ao",
+      "name_en": "Hiodoshi Ao",
+      "name_ja": "火威青",
+      "aliases": [
+        "Hiodoshi Ao",
+        "あお"
+      ],
+      "primary_cohort_id": "regloss",
+      "historical_context": "DEV_IS",
+      "status": "alum",
+      "status_meaning": "Explicit directory label.",
+      "debut": "2023-09-09",
+      "debut_source_text": "September 9, 2023",
+      "portrait_url": "https://hololive.hololivepro.com/wp-content/uploads/2023/09/Hiodoshi-Ao_list_thumb.png",
+      "official_profile": "https://hololive.hololivepro.com/en/talents/hiodoshi-ao/",
+      "official_unit_source_text": "ReGLOSS",
+      "source_ids": [
+        "s081",
+        "s001"
+      ]
+    }
+  ],
+  "cohorts": [
+    {
+      "id": "gen-0",
+      "label": "Gen 0",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "tokino-sora",
+        "roboco-san",
+        "azki",
+        "sakuramiko",
+        "hoshimachi-suisei"
+      ]
+    },
+    {
+      "id": "gen-1",
+      "label": "Gen 1",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "aki-rosenthal",
+        "akai-haato",
+        "shirakami-fubuki",
+        "natsuiro-matsuri"
+      ]
+    },
+    {
+      "id": "gen-2",
+      "label": "Gen 2",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "nakiri-ayame",
+        "yuzuki-choco",
+        "oozora-subaru",
+        "minato-aqua",
+        "murasaki-shion"
+      ]
+    },
+    {
+      "id": "gen-3",
+      "label": "Gen 3",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "usada-pekora",
+        "shiranui-flare",
+        "shirogane-noel",
+        "houshou-marine"
+      ]
+    },
+    {
+      "id": "gen-4",
+      "label": "Gen 4",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "tsunomaki-watame",
+        "tokoyami-towa",
+        "himemori-luna",
+        "amane-kanata",
+        "kiryu-coco"
+      ]
+    },
+    {
+      "id": "gen-5",
+      "label": "Gen 5",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "yukihana-lamy",
+        "momosuzu-nene",
+        "shishiro-botan",
+        "omaru-polka"
+      ]
+    },
+    {
+      "id": "gamers",
+      "label": "GAMERS",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "shirakami-fubuki",
+        "ookami-mio",
+        "nekomata-okayu",
+        "inugami-korone"
+      ]
+    },
+    {
+      "id": "holox",
+      "label": "Secret Society holoX",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "la-darknesss",
+        "takane-lui",
+        "hakui-koyori",
+        "kazama-iroha",
+        "sakamata-chloe"
+      ]
+    },
+    {
+      "id": "area15",
+      "label": "AREA15",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "ayunda-risu",
+        "moona-hoshinova",
+        "airani-iofifteen"
+      ]
+    },
+    {
+      "id": "holoro",
+      "label": "holoro",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "kureiji-ollie",
+        "anya-melfissa",
+        "pavolia-reine"
+      ]
+    },
+    {
+      "id": "holoh3ro",
+      "label": "holoh3ro",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "vestia-zeta",
+        "kaela-kovalskia",
+        "kobo-kanaeru"
+      ]
+    },
+    {
+      "id": "myth",
+      "label": "Myth",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "mori-calliope",
+        "takanashi-kiara",
+        "ninomae-inanis",
+        "watson-amelia",
+        "gawr-gura"
+      ]
+    },
+    {
+      "id": "promise",
+      "label": "Promise",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "irys",
+        "ouro-kronii",
+        "hakos-baelz",
+        "ceres-fauna",
+        "nanashi-mumei"
+      ]
+    },
+    {
+      "id": "council",
+      "label": "Council",
+      "type": "historical_cohort",
+      "member_ids": [
+        "tsukumo-sana",
+        "ouro-kronii",
+        "hakos-baelz",
+        "ceres-fauna",
+        "nanashi-mumei"
+      ]
+    },
+    {
+      "id": "hope",
+      "label": "Project: HOPE",
+      "type": "historical_cohort",
+      "member_ids": [
+        "irys"
+      ]
+    },
+    {
+      "id": "advent",
+      "label": "Advent",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "shiori-novella",
+        "koseki-bijou",
+        "nerissa-ravencroft",
+        "fuwawa-abyssgard",
+        "mococo-abyssgard"
+      ]
+    },
+    {
+      "id": "justice",
+      "label": "Justice",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "elizabeth-rose-bloodflame",
+        "gigi-murin",
+        "cecilia-immergreen",
+        "raora-panthera"
+      ]
+    },
+    {
+      "id": "regloss",
+      "label": "ReGLOSS",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "otonose-kanade",
+        "ichijou-ririka",
+        "juufuutei-raden",
+        "todoroki-hajime",
+        "hiodoshi-ao"
+      ]
+    },
+    {
+      "id": "flow-glow",
+      "label": "FLOW GLOW",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "isaki-riona",
+        "koganei-niko",
+        "mizumiya-su",
+        "rindo-chihaya",
+        "kikirara-vivi"
+      ]
+    },
+    {
+      "id": "asobi-mawari-tai",
+      "label": "ASOBI★MAWARI-TAI!",
+      "type": "official_generation_or_unit",
+      "member_ids": [
+        "achichi-mela",
+        "sorashina-sopia",
+        "suzuna-tsuzuri",
+        "hyakuto-kyoko"
+      ]
+    }
+  ],
+  "cohort_memberships": [
+    {
+      "talent_id": "tokino-sora",
+      "cohort_id": "gen-0",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s004"
+      ]
+    },
+    {
+      "talent_id": "roboco-san",
+      "cohort_id": "gen-0",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s005"
+      ]
+    },
+    {
+      "talent_id": "aki-rosenthal",
+      "cohort_id": "gen-1",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s006"
+      ]
+    },
+    {
+      "talent_id": "akai-haato",
+      "cohort_id": "gen-1",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s007"
+      ]
+    },
+    {
+      "talent_id": "shirakami-fubuki",
+      "cohort_id": "gen-1",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "talent_id": "shirakami-fubuki",
+      "cohort_id": "gamers",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "talent_id": "natsuiro-matsuri",
+      "cohort_id": "gen-1",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s009"
+      ]
+    },
+    {
+      "talent_id": "nakiri-ayame",
+      "cohort_id": "gen-2",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s010"
+      ]
+    },
+    {
+      "talent_id": "yuzuki-choco",
+      "cohort_id": "gen-2",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s011"
+      ]
+    },
+    {
+      "talent_id": "oozora-subaru",
+      "cohort_id": "gen-2",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s012"
+      ]
+    },
+    {
+      "talent_id": "azki",
+      "cohort_id": "gen-0",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s013"
+      ]
+    },
+    {
+      "talent_id": "ookami-mio",
+      "cohort_id": "gamers",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s014"
+      ]
+    },
+    {
+      "talent_id": "sakuramiko",
+      "cohort_id": "gen-0",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s015"
+      ]
+    },
+    {
+      "talent_id": "nekomata-okayu",
+      "cohort_id": "gamers",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s016"
+      ]
+    },
+    {
+      "talent_id": "inugami-korone",
+      "cohort_id": "gamers",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s017"
+      ]
+    },
+    {
+      "talent_id": "hoshimachi-suisei",
+      "cohort_id": "gen-0",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s018"
+      ]
+    },
+    {
+      "talent_id": "usada-pekora",
+      "cohort_id": "gen-3",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s019"
+      ]
+    },
+    {
+      "talent_id": "shiranui-flare",
+      "cohort_id": "gen-3",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s020"
+      ]
+    },
+    {
+      "talent_id": "shirogane-noel",
+      "cohort_id": "gen-3",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s021"
+      ]
+    },
+    {
+      "talent_id": "houshou-marine",
+      "cohort_id": "gen-3",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s022"
+      ]
+    },
+    {
+      "talent_id": "tsunomaki-watame",
+      "cohort_id": "gen-4",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s023"
+      ]
+    },
+    {
+      "talent_id": "tokoyami-towa",
+      "cohort_id": "gen-4",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s024"
+      ]
+    },
+    {
+      "talent_id": "himemori-luna",
+      "cohort_id": "gen-4",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s025"
+      ]
+    },
+    {
+      "talent_id": "yukihana-lamy",
+      "cohort_id": "gen-5",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s026"
+      ]
+    },
+    {
+      "talent_id": "momosuzu-nene",
+      "cohort_id": "gen-5",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s027"
+      ]
+    },
+    {
+      "talent_id": "shishiro-botan",
+      "cohort_id": "gen-5",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s028"
+      ]
+    },
+    {
+      "talent_id": "omaru-polka",
+      "cohort_id": "gen-5",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s029"
+      ]
+    },
+    {
+      "talent_id": "la-darknesss",
+      "cohort_id": "holox",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s030"
+      ]
+    },
+    {
+      "talent_id": "takane-lui",
+      "cohort_id": "holox",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s031"
+      ]
+    },
+    {
+      "talent_id": "hakui-koyori",
+      "cohort_id": "holox",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s032"
+      ]
+    },
+    {
+      "talent_id": "kazama-iroha",
+      "cohort_id": "holox",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s033"
+      ]
+    },
+    {
+      "talent_id": "sakamata-chloe",
+      "cohort_id": "holox",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s034"
+      ]
+    },
+    {
+      "talent_id": "ayunda-risu",
+      "cohort_id": "area15",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s035"
+      ]
+    },
+    {
+      "talent_id": "moona-hoshinova",
+      "cohort_id": "area15",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s036"
+      ]
+    },
+    {
+      "talent_id": "airani-iofifteen",
+      "cohort_id": "area15",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s037"
+      ]
+    },
+    {
+      "talent_id": "kureiji-ollie",
+      "cohort_id": "holoro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s038"
+      ]
+    },
+    {
+      "talent_id": "anya-melfissa",
+      "cohort_id": "holoro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s039"
+      ]
+    },
+    {
+      "talent_id": "pavolia-reine",
+      "cohort_id": "holoro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s040"
+      ]
+    },
+    {
+      "talent_id": "vestia-zeta",
+      "cohort_id": "holoh3ro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s041"
+      ]
+    },
+    {
+      "talent_id": "kaela-kovalskia",
+      "cohort_id": "holoh3ro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s042"
+      ]
+    },
+    {
+      "talent_id": "kobo-kanaeru",
+      "cohort_id": "holoh3ro",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s043"
+      ]
+    },
+    {
+      "talent_id": "mori-calliope",
+      "cohort_id": "myth",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s044"
+      ]
+    },
+    {
+      "talent_id": "takanashi-kiara",
+      "cohort_id": "myth",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s045"
+      ]
+    },
+    {
+      "talent_id": "ninomae-inanis",
+      "cohort_id": "myth",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s046"
+      ]
+    },
+    {
+      "talent_id": "watson-amelia",
+      "cohort_id": "myth",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s047"
+      ]
+    },
+    {
+      "talent_id": "irys",
+      "cohort_id": "promise",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s048"
+      ]
+    },
+    {
+      "talent_id": "ouro-kronii",
+      "cohort_id": "promise",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s049"
+      ]
+    },
+    {
+      "talent_id": "hakos-baelz",
+      "cohort_id": "promise",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s050"
+      ]
+    },
+    {
+      "talent_id": "shiori-novella",
+      "cohort_id": "advent",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s051"
+      ]
+    },
+    {
+      "talent_id": "koseki-bijou",
+      "cohort_id": "advent",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s052"
+      ]
+    },
+    {
+      "talent_id": "nerissa-ravencroft",
+      "cohort_id": "advent",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s053"
+      ]
+    },
+    {
+      "talent_id": "fuwawa-abyssgard",
+      "cohort_id": "advent",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s054"
+      ]
+    },
+    {
+      "talent_id": "mococo-abyssgard",
+      "cohort_id": "advent",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s055"
+      ]
+    },
+    {
+      "talent_id": "elizabeth-rose-bloodflame",
+      "cohort_id": "justice",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s056"
+      ]
+    },
+    {
+      "talent_id": "gigi-murin",
+      "cohort_id": "justice",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s057"
+      ]
+    },
+    {
+      "talent_id": "cecilia-immergreen",
+      "cohort_id": "justice",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s058"
+      ]
+    },
+    {
+      "talent_id": "raora-panthera",
+      "cohort_id": "justice",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s059"
+      ]
+    },
+    {
+      "talent_id": "otonose-kanade",
+      "cohort_id": "regloss",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s060"
+      ]
+    },
+    {
+      "talent_id": "ichijou-ririka",
+      "cohort_id": "regloss",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s061"
+      ]
+    },
+    {
+      "talent_id": "juufuutei-raden",
+      "cohort_id": "regloss",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s062"
+      ]
+    },
+    {
+      "talent_id": "todoroki-hajime",
+      "cohort_id": "regloss",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s063"
+      ]
+    },
+    {
+      "talent_id": "isaki-riona",
+      "cohort_id": "flow-glow",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s064"
+      ]
+    },
+    {
+      "talent_id": "koganei-niko",
+      "cohort_id": "flow-glow",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s065"
+      ]
+    },
+    {
+      "talent_id": "mizumiya-su",
+      "cohort_id": "flow-glow",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s066"
+      ]
+    },
+    {
+      "talent_id": "rindo-chihaya",
+      "cohort_id": "flow-glow",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s067"
+      ]
+    },
+    {
+      "talent_id": "kikirara-vivi",
+      "cohort_id": "flow-glow",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s068"
+      ]
+    },
+    {
+      "talent_id": "achichi-mela",
+      "cohort_id": "asobi-mawari-tai",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s069"
+      ]
+    },
+    {
+      "talent_id": "sorashina-sopia",
+      "cohort_id": "asobi-mawari-tai",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s070"
+      ]
+    },
+    {
+      "talent_id": "suzuna-tsuzuri",
+      "cohort_id": "asobi-mawari-tai",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s071"
+      ]
+    },
+    {
+      "talent_id": "hyakuto-kyoko",
+      "cohort_id": "asobi-mawari-tai",
+      "type": "roster_affiliation",
+      "time_scope": "listed_on_2026-10-03",
+      "source_ids": [
+        "s072"
+      ]
+    },
+    {
+      "talent_id": "minato-aqua",
+      "cohort_id": "gen-2",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s073"
+      ]
+    },
+    {
+      "talent_id": "murasaki-shion",
+      "cohort_id": "gen-2",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s074"
+      ]
+    },
+    {
+      "talent_id": "amane-kanata",
+      "cohort_id": "gen-4",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s075"
+      ]
+    },
+    {
+      "talent_id": "kiryu-coco",
+      "cohort_id": "gen-4",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s076"
+      ]
+    },
+    {
+      "talent_id": "gawr-gura",
+      "cohort_id": "myth",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s077"
+      ]
+    },
+    {
+      "talent_id": "tsukumo-sana",
+      "cohort_id": "council",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s078"
+      ]
+    },
+    {
+      "talent_id": "ceres-fauna",
+      "cohort_id": "promise",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s079"
+      ]
+    },
+    {
+      "talent_id": "nanashi-mumei",
+      "cohort_id": "promise",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s080"
+      ]
+    },
+    {
+      "talent_id": "hiodoshi-ao",
+      "cohort_id": "regloss",
+      "type": "roster_affiliation",
+      "time_scope": "historical",
+      "source_ids": [
+        "s081"
+      ]
+    },
+    {
+      "talent_id": "ouro-kronii",
+      "cohort_id": "council",
+      "type": "historical_cohort",
+      "time_scope": "before Promise formation on 2023-10-09 JST",
+      "source_ids": [
+        "s082",
+        "s084"
+      ]
+    },
+    {
+      "talent_id": "hakos-baelz",
+      "cohort_id": "council",
+      "type": "historical_cohort",
+      "time_scope": "before Promise formation on 2023-10-09 JST",
+      "source_ids": [
+        "s082",
+        "s084"
+      ]
+    },
+    {
+      "talent_id": "ceres-fauna",
+      "cohort_id": "council",
+      "type": "historical_cohort",
+      "time_scope": "before Promise formation on 2023-10-09 JST",
+      "source_ids": [
+        "s082",
+        "s084"
+      ]
+    },
+    {
+      "talent_id": "nanashi-mumei",
+      "cohort_id": "council",
+      "type": "historical_cohort",
+      "time_scope": "before Promise formation on 2023-10-09 JST",
+      "source_ids": [
+        "s082",
+        "s084"
+      ]
+    },
+    {
+      "talent_id": "irys",
+      "cohort_id": "hope",
+      "type": "historical_cohort",
+      "time_scope": "before Promise formation on 2023-10-09 JST",
+      "source_ids": [
+        "s083",
+        "s084"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "micomet",
+      "label": "miComet",
+      "type": "named_duo",
+      "members": [
+        "Sakura Miko",
+        "Hoshimachi Suisei"
+      ],
+      "claim": "Officially named collaboration unit.",
+      "time_scope": "Documented 2025-10-02; ongoing status not separately established.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/en/products/micomet_newoutfit_2025",
+          "title": "miComet New Outfit Celebration 2025",
+          "evidence": "Shop identifies miComet as the unit consisting of Sakura Miko and Hoshimachi Suisei."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "sakuramiko",
+        "hoshimachi-suisei"
+      ],
+      "source_ids": [
+        "s085"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "okakoro",
+      "label": "OkaKoro / おかころ",
+      "type": "named_duo",
+      "members": [
+        "Nekomata Okayu",
+        "Inugami Korone"
+      ],
+      "claim": "Public collaboration duo, named in the official concert report.",
+      "time_scope": "Documented concert 2025-03-09; report 2025-03-13.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/news/20250313-02-72/",
+          "title": "hololive 6th fes. Color Rise Harmony DAY2 official report",
+          "evidence": "Report identifies おかころ as Okayu and Korone and describes their duet and earlier collaboration stream."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "nekomata-okayu",
+        "inugami-korone"
+      ],
+      "source_ids": [
+        "s086"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "fubumio",
+      "label": "FubuMio / フブミオ",
+      "type": "named_duo",
+      "members": [
+        "Shirakami Fubuki",
+        "Ookami Mio"
+      ],
+      "claim": "Officially named duo.",
+      "time_scope": "Fifth-anniversary merchandise documented 2023-12-15.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/products/fubumio_an5th",
+          "title": "フブミオ5周年記念",
+          "evidence": "Shop explicitly identifies FubuMio as the two-person unit of Shirakami Fubuki and Ookami Mio."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "shirakami-fubuki",
+        "ookami-mio"
+      ],
+      "source_ids": [
+        "s087"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "shiraken",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "type": "game_origin_unit",
+      "members": [
+        "Shiranui Flare",
+        "Omaru Polka",
+        "Sakura Miko",
+        "Hoshimachi Suisei",
+        "Shirogane Noel"
+      ],
+      "claim": "Minecraft-origin unit; official 2023 roster has Flare as president, Polka vice president, Miko education director, Suisei PR/sales director, Noel intern.",
+      "time_scope": "2023 roster snapshot; also documented by 2024 EP.",
+      "sources": [
+        {
+          "url": "https://hololivesummer2023.hololivepro.com/en/unit/shiranui-constructions/",
+          "title": "Shiranui Constructions — hololive Summer 2023",
+          "evidence": "Official unit page supplies all five members, Minecraft origin and fictional company roles."
+        },
+        {
+          "url": "https://shop.hololivepro.com/en/products/shiraken_scrapandbuild",
+          "title": "Shiranui Construction 1st EP scrap & build !",
+          "evidence": "2024 EP product includes named member credits and songs attributed to the group."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "shiranui-flare",
+        "omaru-polka",
+        "sakuramiko",
+        "hoshimachi-suisei",
+        "shirogane-noel"
+      ],
+      "source_ids": [
+        "s088",
+        "s089"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "orio",
+      "label": "ORIO",
+      "type": "music_unit",
+      "members": [
+        "Amane Kanata",
+        "Tokoyami Towa"
+      ],
+      "claim": "Two-member unit formed through hololive IDOL PROJECT.",
+      "time_scope": "Formation announced 2022-05-02. Historical membership; no current activity assertion.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/news/20220502-01-34/",
+          "title": "ORIO formation and Over Time release announcement",
+          "evidence": "Announcement explicitly names Kanata and Towa as ORIO members."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "amane-kanata",
+        "tokoyami-towa"
+      ],
+      "source_ids": [
+        "s090"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "negiu",
+      "label": "NEGI☆U",
+      "type": "music_unit",
+      "members": [
+        "Minato Aqua",
+        "Oozora Subaru",
+        "Momosuzu Nene"
+      ],
+      "claim": "Three-member hololive IDOL PROJECT unit.",
+      "time_scope": "Documented 2022-05-25. Historical membership; no current activity assertion.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/news/20220525-01-40/",
+          "title": "NEGI☆U first EP announcement",
+          "evidence": "Announcement lists Aqua, Subaru and Nene as its three members."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "minato-aqua",
+        "oozora-subaru",
+        "momosuzu-nene"
+      ],
+      "source_ids": [
+        "s091"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "umisea",
+      "label": "UMISEA",
+      "type": "cross_branch_unit",
+      "members": [
+        "Minato Aqua",
+        "Houshou Marine",
+        "Sakamata Chloe",
+        "Gawr Gura",
+        "Ninomae Ina’nis"
+      ],
+      "claim": "Sea-themed mixed-branch unit.",
+      "time_scope": "2023 five-member snapshot. Do not backdate Chloe to the original formation or imply all members remain active.",
+      "sources": [
+        {
+          "url": "https://hololivesummer2023.hololivepro.com/unit/umisea/",
+          "title": "UMISEA — hololive Summer 2023",
+          "evidence": "Official page lists all five members and describes their sea-related commonality."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "minato-aqua",
+        "houshou-marine",
+        "sakamata-chloe",
+        "gawr-gura",
+        "ninomae-inanis"
+      ],
+      "source_ids": [
+        "s092"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "startend",
+      "label": "Startend",
+      "type": "gaming_unit",
+      "members": [
+        "Hoshimachi Suisei",
+        "Minato Aqua",
+        "Tokoyami Towa"
+      ],
+      "claim": "Public gaming group.",
+      "time_scope": "Documented merchandise 2024-07-24. Historical roster.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/en/products/hololivestartend_gamingchair_minatoaqua",
+          "title": "hololive Gaming Chair Startend — Minato Aqua",
+          "evidence": "Shop describes the gaming group as started by Suisei, Aqua and Towa."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "hoshimachi-suisei",
+        "minato-aqua",
+        "tokoyami-towa"
+      ],
+      "source_ids": [
+        "s093"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "bakatare",
+      "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "type": "named_unit",
+      "members": [
+        "Shirakami Fubuki",
+        "Shiranui Flare",
+        "Tsunomaki Watame"
+      ],
+      "claim": "Named trio with original music; Fubuki publicly describes its members as friends brought together by shared Sound Horizon interest.",
+      "time_scope": "Music release 2022-06-27; no current activity assertion.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/music/%E9%80%B2%E3%82%81%E2%86%91bakataration/",
+          "title": "進め↑BAKATARATION",
+          "evidence": "Music page explicitly identifies the unit as Fubuki, Flare and Watame. This is the trio, not the four-person Bakatare Circus."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/en/talents/shirakami-fubuki/",
+          "title": "Shirakami Fubuki — official talent Q&A",
+          "evidence": "Fubuki identifies the 3 Stooges as herself, Shiranui Flare and Tsunomaki Watame; describes shared Sound Horizon interest, friendship, covers and horror-game/movie collaborations."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "shirakami-fubuki",
+        "shiranui-flare",
+        "tsunomaki-watame"
+      ],
+      "source_ids": [
+        "s094",
+        "s008"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "holotori",
+      "label": "HOLOTORI",
+      "type": "cross_branch_unit",
+      "members": [
+        "Takane Lui",
+        "Oozora Subaru",
+        "Takanashi Kiara",
+        "Pavolia Reine",
+        "Nanashi Mumei"
+      ],
+      "claim": "Bird-themed unit spanning JP, EN and ID.",
+      "time_scope": "2023 roster snapshot. Historical membership; no current activity assertion.",
+      "sources": [
+        {
+          "url": "https://hololivesummer2023.hololivepro.com/en/unit/holotori/",
+          "title": "HOLOTORI — hololive Summer 2023",
+          "evidence": "Official page lists all five members and identifies bird-related theme."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "takane-lui",
+        "oozora-subaru",
+        "takanashi-kiara",
+        "pavolia-reine",
+        "nanashi-mumei"
+      ],
+      "source_ids": [
+        "s095"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "holowitches_original",
+      "label": "Magical Girl holoWitches! — original cast",
+      "type": "media_project_cast",
+      "members": [
+        "Amane Kanata",
+        "Sakura Miko",
+        "Himemori Luna",
+        "Houshou Marine",
+        "Murasaki Shion",
+        "Sakamata Chloe"
+      ],
+      "claim": "Original six Hololive talent cast members of the media-mix project.",
+      "time_scope": "Launch snapshot 2024-05-16; superseded by later cast developments. Project site published completion messages on 2026-01-14.",
+      "sources": [
+        {
+          "url": "https://hololivepro.com/news/20240516-01-135/",
+          "title": "Magical Girl holoWitches launch announcement",
+          "evidence": "Launch announcement lists the six talent/character roles."
+        },
+        {
+          "url": "https://holowitches.hololivepro.com/news/202601/112-2/",
+          "title": "Completion messages arrive",
+          "evidence": "Official news dated 2026-01-14 is titled as messages on completion; underlying messages are images."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "amane-kanata",
+        "sakuramiko",
+        "himemori-luna",
+        "houshou-marine",
+        "murasaki-shion",
+        "sakamata-chloe"
+      ],
+      "source_ids": [
+        "s096",
+        "s097"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "holowitches_2025",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "type": "media_project_cast",
+      "members": [
+        "Amane Kanata",
+        "Sakura Miko",
+        "Himemori Luna",
+        "Houshou Marine",
+        "Shirakami Fubuki",
+        "Yukihana Lamy"
+      ],
+      "claim": "Six-person project cast documented in May 2025.",
+      "time_scope": "2025-05-17 six-cast campaign snapshot; do not merge into an eight-person concurrent group. Completion messages 2026-01-14.",
+      "sources": [
+        {
+          "url": "https://holowitches.hololivepro.com/news/202505/78/",
+          "title": "Magical Girl holoWitches follow-and-repost campaign",
+          "evidence": "Official campaign explicitly lists the six participating cast members."
+        },
+        {
+          "url": "https://holowitches.hololivepro.com/news/202505/79/",
+          "title": "May 16 holoWitches collaboration stream",
+          "evidence": "Official stream notice lists Kanata, Miko, Luna, Marine, Fubuki and Lamy."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "amane-kanata",
+        "sakuramiko",
+        "himemori-luna",
+        "houshou-marine",
+        "shirakami-fubuki",
+        "yukihana-lamy"
+      ],
+      "source_ids": [
+        "s098",
+        "s099"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soraz",
+      "label": "SorAZ",
+      "type": "music_duo",
+      "members": [
+        "Tokino Sora",
+        "AZKi"
+      ],
+      "claim": "Music duo.",
+      "time_scope": "Official concert documented 2020-09-26 and 2024-01-27.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/sorazlive/",
+          "title": "SorAZ Major Debut Live First Gravity",
+          "evidence": "Concert page identifies SorAZ as the unit consisting of Tokino Sora and AZKi."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "tokino-sora",
+        "azki"
+      ],
+      "source_ids": [
+        "s100"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "fuwamoco",
+      "label": "FUWAMOCO",
+      "type": "performer_duo_and_character_siblings",
+      "members": [
+        "Fuwawa Abyssgard",
+        "Mococo Abyssgard"
+      ],
+      "claim": "Public performer duo whose official character profiles describe twin sisters.",
+      "time_scope": "Official character profile and 2025 merchandise documentation; no private-identity claim.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/talents/fuwawa-abyssgard/",
+          "title": "Fuwawa Abyssgard official talent profile",
+          "evidence": "Profile describes Fuwawa as older twin sister and names younger twin Mococo."
+        },
+        {
+          "url": "https://hololivepro.com/news_en/20251031-02-10/",
+          "title": "Ducky x hololive English FUWAMOCO keyboard",
+          "evidence": "Official announcement explicitly names twins Fuwawa Abyssgard and Mococo Abyssgard as FUWAMOCO."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "fuwawa-abyssgard",
+        "mococo-abyssgard"
+      ],
+      "source_ids": [
+        "s054",
+        "s101"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mikkorone",
+      "label": "Mikkorone / みっころね",
+      "type": "named_duo",
+      "members": [
+        "Sakura Miko",
+        "Inugami Korone"
+      ],
+      "claim": "Officially recognized collaboration duo with original songs and joint variety streams.",
+      "time_scope": "Documented 2022 concert and 2024-2025 joint project.",
+      "sources": [
+        {
+          "url": "https://hololivesuperexpo.hololivepro.com/2022/news/220415-report1/",
+          "title": "hololive 3rd fes. DAY1 official report",
+          "evidence": "Report explicitly identifies Mikkorone as the Miko/Korone unit."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/music/509/",
+          "title": "みっころね×やってやんよ!!",
+          "evidence": "2024-12-06 original single credits Miko and Korone."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "sakuramiko",
+        "inugami-korone"
+      ],
+      "source_ids": [
+        "s102",
+        "s103"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kanaken",
+      "label": "Kanata Construction / かなた建設 / かなけん",
+      "type": "fictional_company_unit",
+      "members": [
+        "Amane Kanata",
+        "Sakamata Chloe",
+        "AZKi"
+      ],
+      "claim": "Named fictional construction-company collaboration group.",
+      "time_scope": "Documented voice drama and 2024-12-23 song. Historical roster; current activity not established.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/products/hololive_kanataconstructionvoice",
+          "title": "hololive Kanata Construction Voice",
+          "evidence": "Voice drama description names Kanata, Chloe and AZKi founding the company, lists all three as participating talents."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/music/518/",
+          "title": "天界弩級オシゴトロード",
+          "evidence": "Official music page credits かなけん, release 2024-12-23."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "amane-kanata",
+        "sakamata-chloe",
+        "azki"
+      ],
+      "source_ids": [
+        "s104",
+        "s105"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "chadcast",
+      "label": "CHADCast",
+      "type": "named_collaboration_trio",
+      "members": [
+        "Mori Calliope",
+        "IRyS",
+        "Hakos Baelz"
+      ],
+      "claim": "Three-person collaboration represented by the official CHADCast theme single.",
+      "time_scope": "Primary music evidence dated 2026-09-01. Earlier 2022 original stream located, but YouTube fetch failed.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/music/809/",
+          "title": "Here Comes the CHADCast",
+          "evidence": "Official music page credits Mori Calliope, IRyS and Hakos Baelz for Here Comes the CHADCast."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "mori-calliope",
+        "irys",
+        "hakos-baelz"
+      ],
+      "source_ids": [
+        "s106"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "baerys",
+      "label": "BaeRyS",
+      "type": "named_duo",
+      "members": [
+        "IRyS",
+        "Hakos Baelz"
+      ],
+      "claim": "Public collaboration and concert unit.",
+      "time_scope": "Official Serendipity unit interview 2026-06. Treat as performer collaboration, not evidence of private romance.",
+      "sources": [
+        {
+          "url": "https://serendipity.hololivepro.com/news/interview02/",
+          "title": "Exclusive Serendipity Unit Interview: IRyS & Bae",
+          "evidence": "Both discuss past collaborations; Baelz uses BaeRys when describing their performance."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "irys",
+        "hakos-baelz"
+      ],
+      "source_ids": [
+        "s107"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ccgg",
+      "label": "CCGG / Gigi & Cecilia",
+      "type": "named_duo",
+      "members": [
+        "Gigi Murin",
+        "Cecilia Immergreen"
+      ],
+      "claim": "Public collaboration and concert duo.",
+      "time_scope": "Official unit interview dated 2026-06-11.",
+      "sources": [
+        {
+          "url": "https://serendipity.hololivepro.com/news/interview06/",
+          "title": "Exclusive Serendipity Unit Interview: Gigi & Cecilia",
+          "evidence": "Names both talents as the unit; both describe its dynamic as CCGG madness. The nickname Autofister was not verified in this source."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "gigi-murin",
+        "cecilia-immergreen"
+      ],
+      "source_ids": [
+        "s108"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "nerissa_elizabeth",
+      "label": "Nerissa & Elizabeth",
+      "type": "performance_duo",
+      "members": [
+        "Nerissa Ravencroft",
+        "Elizabeth Rose Bloodflame"
+      ],
+      "claim": "Musical collaboration duo with a cover and Serendipity concert unit.",
+      "time_scope": "Official unit interview dated 2026-06-12. Bloodraven nickname not verified here.",
+      "sources": [
+        {
+          "url": "https://serendipity.hololivepro.com/news/interview07/",
+          "title": "Exclusive Serendipity Unit Interview: Nerissa & Elizabeth",
+          "evidence": "Both identified as unit partners; Nerissa describes their Rondo Revolution cover and planned stage debut as a duo."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "nerissa-ravencroft",
+        "elizabeth-rose-bloodflame"
+      ],
+      "source_ids": [
+        "s109"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "koyokuro",
+      "label": "KoyoKuro / こよクロ",
+      "type": "named_duo",
+      "members": [
+        "Hakui Koyori",
+        "Sakamata Chloe"
+      ],
+      "claim": "Named comedy duo in official voice merchandise.",
+      "time_scope": "Official 2024 comedy voice product; historical activity.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/products/hololive_kikimanzai_voice2024",
+          "title": "hololive Comedy Voice 2024",
+          "evidence": "Product identifies comedy duo こよクロ and its participating talents Koyori and Chloe."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "hakui-koyori",
+        "sakamata-chloe"
+      ],
+      "source_ids": [
+        "s110"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "fams",
+      "label": "FAMS",
+      "type": "named_friendship_collaboration_group",
+      "members": [
+        "Shirakami Fubuki",
+        "Nakiri Ayame",
+        "Ookami Mio",
+        "Oozora Subaru"
+      ],
+      "claim": "Four-person collaboration group explicitly named in Fubuki's official Q&A.",
+      "time_scope": "Undated Q&A read 2026-10-03; no date of formation or claim that frequency is current.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/talents/shirakami-fubuki/",
+          "title": "Shirakami Fubuki — official talent Q&A",
+          "evidence": "Fubuki names FAMS as herself, Ayame, Mio and Subaru; says OKFAMS adds Okayu and Korone and describes the six as close friends who spend time together."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "shirakami-fubuki",
+        "nakiri-ayame",
+        "ookami-mio",
+        "oozora-subaru"
+      ],
+      "source_ids": [
+        "s008"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "okfams",
+      "label": "OKFAMS",
+      "type": "named_friendship_collaboration_group",
+      "members": [
+        "Nekomata Okayu",
+        "Inugami Korone",
+        "Shirakami Fubuki",
+        "Nakiri Ayame",
+        "Ookami Mio",
+        "Oozora Subaru"
+      ],
+      "claim": "Six-person collaboration group; Fubuki publicly describes the six as close friends.",
+      "time_scope": "Undated Q&A read 2026-10-03; friendship is attributed to Fubuki's public description.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/talents/shirakami-fubuki/",
+          "title": "Shirakami Fubuki — official talent Q&A",
+          "evidence": "Fubuki names FAMS as herself, Ayame, Mio and Subaru; says OKFAMS adds Okayu and Korone and describes the six as close friends who spend time together."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "nekomata-okayu",
+        "inugami-korone",
+        "shirakami-fubuki",
+        "nakiri-ayame",
+        "ookami-mio",
+        "oozora-subaru"
+      ],
+      "source_ids": [
+        "s008"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ayafubumi",
+      "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "type": "music_unit",
+      "members": [
+        "Shirakami Fubuki",
+        "Nakiri Ayame",
+        "Ookami Mio"
+      ],
+      "claim": "Japan-themed musical unit comprising Fubuki, Ayame and Mio.",
+      "time_scope": "2023 official summer unit snapshot.",
+      "sources": [
+        {
+          "url": "https://hololivesummer2023.hololivepro.com/en/unit/ayafubumi/",
+          "title": "AyaFubuMi — hololive Summer 2023",
+          "evidence": "Official page names Fubuki, Ayame and Mio and identifies their Japanese theme."
+        }
+      ],
+      "confidence": "high",
+      "member_ids": [
+        "shirakami-fubuki",
+        "nakiri-ayame",
+        "ookami-mio"
+      ],
+      "source_ids": [
+        "s111"
+      ],
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "natsuiro_fubuki",
+      "label": "Natsuiro Fubuki / 夏色吹雪",
+      "type": "named_duo",
+      "members": [
+        "Shirakami Fubuki",
+        "Natsuiro Matsuri"
+      ],
+      "member_ids": [
+        "shirakami-fubuki",
+        "natsuiro-matsuri"
+      ],
+      "claim": "Public collaboration duo, explicitly named in the official Gen 1 concert report.",
+      "time_scope": "Documented concert 2021-05-28; present-day activity not separately established.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/from1st/",
+          "title": "hololive 1st Generation 3rd Anniversary LIVE “from 1st” — official report",
+          "evidence": "Names Fubuki and Matsuri’s unit 夏色吹雪 and documents their KAKUMEI duet and early collaborations."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s112"
+      ]
+    },
+    {
+      "id": "noeflare",
+      "label": "NoeFlare / ノエフレ",
+      "type": "named_duo",
+      "members": [
+        "Shirogane Noel",
+        "Shiranui Flare"
+      ],
+      "member_ids": [
+        "shirogane-noel",
+        "shiranui-flare"
+      ],
+      "claim": "Named public collaboration duo; performed together and discussed further collaboration streams.",
+      "time_scope": "Documented concert DAY2, 2026-01-18.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Names ノエフレ in Noel and Flare’s MC and records their Otonoke duet."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "pekomari",
+      "label": "PekoMari / ぺこマリ",
+      "type": "music_duo",
+      "members": [
+        "Usada Pekora",
+        "Houshou Marine"
+      ],
+      "member_ids": [
+        "usada-pekora",
+        "houshou-marine"
+      ],
+      "claim": "Public music collaboration duo, with the joint original song Bridal Dream.",
+      "time_scope": "Song released 2023-12-16; named pair documented at concert 2026-01-17.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/music/368/",
+          "title": "Bridal Dream — official music release",
+          "evidence": "Credits Usada Pekora and Houshou Marine; gives the release date as 2023-12-16."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Calls Pekora and Marine ぺこマリ and records their Bridal Dream performance."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s114",
+        "s113"
+      ]
+    },
+    {
+      "id": "mariflare",
+      "label": "MariFlare / マリフレ",
+      "type": "performance_duo",
+      "members": [
+        "Houshou Marine",
+        "Shiranui Flare"
+      ],
+      "member_ids": [
+        "houshou-marine",
+        "shiranui-flare"
+      ],
+      "claim": "Named public performance pair in the Gen 3 concert.",
+      "time_scope": "Documented concert DAY1, 2026-01-17.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Names マリフレ as Marine and Flare’s pair stage, performing Iinazukkyun."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "noemari",
+      "label": "NoeMari / ノエマリ",
+      "type": "performance_duo",
+      "members": [
+        "Shirogane Noel",
+        "Houshou Marine"
+      ],
+      "member_ids": [
+        "shirogane-noel",
+        "houshou-marine"
+      ],
+      "claim": "Named public performance pair in the Gen 3 concert.",
+      "time_scope": "Documented concert DAY2, 2026-01-18.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Names ノエマリ and records Noel and Marine’s Shaka Beach duet and shared MC."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "noepeko",
+      "label": "NoePeko / ノエぺこ",
+      "type": "performance_duo",
+      "members": [
+        "Shirogane Noel",
+        "Usada Pekora"
+      ],
+      "member_ids": [
+        "shirogane-noel",
+        "usada-pekora"
+      ],
+      "claim": "Named public performance pair in the Gen 3 concert.",
+      "time_scope": "Documented concert DAY1, 2026-01-17.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Names ノエぺこ as Noel and Pekora’s Fantastic future pair stage."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "pekoflare",
+      "label": "PekoFlare / ぺこフレ",
+      "type": "performance_duo",
+      "members": [
+        "Usada Pekora",
+        "Shiranui Flare"
+      ],
+      "member_ids": [
+        "usada-pekora",
+        "shiranui-flare"
+      ],
+      "claim": "Named public performance pair in the Gen 3 concert.",
+      "time_scope": "Documented concert DAY2, 2026-01-18.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+          "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+          "evidence": "Names ぺこフレ and records Pekora and Flare’s Baby Sweet Berry Love duet."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s113"
+      ]
+    }
+  ],
+  "render_edges": [
+    {
+      "id": "micomet",
+      "source": "sakuramiko",
+      "target": "hoshimachi-suisei",
+      "relation_id": "micomet",
+      "type": "named_duo",
+      "label": "miComet",
+      "directed": false,
+      "source_ids": [
+        "s085"
+      ]
+    },
+    {
+      "id": "okakoro",
+      "source": "nekomata-okayu",
+      "target": "inugami-korone",
+      "relation_id": "okakoro",
+      "type": "named_duo",
+      "label": "OkaKoro / おかころ",
+      "directed": false,
+      "source_ids": [
+        "s086"
+      ]
+    },
+    {
+      "id": "fubumio",
+      "source": "shirakami-fubuki",
+      "target": "ookami-mio",
+      "relation_id": "fubumio",
+      "type": "named_duo",
+      "label": "FubuMio / フブミオ",
+      "directed": false,
+      "source_ids": [
+        "s087"
+      ]
+    },
+    {
+      "id": "shiraken--shiranui-flare",
+      "source": "shiranui-flare",
+      "target": "unit:shiraken",
+      "relation_id": "shiraken",
+      "type": "member_of_named_unit",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "directed": false,
+      "source_ids": [
+        "s088",
+        "s089"
+      ]
+    },
+    {
+      "id": "shiraken--omaru-polka",
+      "source": "omaru-polka",
+      "target": "unit:shiraken",
+      "relation_id": "shiraken",
+      "type": "member_of_named_unit",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "directed": false,
+      "source_ids": [
+        "s088",
+        "s089"
+      ]
+    },
+    {
+      "id": "shiraken--sakuramiko",
+      "source": "sakuramiko",
+      "target": "unit:shiraken",
+      "relation_id": "shiraken",
+      "type": "member_of_named_unit",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "directed": false,
+      "source_ids": [
+        "s088",
+        "s089"
+      ]
+    },
+    {
+      "id": "shiraken--hoshimachi-suisei",
+      "source": "hoshimachi-suisei",
+      "target": "unit:shiraken",
+      "relation_id": "shiraken",
+      "type": "member_of_named_unit",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "directed": false,
+      "source_ids": [
+        "s088",
+        "s089"
+      ]
+    },
+    {
+      "id": "shiraken--shirogane-noel",
+      "source": "shirogane-noel",
+      "target": "unit:shiraken",
+      "relation_id": "shiraken",
+      "type": "member_of_named_unit",
+      "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "directed": false,
+      "source_ids": [
+        "s088",
+        "s089"
+      ]
+    },
+    {
+      "id": "orio",
+      "source": "amane-kanata",
+      "target": "tokoyami-towa",
+      "relation_id": "orio",
+      "type": "music_unit",
+      "label": "ORIO",
+      "directed": false,
+      "source_ids": [
+        "s090"
+      ]
+    },
+    {
+      "id": "negiu--minato-aqua",
+      "source": "minato-aqua",
+      "target": "unit:negiu",
+      "relation_id": "negiu",
+      "type": "member_of_named_unit",
+      "label": "NEGI☆U",
+      "directed": false,
+      "source_ids": [
+        "s091"
+      ]
+    },
+    {
+      "id": "negiu--oozora-subaru",
+      "source": "oozora-subaru",
+      "target": "unit:negiu",
+      "relation_id": "negiu",
+      "type": "member_of_named_unit",
+      "label": "NEGI☆U",
+      "directed": false,
+      "source_ids": [
+        "s091"
+      ]
+    },
+    {
+      "id": "negiu--momosuzu-nene",
+      "source": "momosuzu-nene",
+      "target": "unit:negiu",
+      "relation_id": "negiu",
+      "type": "member_of_named_unit",
+      "label": "NEGI☆U",
+      "directed": false,
+      "source_ids": [
+        "s091"
+      ]
+    },
+    {
+      "id": "umisea--minato-aqua",
+      "source": "minato-aqua",
+      "target": "unit:umisea",
+      "relation_id": "umisea",
+      "type": "member_of_named_unit",
+      "label": "UMISEA",
+      "directed": false,
+      "source_ids": [
+        "s092"
+      ]
+    },
+    {
+      "id": "umisea--houshou-marine",
+      "source": "houshou-marine",
+      "target": "unit:umisea",
+      "relation_id": "umisea",
+      "type": "member_of_named_unit",
+      "label": "UMISEA",
+      "directed": false,
+      "source_ids": [
+        "s092"
+      ]
+    },
+    {
+      "id": "umisea--sakamata-chloe",
+      "source": "sakamata-chloe",
+      "target": "unit:umisea",
+      "relation_id": "umisea",
+      "type": "member_of_named_unit",
+      "label": "UMISEA",
+      "directed": false,
+      "source_ids": [
+        "s092"
+      ]
+    },
+    {
+      "id": "umisea--gawr-gura",
+      "source": "gawr-gura",
+      "target": "unit:umisea",
+      "relation_id": "umisea",
+      "type": "member_of_named_unit",
+      "label": "UMISEA",
+      "directed": false,
+      "source_ids": [
+        "s092"
+      ]
+    },
+    {
+      "id": "umisea--ninomae-inanis",
+      "source": "ninomae-inanis",
+      "target": "unit:umisea",
+      "relation_id": "umisea",
+      "type": "member_of_named_unit",
+      "label": "UMISEA",
+      "directed": false,
+      "source_ids": [
+        "s092"
+      ]
+    },
+    {
+      "id": "startend--hoshimachi-suisei",
+      "source": "hoshimachi-suisei",
+      "target": "unit:startend",
+      "relation_id": "startend",
+      "type": "member_of_named_unit",
+      "label": "Startend",
+      "directed": false,
+      "source_ids": [
+        "s093"
+      ]
+    },
+    {
+      "id": "startend--minato-aqua",
+      "source": "minato-aqua",
+      "target": "unit:startend",
+      "relation_id": "startend",
+      "type": "member_of_named_unit",
+      "label": "Startend",
+      "directed": false,
+      "source_ids": [
+        "s093"
+      ]
+    },
+    {
+      "id": "startend--tokoyami-towa",
+      "source": "tokoyami-towa",
+      "target": "unit:startend",
+      "relation_id": "startend",
+      "type": "member_of_named_unit",
+      "label": "Startend",
+      "directed": false,
+      "source_ids": [
+        "s093"
+      ]
+    },
+    {
+      "id": "bakatare--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:bakatare",
+      "relation_id": "bakatare",
+      "type": "member_of_named_unit",
+      "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "directed": false,
+      "source_ids": [
+        "s094",
+        "s008"
+      ]
+    },
+    {
+      "id": "bakatare--shiranui-flare",
+      "source": "shiranui-flare",
+      "target": "unit:bakatare",
+      "relation_id": "bakatare",
+      "type": "member_of_named_unit",
+      "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "directed": false,
+      "source_ids": [
+        "s094",
+        "s008"
+      ]
+    },
+    {
+      "id": "bakatare--tsunomaki-watame",
+      "source": "tsunomaki-watame",
+      "target": "unit:bakatare",
+      "relation_id": "bakatare",
+      "type": "member_of_named_unit",
+      "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "directed": false,
+      "source_ids": [
+        "s094",
+        "s008"
+      ]
+    },
+    {
+      "id": "holotori--takane-lui",
+      "source": "takane-lui",
+      "target": "unit:holotori",
+      "relation_id": "holotori",
+      "type": "member_of_named_unit",
+      "label": "HOLOTORI",
+      "directed": false,
+      "source_ids": [
+        "s095"
+      ]
+    },
+    {
+      "id": "holotori--oozora-subaru",
+      "source": "oozora-subaru",
+      "target": "unit:holotori",
+      "relation_id": "holotori",
+      "type": "member_of_named_unit",
+      "label": "HOLOTORI",
+      "directed": false,
+      "source_ids": [
+        "s095"
+      ]
+    },
+    {
+      "id": "holotori--takanashi-kiara",
+      "source": "takanashi-kiara",
+      "target": "unit:holotori",
+      "relation_id": "holotori",
+      "type": "member_of_named_unit",
+      "label": "HOLOTORI",
+      "directed": false,
+      "source_ids": [
+        "s095"
+      ]
+    },
+    {
+      "id": "holotori--pavolia-reine",
+      "source": "pavolia-reine",
+      "target": "unit:holotori",
+      "relation_id": "holotori",
+      "type": "member_of_named_unit",
+      "label": "HOLOTORI",
+      "directed": false,
+      "source_ids": [
+        "s095"
+      ]
+    },
+    {
+      "id": "holotori--nanashi-mumei",
+      "source": "nanashi-mumei",
+      "target": "unit:holotori",
+      "relation_id": "holotori",
+      "type": "member_of_named_unit",
+      "label": "HOLOTORI",
+      "directed": false,
+      "source_ids": [
+        "s095"
+      ]
+    },
+    {
+      "id": "holowitches_original--amane-kanata",
+      "source": "amane-kanata",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_original--sakuramiko",
+      "source": "sakuramiko",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_original--himemori-luna",
+      "source": "himemori-luna",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_original--houshou-marine",
+      "source": "houshou-marine",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_original--murasaki-shion",
+      "source": "murasaki-shion",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_original--sakamata-chloe",
+      "source": "sakamata-chloe",
+      "target": "unit:holowitches_original",
+      "relation_id": "holowitches_original",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — original cast",
+      "directed": false,
+      "source_ids": [
+        "s096",
+        "s097"
+      ]
+    },
+    {
+      "id": "holowitches_2025--amane-kanata",
+      "source": "amane-kanata",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "holowitches_2025--sakuramiko",
+      "source": "sakuramiko",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "holowitches_2025--himemori-luna",
+      "source": "himemori-luna",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "holowitches_2025--houshou-marine",
+      "source": "houshou-marine",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "holowitches_2025--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "holowitches_2025--yukihana-lamy",
+      "source": "yukihana-lamy",
+      "target": "unit:holowitches_2025",
+      "relation_id": "holowitches_2025",
+      "type": "member_of_named_unit",
+      "label": "Magical Girl holoWitches! — May 2025 cast",
+      "directed": false,
+      "source_ids": [
+        "s098",
+        "s099"
+      ]
+    },
+    {
+      "id": "soraz",
+      "source": "tokino-sora",
+      "target": "azki",
+      "relation_id": "soraz",
+      "type": "music_duo",
+      "label": "SorAZ",
+      "directed": false,
+      "source_ids": [
+        "s100"
+      ]
+    },
+    {
+      "id": "fuwamoco",
+      "source": "fuwawa-abyssgard",
+      "target": "mococo-abyssgard",
+      "relation_id": "fuwamoco",
+      "type": "performer_duo_and_character_siblings",
+      "label": "FUWAMOCO",
+      "directed": false,
+      "source_ids": [
+        "s054",
+        "s101"
+      ]
+    },
+    {
+      "id": "mikkorone",
+      "source": "sakuramiko",
+      "target": "inugami-korone",
+      "relation_id": "mikkorone",
+      "type": "named_duo",
+      "label": "Mikkorone / みっころね",
+      "directed": false,
+      "source_ids": [
+        "s102",
+        "s103"
+      ]
+    },
+    {
+      "id": "kanaken--amane-kanata",
+      "source": "amane-kanata",
+      "target": "unit:kanaken",
+      "relation_id": "kanaken",
+      "type": "member_of_named_unit",
+      "label": "Kanata Construction / かなた建設 / かなけん",
+      "directed": false,
+      "source_ids": [
+        "s104",
+        "s105"
+      ]
+    },
+    {
+      "id": "kanaken--sakamata-chloe",
+      "source": "sakamata-chloe",
+      "target": "unit:kanaken",
+      "relation_id": "kanaken",
+      "type": "member_of_named_unit",
+      "label": "Kanata Construction / かなた建設 / かなけん",
+      "directed": false,
+      "source_ids": [
+        "s104",
+        "s105"
+      ]
+    },
+    {
+      "id": "kanaken--azki",
+      "source": "azki",
+      "target": "unit:kanaken",
+      "relation_id": "kanaken",
+      "type": "member_of_named_unit",
+      "label": "Kanata Construction / かなた建設 / かなけん",
+      "directed": false,
+      "source_ids": [
+        "s104",
+        "s105"
+      ]
+    },
+    {
+      "id": "chadcast--mori-calliope",
+      "source": "mori-calliope",
+      "target": "unit:chadcast",
+      "relation_id": "chadcast",
+      "type": "member_of_named_unit",
+      "label": "CHADCast",
+      "directed": false,
+      "source_ids": [
+        "s106"
+      ]
+    },
+    {
+      "id": "chadcast--irys",
+      "source": "irys",
+      "target": "unit:chadcast",
+      "relation_id": "chadcast",
+      "type": "member_of_named_unit",
+      "label": "CHADCast",
+      "directed": false,
+      "source_ids": [
+        "s106"
+      ]
+    },
+    {
+      "id": "chadcast--hakos-baelz",
+      "source": "hakos-baelz",
+      "target": "unit:chadcast",
+      "relation_id": "chadcast",
+      "type": "member_of_named_unit",
+      "label": "CHADCast",
+      "directed": false,
+      "source_ids": [
+        "s106"
+      ]
+    },
+    {
+      "id": "baerys",
+      "source": "irys",
+      "target": "hakos-baelz",
+      "relation_id": "baerys",
+      "type": "named_duo",
+      "label": "BaeRyS",
+      "directed": false,
+      "source_ids": [
+        "s107"
+      ]
+    },
+    {
+      "id": "ccgg",
+      "source": "gigi-murin",
+      "target": "cecilia-immergreen",
+      "relation_id": "ccgg",
+      "type": "named_duo",
+      "label": "CCGG / Gigi & Cecilia",
+      "directed": false,
+      "source_ids": [
+        "s108"
+      ]
+    },
+    {
+      "id": "nerissa_elizabeth",
+      "source": "nerissa-ravencroft",
+      "target": "elizabeth-rose-bloodflame",
+      "relation_id": "nerissa_elizabeth",
+      "type": "performance_duo",
+      "label": "Nerissa & Elizabeth",
+      "directed": false,
+      "source_ids": [
+        "s109"
+      ]
+    },
+    {
+      "id": "koyokuro",
+      "source": "hakui-koyori",
+      "target": "sakamata-chloe",
+      "relation_id": "koyokuro",
+      "type": "named_duo",
+      "label": "KoyoKuro / こよクロ",
+      "directed": false,
+      "source_ids": [
+        "s110"
+      ]
+    },
+    {
+      "id": "fams--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:fams",
+      "relation_id": "fams",
+      "type": "member_of_named_unit",
+      "label": "FAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "fams--nakiri-ayame",
+      "source": "nakiri-ayame",
+      "target": "unit:fams",
+      "relation_id": "fams",
+      "type": "member_of_named_unit",
+      "label": "FAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "fams--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:fams",
+      "relation_id": "fams",
+      "type": "member_of_named_unit",
+      "label": "FAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "fams--oozora-subaru",
+      "source": "oozora-subaru",
+      "target": "unit:fams",
+      "relation_id": "fams",
+      "type": "member_of_named_unit",
+      "label": "FAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--nekomata-okayu",
+      "source": "nekomata-okayu",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--inugami-korone",
+      "source": "inugami-korone",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--nakiri-ayame",
+      "source": "nakiri-ayame",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "okfams--oozora-subaru",
+      "source": "oozora-subaru",
+      "target": "unit:okfams",
+      "relation_id": "okfams",
+      "type": "member_of_named_unit",
+      "label": "OKFAMS",
+      "directed": false,
+      "source_ids": [
+        "s008"
+      ]
+    },
+    {
+      "id": "ayafubumi--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:ayafubumi",
+      "relation_id": "ayafubumi",
+      "type": "member_of_named_unit",
+      "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "directed": false,
+      "source_ids": [
+        "s111"
+      ]
+    },
+    {
+      "id": "ayafubumi--nakiri-ayame",
+      "source": "nakiri-ayame",
+      "target": "unit:ayafubumi",
+      "relation_id": "ayafubumi",
+      "type": "member_of_named_unit",
+      "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "directed": false,
+      "source_ids": [
+        "s111"
+      ]
+    },
+    {
+      "id": "ayafubumi--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:ayafubumi",
+      "relation_id": "ayafubumi",
+      "type": "member_of_named_unit",
+      "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "directed": false,
+      "source_ids": [
+        "s111"
+      ]
+    },
+    {
+      "id": "natsuiro_fubuki",
+      "source": "shirakami-fubuki",
+      "target": "natsuiro-matsuri",
+      "relation_id": "natsuiro_fubuki",
+      "type": "named_duo",
+      "label": "Natsuiro Fubuki / 夏色吹雪",
+      "directed": false,
+      "source_ids": [
+        "s112"
+      ]
+    },
+    {
+      "id": "noeflare",
+      "source": "shirogane-noel",
+      "target": "shiranui-flare",
+      "relation_id": "noeflare",
+      "type": "named_duo",
+      "label": "NoeFlare / ノエフレ",
+      "directed": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "pekomari",
+      "source": "usada-pekora",
+      "target": "houshou-marine",
+      "relation_id": "pekomari",
+      "type": "music_duo",
+      "label": "PekoMari / ぺこマリ",
+      "directed": false,
+      "source_ids": [
+        "s114",
+        "s113"
+      ]
+    },
+    {
+      "id": "mariflare",
+      "source": "houshou-marine",
+      "target": "shiranui-flare",
+      "relation_id": "mariflare",
+      "type": "performance_duo",
+      "label": "MariFlare / マリフレ",
+      "directed": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "noemari",
+      "source": "shirogane-noel",
+      "target": "houshou-marine",
+      "relation_id": "noemari",
+      "type": "performance_duo",
+      "label": "NoeMari / ノエマリ",
+      "directed": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "noepeko",
+      "source": "shirogane-noel",
+      "target": "usada-pekora",
+      "relation_id": "noepeko",
+      "type": "performance_duo",
+      "label": "NoePeko / ノエぺこ",
+      "directed": false,
+      "source_ids": [
+        "s113"
+      ]
+    },
+    {
+      "id": "pekoflare",
+      "source": "usada-pekora",
+      "target": "shiranui-flare",
+      "relation_id": "pekoflare",
+      "type": "performance_duo",
+      "label": "PekoFlare / ぺこフレ",
+      "directed": false,
+      "source_ids": [
+        "s113"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s001",
+      "url": "https://hololive.hololivepro.com/en/talents/",
+      "title": "Official Hololive talent directory",
+      "supported_claims": [
+        "Directory labels distinguish listed talents, affiliates and alumni; labels observed on research date."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s002",
+      "url": "https://hololivepro.com/news_en/20260907-01-266/",
+      "title": "September 7, 2026 production renewal",
+      "supported_claims": [
+        "Regional and DEV_IS brand structure is being brought together under one hololive."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s003",
+      "url": "https://coveredge.cover-corp.com/en/list/6814",
+      "title": "September 17, 2026 CEO interview",
+      "supported_claims": [
+        "Existing generation names remain; future debuts use units. Historical branch identities remain useful context."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s004",
+      "url": "https://hololive.hololivepro.com/en/talents/tokino-sora/",
+      "title": "Tokino Sora official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s005",
+      "url": "https://hololive.hololivepro.com/en/talents/roboco-san/",
+      "title": "Robocosan official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s006",
+      "url": "https://hololive.hololivepro.com/en/talents/aki-rosenthal/",
+      "title": "Aki Rosenthal official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s007",
+      "url": "https://hololive.hololivepro.com/en/talents/akai-haato/",
+      "title": "Akai Haato official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s008",
+      "url": "https://hololive.hololivepro.com/en/talents/shirakami-fubuki/",
+      "title": "Shirakami Fubuki official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source.",
+        "Fubuki identifies the 3 Stooges as herself, Shiranui Flare and Tsunomaki Watame; describes shared Sound Horizon interest, friendship, covers and horror-game/movie collaborations.",
+        "Fubuki names FAMS as herself, Ayame, Mio and Subaru; says OKFAMS adds Okayu and Korone and describes the six as close friends who spend time together."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s009",
+      "url": "https://hololive.hololivepro.com/en/talents/natsuiro-matsuri/",
+      "title": "Natsuiro Matsuri official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s010",
+      "url": "https://hololive.hololivepro.com/en/talents/nakiri-ayame/",
+      "title": "Nakiri Ayame official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s011",
+      "url": "https://hololive.hololivepro.com/en/talents/yuzuki-choco/",
+      "title": "Yuzuki Choco official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s012",
+      "url": "https://hololive.hololivepro.com/en/talents/oozora-subaru/",
+      "title": "Oozora Subaru official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s013",
+      "url": "https://hololive.hololivepro.com/en/talents/azki/",
+      "title": "AZKi official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s014",
+      "url": "https://hololive.hololivepro.com/en/talents/ookami-mio/",
+      "title": "Ookami Mio official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s015",
+      "url": "https://hololive.hololivepro.com/en/talents/sakuramiko/",
+      "title": "Sakura Miko official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s016",
+      "url": "https://hololive.hololivepro.com/en/talents/nekomata-okayu/",
+      "title": "Nekomata Okayu official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s017",
+      "url": "https://hololive.hololivepro.com/en/talents/inugami-korone/",
+      "title": "Inugami Korone official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s018",
+      "url": "https://hololive.hololivepro.com/en/talents/hoshimachi-suisei/",
+      "title": "Hoshimachi Suisei official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s019",
+      "url": "https://hololive.hololivepro.com/en/talents/usada-pekora/",
+      "title": "Usada Pekora official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s020",
+      "url": "https://hololive.hololivepro.com/en/talents/shiranui-flare/",
+      "title": "Shiranui Flare official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s021",
+      "url": "https://hololive.hololivepro.com/en/talents/shirogane-noel/",
+      "title": "Shirogane Noel official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s022",
+      "url": "https://hololive.hololivepro.com/en/talents/houshou-marine/",
+      "title": "Houshou Marine official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s023",
+      "url": "https://hololive.hololivepro.com/en/talents/tsunomaki-watame/",
+      "title": "Tsunomaki Watame official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s024",
+      "url": "https://hololive.hololivepro.com/en/talents/tokoyami-towa/",
+      "title": "Tokoyami Towa official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s025",
+      "url": "https://hololive.hololivepro.com/en/talents/himemori-luna/",
+      "title": "Himemori Luna official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s026",
+      "url": "https://hololive.hololivepro.com/en/talents/yukihana-lamy/",
+      "title": "Yukihana Lamy official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s027",
+      "url": "https://hololive.hololivepro.com/en/talents/momosuzu-nene/",
+      "title": "Momosuzu Nene official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s028",
+      "url": "https://hololive.hololivepro.com/en/talents/shishiro-botan/",
+      "title": "Shishiro Botan official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s029",
+      "url": "https://hololive.hololivepro.com/en/talents/omaru-polka/",
+      "title": "Omaru Polka official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s030",
+      "url": "https://hololive.hololivepro.com/en/talents/la-darknesss/",
+      "title": "La+ Darknesss official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s031",
+      "url": "https://hololive.hololivepro.com/en/talents/takane-lui/",
+      "title": "Takane Lui official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s032",
+      "url": "https://hololive.hololivepro.com/en/talents/hakui-koyori/",
+      "title": "Hakui Koyori official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s033",
+      "url": "https://hololive.hololivepro.com/en/talents/kazama-iroha/",
+      "title": "Kazama Iroha official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s034",
+      "url": "https://hololive.hololivepro.com/en/talents/sakamata-chloe/",
+      "title": "Sakamata Chloe official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s035",
+      "url": "https://hololive.hololivepro.com/en/talents/ayunda-risu/",
+      "title": "Ayunda Risu official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s036",
+      "url": "https://hololive.hololivepro.com/en/talents/moona-hoshinova/",
+      "title": "Moona Hoshinova official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s037",
+      "url": "https://hololive.hololivepro.com/en/talents/airani-iofifteen/",
+      "title": "Airani Iofifteen official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s038",
+      "url": "https://hololive.hololivepro.com/en/talents/kureiji-ollie/",
+      "title": "Kureiji Ollie official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s039",
+      "url": "https://hololive.hololivepro.com/en/talents/anya-melfissa/",
+      "title": "Anya Melfissa official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s040",
+      "url": "https://hololive.hololivepro.com/en/talents/pavolia-reine/",
+      "title": "Pavolia Reine official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s041",
+      "url": "https://hololive.hololivepro.com/en/talents/vestia-zeta/",
+      "title": "Vestia Zeta official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s042",
+      "url": "https://hololive.hololivepro.com/en/talents/kaela-kovalskia/",
+      "title": "Kaela Kovalskia official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s043",
+      "url": "https://hololive.hololivepro.com/en/talents/kobo-kanaeru/",
+      "title": "Kobo Kanaeru official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s044",
+      "url": "https://hololive.hololivepro.com/en/talents/mori-calliope/",
+      "title": "Mori Calliope official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s045",
+      "url": "https://hololive.hololivepro.com/en/talents/takanashi-kiara/",
+      "title": "Takanashi Kiara official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s046",
+      "url": "https://hololive.hololivepro.com/en/talents/ninomae-inanis/",
+      "title": "Ninomae Ina’nis official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s047",
+      "url": "https://hololive.hololivepro.com/en/talents/watson-amelia/",
+      "title": "Watson Amelia official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s048",
+      "url": "https://hololive.hololivepro.com/en/talents/irys/",
+      "title": "IRyS official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s049",
+      "url": "https://hololive.hololivepro.com/en/talents/ouro-kronii/",
+      "title": "Ouro Kronii official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s050",
+      "url": "https://hololive.hololivepro.com/en/talents/hakos-baelz/",
+      "title": "Hakos Baelz official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s051",
+      "url": "https://hololive.hololivepro.com/en/talents/shiori-novella/",
+      "title": "Shiori Novella official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s052",
+      "url": "https://hololive.hololivepro.com/en/talents/koseki-bijou/",
+      "title": "Koseki Bijou official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s053",
+      "url": "https://hololive.hololivepro.com/en/talents/nerissa-ravencroft/",
+      "title": "Nerissa Ravencroft official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s054",
+      "url": "https://hololive.hololivepro.com/en/talents/fuwawa-abyssgard/",
+      "title": "Fuwawa Abyssgard official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source.",
+        "Profile describes Fuwawa as older twin sister and names younger twin Mococo."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s055",
+      "url": "https://hololive.hololivepro.com/en/talents/mococo-abyssgard/",
+      "title": "Mococo Abyssgard official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s056",
+      "url": "https://hololive.hololivepro.com/en/talents/elizabeth-rose-bloodflame/",
+      "title": "Elizabeth Rose Bloodflame official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s057",
+      "url": "https://hololive.hololivepro.com/en/talents/gigi-murin/",
+      "title": "Gigi Murin official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s058",
+      "url": "https://hololive.hololivepro.com/en/talents/cecilia-immergreen/",
+      "title": "Cecilia Immergreen official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s059",
+      "url": "https://hololive.hololivepro.com/en/talents/raora-panthera/",
+      "title": "Raora Panthera official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s060",
+      "url": "https://hololive.hololivepro.com/en/talents/otonose-kanade/",
+      "title": "Otonose Kanade official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s061",
+      "url": "https://hololive.hololivepro.com/en/talents/ichijou-ririka/",
+      "title": "Ichijou Ririka official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s062",
+      "url": "https://hololive.hololivepro.com/en/talents/juufuutei-raden/",
+      "title": "Juufuutei Raden official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s063",
+      "url": "https://hololive.hololivepro.com/en/talents/todoroki-hajime/",
+      "title": "Todoroki Hajime official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s064",
+      "url": "https://hololive.hololivepro.com/en/talents/isaki-riona/",
+      "title": "Isaki Riona official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s065",
+      "url": "https://hololive.hololivepro.com/en/talents/koganei-niko/",
+      "title": "Koganei Niko official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s066",
+      "url": "https://hololive.hololivepro.com/en/talents/mizumiya-su/",
+      "title": "Mizumiya Su official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s067",
+      "url": "https://hololive.hololivepro.com/en/talents/rindo-chihaya/",
+      "title": "Rindo Chihaya official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s068",
+      "url": "https://hololive.hololivepro.com/en/talents/kikirara-vivi/",
+      "title": "Kikirara Vivi official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s069",
+      "url": "https://hololive.hololivepro.com/en/talents/achichi-mela/",
+      "title": "Achichi Mela official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s070",
+      "url": "https://hololive.hololivepro.com/en/talents/sorashina-sopia/",
+      "title": "Sorashina Sopia official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s071",
+      "url": "https://hololive.hololivepro.com/en/talents/suzuna-tsuzuri/",
+      "title": "Suzuna Tsuzuri official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s072",
+      "url": "https://hololive.hololivepro.com/en/talents/hyakuto-kyoko/",
+      "title": "Hyakuto Kyoko official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s073",
+      "url": "https://hololive.hololivepro.com/en/talents/minato-aqua/",
+      "title": "Minato Aqua official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s074",
+      "url": "https://hololive.hololivepro.com/en/talents/murasaki-shion/",
+      "title": "Murasaki Shion official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s075",
+      "url": "https://hololive.hololivepro.com/en/talents/amane-kanata/",
+      "title": "Amane Kanata official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s076",
+      "url": "https://hololive.hololivepro.com/en/talents/kiryu-coco/",
+      "title": "Kiryu Coco official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s077",
+      "url": "https://hololive.hololivepro.com/en/talents/gawr-gura/",
+      "title": "Gawr Gura official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s078",
+      "url": "https://hololive.hololivepro.com/en/talents/tsukumo-sana/",
+      "title": "Tsukumo Sana official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s079",
+      "url": "https://hololive.hololivepro.com/en/talents/ceres-fauna/",
+      "title": "Ceres Fauna official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s080",
+      "url": "https://hololive.hololivepro.com/en/talents/nanashi-mumei/",
+      "title": "Nanashi Mumei official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s081",
+      "url": "https://hololive.hololivepro.com/en/talents/hiodoshi-ao/",
+      "title": "Hiodoshi Ao official profile",
+      "supported_claims": [
+        "Official name, debut field, unit field and portrait source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s082",
+      "url": "https://hololive.hololivepro.com/en/talents?gp=council",
+      "title": "Official Council category",
+      "supported_claims": [
+        "Lists Kronii, Baelz, Sana, Fauna and Mumei under historical Council category."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s083",
+      "url": "https://hololive.hololivepro.com/en/talents?gp=project-hope",
+      "title": "Official Project: HOPE category",
+      "supported_claims": [
+        "Lists IRyS under historical Project: HOPE category."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s084",
+      "url": "https://hololive.hololivepro.com/en/news/20231009-01-211/",
+      "title": "Promise formation announcement",
+      "supported_claims": [
+        "IRyS, Fauna, Kronii, Mumei and Baelz formed Promise; Project: HOPE closed. Effective October 8, 2023 PDT / October 9 JST."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s085",
+      "url": "https://shop.hololivepro.com/en/products/micomet_newoutfit_2025",
+      "title": "miComet New Outfit Celebration 2025",
+      "supported_claims": [
+        "Shop identifies miComet as the unit consisting of Sakura Miko and Hoshimachi Suisei."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s086",
+      "url": "https://hololive.hololivepro.com/news/20250313-02-72/",
+      "title": "hololive 6th fes. Color Rise Harmony DAY2 official report",
+      "supported_claims": [
+        "Report identifies おかころ as Okayu and Korone and describes their duet and earlier collaboration stream."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s087",
+      "url": "https://shop.hololivepro.com/products/fubumio_an5th",
+      "title": "フブミオ5周年記念",
+      "supported_claims": [
+        "Shop explicitly identifies FubuMio as the two-person unit of Shirakami Fubuki and Ookami Mio."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s088",
+      "url": "https://hololivesummer2023.hololivepro.com/en/unit/shiranui-constructions/",
+      "title": "Shiranui Constructions — hololive Summer 2023",
+      "supported_claims": [
+        "Official unit page supplies all five members, Minecraft origin and fictional company roles."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s089",
+      "url": "https://shop.hololivepro.com/en/products/shiraken_scrapandbuild",
+      "title": "Shiranui Construction 1st EP scrap & build !",
+      "supported_claims": [
+        "2024 EP product includes named member credits and songs attributed to the group."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s090",
+      "url": "https://hololive.hololivepro.com/news/20220502-01-34/",
+      "title": "ORIO formation and Over Time release announcement",
+      "supported_claims": [
+        "Announcement explicitly names Kanata and Towa as ORIO members."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s091",
+      "url": "https://hololive.hololivepro.com/news/20220525-01-40/",
+      "title": "NEGI☆U first EP announcement",
+      "supported_claims": [
+        "Announcement lists Aqua, Subaru and Nene as its three members."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s092",
+      "url": "https://hololivesummer2023.hololivepro.com/unit/umisea/",
+      "title": "UMISEA — hololive Summer 2023",
+      "supported_claims": [
+        "Official page lists all five members and describes their sea-related commonality."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s093",
+      "url": "https://shop.hololivepro.com/en/products/hololivestartend_gamingchair_minatoaqua",
+      "title": "hololive Gaming Chair Startend — Minato Aqua",
+      "supported_claims": [
+        "Shop describes the gaming group as started by Suisei, Aqua and Towa."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s094",
+      "url": "https://hololive.hololivepro.com/music/%E9%80%B2%E3%82%81%E2%86%91bakataration/",
+      "title": "進め↑BAKATARATION",
+      "supported_claims": [
+        "Music page explicitly identifies the unit as Fubuki, Flare and Watame. This is the trio, not the four-person Bakatare Circus."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s095",
+      "url": "https://hololivesummer2023.hololivepro.com/en/unit/holotori/",
+      "title": "HOLOTORI — hololive Summer 2023",
+      "supported_claims": [
+        "Official page lists all five members and identifies bird-related theme."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s096",
+      "url": "https://hololivepro.com/news/20240516-01-135/",
+      "title": "Magical Girl holoWitches launch announcement",
+      "supported_claims": [
+        "Launch announcement lists the six talent/character roles."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s097",
+      "url": "https://holowitches.hololivepro.com/news/202601/112-2/",
+      "title": "Completion messages arrive",
+      "supported_claims": [
+        "Official news dated 2026-01-14 is titled as messages on completion; underlying messages are images."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s098",
+      "url": "https://holowitches.hololivepro.com/news/202505/78/",
+      "title": "Magical Girl holoWitches follow-and-repost campaign",
+      "supported_claims": [
+        "Official campaign explicitly lists the six participating cast members."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s099",
+      "url": "https://holowitches.hololivepro.com/news/202505/79/",
+      "title": "May 16 holoWitches collaboration stream",
+      "supported_claims": [
+        "Official stream notice lists Kanata, Miko, Luna, Marine, Fubuki and Lamy."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s100",
+      "url": "https://hololive.hololivepro.com/events/sorazlive/",
+      "title": "SorAZ Major Debut Live First Gravity",
+      "supported_claims": [
+        "Concert page identifies SorAZ as the unit consisting of Tokino Sora and AZKi."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s101",
+      "url": "https://hololivepro.com/news_en/20251031-02-10/",
+      "title": "Ducky x hololive English FUWAMOCO keyboard",
+      "supported_claims": [
+        "Official announcement explicitly names twins Fuwawa Abyssgard and Mococo Abyssgard as FUWAMOCO."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s102",
+      "url": "https://hololivesuperexpo.hololivepro.com/2022/news/220415-report1/",
+      "title": "hololive 3rd fes. DAY1 official report",
+      "supported_claims": [
+        "Report explicitly identifies Mikkorone as the Miko/Korone unit."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s103",
+      "url": "https://hololive.hololivepro.com/music/509/",
+      "title": "みっころね×やってやんよ!!",
+      "supported_claims": [
+        "2024-12-06 original single credits Miko and Korone."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s104",
+      "url": "https://shop.hololivepro.com/products/hololive_kanataconstructionvoice",
+      "title": "hololive Kanata Construction Voice",
+      "supported_claims": [
+        "Voice drama description names Kanata, Chloe and AZKi founding the company, lists all three as participating talents."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s105",
+      "url": "https://hololive.hololivepro.com/music/518/",
+      "title": "天界弩級オシゴトロード",
+      "supported_claims": [
+        "Official music page credits かなけん, release 2024-12-23."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s106",
+      "url": "https://hololive.hololivepro.com/music/809/",
+      "title": "Here Comes the CHADCast",
+      "supported_claims": [
+        "Official music page credits Mori Calliope, IRyS and Hakos Baelz for Here Comes the CHADCast."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s107",
+      "url": "https://serendipity.hololivepro.com/news/interview02/",
+      "title": "Exclusive Serendipity Unit Interview: IRyS & Bae",
+      "supported_claims": [
+        "Both discuss past collaborations; Baelz uses BaeRys when describing their performance."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s108",
+      "url": "https://serendipity.hololivepro.com/news/interview06/",
+      "title": "Exclusive Serendipity Unit Interview: Gigi & Cecilia",
+      "supported_claims": [
+        "Names both talents as the unit; both describe its dynamic as CCGG madness. The nickname Autofister was not verified in this source."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s109",
+      "url": "https://serendipity.hololivepro.com/news/interview07/",
+      "title": "Exclusive Serendipity Unit Interview: Nerissa & Elizabeth",
+      "supported_claims": [
+        "Both identified as unit partners; Nerissa describes their Rondo Revolution cover and planned stage debut as a duo."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s110",
+      "url": "https://shop.hololivepro.com/products/hololive_kikimanzai_voice2024",
+      "title": "hololive Comedy Voice 2024",
+      "supported_claims": [
+        "Product identifies comedy duo こよクロ and its participating talents Koyori and Chloe."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s111",
+      "url": "https://hololivesummer2023.hololivepro.com/en/unit/ayafubumi/",
+      "title": "AyaFubuMi — hololive Summer 2023",
+      "supported_claims": [
+        "Official page names Fubuki, Ayame and Mio and identifies their Japanese theme."
+      ],
+      "accessed_on": "2026-10-03",
+      "kind": "primary"
+    },
+    {
+      "id": "s112",
+      "url": "https://hololive.hololivepro.com/events/from1st/",
+      "title": "hololive 1st Generation 3rd Anniversary LIVE “from 1st” — official report",
+      "accessed_on": "2026-10-04",
+      "kind": "primary",
+      "supported_claims": [
+        "Names Fubuki and Matsuri’s unit 夏色吹雪 and documents their KAKUMEI duet and early collaborations."
+      ]
+    },
+    {
+      "id": "s113",
+      "url": "https://hololive.hololivepro.com/events/operation-heartful-cuties/",
+      "title": "hololive 3rd Generation Live “Operation Heartful Cuties” — official report",
+      "accessed_on": "2026-10-04",
+      "kind": "primary",
+      "supported_claims": [
+        "Names ノエフレ in Noel and Flare’s MC and records their Otonoke duet.",
+        "Calls Pekora and Marine ぺこマリ and records their Bridal Dream performance.",
+        "Names マリフレ as Marine and Flare’s pair stage, performing Iinazukkyun.",
+        "Names ノエマリ and records Noel and Marine’s Shaka Beach duet and shared MC.",
+        "Names ノエぺこ as Noel and Pekora’s Fantastic future pair stage.",
+        "Names ぺこフレ and records Pekora and Flare’s Baby Sweet Berry Love duet."
+      ]
+    },
+    {
+      "id": "s114",
+      "url": "https://hololive.hololivepro.com/music/368/",
+      "title": "Bridal Dream — official music release",
+      "accessed_on": "2026-10-04",
+      "kind": "primary",
+      "supported_claims": [
+        "Credits Usada Pekora and Houshou Marine; gives the release date as 2023-12-16."
+      ]
+    }
+  ]
+}

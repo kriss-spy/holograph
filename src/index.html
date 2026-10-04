@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore sourced Hololive collaborations, units and duos through an interactive portrait atlas."
+    />
+    <meta name="theme-color" content="#f5fbfe" />
+    <title>Hololive • connections atlas</title>
+    <!-- STYLES -->
+  </head>
+  <body>
+    <a class="skip-link" href="#search">Skip to searchable directory</a>
+    <header>
+      <div class="brand">
+        <span class="mark" aria-hidden="true">▷</span>
+        <div>
+          <h1>Hololive connections</h1>
+          <p>A portrait atlas of public collaborations</p>
+        </div>
+      </div>
+      <div class="edition">
+        Roster: 3 Oct 2026 <strong>Ties updated: 4 Oct 2026</strong>
+      </div>
+    </header>
+    <div class="toolbar">
+      <div class="view-switch" role="group" aria-label="Map view">
+        <button id="all" class="active">All 78 talents</button>
+        <div id="topics" class="topics" role="group" aria-label="Topics"></div>
+      </div>
+      <label class="cohort-label"
+        >Cohort
+        <select id="cohort" aria-label="Cohort">
+          <option value="">All cohorts</option>
+        </select></label
+      ><label class="check"
+        ><input id="alumni" type="checkbox" checked /> Include alumni</label
+      ><button id="export" class="export">Save map image</button>
+    </div>
+    <main>
+      <aside class="directory">
+        <label for="search">Find a talent or unit</label>
+        <div class="search-wrap">
+          <input
+            id="search"
+            type="search"
+            placeholder="Okayu, miComet, おかゆ…"
+            autocomplete="off"
+          /><button
+            id="clear-search"
+            aria-label="Clear search"
+            title="Clear search"
+            hidden
+          >
+            ×
+          </button>
+        </div>
+        <div class="tabs" role="group" aria-label="Directory">
+          <button class="active" id="units-tab">
+            Units & duos <span>31</span></button
+          ><button id="people-tab">Talents <span>78</span></button>
+        </div>
+        <div id="results" class="results"></div>
+        <div class="coverage">
+          <strong>A researched selection</strong>
+          <p>
+            A curated selection of publicly documented ties. Missing ties mean
+            incomplete research.
+          </p>
+          <a href="about.html">Read the research notes</a>
+        </div>
+      </aside>
+      <section class="map-pane" aria-label="Relationship map">
+        <div class="map-heading">
+          <div>
+            <h2 id="map-title">The full roster</h2>
+            <p id="map-subtitle"></p>
+          </div>
+          <span id="map-count"></span>
+        </div>
+        <div class="map-options">
+          <label for="layout">Layout</label
+          ><select id="layout">
+            <option value="auto">Automatic</option>
+            <option value="force">Force-directed</option>
+            <option value="circle">Circular</option>
+            <option value="grid">Cohort grid</option></select
+          ><button id="fullscreen" aria-pressed="false">⛶ Fullscreen</button
+          ><button id="fullscreen-details" aria-expanded="false">
+            Details
+          </button>
+        </div>
+        <div id="loading" role="status">Loading the relationship map…</div>
+        <p id="notice" role="status" hidden></p>
+        <div
+          id="graph"
+          role="img"
+          aria-label="Interactive relationship graph. Select a talent or unit in the directory for a keyboard-accessible description."
+        ></div>
+        <div class="map-controls">
+          <button id="zoom-in" aria-label="Zoom in">+</button
+          ><button id="zoom-out" aria-label="Zoom out">−</button
+          ><output id="zoom-level" aria-label="Map zoom">100%</output
+          ><button id="fit">Fit view</button>
+        </div>
+        <div class="legend">
+          <span><i class="duo"></i>Named duo</span
+          ><span><i class="group"></i>Unit membership</span
+          ><span><i class="alum"></i>Alum</span
+          ><span><i class="affiliate"></i>Affiliate</span
+          ><small>Drag portraits · scroll to zoom · click to inspect</small>
+        </div>
+      </section>
+      <aside
+        class="inspector"
+        id="inspector"
+        aria-label="Selected relationship details"
+        aria-live="polite"
+      ></aside>
+    </main>
+    <footer>
+      <span>Portraits © COVER Corp. • Grouping does not imply friendship.</span
+      ><span
+        ><a href="about.html">About this atlas</a>
+        <a href="hololive-relations.json" download>Download data</a></span
+      >
+    </footer>
+    <noscript
+      ><p>
+        This map needs JavaScript.
+        <a href="about.html">Read about the research</a> or
+        <a href="hololive-relations.json">download the data</a>.
+      </p></noscript
+    ><!-- SCRIPTS -->
+  </body>
+</html>

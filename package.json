@@ -1,0 +1,23 @@
+{
+  "name": "hololive-connections-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "build": "npm run validate && node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "check": "npm test && npm run build && node scripts/check-dist.mjs"
+  },
+  "dependencies": {
+    "cytoscape": "3.34.3",
+    "cytoscape-fcose": "2.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
