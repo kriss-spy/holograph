@@ -1,3 +1,29 @@
+/** The legacy alumni route flag includes all departed members. */
+export const isFormerTalent = (talent) => ["alum", "former"].includes(talent.status);
+
+export function cohortAffiliations(data, talentId) {
+  return data.cohort_memberships
+    .filter((m) => m.talent_id === talentId)
+    .map((m) => ({
+      ...m,
+      label: data.cohorts.find((c) => c.id === m.cohort_id).label,
+      historical: m.type === "historical_cohort" || m.time_scope === "historical" || Boolean(m.ended_on),
+    }));
+}
+
+/** Display placement never changes membership or creates another talent identity. */
+export function displayCohortId(talent, { mode, viewId }) {
+  return mode === "cohort" ? viewId : talent.primary_cohort_id;
+}
+
+/** Canonical records remain searchable by their documented alternate names. */
+export function matchesDirectory(item, query, displayName = "") {
+  const names = item.member_ids
+    ? [item.label, ...(item.aliases || []), ...item.members]
+    : [item.name_en, item.name_ja, ...item.aliases];
+  return [displayName, ...names].join(" ").toLocaleLowerCase().includes(query.trim().toLocaleLowerCase());
+}
+
 /** URL state is validated against this research snapshot before it reaches the renderer. */
 export function parseRoute(hash, data, topics = []) {
   const params = new URLSearchParams(hash.replace(/^#/, ""));
@@ -25,7 +51,7 @@ export function parseRoute(hash, data, topics = []) {
       if (
         kind === "talent" &&
         !route.includeAlumni &&
-        data.talents.find((t) => t.id === id).status === "alum"
+        isFormerTalent(data.talents.find((t) => t.id === id))
       )
         route.selected = null;
       return route;
@@ -75,7 +101,7 @@ export function selectScope(
   }
   const allowed = new Set(
     data.talents
-      .filter((t) => includeAlumni || t.status !== "alum")
+      .filter((t) => includeAlumni || !isFormerTalent(t))
       .map((t) => t.id),
   );
   ids = new Set([...ids].filter((id) => allowed.has(id)));

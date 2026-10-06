@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import cytoscape from "cytoscape";
 import fcose from "cytoscape-fcose";
-import { parseRoute, selectScope } from "../src/model.js";
+import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, selectScope } from "../src/model.js";
 import { force } from "../src/graph-layout.js";
 const data = JSON.parse(
   readFileSync(new URL("../data/hololive-relations.json", import.meta.url)),
@@ -29,20 +29,22 @@ test("Shared links restore valid filters and reject nonexistent records", () => 
 test("Gen 1 and Gen 3 retain evidenced internal ties, including partial units", () => {
   const first = selectScope(data, { mode: "cohort", viewId: "gen-1" });
   const third = selectScope(data, { mode: "cohort", viewId: "gen-3" });
-  assert.equal(first.ids.size, 4);
-  assert.equal(first.relations.length, 1);
-  assert.equal(third.ids.size, 4);
-  assert.equal(third.relations.length, 7);
+  assert.equal(first.ids.size, 5);
+  assert(first.relations.some((r) => r.id === "natsuiro_fubuki"));
+  assert.equal(third.ids.size, 5);
+  for (const id of ["noeflare", "pekomari", "mariflare", "noemari", "noepeko", "pekoflare", "shiraken", "mvp"])
+    assert(third.relations.some((r) => r.id === id));
   assert.equal(
     third.relations.find((r) => r.id === "shiraken").member_ids.length,
     5,
   );
+  assert.equal(third.relations.find((r) => r.id === "mvp").member_ids.length, 3);
 });
 test("Alumni filtering removes portraits and ties with fewer than two visible members", () => {
   const scope = selectScope(data, { mode: "all", includeAlumni: false });
   assert.equal(
     scope.ids.size,
-    data.talents.filter((t) => t.status !== "alum").length,
+    data.talents.filter((t) => !isFormerTalent(t)).length,
   );
   assert(
     scope.relations.every(
@@ -51,9 +53,91 @@ test("Alumni filtering removes portraits and ties with fewer than two visible me
   );
   assert(
     ![...scope.ids].some(
-      (id) => data.talents.find((t) => t.id === id).status === "alum",
+      (id) => isFormerTalent(data.talents.find((t) => t.id === id)),
     ),
   );
+});
+test("Terminated contracts remain historical records and use the former-member filter", () => {
+  for (const [id, cohort, end] of [["yozora-mel", "gen-1", "2024-01-16"], ["uruha-rushia", "gen-3", "2022-02-24"]]) {
+    const talent = data.talents.find((t) => t.id === id);
+    assert.equal(talent.status, "former");
+    assert.equal(talent.departure_type, "contract_termination");
+    assert.equal(talent.departure_date, end);
+    const membership = cohortAffiliations(data, id)[0];
+    assert.equal(membership.cohort_id, cohort);
+    assert.equal(membership.ended_on, end);
+    assert(membership.historical);
+    assert(selectScope(data, { mode: "cohort", viewId: cohort }).ids.has(id));
+    assert(!selectScope(data, { mode: "cohort", viewId: cohort, includeAlumni: false }).ids.has(id));
+    assert.equal(parseRoute(`#talent=${id}&alumni=0`, data).selected, null);
+    assert.equal(parseRoute(`#talent=${id}`, data).selected.id, id);
+    assert(!data.render_edges.some((e) => e.source === id || e.target === id), "Cohort membership must not invent collaboration edges");
+  }
+});
+test("Fubuki overlaps two cohort filters with one canonical identity", () => {
+  const fubuki = data.talents.find((t) => t.id === "shirakami-fubuki");
+  assert.deepEqual(cohortAffiliations(data, fubuki.id).map((m) => m.cohort_id), ["gen-1", "gamers"]);
+  for (const cohort of ["gen-1", "gamers"]) {
+    const scope = selectScope(data, { mode: "cohort", viewId: cohort });
+    assert(scope.ids.has(fubuki.id));
+    assert.equal(displayCohortId(fubuki, { mode: "cohort", viewId: cohort }), cohort);
+    assert.equal(new Set(scope.relations.map((r) => r.id)).size, scope.relations.length);
+  }
+  assert.equal(displayCohortId(fubuki, { mode: "all" }), "gen-1");
+  assert.equal(data.talents.filter((t) => t.id === fubuki.id).length, 1);
+});
+test("Council navigation preserves Sana’s history without Promise membership", () => {
+  const council = selectScope(data, { mode: "cohort", viewId: "council" });
+  const promise = selectScope(data, { mode: "cohort", viewId: "promise" });
+  assert(council.ids.has("tsukumo-sana"));
+  assert(!promise.ids.has("tsukumo-sana"));
+  assert.equal([...council.ids].filter((id) => promise.ids.has(id)).length, 4);
+  assert.deepEqual(cohortAffiliations(data, "tsukumo-sana").map((m) => m.cohort_id), ["council"]);
+  assert(cohortAffiliations(data, "tsukumo-sana")[0].historical);
+  assert(!selectScope(data, { mode: "cohort", viewId: "council", includeAlumni: false }).ids.has("tsukumo-sana"));
+  assert(data.cohorts.find((c) => c.id === "council").related_cohort_ids.includes("promise"));
+  const hope = selectScope(data, { mode: "cohort", viewId: "hope" });
+  assert(hope.ids.has("irys"));
+  assert.equal(displayCohortId(data.talents.find((t) => t.id === "irys"), { mode: "cohort", viewId: "hope" }), "hope");
+});
+test("Named collaborations are discoverable by Japanese names and romanizations", () => {
+  assert(matchesDirectory(data.relationships.find((r) => r.id === "holowitches_original"), "holoWitches · 2024", "holoWitches · 2024"));
+  for (const [id, query] of [
+    ["pekovivi", "ぺこヴィヴィ"],
+    ["pekoshuba", "PekoSuba"],
+    ["festivaluna", "フェスティバルーナ"],
+    ["roboaz", "ろぼあず"],
+    ["nenenetowawa", "ねねねトワワ"],
+    ["oriends", "オレンズ"],
+    ["goriponguess-samurai", "Samurai"],
+  ]) {
+    const record = data.relationships.find((r) => r.id === id);
+    assert(record, `Missing accepted record ${id}`);
+    assert(matchesDirectory(record, ` ${query} `), `Unsearchable name ${query}`);
+    assert.equal(parseRoute(`#unit=${id}`, data).selected.id, id);
+  }
+});
+test("Complete named groups stay distinct from cohorts and expanded lineups", () => {
+  const members = (id) => data.relationships.find((r) => r.id === id).member_ids.slice().sort();
+  assert.deepEqual(members("fwmcaz"), ["azki", "fuwawa-abyssgard", "mococo-abyssgard"]);
+  assert.deepEqual(members("nepolabo"), ["momosuzu-nene", "omaru-polka", "shishiro-botan", "yukihana-lamy"]);
+  assert.deepEqual(members("subachocolunatan"), ["himemori-luna", "oozora-subaru", "shishiro-botan", "yuzuki-choco"]);
+  assert.deepEqual(members("goriponguess-samurai"), [...members("goriponguess"), "kazama-iroha"].sort());
+  assert.deepEqual(members("goriponguess-hime"), [...members("goriponguess"), "himemori-luna"].sort());
+  const mvp = selectScope(data, { mode: "unit", viewId: "mvp" });
+  assert.equal(mvp.ids.size, 3);
+  assert.equal(mvp.relations.length, 1);
+  assert.equal(data.render_edges.filter((e) => e.relation_id === "mvp").length, 3);
+  assert(data.render_edges.filter((e) => e.relation_id === "mvp").every((e) => e.target === "unit:mvp"));
+});
+test("Historical AZKi duos remain recorded when former members are hidden", () => {
+  for (const [relation, talent] of [["aquaz", "minato-aqua"], ["azushio", "murasaki-shion"]]) {
+    assert(selectScope(data, { mode: "person", viewId: "azki" }).relations.some((r) => r.id === relation));
+    const hidden = selectScope(data, { mode: "person", viewId: "azki", includeAlumni: false });
+    assert(!hidden.ids.has(talent));
+    assert(!hidden.relations.some((r) => r.id === relation));
+    assert(data.relationships.find((r) => r.id === relation).member_ids.includes(talent));
+  }
 });
 test("Ayame force layout has finite positions and no overlapping portraits or unit boxes", () => {
   const { ids, relations } = selectScope(data, {

@@ -1,6 +1,8 @@
 // Display-only head crops; original official artwork remains unchanged.
 export const portraitDefault = { x: 50, y: 20, scale: 190 };
 export const portraits = {
+  "yozora-mel": { x: 60, y: 2, scale: 250 },
+  "uruha-rushia": { x: 60, y: 4, scale: 230 },
   "nekomata-okayu": { x: 70, y: 3, scale: 190 },
   "inugami-korone": { x: 50, y: 0, scale: 190 },
   "kazama-iroha": { x: 82, y: 26, scale: 190 },

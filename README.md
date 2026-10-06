@@ -35,7 +35,11 @@ The Vercel configuration caches hashed JavaScript/CSS immutably and revalidates 
 
 ## Updating research
 
-Edit `data/hololive-relations.json`, preserve the primary evidence and dates, add portraits to `public/assets/`, then run `npm run check`. The build uses this same snapshot for the graph and data download. Do not add private filesystem paths or personal vault links: validation rejects them. The roster date and relationship date in `src/index.html` and counts in `public/about.html` should be updated with a new snapshot.
+Edit `data/hololive-relations.json`, preserve the primary evidence and dates, add portraits to `public/assets/`, then run `npm run check`. The build uses this same snapshot for the graph and data download. Do not add private filesystem paths or personal vault links: validation rejects them. The roster date and relationship date in `src/index.html`, unit count in its directory tabs, and counts in `public/about.html` should be updated with a new snapshot.
+
+The [6 October connection completion audit](research/connection-completion.md) records 38 accepted additions across issues #3–#8 and explicit reasons for the remaining candidates. Preserve Japanese names and searchable aliases under a single canonical record.
+
+Historical roster and cohort work for issues #2 and #9 is documented in [historical roster evidence](research/historical-roster.md) and [cohort context](research/cohort-context.md). Mel and Rushia use `former` status with contract-termination dates; the former-member filter includes alumni and terminated contracts. The legacy `alumni=0` URL parameter remains supported. Secondary affiliations share one canonical talent record, and Council/Promise links provide navigation without changing membership.
 
 Topics are defined in `src/atlas.js`; all talents remains the first view. Layout helpers and pure URL/scope logic are separate modules. Unit membership stays a group rather than implied pairwise friendships.
 
