@@ -9,9 +9,9 @@ test('Moms toggle preserves the default roster and independently filters family 
   const normal = selectScope(data, { mode: 'all' });
   const included = selectScope(data, { mode: 'all', includeMoms: true });
   assert.equal(normal.ids.size, 80);
-  assert.equal(normal.relations.length, 155);
+  assert.equal(normal.relations.length, 151);
   assert.equal(included.ids.size, 87);
-  assert.equal(included.relations.length, 164);
+  assert.equal(included.relations.length, 160);
   for (const mom of moms) {
     assert(!normal.ids.has(mom.id));
     assert(included.ids.has(mom.id));

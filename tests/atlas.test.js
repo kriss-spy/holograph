@@ -125,7 +125,6 @@ test("Named collaborations are discoverable by Japanese names and romanizations"
     ["graondstone", "GRAONDSTONE"],
     ["kinpatsu-gumi", "金髪組"],
     ["soazko", "そらあずこよ"],
-    ["azukoto", "AzuKoto"],
     ["regloss-anego-gumi", "Anego-gumi"],
   ]) {
     const record = data.relationships.find((r) => r.id === id);
@@ -134,31 +133,19 @@ test("Named collaborations are discoverable by Japanese names and romanizations"
     assert.equal(parseRoute(`#unit=${id}`, data).selected.id, id);
   }
 });
-test("Cross-agency units preserve guests without creating a Hololive-only duo", () => {
-  const record = data.relationships.find((r) => r.id === "chikumaro");
-  const guests = data.external_participants.filter((guest) => record.member_ids.includes(guest.id));
-  assert.equal(record.member_ids.length, 4);
-  assert.equal(guests.length, 2);
-  assert(guests.every((guest) => record.member_ids.includes(guest.id)));
-  assert(guests.every((guest) => !data.talents.some((t) => t.id === guest.id)));
-  const scope = selectScope(data, { mode: "unit", viewId: "chikumaro" });
-  assert.deepEqual([...scope.ids].sort(), ["aki-rosenthal", "yuzuki-choco"]);
-  assert.equal(scope.relations[0].member_ids.length, 4);
-  const edges = data.render_edges.filter((edge) => edge.relation_id === record.id);
-  assert.equal(edges.length, 4);
-  assert(edges.every((edge) => edge.type === "member_of_named_unit" && edge.target === "unit:chikumaro"));
-  assert.equal(parseRoute("#unit=chikumaro", data).selected.id, "chikumaro");
-});
-test("External groups remain visible with one portrait and preserve complete source membership", () => {
-  for (const [id, total] of [["azukoto", 2], ["azumimizushi", 3], ["shotgunrose", 3]]) {
-    const scope = selectScope(data, { mode: "unit", viewId: id });
-    assert.deepEqual([...scope.ids], ["azki"]);
-    assert.equal(scope.relations.length, 1);
-    assert.equal(scope.relations[0].member_ids.length, total);
-    assert.equal(scope.relations[0].member_ids.filter((member) => member.startsWith("external:")).length, total - 1);
-    assert.equal(parseRoute(`#unit=${id}`, data).selected.id, id);
-    assert(selectScope(data, { mode: "person", viewId: "azki" }).relations.some((r) => r.id === id));
+test("PR #11 cross-agency connections are excluded from graph, directory and routes", () => {
+  const removed = ["chikumaro", "azumimizushi", "azukoto", "shotgunrose"];
+  const overview = selectScope(data, { mode: "all", includeMoms: true });
+  for (const id of removed) {
+    assert(!data.relationships.some((r) => r.id === id));
+    assert(!data.render_edges.some((edge) => edge.relation_id === id));
+    assert(!overview.relations.some((r) => r.id === id));
+    assert.equal(parseRoute(`#unit=${id}`, data).selected, null);
   }
+  const usedMembers = new Set(data.relationships.flatMap((r) => r.member_ids));
+  assert(data.external_participants.every((guest) => usedMembers.has(guest.id)));
+  // Later Sora audit records remain in scope for this commit-specific removal.
+  assert(data.relationships.some((r) => r.id === "soraao"));
 });
 test("Complete named groups stay distinct from cohorts and expanded lineups", () => {
   const members = (id) => data.relationships.find((r) => r.id === id).member_ids.slice().sort();

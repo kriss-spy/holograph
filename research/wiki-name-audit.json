@@ -1609,11 +1609,12 @@
           "supports": "Talent-owned cover title names all four singers. Description explicitly calls #ちくまろ a four-person group and credits Choco, Aki, Honma Himawari and Yakumo Beni; complete lineup is preserved."
         }
       ],
-      "verification_state": "verified",
-      "canonical_record_id": "chikumaro",
-      "reason": "Name and complete lineup independently verified in primary uploader text or inspected source scene; retained in one canonical record.",
+      "verification_state": "verified_external_scope",
+      "canonical_record_id": null,
+      "reason": "Name and complete lineup independently verified in primary uploader text; retained as research evidence outside the atlas scope.",
       "time_scope": "Documented 2024-05-07; ongoing activity not separately established.",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "scope_exclusion": "Removed from the atlas: cross-agency connection added in PR #11; complete membership and primary evidence retained for research."
     },
     {
       "id": "azukoto",
@@ -1642,11 +1643,12 @@
           "supports": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context."
         }
       ],
-      "verification_state": "verified",
-      "canonical_record_id": "azukoto",
+      "verification_state": "verified_external_scope",
+      "canonical_record_id": null,
       "reason": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context.",
       "time_scope": "Documented on 2023-06-07; formation date and current continuity not inferred.",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "scope_exclusion": "Removed from the atlas: cross-agency connection added in PR #11; complete membership and primary evidence retained for research."
     },
     {
       "id": "azumimizushi",
@@ -1674,11 +1676,12 @@
           "supports": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved."
         }
       ],
-      "verification_state": "verified",
-      "canonical_record_id": "azumimizushi",
+      "verification_state": "verified_external_scope",
+      "canonical_record_id": null,
       "reason": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved.",
       "time_scope": "Documented on 2023-04-20; formation date and current continuity not inferred.",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "scope_exclusion": "Removed from the atlas: cross-agency connection added in PR #11; complete membership and primary evidence retained for research."
     },
     {
       "id": "shotgunrose",
@@ -1714,11 +1717,12 @@
           "supports": "Official unit field lists Shotgun Rose. This supplies exact Latin spelling; guest membership is supplied by original collaboration metadata."
         }
       ],
-      "verification_state": "verified",
-      "canonical_record_id": "shotgunrose",
+      "verification_state": "verified_external_scope",
+      "canonical_record_id": null,
       "reason": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity.",
       "time_scope": "Documented on 2020-05-31; formation date and current continuity not inferred.",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "scope_exclusion": "Removed from the atlas: cross-agency connection added in PR #11; complete membership and primary evidence retained for research."
     },
     {
       "id": "aohaje",

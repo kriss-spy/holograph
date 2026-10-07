@@ -37,8 +37,9 @@ test("Wiki audit keeps uncertainty outside canonical facts and checks complete m
   const external = audit.candidates.find((c) => c.id === "chikumaro");
   assert.equal(external.member_ids.length, 4);
   assert.equal(external.member_ids.filter((id) => id.startsWith("external:")).length, 2);
-  assert.equal(external.verification_state, "verified");
-  assert.equal(external.canonical_record_id, "chikumaro");
+  assert.equal(external.verification_state, "verified_external_scope");
+  assert.equal(external.canonical_record_id, null);
+  assert(external.scope_exclusion && external.primary_evidence.length);
 });
 
 test("Holodex discoveries retain primary provenance and canonical complete lineups", () => {
