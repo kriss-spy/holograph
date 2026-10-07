@@ -1,5 +1,8 @@
 # AZKi connection knowledge completion — issue #5
 
+Later update: the [7 October final reconciliation](connection-knowledge-final.md) and current canonical snapshot supersede this historical pass’s deferred naming and external-lineup decisions.
+Update, 7 October: the [wiki follow-up](wiki-azki-followup.md) supplies primary evidence for eleven previously deferred candidates. The current ledger has 28 of the 31 candidate families supported; WAZ, RiONAZKi and SoARo retain specific naming or lineup gaps. Competing alias/history questions remain separate. The table below records the earlier 6 October pass.
+
 Research date: 2026-10-06. Source issue: `gh issue view 5`. All 31 reader candidates are retained below. **17 named collaborations verified; 14 deferred**. Accepted records are integrated in `data/hololive-relations.json`.
 
 Primary method: read YouTube watch-page `ytInitialData` title, attributed description, channel and video-description publication date directly from talent-owned pages. `hl=ja` avoids misleading automatic English translations. Web search was attempted but supplied video pages were throttled; direct HTTPS watch HTML succeeded. Naming/membership claims here come from uploader metadata, not reader comments or recommended-video titles. No spoken naming timestamps were verified. Evidence dates are the dates displayed by YouTube in the retrieved page; they are not independent UTC timestamp conversions.

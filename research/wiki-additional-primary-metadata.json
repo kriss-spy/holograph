@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=bExr7NEqNwQ",
+    "title": "【mocopi 3Dオフコラボ】#かなあずころ ケツバトラーで対決だ！！！！！【ホロライブ / AZKi / 天音かなた / 戌神ころね】",
+    "date": "2025/04/15 にライブ配信",
+    "channel": "AZKi Channel",
+    "uploader_handles": [
+      "@AmaneKanata",
+      "@InugamiKorone"
+    ],
+    "uploader_hashtags": [],
+    "evidence_summary": "AZKi target title prints #かなあずころ and names AZKi, Amane Kanata and Inugami Korone; uploader description links Kanata and Korone.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=-jDyV9vW8WA",
+    "title": "【出張占い🔮】ロボタールの今年の運勢をビッグゴッドミオーン先生に占ってもらう＞＜【#ホロライブ  #ロボミオタール 】",
+    "date": "2025/01/23 にライブ配信",
+    "channel": "Roboco Ch. - ロボ子",
+    "uploader_handles": [
+      "@AkiRosenthal",
+      "@OokamiMio",
+      "@robocosan"
+    ],
+    "uploader_hashtags": [
+      "ロボミオタール",
+      "ロボ子生放送",
+      "ろぼさー",
+      "ロボ子コレクション",
+      "カスタ"
+    ],
+    "evidence_summary": "Roboco target title and description print #ロボミオタール; uploader description explicitly identifies collaborators @AkiRosenthal and @OokamiMio.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  }
+]

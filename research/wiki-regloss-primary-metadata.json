@@ -1,0 +1,206 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=I3uDHmtLjss",
+    "title": "【Minecraft】#AHO3 でイカトラップをつくる！！ｲｶｲｶ【音乃瀬奏・火威青・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-01-25",
+    "channel": "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS",
+    "supports": "AHO3",
+    "evidence": "Title explicitly uses AHO3 and names Kanade, Ao and Hajime; description lists their channel handles under AHO3.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5Z6EiX44EMs",
+    "title": "【Puzzle Together 】まったり雑談にジグソーパズルを添えて【 #社長番長口八丁 】",
+    "date": "2024-04-13",
+    "channel": "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS",
+    "supports": "社長番長口八丁",
+    "evidence": "Title names the trio. Description maps 番長 to Hajime, 社長 to Ririka and 口八丁 to the uploader Raden.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=jugLFagTjUg",
+    "title": "【#らではじフルーツ決戦】21歳拳で組、スイカゲームオフライン対戦【轟はじめ/儒烏風亭らでん】",
+    "date": "2024-03-31",
+    "channel": "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS",
+    "supports": "21歳拳で組",
+    "evidence": "Title explicitly names 21歳拳で組 and its two members Hajime and Raden.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=GzfOVWWkv9c",
+    "title": "【雑談】らではじ定期旅行記～行先ヒント：ラッコとフラメンコ～【儒烏風亭らでん/轟はじめ #ReGLOSS 】",
+    "date": "2024-11-17",
+    "channel": "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS",
+    "supports": "21歳拳で組",
+    "evidence": "Title uses らではじ for the same Raden/Hajime duo, supporting alias consolidation rather than a second entity.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=vu2eawKYuek",
+    "title": "シャーってするりりかな #shorts #ReGLOSS #Vtuber #一条莉々華 #音乃瀬奏",
+    "date": "2025-07-07",
+    "channel": "hololive ReGLOSS",
+    "supports": "りりかな",
+    "evidence": "Official title uses りりかな and tags Ririka and Kanade; description separates the two cast members from the broader cohort roster.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=KBBKr1_qv20",
+    "title": "【日本酒の会】らでんの好きな日本酒を集めました～福島編～ #りりらでん酒盛 【一条莉々華/儒烏風亭らでん 】",
+    "date": "2024-07-13",
+    "channel": "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS",
+    "supports": "りりらでん",
+    "evidence": "Talent title uses りりらでん酒盛 and names Ririka/Raden; description also identifies Ririka as the guest. This supports the named collaboration context.",
+    "accessed_on": "2026-10-07",
+    "inspection_method": "Primary YouTube rendered title/channel and expanded description inspected in Codex in-app browser",
+    "playback_verified": false
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0nKvLHnGFJA",
+    "title": "【#あおはじぇ】オフコラボ…これが、青春ですか？そうだよ！【火威青／轟はじめ 】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-01-21",
+    "channel": "Ao Ch. 火威青 ‐ ReGLOSS",
+    "supports": "あおはじぇ",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses あおはじぇ and names the duo members.",
+    "uploader_handles": [
+      "@TodorokiHajime",
+      "@NueFanatic",
+      "@hiodoshiao"
+    ],
+    "uploader_hashtags": [
+      "あおはじぇ",
+      "青"
+    ],
+    "evidence_summary": "Talent-owned title explicitly uses あおはじぇ and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=VG-gPShtYWU",
+    "title": "【#あおらでん】最高～！！【火威青／儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-01-31",
+    "channel": "Ao Ch. 火威青 ‐ ReGLOSS",
+    "supports": "あおらでん",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses あおらでん and names the duo members.",
+    "uploader_handles": [
+      "@juufuuteiraden",
+      "@luvxxe6"
+    ],
+    "uploader_hashtags": [
+      "青原稿中",
+      "青ペン",
+      "読者（女の子→火女，男の子→火男）"
+    ],
+    "evidence_summary": "Talent-owned title explicitly uses あおらでん and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=4pw9GhX85WQ",
+    "title": "【オフコラボ】ゲリラあおかな【音乃瀬奏・火威青】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-01-20",
+    "channel": "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS",
+    "supports": "あおかな",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses あおかな and names the duo members.",
+    "uploader_handles": [
+      "@HiodoshiAo",
+      "@otonosekanade"
+    ],
+    "uploader_hashtags": [],
+    "evidence_summary": "Talent-owned title explicitly uses あおかな and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XWqESSMpuh4",
+    "title": "【 オフコラボ 】#なでらで で晩酌！マシュマロ食べながらしゃべっていくよ～！【音乃瀬奏・儒烏風亭らでん】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-12-23",
+    "channel": "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS",
+    "supports": "なでらで",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses なでらで and names the duo members.",
+    "uploader_handles": [
+      "@JuufuuteiRaden"
+    ],
+    "uploader_hashtags": [],
+    "evidence_summary": "Talent-owned title explicitly uses なでらで and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Lb7ewSw3VkU",
+    "title": "【 #かなはじ 】ぼたん先輩から誕プレでいただいたうまい棒を一緒に食べるよー！！【音乃瀬奏・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+    "date": "2024-05-21",
+    "channel": "Kanade Ch. 音乃瀬奏 ‐ ReGLOSS",
+    "supports": "かなはじ",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses かなはじ and names the duo members.",
+    "uploader_handles": [
+      "@TodorokiHajime"
+    ],
+    "uploader_hashtags": [],
+    "evidence_summary": "Talent-owned title explicitly uses かなはじ and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yYp6UNsQjyw",
+    "title": "【モンスターハンターパズル アイルーアイランド】#りりはじ のジーニアスはあります！遊ぶぞー！！【#一条莉々華 #轟はじめ #ReGLOSS 】",
+    "date": "2024-07-17",
+    "channel": "Ririka Ch. 一条莉々華 ‐ ReGLOSS",
+    "supports": "りりはじ",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Talent-owned title explicitly uses りりはじ and names the duo members.",
+    "uploader_handles": [
+      "@TodorokiHajime"
+    ],
+    "uploader_hashtags": [
+      "モンハンパズル",
+      "モンハン",
+      "PR"
+    ],
+    "evidence_summary": "Talent-owned title explicitly uses りりはじ and names the duo members.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7f6Ayn40Z2g",
+    "title": "【VCRGTA2】#4 あおりりの作戦が始まる【火威青 #hololiveDEV_IS #ReGLOSS 】",
+    "date": "2023-12-13",
+    "channel": "Ao Ch. 火威青 ‐ ReGLOSS",
+    "supports": "あおりり",
+    "accessed_on": "2026-10-07",
+    "playback_verified": false,
+    "inspection_method": "Public YouTube watch HTML ytInitialData metadata; no playback verified",
+    "evidence": "Ao-owned title uses あおりり; its description explicitly says today’s collaborator is 莉々華ちゃん, establishing Ao/Ririka.",
+    "uploader_handles": [
+      "@shiechyan"
+    ],
+    "uploader_hashtags": [
+      "青原稿中",
+      "青ペン",
+      "読者（女の子→火女，男の子→火男）"
+    ],
+    "evidence_summary": "Ao-owned title uses あおりり; its description explicitly says today’s collaborator is 莉々華ちゃん, establishing Ao/Ririka.",
+    "description_inspection": "Read uploader description; retained relevant handles/tags and evidence summary rather than unrelated promotional text."
+  }
+]

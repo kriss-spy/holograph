@@ -1,0 +1,167 @@
+{
+  "observed_at": "2026-10-07",
+  "method": "Uploader-owned YouTube watch metadata via direct HTTP; Chrome CUA playback scene screenshots; Chrome native transcript export (Japanese automatically generated captions). Viewer chat and fan tags not promoted to primary naming evidence.",
+  "sources": [
+    {
+      "video_id": "03NZzrVR7tk",
+      "url": "https://www.youtube.com/watch?v=03NZzrVR7tk",
+      "title": "【GeoGuessr】ジモゲッサー！リオナちゃんと一緒に高知をGUESS！【ホロライブ / AZKi / 響咲リオナ】",
+      "displayed_date": "2025/10/02 にライブ配信",
+      "owner": "AZKi Channel",
+      "channel_id": "UC0TXe_LYZ4scaW2XMyi5_kw",
+      "description_name_observation": "Description does not print RiONAZKi."
+    },
+    {
+      "video_id": "K_OxiN5J1ps",
+      "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps",
+      "title": "【UNO】今日のボク達夜更かしだぁ～～～🌃 【 ＃そあろ  /ホロライブ】",
+      "displayed_date": "2023/07/23 にライブ配信",
+      "owner": "Roboco Ch. - ロボ子",
+      "channel_id": "UCDqI2jOz0weumE8s7paEk6g",
+      "description_name_observation": "The description contains #そあろ."
+    },
+    {
+      "video_id": "RfD1NIpuQLY",
+      "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY",
+      "title": "【オフコラボ】あずき先輩と初オフコラボ！マシュマロ読むよ🫶【ホロライブ DEV_IS 響咲リオナ】",
+      "displayed_date": "2025/10/20 にライブ配信",
+      "owner": "Riona Ch. 響咲リオナ - FLOW GLOW",
+      "channel_id": "UC9LSiN9hXI55svYEBrrK-tw",
+      "description_name_observation": "Description does not print RiONAZKi."
+    },
+    {
+      "video_id": "zdUzvl-Tz50",
+      "url": "https://www.youtube.com/watch?v=zdUzvl-Tz50",
+      "title": "今日はAZKi先輩と踊ってみたよ🕺 #vtuber #shorts #dance",
+      "displayed_date": "2026/07/15",
+      "owner": "Riona Ch. 響咲リオナ - FLOW GLOW",
+      "channel_id": "UC9LSiN9hXI55svYEBrrK-tw",
+      "description_name_observation": "Description does not print RiONAZKi."
+    }
+  ],
+  "resolved": [
+    {
+      "name": "RiONAZKi",
+      "aliases": [
+        "リオナズキ"
+      ],
+      "members": [
+        "azki",
+        "isaki-riona"
+      ],
+      "type": "collab_nickname",
+      "primary_video": "RfD1NIpuQLY",
+      "date": "2025-10-20",
+      "inspected_segments": [
+        {
+          "start_seconds": 493,
+          "end_seconds": 890,
+          "method": "Read exported Japanese automatic transcript",
+          "observation": "Duo-name solicitation from listeners, phonetic Rionazuki candidate, English spelling with both i letters lowercase, agreement and explicit decision."
+        },
+        {
+          "start_seconds": 887,
+          "method": "Independently inspected actual source scene screenshot in Chrome CUA",
+          "observation": "Performer-added heading prints RiONAZKi above AZKi and Riona, alongside the duo-name marshmallow question. Both lowercase i characters are visually legible."
+        }
+      ],
+      "limits": [
+        "No exact human-checked audio transcription produced; captions are machine-generated. Exact Latin spelling comes from visual source heading, not ASR.",
+        "No assertion that any earlier encounter or musical appearance was formation."
+      ]
+    },
+    {
+      "name": "そあろ",
+      "reader_romanization": "SoARo",
+      "members": [
+        "tokino-sora",
+        "azki",
+        "roboco-san"
+      ],
+      "type": "collab_nickname",
+      "primary_video": "K_OxiN5J1ps",
+      "date": "2023-07-23",
+      "inspected_segments": [
+        {
+          "start_seconds": 290,
+          "method": "Independently inspected actual source scene screenshot in Chrome CUA",
+          "observation": "UNO lobby prints robocosan0523 (host), tokinosora515, azki_vdiva; fourth slot is an empty invite slot. Three source avatars below correspond to Roboco, Sora, AZKi."
+        },
+        {
+          "start_seconds": 288,
+          "end_seconds": 320,
+          "method": "Read exported Japanese automatic transcript",
+          "observation": "Calls this a spontaneous generation-zero collaboration; discusses inviting Sora to play with Roboco."
+        }
+      ],
+      "primary_naming_metadata": "Title and uploader description print #そあろ.",
+      "limits": [
+        "Latin SoARo is a readable romanization; it was not printed in inspected primary metadata."
+      ]
+    },
+    {
+      "name": "WAZ",
+      "spoken_name": "ワズ",
+      "members": [
+        "azki",
+        "aki-rosenthal"
+      ],
+      "type": "collab_nickname",
+      "primary_video": "9j_hjbj1CXo",
+      "date": "2023-03-16",
+      "title": "【GeoGuessr】地図でデュエル！【ホロライブ / AZKi / アキ・ローゼンタール】",
+      "owner": "AZKi Channel",
+      "primary_url": "https://www.youtube.com/watch?v=9j_hjbj1CXo&t=5010s",
+      "description_membership": "Links @AkiRosenthal",
+      "inspected_segments": [
+        {
+          "start_seconds": 5010,
+          "end_seconds": 5063,
+          "method": "Read local Japanese faster-whisper small ASR from archived actual original audio",
+          "observation": "Discuss W versus double-A spelling, repeat WA,Z at5045–5047; agree onワズ5048–5051; declare duo name/future use5055–5063."
+        },
+        {
+          "start_seconds": 5048,
+          "method": "Original Chrome source scene screenshot during acceptance",
+          "observation": "AZKi/Aki avatars and GeoGuessr duel lobby; no performer-added WAZ text in this scene."
+        }
+      ],
+      "limits": [
+        "ASR is machine-generated with word errors; no human-checked verbatim audio transcript claimed.",
+        "WAZ Latin spelling reconstructed from spoken letters and corroborated secondary usage; no original printed spelling verified in inspected frame."
+      ],
+      "navigation_clip": "https://www.youtube.com/watch?v=dorbvudgKDU",
+      "navigation_clip_segment": "8:16–8:59",
+      "local_audio": "/tmp/waz-naming-5010.wav",
+      "local_asr": "/tmp/waz-naming-transcript.txt",
+      "archive": "https://archive.ragtag.moe/watch?v=9j_hjbj1CXo"
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "AS_tar / INNK runaways",
+      "state": "ExistingAS_tar canonical retained. Fan-described formerイノナカ組 naming does not verify EnglishINNKrunaways alias or exactrenaming history."
+    },
+    {
+      "name": "KoyoAZ / AZKoyo / KoZKi",
+      "state": "Existingprimaryこよあずduo canonical retained. CompetingLatin names not recovered as primary names in thispass; KoZMy distinct trio."
+    }
+  ],
+  "alias_checks": [
+    {
+      "video": "Mz2csaOL8Ho",
+      "date": "2025-08-03",
+      "observation": "KoZMy credited cover MV, song transcript available, no spoken naming passage."
+    },
+    {
+      "video": "zYk8zpDXZdk",
+      "date": "2025-07-10",
+      "observation": "AS_tar title primary support; native transcript unavailable; rename history unverified."
+    },
+    {
+      "video": "fVS8qkHfBOg",
+      "date": "2024-06-02",
+      "observation": "Suisei/AZKi PlateUp original lead; native transcript unavailable; naming passage not inspected."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Nene collaboration batch — issue #6
 
+Update, 7 October: [primary follow-up evidence](wiki-korone-nene-followup.md) resolves Momosuzu Family and Dabuchizu; both are integrated, with Mel's complete historical membership. All seven candidate units now have supported records. The table below preserves the earlier 6 October decisions.
+
 Researched 6 October 2026. Only named public collaborations are accepted; private closeness and continuing activity remain unestablished.
 
 | Candidate | Result | Primary evidence |

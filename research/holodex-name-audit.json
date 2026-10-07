@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "observed_on": "2026-10-07",
+    "scope": "Selected named-collaboration discovery through Holodex and explicitly listed fallback indexes; not an exhaustive coappearance or social graph.",
+    "interpretation": "Only primary-supported complete lineups enter canonical data. Fan indexing and clips are discovery leads. Dates document sources, not ongoing activity or formation."
+  },
+  "candidates": [
+    {
+      "id": "smitten",
+      "name": "SMITTEN",
+      "aliases": [],
+      "member_ids": [
+        "kaela-kovalskia",
+        "raora-panthera"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://holodex.net/channel/UCZLZ8Jjx_RN2CXloOmgTHVg/collabs",
+        "https://holodex.net/watch/LxJcG_8O-tE"
+      ],
+      "discovery_method": "Holodex collabs followed by original YouTube",
+      "canonical_record_id": "smitten",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=LxJcG_8O-tE",
+          "title": "【Human Fall Flat】Kaela falls flat but I don't guess why 【SMITTEN】",
+          "owner": "Raora Panthera Ch. hololive",
+          "evidence_date": "2026-09-22",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "SMITTEN appears in the title; title identifies Kaela and uploader is Raora. This documents the named duo."
+        }
+      ],
+      "time_scope": "Documented 2026-09-22; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pizzatimesmith",
+      "name": "PizzaTimeSmith",
+      "aliases": [],
+      "member_ids": [
+        "raora-panthera",
+        "kaela-kovalskia",
+        "ouro-kronii"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://holodex.net/channel/UCZLZ8Jjx_RN2CXloOmgTHVg/collabs",
+        "https://holodex.net/watch/ZOP2gGe6JzI"
+      ],
+      "discovery_method": "Holodex collabs followed by original YouTube",
+      "canonical_record_id": "pizzatimesmith",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZOP2gGe6JzI",
+          "title": "【How To Fish】I am just here to eat! 【PizzaTimeSmith Collab】",
+          "owner": "Raora Panthera Ch. hololive",
+          "evidence_date": "2026-09-14",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title explicitly says PizzaTimeSmith Collab; description opens with “with @KaelaKovalskia and @OuroKronii”. Raora is uploader. These identify all three members."
+        }
+      ],
+      "time_scope": "Documented 2026-09-14; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "grindstone",
+      "name": "GrindStone",
+      "aliases": [],
+      "member_ids": [
+        "koseki-bijou",
+        "kaela-kovalskia"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://holodex.net/channel/UCZLZ8Jjx_RN2CXloOmgTHVg/collabs",
+        "https://www.youtube.com/results?search_query=Grindstone+Kaela+Bijou"
+      ],
+      "discovery_method": "Holodex lead followed by official YouTube search",
+      "canonical_record_id": "grindstone",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=OdGHVkp6P4E",
+          "title": "【MINECRAFT COLLAB】with @KaelaKovalskia Let's Go GrindStone!",
+          "owner": "Koseki Bijou Ch. hololive",
+          "evidence_date": "2023-09-17",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title names GrindStone and @KaelaKovalskia; uploader is Bijou. Do not treat Graondstone as a spelling alias: that candidate appears to have an extra member and remains held."
+        }
+      ],
+      "time_scope": "Documented 2023-09-17; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pavonova",
+      "name": "PavoNova",
+      "aliases": [],
+      "member_ids": [
+        "moona-hoshinova",
+        "pavolia-reine"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://archive.ragtag.moe/watch?v=b5XNn0ewF00",
+        "https://www.youtube.com/watch?v=iEEblPHpG80"
+      ],
+      "discovery_method": "Ragtag archive index followed by original YouTube",
+      "canonical_record_id": "pavonova",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=b5XNn0ewF00",
+          "title": "【Minecraft】Building holoID Shop - Part 2【PavoNova】",
+          "owner": "Moona Hoshinova hololive",
+          "evidence_date": "2021-02-06",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "PavoNova appears in title. Custom description links “Reine POV” to iEEblPHpG80, displayed as “【MOONA x REINE】Building holoID Shop Part 2 #PavoNova【hololiveID 2nd generation】”; custom profiles identify Reine and Moona. Generic generation promo list was excluded from lineup evidence."
+        }
+      ],
+      "time_scope": "Documented 2021-02-06; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "tsunemos",
+      "name": "常MOS",
+      "aliases": [],
+      "member_ids": [
+        "oozora-subaru",
+        "ookami-mio",
+        "nekomata-okayu",
+        "tokoyami-towa"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://ckworks.jp/vinforadar/video/kirinuki/4hQe-6wdn6o"
+      ],
+      "discovery_method": "CKworks clip source reference followed by original YouTube",
+      "canonical_record_id": "tsunemos",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=KSuo3sKW7WA",
+          "title": "【#常MOS】このメンバー、なんか落ち着くんだよ～Raftで漂流中！【Raft】",
+          "owner": "Mio Channel 大神ミオ",
+          "evidence_date": "2022-12-04",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title contains #常MOS. Custom description “めんばー！” lists 大空スバル @OozoraSubaru / 大神ミオ ※チャンネル主 / 猫又おかゆ @NekomataOkayu / 常闇トワ @TokoyamiTowa. This is a four-person lineup, distinct from SMOK. TsuneMOS is only a reading aid unless official Latin spelling is separately established."
+        }
+      ],
+      "time_scope": "Documented 2022-12-04; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "cereines",
+      "name": "CeReines",
+      "aliases": [],
+      "member_ids": [
+        "pavolia-reine",
+        "ceres-fauna"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/Pavolia%20Reine"
+      ],
+      "discovery_method": "Seesaa Reine profile links followed by original YouTube",
+      "canonical_record_id": "cereines",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=6qxx91dcB8Y",
+          "title": "(EN) THE BIRDS & THE TREES. Reine Indonesian Classroom w/ Fauna! #CeReines【Reine/hololiveID 2nd gen】",
+          "owner": "Pavolia Reine Ch. hololive",
+          "evidence_date": "2022-03-06",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title contains #CeReines and names Reine and Fauna; custom description “Today's Student: @CeresFauna” links Fauna’s channel. Named duo, rather than proof of permanent formal unit status."
+        }
+      ],
+      "time_scope": "Documented 2022-03-06; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "reirys",
+      "name": "ReiRyS",
+      "aliases": [],
+      "member_ids": [
+        "pavolia-reine",
+        "irys"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/Pavolia%20Reine"
+      ],
+      "discovery_method": "Seesaa Reine profile links followed by original YouTube",
+      "canonical_record_id": "reirys",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=wsoCTHLgfek",
+          "title": "(EN) HARAPAN has Descended. Reine Indonesian Classroom w/ IRyS! #ReiRyS 【Reine/hololiveID 2nd gen】",
+          "owner": "Pavolia Reine Ch. hololive",
+          "evidence_date": "2022-04-09",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title contains #ReiRyS and names Reine and IRyS; custom description “Today's Student: @IRyS” links IRyS’s channel. Complete named duo."
+        }
+      ],
+      "time_scope": "Documented 2022-04-09; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sharpea",
+      "name": "sharpea",
+      "aliases": [],
+      "member_ids": [
+        "pavolia-reine",
+        "gawr-gura"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/Pavolia%20Reine"
+      ],
+      "discovery_method": "Seesaa Reine profile links followed by original YouTube",
+      "canonical_record_id": "sharpea",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=iX8WRcP4NX0",
+          "title": "(EN) BIG BREINE SHARK! Reine Indonesian Classroom feeturing Gura #sharpea 【Reine/hololiveID 2nd gen】",
+          "owner": "Pavolia Reine Ch. hololive",
+          "evidence_date": "2022-09-21",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title contains #sharpea and names Reine and Gura; custom description “today's student: @GawrGura” links Gura’s channel. Keep source-exact lower-case spelling; title really spells “feeturing”."
+        }
+      ],
+      "time_scope": "Documented 2022-09-21; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pavonashi",
+      "name": "pavonashi",
+      "aliases": [],
+      "member_ids": [
+        "pavolia-reine",
+        "takanashi-kiara"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/Pavolia%20Reine"
+      ],
+      "discovery_method": "Seesaa Reine profile links followed by original YouTube",
+      "canonical_record_id": "pavonashi",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=RYd690kstl4",
+          "title": "(EN) BIRDS IN KIMONO Reine Indonesian Classroom w/Kiara #pavonashi【Pavolia Reine/hololiveID 2nd gen】",
+          "owner": "Pavolia Reine Ch. hololive",
+          "evidence_date": "2023-02-06",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title explicitly names Reine, Kiara and #pavonashi; uploader is verified Reine channel. This identifies the complete duo. Keep exact lower-case hashtag spelling rather than invent official camel case."
+        }
+      ],
+      "time_scope": "Documented 2023-02-06; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "graondstone",
+      "name": "Graondstone",
+      "aliases": [
+        "GRAONDSTONE"
+      ],
+      "member_ids": [
+        "kaela-kovalskia",
+        "koseki-bijou",
+        "raora-panthera"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://holodex.net/channel/UCZLZ8Jjx_RN2CXloOmgTHVg/collabs",
+        "https://holo-clips.com/archives/446529"
+      ],
+      "discovery_method": "Holodex collaboration neighborhood lead and explicitly listed clip-index fallback, followed by original YouTube title verification",
+      "canonical_record_id": "graondstone",
+      "verification_state": "verified",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=9TroI9swAuo",
+          "title": "【GRAONDSTONE】 Lethal Company with Biboo and Kaela! 🩷❤️💜",
+          "owner": "Raora Panthera Ch. hololive",
+          "evidence_date": "2024-09-24",
+          "timestamp_seconds": null,
+          "inspection": "original_rendered_uploader_metadata",
+          "supports": "Exact original Raora-owned title names GRAONDSTONE and explicitly identifies both other participants, Biboo and Kaela. Uploader supplies third member Raora. Complete named trio established directly by primary title. Distinct from GrindStone duo; never an alias of that duo."
+        }
+      ],
+      "time_scope": "Documented2024-09-24; no formation date, ongoing membership or permanence inferred.",
+      "ongoing_activity_verified": false
+    }
+  ]
+}
