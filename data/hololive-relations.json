@@ -4,7 +4,7 @@
     "as_of": "2026-10-03",
     "timezone": "Asia/Shanghai",
     "stage": "Public relationship atlas",
-    "scope": "A selected roster of 80 talents, including alumni, former members and affiliates. Named relationships are a curated primary-source-backed selection, not an exhaustive social graph.",
+    "scope": "80 Hololive talents plus 7 optional publicly introduced mothers as family guest talent nodes. Connections are a curated sourced selection, including explicitly labeled family ties and dated guest streams; secondary reporting is labeled.",
     "interpretation_rules": [
       "Do not infer friendship or romance from generation membership, duet credits, or proximity.",
       "Multi-member units are hyperedges/groups, never automatic pairwise friendships.",
@@ -43,7 +43,8 @@
       "s003"
     ],
     "relationships_updated_on": "2026-10-07",
-    "historical_roster_updated_on": "2026-10-06"
+    "historical_roster_updated_on": "2026-10-06",
+    "moms_updated_on": "2026-10-07"
   },
   "talents": [
     {
@@ -1844,6 +1845,167 @@
         "s161",
         "s157"
       ]
+    },
+    {
+      "id": "pekomama",
+      "name_en": "Pekomama",
+      "name_ja": "ぺこらマミー",
+      "aliases": [
+        "Pekora Mommy",
+        "Pekora Mama",
+        "PekoMama"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=8RNfOikz3Is",
+      "portrait_asset": "pekomama.jpg",
+      "source_ids": [
+        "mom-source-pekomama",
+        "mom-art-pekomama"
+      ],
+      "daughter_id": "usada-pekora",
+      "portrait_url": "https://i.ytimg.com/vi/8RNfOikz3Is/maxresdefault.jpg",
+      "portrait_credit": "Pekomama debut thumbnail; model design by Hikosan.",
+      "portrait_source_id": "mom-art-pekomama"
+    },
+    {
+      "id": "mamatsuri",
+      "name_en": "Mamatsuri",
+      "name_ja": "ままつり",
+      "aliases": [],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=MjPtXDAHeOs",
+      "portrait_asset": "mamatsuri.jpg",
+      "source_ids": [
+        "mom-source-mamatsuri",
+        "mom-art-mamatsuri"
+      ],
+      "daughter_id": "natsuiro-matsuri",
+      "portrait_url": "https://i.ytimg.com/vi/MjPtXDAHeOs/maxresdefault.jpg",
+      "portrait_credit": "Mamatsuri on the right of Matsuri’s mother collaboration thumbnail. Thumbnail credit: いよかん椛 / momomomomiZ.",
+      "portrait_source_id": "mom-art-mamatsuri"
+    },
+    {
+      "id": "mamatori",
+      "name_en": "Mamatori",
+      "name_ja": "",
+      "aliases": [
+        "Kiara’s mom",
+        "Mama Kiara",
+        "Kiara Mama"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=hyJFOYkMMog",
+      "portrait_asset": "mamatori.jpg",
+      "source_ids": [
+        "mom-source-mamatori",
+        "mom-art-mamatori"
+      ],
+      "daughter_id": "takanashi-kiara",
+      "portrait_url": "https://i.ytimg.com/vi/hyJFOYkMMog/maxresdefault.jpg",
+      "portrait_credit": "Mamatori is the adult phoenix in an apron on the left of Kiara’s Minecraft-with-Mamatori thumbnail. Thumbnail art credited to akira0053.",
+      "portrait_source_id": "mom-art-mamatori"
+    },
+    {
+      "id": "mama-mori",
+      "name_en": "Mama Mori",
+      "name_ja": "",
+      "aliases": [
+        "Calli’s mom",
+        "Calliope’s mom"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=bsuLB-2xTj8",
+      "portrait_asset": "mama-mori.png",
+      "source_ids": [
+        "mom-source-mama-mori",
+        "mom-art-mama-mori"
+      ],
+      "daughter_id": "mori-calliope",
+      "portrait_url": "https://drive.google.com/uc?export=download&id=1dQVDiFwMFXhUeiEcuwGeXQnrP5rerBiZ",
+      "portrait_credit": "Mama Mori artwork by PokeyPokums, linked in Calliope’s Clubhouse 51 stream. One stream-used design, not a single canonical model.",
+      "portrait_source_id": "mom-art-mama-mori"
+    },
+    {
+      "id": "mamarissa",
+      "name_en": "Mamarissa",
+      "name_ja": "",
+      "aliases": [
+        "MamaRissa",
+        "Nerissa’s mom"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=RAvCm-mN8X0",
+      "portrait_asset": "mamarissa.jpg",
+      "source_ids": [
+        "mom-source-mamarissa",
+        "mom-art-mamarissa"
+      ],
+      "daughter_id": "nerissa-ravencroft",
+      "portrait_url": "https://i.ytimg.com/vi/RAvCm-mN8X0/maxresdefault.jpg",
+      "portrait_credit": "Mamarissa debut thumbnail, as published on Nerissa’s channel. The description links artwork posts by yomasaka and DasDokter.",
+      "portrait_source_id": "mom-art-mamarissa"
+    },
+    {
+      "id": "mama-lillie",
+      "name_en": "Mama Lillie",
+      "name_ja": "",
+      "aliases": [
+        "Ollie’s mom",
+        "Mama Ollie"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://www.youtube.com/watch?v=wcf5mqhHWNI",
+      "portrait_asset": "mama-lillie.jpg",
+      "source_ids": [
+        "mom-source-mama-lillie",
+        "mom-art-mama-lillie"
+      ],
+      "daughter_id": "kureiji-ollie",
+      "portrait_url": "https://i.ytimg.com/vi/LDrpJ2VJm6Y/maxresdefault.jpg",
+      "portrait_credit": "Mama Lillie’s on-stream avatar on the right of Karl’s Clips’ Valentine-stream excerpt. Clip links Ollie’s original stream wcf5mqhHWNI. Artist not independently identified.",
+      "portrait_source_id": "mom-art-mama-lillie"
+    },
+    {
+      "id": "mami-shella",
+      "name_en": "Mami Shella",
+      "name_ja": "",
+      "aliases": [
+        "Kobo’s mom",
+        "Mama Kobo",
+        "Shella"
+      ],
+      "primary_cohort_id": "hololive-moms",
+      "historical_context": "Family guests",
+      "status": "mom",
+      "status_meaning": "Publicly introduced mother of a Hololive talent; family guest, not an agency member.",
+      "official_profile": "https://game.udn.com/game/story/122089/7659863",
+      "portrait_asset": "mami-shella.jpg",
+      "source_ids": [
+        "mom-source-mami-shella",
+        "mom-art-mami-shella"
+      ],
+      "daughter_id": "kobo-kanaeru",
+      "portrait_url": "https://pbs.twimg.com/media/GCLwsOHbUAAZNsn.jpg?name=orig",
+      "portrait_credit": "Mami Shella Ngaeru model illustration by anzai lee, posted by the artist for Kobo’s Mother’s Day stream.",
+      "portrait_source_id": "mom-art-mami-shella"
     }
   ],
   "cohorts": [
@@ -2096,6 +2258,21 @@
         "suzuna-tsuzuri",
         "hyakuto-kyoko"
       ]
+    },
+    {
+      "id": "hololive-moms",
+      "label": "Hololive moms",
+      "type": "family_guest_group",
+      "member_ids": [
+        "pekomama",
+        "mamatsuri",
+        "mamatori",
+        "mama-mori",
+        "mamarissa",
+        "mama-lillie",
+        "mami-shella"
+      ],
+      "navigation_note": "Publicly introduced mothers, grouped for browsing. This is not an official Hololive generation or agency roster."
     }
   ],
   "cohort_memberships": [
@@ -2885,6 +3062,69 @@
       "source_ids": [
         "s156",
         "s159"
+      ]
+    },
+    {
+      "talent_id": "pekomama",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-pekomama"
+      ]
+    },
+    {
+      "talent_id": "mamatsuri",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mamatsuri"
+      ]
+    },
+    {
+      "talent_id": "mamatori",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mamatori"
+      ]
+    },
+    {
+      "talent_id": "mama-mori",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mama-mori"
+      ]
+    },
+    {
+      "talent_id": "mamarissa",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mamarissa"
+      ]
+    },
+    {
+      "talent_id": "mama-lillie",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mama-lillie"
+      ]
+    },
+    {
+      "talent_id": "mami-shella",
+      "cohort_id": "hololive-moms",
+      "type": "display_group",
+      "time_scope": "Public family guests; not an official generation",
+      "source_ids": [
+        "mom-source-mami-shella"
       ]
     }
   ],
@@ -8609,6 +8849,290 @@
       "evidence_grade": "primary_explicit",
       "temporal_status": "documented_snapshot",
       "ongoing_activity_verified": false
+    },
+    {
+      "id": "pekomama_family",
+      "label": "Pekomama & Usada Pekora",
+      "type": "family_mother_daughter",
+      "members": [
+        "Pekomama",
+        "Usada Pekora"
+      ],
+      "member_ids": [
+        "pekomama",
+        "usada-pekora"
+      ],
+      "claim": "Pekomama is publicly introduced as Usada Pekora’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2024-04-01; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=8RNfOikz3Is",
+          "title": "Pekomama debut on Pekora’s channel",
+          "evidence": "The stream description introduces Pekora’s mother as Pekora Mommy."
+        }
+      ],
+      "source_ids": [
+        "mom-source-pekomama"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mamatsuri_family",
+      "label": "Mamatsuri & Natsuiro Matsuri",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mamatsuri",
+        "Natsuiro Matsuri"
+      ],
+      "member_ids": [
+        "mamatsuri",
+        "natsuiro-matsuri"
+      ],
+      "claim": "Mamatsuri is publicly introduced as Natsuiro Matsuri’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2021-01-02; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=MjPtXDAHeOs",
+          "title": "Real parent: Mama wants to be a VTuber — Natsuiro Matsuri",
+          "evidence": "Matsuri’s stream features her mother Mamatsuri; the description credits ままつり."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mamatsuri"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mamatori_family",
+      "label": "Mamatori & Takanashi Kiara",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mamatori",
+        "Takanashi Kiara"
+      ],
+      "member_ids": [
+        "mamatori",
+        "takanashi-kiara"
+      ],
+      "claim": "Mamatori is publicly introduced as Takanashi Kiara’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2021-08-18; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=hyJFOYkMMog",
+          "title": "Minecraft: Netherite mission with MAMATORI — Takanashi Kiara",
+          "evidence": "Kiara’s Minecraft stream with her real-life mother. Mamatori is used in the performer-owned stream title."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mamatori"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mama-mori_family",
+      "label": "Mama Mori & Mori Calliope",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mama Mori",
+        "Mori Calliope"
+      ],
+      "member_ids": [
+        "mama-mori",
+        "mori-calliope"
+      ],
+      "claim": "Mama Mori is publicly introduced as Mori Calliope’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2022-08-09; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=bsuLB-2xTj8",
+          "title": "Clubhouse 51 with My Mama — Mori Calliope",
+          "evidence": "Calliope’s channel explicitly presents a collaboration with her mother and credits the Mama Mori design."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mama-mori"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mamarissa_family",
+      "label": "Mamarissa & Nerissa Ravencroft",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mamarissa",
+        "Nerissa Ravencroft"
+      ],
+      "member_ids": [
+        "mamarissa",
+        "nerissa-ravencroft"
+      ],
+      "claim": "Mamarissa is publicly introduced as Nerissa Ravencroft’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2024-03-03; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=RAvCm-mN8X0",
+          "title": "MAMARISSA DEBUT — Meet my mother",
+          "evidence": "Nerissa’s channel explicitly introduces her mother as Mamarissa."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mamarissa"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mama-lillie_family",
+      "label": "Mama Lillie & Kureiji Ollie",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mama Lillie",
+        "Kureiji Ollie"
+      ],
+      "member_ids": [
+        "mama-lillie",
+        "kureiji-ollie"
+      ],
+      "claim": "Mama Lillie is publicly introduced as Kureiji Ollie’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2024-02-14; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=wcf5mqhHWNI",
+          "title": "Valentine’s stream — Kureiji Ollie",
+          "evidence": "Mama Lillie appears in Ollie’s Valentine stream; the source is linked from Karl’s Clips LDrpJ2VJm6Y."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mama-lillie"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "mami-shella_family",
+      "label": "Mami Shella & Kobo Kanaeru",
+      "type": "family_mother_daughter",
+      "members": [
+        "Mami Shella",
+        "Kobo Kanaeru"
+      ],
+      "member_ids": [
+        "mami-shella",
+        "kobo-kanaeru"
+      ],
+      "claim": "Mami Shella is publicly introduced as Kobo Kanaeru’s real-life mother. This records their public family relationship, not illustrator “mama” credits or roleplay.",
+      "time_scope": "Documented 2023-12-22; private biographical details are outside scope.",
+      "sources": [
+        {
+          "url": "https://game.udn.com/game/story/122089/7659863",
+          "title": "Kobo introduces her mother Shella on Mother’s Day",
+          "evidence": "Report identifies Shella as Kobo’s real mother and describes her public stream introduction. Secondary reporting; original stream not independently inspected."
+        }
+      ],
+      "source_ids": [
+        "mom-source-mami-shella"
+      ],
+      "confidence": "documented",
+      "direction": "undirected",
+      "evidence_grade": "secondary_report",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pekomama_anniversary_2025",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "type": "family_guest_collaboration",
+      "member_ids": [
+        "pekomama",
+        "usada-pekora",
+        "shirogane-noel",
+        "la-darknesss",
+        "kikirara-vivi",
+        "tokino-sora",
+        "otonose-kanade",
+        "azki"
+      ],
+      "members": [
+        "Pekomama",
+        "Usada Pekora",
+        "Shirogane Noel",
+        "La+ Darknesss",
+        "Kikirara Vivi",
+        "Tokino Sora",
+        "Otonose Kanade",
+        "AZKi"
+      ],
+      "claim": "Dated anniversary stream with Pekomama and visiting Hololive talents. Call-ins do not establish a permanent unit or personal friendship.",
+      "time_scope": "2025-07-17",
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ],
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=m-HUwl3MP-4",
+          "title": "Pekora sixth anniversary party with Mommy",
+          "evidence": "Pekora and Pekomama host call-ins from Noel, La+ Darknesss, Vivi, Sora, Kanade and AZKi on 17 July 2025."
+        }
+      ],
+      "confidence": "documented",
+      "evidence_grade": "primary_explicit",
+      "direction": "undirected",
+      "temporal_status": "historical_event",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pekomama_marine_birthday_2026",
+      "label": "Pekomama & Marine birthday collab · 2026",
+      "type": "family_guest_collaboration",
+      "member_ids": [
+        "pekomama",
+        "usada-pekora",
+        "houshou-marine"
+      ],
+      "members": [
+        "Pekomama",
+        "Usada Pekora",
+        "Houshou Marine"
+      ],
+      "claim": "Pekomama, Pekora and Marine share Pekora’s birthday stream. Supported by secondary reporting; no friendship claim.",
+      "time_scope": "2026-01-12",
+      "source_ids": [
+        "mom-source-peko-marine"
+      ],
+      "sources": [
+        {
+          "url": "https://dengekionline.com/article/202601/63014",
+          "title": "Pekomama and Marine first collaboration for Pekora’s birthday",
+          "evidence": "Dengeki reports Pekomama’s first collaboration with Marine on Pekora’s 12 January 2026 birthday stream."
+        }
+      ],
+      "confidence": "documented",
+      "evidence_grade": "secondary_report",
+      "direction": "undirected",
+      "temporal_status": "historical_event",
+      "ongoing_activity_verified": false
     }
   ],
   "render_edges": [
@@ -8616,9 +9140,9 @@
       "id": "micomet",
       "source": "sakuramiko",
       "target": "hoshimachi-suisei",
-      "relation_id": "micomet",
       "type": "named_duo",
       "label": "miComet",
+      "relation_id": "micomet",
       "directed": false,
       "source_ids": [
         "s085"
@@ -8628,9 +9152,9 @@
       "id": "okakoro",
       "source": "nekomata-okayu",
       "target": "inugami-korone",
-      "relation_id": "okakoro",
       "type": "named_duo",
       "label": "OkaKoro / おかころ",
+      "relation_id": "okakoro",
       "directed": false,
       "source_ids": [
         "s086"
@@ -8640,9 +9164,9 @@
       "id": "fubumio",
       "source": "shirakami-fubuki",
       "target": "ookami-mio",
-      "relation_id": "fubumio",
       "type": "named_duo",
       "label": "FubuMio / フブミオ",
+      "relation_id": "fubumio",
       "directed": false,
       "source_ids": [
         "s087"
@@ -8652,9 +9176,9 @@
       "id": "shiraken--shiranui-flare",
       "source": "shiranui-flare",
       "target": "unit:shiraken",
-      "relation_id": "shiraken",
       "type": "member_of_named_unit",
       "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "relation_id": "shiraken",
       "directed": false,
       "source_ids": [
         "s088",
@@ -8665,9 +9189,9 @@
       "id": "shiraken--omaru-polka",
       "source": "omaru-polka",
       "target": "unit:shiraken",
-      "relation_id": "shiraken",
       "type": "member_of_named_unit",
       "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "relation_id": "shiraken",
       "directed": false,
       "source_ids": [
         "s088",
@@ -8678,9 +9202,9 @@
       "id": "shiraken--sakuramiko",
       "source": "sakuramiko",
       "target": "unit:shiraken",
-      "relation_id": "shiraken",
       "type": "member_of_named_unit",
       "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "relation_id": "shiraken",
       "directed": false,
       "source_ids": [
         "s088",
@@ -8691,9 +9215,9 @@
       "id": "shiraken--hoshimachi-suisei",
       "source": "hoshimachi-suisei",
       "target": "unit:shiraken",
-      "relation_id": "shiraken",
       "type": "member_of_named_unit",
       "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "relation_id": "shiraken",
       "directed": false,
       "source_ids": [
         "s088",
@@ -8704,9 +9228,9 @@
       "id": "shiraken--shirogane-noel",
       "source": "shirogane-noel",
       "target": "unit:shiraken",
-      "relation_id": "shiraken",
       "type": "member_of_named_unit",
       "label": "Shiranui Construction / 不知火建設 / Shiraken",
+      "relation_id": "shiraken",
       "directed": false,
       "source_ids": [
         "s088",
@@ -8717,9 +9241,9 @@
       "id": "orio",
       "source": "amane-kanata",
       "target": "tokoyami-towa",
-      "relation_id": "orio",
       "type": "music_unit",
       "label": "ORIO",
+      "relation_id": "orio",
       "directed": false,
       "source_ids": [
         "s090"
@@ -8729,9 +9253,9 @@
       "id": "negiu--minato-aqua",
       "source": "minato-aqua",
       "target": "unit:negiu",
-      "relation_id": "negiu",
       "type": "member_of_named_unit",
       "label": "NEGI☆U",
+      "relation_id": "negiu",
       "directed": false,
       "source_ids": [
         "s091"
@@ -8741,9 +9265,9 @@
       "id": "negiu--oozora-subaru",
       "source": "oozora-subaru",
       "target": "unit:negiu",
-      "relation_id": "negiu",
       "type": "member_of_named_unit",
       "label": "NEGI☆U",
+      "relation_id": "negiu",
       "directed": false,
       "source_ids": [
         "s091"
@@ -8753,9 +9277,9 @@
       "id": "negiu--momosuzu-nene",
       "source": "momosuzu-nene",
       "target": "unit:negiu",
-      "relation_id": "negiu",
       "type": "member_of_named_unit",
       "label": "NEGI☆U",
+      "relation_id": "negiu",
       "directed": false,
       "source_ids": [
         "s091"
@@ -8765,9 +9289,9 @@
       "id": "umisea--minato-aqua",
       "source": "minato-aqua",
       "target": "unit:umisea",
-      "relation_id": "umisea",
       "type": "member_of_named_unit",
       "label": "UMISEA",
+      "relation_id": "umisea",
       "directed": false,
       "source_ids": [
         "s092"
@@ -8777,9 +9301,9 @@
       "id": "umisea--houshou-marine",
       "source": "houshou-marine",
       "target": "unit:umisea",
-      "relation_id": "umisea",
       "type": "member_of_named_unit",
       "label": "UMISEA",
+      "relation_id": "umisea",
       "directed": false,
       "source_ids": [
         "s092"
@@ -8789,9 +9313,9 @@
       "id": "umisea--sakamata-chloe",
       "source": "sakamata-chloe",
       "target": "unit:umisea",
-      "relation_id": "umisea",
       "type": "member_of_named_unit",
       "label": "UMISEA",
+      "relation_id": "umisea",
       "directed": false,
       "source_ids": [
         "s092"
@@ -8801,9 +9325,9 @@
       "id": "umisea--gawr-gura",
       "source": "gawr-gura",
       "target": "unit:umisea",
-      "relation_id": "umisea",
       "type": "member_of_named_unit",
       "label": "UMISEA",
+      "relation_id": "umisea",
       "directed": false,
       "source_ids": [
         "s092"
@@ -8813,9 +9337,9 @@
       "id": "umisea--ninomae-inanis",
       "source": "ninomae-inanis",
       "target": "unit:umisea",
-      "relation_id": "umisea",
       "type": "member_of_named_unit",
       "label": "UMISEA",
+      "relation_id": "umisea",
       "directed": false,
       "source_ids": [
         "s092"
@@ -8825,9 +9349,9 @@
       "id": "startend--hoshimachi-suisei",
       "source": "hoshimachi-suisei",
       "target": "unit:startend",
-      "relation_id": "startend",
       "type": "member_of_named_unit",
       "label": "Startend",
+      "relation_id": "startend",
       "directed": false,
       "source_ids": [
         "s093"
@@ -8837,9 +9361,9 @@
       "id": "startend--minato-aqua",
       "source": "minato-aqua",
       "target": "unit:startend",
-      "relation_id": "startend",
       "type": "member_of_named_unit",
       "label": "Startend",
+      "relation_id": "startend",
       "directed": false,
       "source_ids": [
         "s093"
@@ -8849,9 +9373,9 @@
       "id": "startend--tokoyami-towa",
       "source": "tokoyami-towa",
       "target": "unit:startend",
-      "relation_id": "startend",
       "type": "member_of_named_unit",
       "label": "Startend",
+      "relation_id": "startend",
       "directed": false,
       "source_ids": [
         "s093"
@@ -8861,9 +9385,9 @@
       "id": "bakatare--shirakami-fubuki",
       "source": "shirakami-fubuki",
       "target": "unit:bakatare",
-      "relation_id": "bakatare",
       "type": "member_of_named_unit",
       "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "relation_id": "bakatare",
       "directed": false,
       "source_ids": [
         "s094",
@@ -8874,9 +9398,9 @@
       "id": "bakatare--shiranui-flare",
       "source": "shiranui-flare",
       "target": "unit:bakatare",
-      "relation_id": "bakatare",
       "type": "member_of_named_unit",
       "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "relation_id": "bakatare",
       "directed": false,
       "source_ids": [
         "s094",
@@ -8887,9 +9411,9 @@
       "id": "bakatare--tsunomaki-watame",
       "source": "tsunomaki-watame",
       "target": "unit:bakatare",
-      "relation_id": "bakatare",
       "type": "member_of_named_unit",
       "label": "Bakatare-domo / バカタレ共 / 3 Stooges",
+      "relation_id": "bakatare",
       "directed": false,
       "source_ids": [
         "s094",
@@ -8900,9 +9424,9 @@
       "id": "holotori--takane-lui",
       "source": "takane-lui",
       "target": "unit:holotori",
-      "relation_id": "holotori",
       "type": "member_of_named_unit",
       "label": "HOLOTORI",
+      "relation_id": "holotori",
       "directed": false,
       "source_ids": [
         "s095"
@@ -8912,9 +9436,9 @@
       "id": "holotori--oozora-subaru",
       "source": "oozora-subaru",
       "target": "unit:holotori",
-      "relation_id": "holotori",
       "type": "member_of_named_unit",
       "label": "HOLOTORI",
+      "relation_id": "holotori",
       "directed": false,
       "source_ids": [
         "s095"
@@ -8924,9 +9448,9 @@
       "id": "holotori--takanashi-kiara",
       "source": "takanashi-kiara",
       "target": "unit:holotori",
-      "relation_id": "holotori",
       "type": "member_of_named_unit",
       "label": "HOLOTORI",
+      "relation_id": "holotori",
       "directed": false,
       "source_ids": [
         "s095"
@@ -8936,9 +9460,9 @@
       "id": "holotori--pavolia-reine",
       "source": "pavolia-reine",
       "target": "unit:holotori",
-      "relation_id": "holotori",
       "type": "member_of_named_unit",
       "label": "HOLOTORI",
+      "relation_id": "holotori",
       "directed": false,
       "source_ids": [
         "s095"
@@ -8948,9 +9472,9 @@
       "id": "holotori--nanashi-mumei",
       "source": "nanashi-mumei",
       "target": "unit:holotori",
-      "relation_id": "holotori",
       "type": "member_of_named_unit",
       "label": "HOLOTORI",
+      "relation_id": "holotori",
       "directed": false,
       "source_ids": [
         "s095"
@@ -8960,9 +9484,9 @@
       "id": "holowitches_original--amane-kanata",
       "source": "amane-kanata",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -8973,9 +9497,9 @@
       "id": "holowitches_original--sakuramiko",
       "source": "sakuramiko",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -8986,9 +9510,9 @@
       "id": "holowitches_original--himemori-luna",
       "source": "himemori-luna",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -8999,9 +9523,9 @@
       "id": "holowitches_original--houshou-marine",
       "source": "houshou-marine",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -9012,9 +9536,9 @@
       "id": "holowitches_original--murasaki-shion",
       "source": "murasaki-shion",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -9025,9 +9549,9 @@
       "id": "holowitches_original--sakamata-chloe",
       "source": "sakamata-chloe",
       "target": "unit:holowitches_original",
-      "relation_id": "holowitches_original",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — original cast",
+      "relation_id": "holowitches_original",
       "directed": false,
       "source_ids": [
         "s096",
@@ -9038,9 +9562,9 @@
       "id": "holowitches_2025--amane-kanata",
       "source": "amane-kanata",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9051,9 +9575,9 @@
       "id": "holowitches_2025--sakuramiko",
       "source": "sakuramiko",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9064,9 +9588,9 @@
       "id": "holowitches_2025--himemori-luna",
       "source": "himemori-luna",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9077,9 +9601,9 @@
       "id": "holowitches_2025--houshou-marine",
       "source": "houshou-marine",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9090,9 +9614,9 @@
       "id": "holowitches_2025--shirakami-fubuki",
       "source": "shirakami-fubuki",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9103,9 +9627,9 @@
       "id": "holowitches_2025--yukihana-lamy",
       "source": "yukihana-lamy",
       "target": "unit:holowitches_2025",
-      "relation_id": "holowitches_2025",
       "type": "member_of_named_unit",
       "label": "Magical Girl holoWitches! — May 2025 cast",
+      "relation_id": "holowitches_2025",
       "directed": false,
       "source_ids": [
         "s098",
@@ -9116,9 +9640,9 @@
       "id": "soraz",
       "source": "tokino-sora",
       "target": "azki",
-      "relation_id": "soraz",
       "type": "music_duo",
       "label": "SorAZ",
+      "relation_id": "soraz",
       "directed": false,
       "source_ids": [
         "s100"
@@ -9128,9 +9652,9 @@
       "id": "fuwamoco",
       "source": "fuwawa-abyssgard",
       "target": "mococo-abyssgard",
-      "relation_id": "fuwamoco",
       "type": "performer_duo_and_character_siblings",
       "label": "FUWAMOCO",
+      "relation_id": "fuwamoco",
       "directed": false,
       "source_ids": [
         "s054",
@@ -9141,9 +9665,9 @@
       "id": "mikkorone",
       "source": "sakuramiko",
       "target": "inugami-korone",
-      "relation_id": "mikkorone",
       "type": "named_duo",
       "label": "Mikkorone / みっころね",
+      "relation_id": "mikkorone",
       "directed": false,
       "source_ids": [
         "s102",
@@ -9154,9 +9678,9 @@
       "id": "kanaken--amane-kanata",
       "source": "amane-kanata",
       "target": "unit:kanaken",
-      "relation_id": "kanaken",
       "type": "member_of_named_unit",
       "label": "Kanata Construction / かなた建設 / かなけん",
+      "relation_id": "kanaken",
       "directed": false,
       "source_ids": [
         "s104",
@@ -9167,9 +9691,9 @@
       "id": "kanaken--sakamata-chloe",
       "source": "sakamata-chloe",
       "target": "unit:kanaken",
-      "relation_id": "kanaken",
       "type": "member_of_named_unit",
       "label": "Kanata Construction / かなた建設 / かなけん",
+      "relation_id": "kanaken",
       "directed": false,
       "source_ids": [
         "s104",
@@ -9180,9 +9704,9 @@
       "id": "kanaken--azki",
       "source": "azki",
       "target": "unit:kanaken",
-      "relation_id": "kanaken",
       "type": "member_of_named_unit",
       "label": "Kanata Construction / かなた建設 / かなけん",
+      "relation_id": "kanaken",
       "directed": false,
       "source_ids": [
         "s104",
@@ -9193,9 +9717,9 @@
       "id": "chadcast--mori-calliope",
       "source": "mori-calliope",
       "target": "unit:chadcast",
-      "relation_id": "chadcast",
       "type": "member_of_named_unit",
       "label": "CHADCast",
+      "relation_id": "chadcast",
       "directed": false,
       "source_ids": [
         "s106"
@@ -9205,9 +9729,9 @@
       "id": "chadcast--irys",
       "source": "irys",
       "target": "unit:chadcast",
-      "relation_id": "chadcast",
       "type": "member_of_named_unit",
       "label": "CHADCast",
+      "relation_id": "chadcast",
       "directed": false,
       "source_ids": [
         "s106"
@@ -9217,9 +9741,9 @@
       "id": "chadcast--hakos-baelz",
       "source": "hakos-baelz",
       "target": "unit:chadcast",
-      "relation_id": "chadcast",
       "type": "member_of_named_unit",
       "label": "CHADCast",
+      "relation_id": "chadcast",
       "directed": false,
       "source_ids": [
         "s106"
@@ -9229,9 +9753,9 @@
       "id": "baerys",
       "source": "irys",
       "target": "hakos-baelz",
-      "relation_id": "baerys",
       "type": "named_duo",
       "label": "BaeRyS",
+      "relation_id": "baerys",
       "directed": false,
       "source_ids": [
         "s107"
@@ -9241,9 +9765,9 @@
       "id": "ccgg",
       "source": "gigi-murin",
       "target": "cecilia-immergreen",
-      "relation_id": "ccgg",
       "type": "named_duo",
       "label": "Autofister / CCGG",
+      "relation_id": "ccgg",
       "directed": false,
       "source_ids": [
         "s108",
@@ -9254,9 +9778,9 @@
       "id": "nerissa_elizabeth",
       "source": "nerissa-ravencroft",
       "target": "elizabeth-rose-bloodflame",
-      "relation_id": "nerissa_elizabeth",
       "type": "named_duo",
       "label": "Bloodraven / Nerissa & Elizabeth",
+      "relation_id": "nerissa_elizabeth",
       "directed": false,
       "source_ids": [
         "s109",
@@ -9267,9 +9791,9 @@
       "id": "koyokuro",
       "source": "hakui-koyori",
       "target": "sakamata-chloe",
-      "relation_id": "koyokuro",
       "type": "named_duo",
       "label": "KoyoKuro / こよクロ",
+      "relation_id": "koyokuro",
       "directed": false,
       "source_ids": [
         "s110"
@@ -9279,9 +9803,9 @@
       "id": "fams--shirakami-fubuki",
       "source": "shirakami-fubuki",
       "target": "unit:fams",
-      "relation_id": "fams",
       "type": "member_of_named_unit",
       "label": "FAMS",
+      "relation_id": "fams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9291,9 +9815,9 @@
       "id": "fams--nakiri-ayame",
       "source": "nakiri-ayame",
       "target": "unit:fams",
-      "relation_id": "fams",
       "type": "member_of_named_unit",
       "label": "FAMS",
+      "relation_id": "fams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9303,9 +9827,9 @@
       "id": "fams--ookami-mio",
       "source": "ookami-mio",
       "target": "unit:fams",
-      "relation_id": "fams",
       "type": "member_of_named_unit",
       "label": "FAMS",
+      "relation_id": "fams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9315,9 +9839,9 @@
       "id": "fams--oozora-subaru",
       "source": "oozora-subaru",
       "target": "unit:fams",
-      "relation_id": "fams",
       "type": "member_of_named_unit",
       "label": "FAMS",
+      "relation_id": "fams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9327,9 +9851,9 @@
       "id": "okfams--nekomata-okayu",
       "source": "nekomata-okayu",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9339,9 +9863,9 @@
       "id": "okfams--inugami-korone",
       "source": "inugami-korone",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9351,9 +9875,9 @@
       "id": "okfams--shirakami-fubuki",
       "source": "shirakami-fubuki",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9363,9 +9887,9 @@
       "id": "okfams--nakiri-ayame",
       "source": "nakiri-ayame",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9375,9 +9899,9 @@
       "id": "okfams--ookami-mio",
       "source": "ookami-mio",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9387,9 +9911,9 @@
       "id": "okfams--oozora-subaru",
       "source": "oozora-subaru",
       "target": "unit:okfams",
-      "relation_id": "okfams",
       "type": "member_of_named_unit",
       "label": "OKFAMS",
+      "relation_id": "okfams",
       "directed": false,
       "source_ids": [
         "s008"
@@ -9399,9 +9923,9 @@
       "id": "ayafubumi--shirakami-fubuki",
       "source": "shirakami-fubuki",
       "target": "unit:ayafubumi",
-      "relation_id": "ayafubumi",
       "type": "member_of_named_unit",
       "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "relation_id": "ayafubumi",
       "directed": false,
       "source_ids": [
         "s111"
@@ -9411,9 +9935,9 @@
       "id": "ayafubumi--nakiri-ayame",
       "source": "nakiri-ayame",
       "target": "unit:ayafubumi",
-      "relation_id": "ayafubumi",
       "type": "member_of_named_unit",
       "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "relation_id": "ayafubumi",
       "directed": false,
       "source_ids": [
         "s111"
@@ -9423,9 +9947,9 @@
       "id": "ayafubumi--ookami-mio",
       "source": "ookami-mio",
       "target": "unit:ayafubumi",
-      "relation_id": "ayafubumi",
       "type": "member_of_named_unit",
       "label": "Irohanihohetto AyaFubuMi / いろはにほへっと あやふぶみ",
+      "relation_id": "ayafubumi",
       "directed": false,
       "source_ids": [
         "s111"
@@ -9435,9 +9959,9 @@
       "id": "natsuiro_fubuki",
       "source": "shirakami-fubuki",
       "target": "natsuiro-matsuri",
-      "relation_id": "natsuiro_fubuki",
       "type": "named_duo",
       "label": "Natsuiro Fubuki / 夏色吹雪",
+      "relation_id": "natsuiro_fubuki",
       "directed": false,
       "source_ids": [
         "s112"
@@ -9447,9 +9971,9 @@
       "id": "noeflare",
       "source": "shirogane-noel",
       "target": "shiranui-flare",
-      "relation_id": "noeflare",
       "type": "named_duo",
       "label": "NoeFlare / ノエフレ",
+      "relation_id": "noeflare",
       "directed": false,
       "source_ids": [
         "s113"
@@ -9459,9 +9983,9 @@
       "id": "pekomari",
       "source": "usada-pekora",
       "target": "houshou-marine",
-      "relation_id": "pekomari",
       "type": "music_duo",
       "label": "PekoMari / ぺこマリ",
+      "relation_id": "pekomari",
       "directed": false,
       "source_ids": [
         "s114",
@@ -9472,9 +9996,9 @@
       "id": "mariflare",
       "source": "houshou-marine",
       "target": "shiranui-flare",
-      "relation_id": "mariflare",
       "type": "performance_duo",
       "label": "MariFlare / マリフレ",
+      "relation_id": "mariflare",
       "directed": false,
       "source_ids": [
         "s113"
@@ -9484,9 +10008,9 @@
       "id": "noemari",
       "source": "shirogane-noel",
       "target": "houshou-marine",
-      "relation_id": "noemari",
       "type": "performance_duo",
       "label": "NoeMari / ノエマリ",
+      "relation_id": "noemari",
       "directed": false,
       "source_ids": [
         "s113"
@@ -9496,9 +10020,9 @@
       "id": "noepeko",
       "source": "shirogane-noel",
       "target": "usada-pekora",
-      "relation_id": "noepeko",
       "type": "performance_duo",
       "label": "NoePeko / ノエぺこ",
+      "relation_id": "noepeko",
       "directed": false,
       "source_ids": [
         "s113"
@@ -9508,9 +10032,9 @@
       "id": "pekoflare",
       "source": "usada-pekora",
       "target": "shiranui-flare",
-      "relation_id": "pekoflare",
       "type": "performance_duo",
       "label": "PekoFlare / ぺこフレ",
+      "relation_id": "pekoflare",
       "directed": false,
       "source_ids": [
         "s113"
@@ -9521,8 +10045,8 @@
       "source": "momosuzu-nene",
       "target": "yukihana-lamy",
       "type": "named_duo",
-      "relation_id": "magamagas",
       "label": "Magamagas / まがまがーず",
+      "relation_id": "magamagas",
       "directed": false,
       "source_ids": [
         "s115"
@@ -9533,8 +10057,8 @@
       "source": "momosuzu-nene",
       "target": "tokoyami-towa",
       "type": "named_duo",
-      "relation_id": "nenenetowawa",
       "label": "NeneneTowawa / ねねねトワワ",
+      "relation_id": "nenenetowawa",
       "directed": false,
       "source_ids": [
         "s116"
@@ -9545,8 +10069,8 @@
       "source": "takanashi-kiara",
       "target": "momosuzu-nene",
       "type": "music_duo",
-      "relation_id": "oriends",
       "label": "O'riends / Oレンズ",
+      "relation_id": "oriends",
       "directed": false,
       "source_ids": [
         "s117"
@@ -9557,8 +10081,8 @@
       "source": "momosuzu-nene",
       "target": "unit:nepolabo",
       "type": "member_of_named_unit",
-      "relation_id": "nepolabo",
       "label": "NePoLaBo / ねぽらぼ",
+      "relation_id": "nepolabo",
       "directed": false,
       "source_ids": [
         "s118"
@@ -9569,8 +10093,8 @@
       "source": "omaru-polka",
       "target": "unit:nepolabo",
       "type": "member_of_named_unit",
-      "relation_id": "nepolabo",
       "label": "NePoLaBo / ねぽらぼ",
+      "relation_id": "nepolabo",
       "directed": false,
       "source_ids": [
         "s118"
@@ -9581,8 +10105,8 @@
       "source": "yukihana-lamy",
       "target": "unit:nepolabo",
       "type": "member_of_named_unit",
-      "relation_id": "nepolabo",
       "label": "NePoLaBo / ねぽらぼ",
+      "relation_id": "nepolabo",
       "directed": false,
       "source_ids": [
         "s118"
@@ -9593,8 +10117,8 @@
       "source": "shishiro-botan",
       "target": "unit:nepolabo",
       "type": "member_of_named_unit",
-      "relation_id": "nepolabo",
       "label": "NePoLaBo / ねぽらぼ",
+      "relation_id": "nepolabo",
       "directed": false,
       "source_ids": [
         "s118"
@@ -9605,8 +10129,8 @@
       "source": "oozora-subaru",
       "target": "unit:subachocolunatan",
       "type": "member_of_named_unit",
-      "relation_id": "subachocolunatan",
       "label": "SubaChocoLunaTan / スバちょこるなたん",
+      "relation_id": "subachocolunatan",
       "directed": false,
       "source_ids": [
         "s119",
@@ -9618,8 +10142,8 @@
       "source": "yuzuki-choco",
       "target": "unit:subachocolunatan",
       "type": "member_of_named_unit",
-      "relation_id": "subachocolunatan",
       "label": "SubaChocoLunaTan / スバちょこるなたん",
+      "relation_id": "subachocolunatan",
       "directed": false,
       "source_ids": [
         "s119",
@@ -9631,8 +10155,8 @@
       "source": "himemori-luna",
       "target": "unit:subachocolunatan",
       "type": "member_of_named_unit",
-      "relation_id": "subachocolunatan",
       "label": "SubaChocoLunaTan / スバちょこるなたん",
+      "relation_id": "subachocolunatan",
       "directed": false,
       "source_ids": [
         "s119",
@@ -9644,8 +10168,8 @@
       "source": "shishiro-botan",
       "target": "unit:subachocolunatan",
       "type": "member_of_named_unit",
-      "relation_id": "subachocolunatan",
       "label": "SubaChocoLunaTan / スバちょこるなたん",
+      "relation_id": "subachocolunatan",
       "directed": false,
       "source_ids": [
         "s119",
@@ -9657,8 +10181,8 @@
       "source": "usada-pekora",
       "target": "kikirara-vivi",
       "type": "music_duo",
-      "relation_id": "pekovivi",
       "label": "PekoVivi / ぺこヴィヴィ",
+      "relation_id": "pekovivi",
       "directed": false,
       "source_ids": [
         "s121"
@@ -9669,8 +10193,8 @@
       "source": "houshou-marine",
       "target": "unit:mvp",
       "type": "member_of_named_unit",
-      "relation_id": "mvp",
       "label": "MVP",
+      "relation_id": "mvp",
       "directed": false,
       "source_ids": [
         "s122"
@@ -9681,8 +10205,8 @@
       "source": "kikirara-vivi",
       "target": "unit:mvp",
       "type": "member_of_named_unit",
-      "relation_id": "mvp",
       "label": "MVP",
+      "relation_id": "mvp",
       "directed": false,
       "source_ids": [
         "s122"
@@ -9693,8 +10217,8 @@
       "source": "usada-pekora",
       "target": "unit:mvp",
       "type": "member_of_named_unit",
-      "relation_id": "mvp",
       "label": "MVP",
+      "relation_id": "mvp",
       "directed": false,
       "source_ids": [
         "s122"
@@ -9705,8 +10229,8 @@
       "source": "usada-pekora",
       "target": "oozora-subaru",
       "type": "named_duo",
-      "relation_id": "pekoshuba",
       "label": "PekoShuba / ぺこスバ",
+      "relation_id": "pekoshuba",
       "directed": false,
       "source_ids": [
         "s123"
@@ -9717,8 +10241,8 @@
       "source": "oozora-subaru",
       "target": "nekomata-okayu",
       "type": "named_duo",
-      "relation_id": "subaoka",
       "label": "SubaOka / スバおか",
+      "relation_id": "subaoka",
       "directed": false,
       "source_ids": [
         "s124"
@@ -9729,8 +10253,8 @@
       "source": "natsuiro-matsuri",
       "target": "himemori-luna",
       "type": "named_duo",
-      "relation_id": "festivaluna",
       "label": "FestivaLuna / フェスティバルーナ",
+      "relation_id": "festivaluna",
       "directed": false,
       "source_ids": [
         "s125"
@@ -9741,8 +10265,8 @@
       "source": "takanashi-kiara",
       "target": "raora-panthera",
       "type": "named_duo",
-      "relation_id": "yuripeans",
       "label": "Yuripeans",
+      "relation_id": "yuripeans",
       "directed": false,
       "source_ids": [
         "s126"
@@ -9753,8 +10277,8 @@
       "source": "azki",
       "target": "hoshimachi-suisei",
       "type": "named_duo",
-      "relation_id": "as-tar",
       "label": "AS_tar",
+      "relation_id": "as-tar",
       "directed": false,
       "source_ids": [
         "s127"
@@ -9765,8 +10289,8 @@
       "source": "azki",
       "target": "roboco-san",
       "type": "named_duo",
-      "relation_id": "roboaz",
       "label": "RoboAZ",
+      "relation_id": "roboaz",
       "directed": false,
       "source_ids": [
         "s128"
@@ -9777,8 +10301,8 @@
       "source": "azki",
       "target": "inugami-korone",
       "type": "named_duo",
-      "relation_id": "azukoro",
       "label": "AzuKoro",
+      "relation_id": "azukoro",
       "directed": false,
       "source_ids": [
         "s129"
@@ -9789,8 +10313,8 @@
       "source": "azki",
       "target": "minato-aqua",
       "type": "named_duo",
-      "relation_id": "aquaz",
       "label": "AquAZ",
+      "relation_id": "aquaz",
       "directed": false,
       "source_ids": [
         "s130"
@@ -9801,8 +10325,8 @@
       "source": "azki",
       "target": "murasaki-shion",
       "type": "named_duo",
-      "relation_id": "azushio",
       "label": "AzuShio",
+      "relation_id": "azushio",
       "directed": false,
       "source_ids": [
         "s131"
@@ -9813,8 +10337,8 @@
       "source": "azki",
       "target": "usada-pekora",
       "type": "named_duo",
-      "relation_id": "pekoaz",
       "label": "PekoAZ",
+      "relation_id": "pekoaz",
       "directed": false,
       "source_ids": [
         "s132"
@@ -9825,8 +10349,8 @@
       "source": "azki",
       "target": "momosuzu-nene",
       "type": "named_duo",
-      "relation_id": "neneaz",
       "label": "NeneAZ",
+      "relation_id": "neneaz",
       "directed": false,
       "source_ids": [
         "s133"
@@ -9837,8 +10361,8 @@
       "source": "azki",
       "target": "yukihana-lamy",
       "type": "named_duo",
-      "relation_id": "azulamy",
       "label": "AzuLamy",
+      "relation_id": "azulamy",
       "directed": false,
       "source_ids": [
         "s134"
@@ -9849,8 +10373,8 @@
       "source": "azki",
       "target": "unit:fwmcaz",
       "type": "member_of_named_unit",
-      "relation_id": "fwmcaz",
       "label": "FWMCAZ",
+      "relation_id": "fwmcaz",
       "directed": false,
       "source_ids": [
         "s135"
@@ -9861,8 +10385,8 @@
       "source": "fuwawa-abyssgard",
       "target": "unit:fwmcaz",
       "type": "member_of_named_unit",
-      "relation_id": "fwmcaz",
       "label": "FWMCAZ",
+      "relation_id": "fwmcaz",
       "directed": false,
       "source_ids": [
         "s135"
@@ -9873,8 +10397,8 @@
       "source": "mococo-abyssgard",
       "target": "unit:fwmcaz",
       "type": "member_of_named_unit",
-      "relation_id": "fwmcaz",
       "label": "FWMCAZ",
+      "relation_id": "fwmcaz",
       "directed": false,
       "source_ids": [
         "s135"
@@ -9885,8 +10409,8 @@
       "source": "azki",
       "target": "juufuutei-raden",
       "type": "named_duo",
-      "relation_id": "azuraden",
       "label": "AzuRaden",
+      "relation_id": "azuraden",
       "directed": false,
       "source_ids": [
         "s136"
@@ -9897,8 +10421,8 @@
       "source": "azki",
       "target": "unit:kalaz",
       "type": "member_of_named_unit",
-      "relation_id": "kalaz",
       "label": "KALAZ",
+      "relation_id": "kalaz",
       "directed": false,
       "source_ids": [
         "s137"
@@ -9909,8 +10433,8 @@
       "source": "amane-kanata",
       "target": "unit:kalaz",
       "type": "member_of_named_unit",
-      "relation_id": "kalaz",
       "label": "KALAZ",
+      "relation_id": "kalaz",
       "directed": false,
       "source_ids": [
         "s137"
@@ -9921,8 +10445,8 @@
       "source": "yukihana-lamy",
       "target": "unit:kalaz",
       "type": "member_of_named_unit",
-      "relation_id": "kalaz",
       "label": "KALAZ",
+      "relation_id": "kalaz",
       "directed": false,
       "source_ids": [
         "s137"
@@ -9933,8 +10457,8 @@
       "source": "azki",
       "target": "unit:kozmy",
       "type": "member_of_named_unit",
-      "relation_id": "kozmy",
       "label": "KoZMy",
+      "relation_id": "kozmy",
       "directed": false,
       "source_ids": [
         "s138"
@@ -9945,8 +10469,8 @@
       "source": "hakui-koyori",
       "target": "unit:kozmy",
       "type": "member_of_named_unit",
-      "relation_id": "kozmy",
       "label": "KoZMy",
+      "relation_id": "kozmy",
       "directed": false,
       "source_ids": [
         "s138"
@@ -9957,8 +10481,8 @@
       "source": "yukihana-lamy",
       "target": "unit:kozmy",
       "type": "member_of_named_unit",
-      "relation_id": "kozmy",
       "label": "KoZMy",
+      "relation_id": "kozmy",
       "directed": false,
       "source_ids": [
         "s138"
@@ -9969,8 +10493,8 @@
       "source": "azki",
       "target": "unit:rosamia",
       "type": "member_of_named_unit",
-      "relation_id": "rosamia",
       "label": "RosaMiA",
+      "relation_id": "rosamia",
       "directed": false,
       "source_ids": [
         "s139"
@@ -9981,8 +10505,8 @@
       "source": "aki-rosenthal",
       "target": "unit:rosamia",
       "type": "member_of_named_unit",
-      "relation_id": "rosamia",
       "label": "RosaMiA",
+      "relation_id": "rosamia",
       "directed": false,
       "source_ids": [
         "s139"
@@ -9993,8 +10517,8 @@
       "source": "ookami-mio",
       "target": "unit:rosamia",
       "type": "member_of_named_unit",
-      "relation_id": "rosamia",
       "label": "RosaMiA",
+      "relation_id": "rosamia",
       "directed": false,
       "source_ids": [
         "s139"
@@ -10005,8 +10529,8 @@
       "source": "azki",
       "target": "unit:goriponguess",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess",
       "label": "GoriPONGuess",
+      "relation_id": "goriponguess",
       "directed": false,
       "source_ids": [
         "s140"
@@ -10017,8 +10541,8 @@
       "source": "amane-kanata",
       "target": "unit:goriponguess",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess",
       "label": "GoriPONGuess",
+      "relation_id": "goriponguess",
       "directed": false,
       "source_ids": [
         "s140"
@@ -10029,8 +10553,8 @@
       "source": "roboco-san",
       "target": "unit:goriponguess",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess",
       "label": "GoriPONGuess",
+      "relation_id": "goriponguess",
       "directed": false,
       "source_ids": [
         "s140"
@@ -10041,8 +10565,8 @@
       "source": "azki",
       "target": "unit:goriponguess-samurai",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-samurai",
       "label": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "relation_id": "goriponguess-samurai",
       "directed": false,
       "source_ids": [
         "s141"
@@ -10053,8 +10577,8 @@
       "source": "amane-kanata",
       "target": "unit:goriponguess-samurai",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-samurai",
       "label": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "relation_id": "goriponguess-samurai",
       "directed": false,
       "source_ids": [
         "s141"
@@ -10065,8 +10589,8 @@
       "source": "roboco-san",
       "target": "unit:goriponguess-samurai",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-samurai",
       "label": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "relation_id": "goriponguess-samurai",
       "directed": false,
       "source_ids": [
         "s141"
@@ -10077,8 +10601,8 @@
       "source": "kazama-iroha",
       "target": "unit:goriponguess-samurai",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-samurai",
       "label": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "relation_id": "goriponguess-samurai",
       "directed": false,
       "source_ids": [
         "s141"
@@ -10089,8 +10613,8 @@
       "source": "azki",
       "target": "unit:goriponguess-hime",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-hime",
       "label": "GoriPONGuessHime",
+      "relation_id": "goriponguess-hime",
       "directed": false,
       "source_ids": [
         "s142"
@@ -10101,8 +10625,8 @@
       "source": "amane-kanata",
       "target": "unit:goriponguess-hime",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-hime",
       "label": "GoriPONGuessHime",
+      "relation_id": "goriponguess-hime",
       "directed": false,
       "source_ids": [
         "s142"
@@ -10113,8 +10637,8 @@
       "source": "roboco-san",
       "target": "unit:goriponguess-hime",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-hime",
       "label": "GoriPONGuessHime",
+      "relation_id": "goriponguess-hime",
       "directed": false,
       "source_ids": [
         "s142"
@@ -10125,8 +10649,8 @@
       "source": "himemori-luna",
       "target": "unit:goriponguess-hime",
       "type": "member_of_named_unit",
-      "relation_id": "goriponguess-hime",
       "label": "GoriPONGuessHime",
+      "relation_id": "goriponguess-hime",
       "directed": false,
       "source_ids": [
         "s142"
@@ -10137,8 +10661,8 @@
       "source": "azki",
       "target": "unit:ashita-wa-aoi-umi",
       "type": "member_of_named_unit",
-      "relation_id": "ashita-wa-aoi-umi",
       "label": "Ashita wa Aoi Umi / 明日は青い海",
+      "relation_id": "ashita-wa-aoi-umi",
       "directed": false,
       "source_ids": [
         "s143"
@@ -10149,8 +10673,8 @@
       "source": "hoshimachi-suisei",
       "target": "unit:ashita-wa-aoi-umi",
       "type": "member_of_named_unit",
-      "relation_id": "ashita-wa-aoi-umi",
       "label": "Ashita wa Aoi Umi / 明日は青い海",
+      "relation_id": "ashita-wa-aoi-umi",
       "directed": false,
       "source_ids": [
         "s143"
@@ -10161,8 +10685,8 @@
       "source": "houshou-marine",
       "target": "unit:ashita-wa-aoi-umi",
       "type": "member_of_named_unit",
-      "relation_id": "ashita-wa-aoi-umi",
       "label": "Ashita wa Aoi Umi / 明日は青い海",
+      "relation_id": "ashita-wa-aoi-umi",
       "directed": false,
       "source_ids": [
         "s143"
@@ -10173,8 +10697,8 @@
       "source": "hiodoshi-ao",
       "target": "unit:ashita-wa-aoi-umi",
       "type": "member_of_named_unit",
-      "relation_id": "ashita-wa-aoi-umi",
       "label": "Ashita wa Aoi Umi / 明日は青い海",
+      "relation_id": "ashita-wa-aoi-umi",
       "directed": false,
       "source_ids": [
         "s143"
@@ -10185,8 +10709,8 @@
       "source": "oozora-subaru",
       "target": "unit:smok",
       "type": "member_of_named_unit",
-      "relation_id": "smok",
       "label": "SMOK",
+      "relation_id": "smok",
       "directed": false,
       "source_ids": [
         "s144"
@@ -10197,8 +10721,8 @@
       "source": "ookami-mio",
       "target": "unit:smok",
       "type": "member_of_named_unit",
-      "relation_id": "smok",
       "label": "SMOK",
+      "relation_id": "smok",
       "directed": false,
       "source_ids": [
         "s144"
@@ -10209,8 +10733,8 @@
       "source": "nekomata-okayu",
       "target": "unit:smok",
       "type": "member_of_named_unit",
-      "relation_id": "smok",
       "label": "SMOK",
+      "relation_id": "smok",
       "directed": false,
       "source_ids": [
         "s144"
@@ -10221,8 +10745,8 @@
       "source": "inugami-korone",
       "target": "unit:smok",
       "type": "member_of_named_unit",
-      "relation_id": "smok",
       "label": "SMOK",
+      "relation_id": "smok",
       "directed": false,
       "source_ids": [
         "s144"
@@ -10233,8 +10757,8 @@
       "source": "inugami-korone",
       "target": "ookami-mio",
       "type": "named_duo",
-      "relation_id": "futari-wa-kamisama-maxdog",
       "label": "Futari wa Kamisama MaxDOG",
+      "relation_id": "futari-wa-kamisama-maxdog",
       "directed": false,
       "source_ids": [
         "s145"
@@ -10245,8 +10769,8 @@
       "source": "inugami-korone",
       "target": "unit:yakamashi-musume",
       "type": "member_of_named_unit",
-      "relation_id": "yakamashi-musume",
       "label": "Yakamashi Musume",
+      "relation_id": "yakamashi-musume",
       "directed": false,
       "source_ids": [
         "s146"
@@ -10257,8 +10781,8 @@
       "source": "houshou-marine",
       "target": "unit:yakamashi-musume",
       "type": "member_of_named_unit",
-      "relation_id": "yakamashi-musume",
       "label": "Yakamashi Musume",
+      "relation_id": "yakamashi-musume",
       "directed": false,
       "source_ids": [
         "s146"
@@ -10269,8 +10793,8 @@
       "source": "yukihana-lamy",
       "target": "unit:yakamashi-musume",
       "type": "member_of_named_unit",
-      "relation_id": "yakamashi-musume",
       "label": "Yakamashi Musume",
+      "relation_id": "yakamashi-musume",
       "directed": false,
       "source_ids": [
         "s146"
@@ -10281,8 +10805,8 @@
       "source": "shirogane-noel",
       "target": "unit:yakamashi-musume",
       "type": "member_of_named_unit",
-      "relation_id": "yakamashi-musume",
       "label": "Yakamashi Musume",
+      "relation_id": "yakamashi-musume",
       "directed": false,
       "source_ids": [
         "s146"
@@ -10293,8 +10817,8 @@
       "source": "inugami-korone",
       "target": "unit:inutakashishiramu",
       "type": "member_of_named_unit",
-      "relation_id": "inutakashishiramu",
       "label": "InuTakaShishiRamu",
+      "relation_id": "inutakashishiramu",
       "directed": false,
       "source_ids": [
         "s147"
@@ -10305,8 +10829,8 @@
       "source": "takane-lui",
       "target": "unit:inutakashishiramu",
       "type": "member_of_named_unit",
-      "relation_id": "inutakashishiramu",
       "label": "InuTakaShishiRamu",
+      "relation_id": "inutakashishiramu",
       "directed": false,
       "source_ids": [
         "s147"
@@ -10317,8 +10841,8 @@
       "source": "shishiro-botan",
       "target": "unit:inutakashishiramu",
       "type": "member_of_named_unit",
-      "relation_id": "inutakashishiramu",
       "label": "InuTakaShishiRamu",
+      "relation_id": "inutakashishiramu",
       "directed": false,
       "source_ids": [
         "s147"
@@ -10329,8 +10853,8 @@
       "source": "tsunomaki-watame",
       "target": "unit:inutakashishiramu",
       "type": "member_of_named_unit",
-      "relation_id": "inutakashishiramu",
       "label": "InuTakaShishiRamu",
+      "relation_id": "inutakashishiramu",
       "directed": false,
       "source_ids": [
         "s147"
@@ -10341,8 +10865,8 @@
       "source": "nekomata-okayu",
       "target": "unit:okbr",
       "type": "member_of_named_unit",
-      "relation_id": "okbr",
       "label": "OKBR",
+      "relation_id": "okbr",
       "directed": false,
       "source_ids": [
         "s148"
@@ -10353,8 +10877,8 @@
       "source": "inugami-korone",
       "target": "unit:okbr",
       "type": "member_of_named_unit",
-      "relation_id": "okbr",
       "label": "OKBR",
+      "relation_id": "okbr",
       "directed": false,
       "source_ids": [
         "s148"
@@ -10365,8 +10889,8 @@
       "source": "shishiro-botan",
       "target": "unit:okbr",
       "type": "member_of_named_unit",
-      "relation_id": "okbr",
       "label": "OKBR",
+      "relation_id": "okbr",
       "directed": false,
       "source_ids": [
         "s148"
@@ -10377,8 +10901,8 @@
       "source": "yukihana-lamy",
       "target": "unit:okbr",
       "type": "member_of_named_unit",
-      "relation_id": "okbr",
       "label": "OKBR",
+      "relation_id": "okbr",
       "directed": false,
       "source_ids": [
         "s148"
@@ -10389,8 +10913,8 @@
       "source": "amane-kanata",
       "target": "inugami-korone",
       "type": "named_duo",
-      "relation_id": "kanakoro",
       "label": "KanaKoro",
+      "relation_id": "kanakoro",
       "directed": false,
       "source_ids": [
         "s149"
@@ -10401,8 +10925,8 @@
       "source": "murasaki-shion",
       "target": "inugami-korone",
       "type": "named_duo",
-      "relation_id": "shiopan",
       "label": "ShionPan / 塩んぱん",
+      "relation_id": "shiopan",
       "directed": false,
       "source_ids": [
         "s150"
@@ -10413,8 +10937,8 @@
       "source": "aki-rosenthal",
       "target": "unit:anpontan-sisters",
       "type": "member_of_named_unit",
-      "relation_id": "anpontan-sisters",
       "label": "AnPonTan Sisters",
+      "relation_id": "anpontan-sisters",
       "directed": false,
       "source_ids": [
         "s151"
@@ -10425,8 +10949,8 @@
       "source": "roboco-san",
       "target": "unit:anpontan-sisters",
       "type": "member_of_named_unit",
-      "relation_id": "anpontan-sisters",
       "label": "AnPonTan Sisters",
+      "relation_id": "anpontan-sisters",
       "directed": false,
       "source_ids": [
         "s151"
@@ -10437,8 +10961,8 @@
       "source": "himemori-luna",
       "target": "unit:anpontan-sisters",
       "type": "member_of_named_unit",
-      "relation_id": "anpontan-sisters",
       "label": "AnPonTan Sisters",
+      "relation_id": "anpontan-sisters",
       "directed": false,
       "source_ids": [
         "s151"
@@ -10449,8 +10973,8 @@
       "source": "aki-rosenthal",
       "target": "roboco-san",
       "type": "named_duo",
-      "relation_id": "robotaru",
       "label": "Robotaru",
+      "relation_id": "robotaru",
       "directed": false,
       "source_ids": [
         "s152"
@@ -10461,8 +10985,8 @@
       "source": "aki-rosenthal",
       "target": "unit:kamichamarose",
       "type": "member_of_named_unit",
-      "relation_id": "kamichamarose",
       "label": "KamichamaROZE",
+      "relation_id": "kamichamarose",
       "directed": false,
       "source_ids": [
         "s153"
@@ -10473,8 +10997,8 @@
       "source": "shirakami-fubuki",
       "target": "unit:kamichamarose",
       "type": "member_of_named_unit",
-      "relation_id": "kamichamarose",
       "label": "KamichamaROZE",
+      "relation_id": "kamichamarose",
       "directed": false,
       "source_ids": [
         "s153"
@@ -10485,8 +11009,8 @@
       "source": "akai-haato",
       "target": "unit:kamichamarose",
       "type": "member_of_named_unit",
-      "relation_id": "kamichamarose",
       "label": "KamichamaROZE",
+      "relation_id": "kamichamarose",
       "directed": false,
       "source_ids": [
         "s153"
@@ -12647,6 +13171,222 @@
       "source_ids": [
         "s240",
         "s241"
+      ]
+    },
+    {
+      "id": "pekomama_family",
+      "source": "pekomama",
+      "target": "usada-pekora",
+      "type": "family_mother_daughter",
+      "label": "Pekomama & Usada Pekora",
+      "relation_id": "pekomama_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-pekomama"
+      ]
+    },
+    {
+      "id": "mamatsuri_family",
+      "source": "mamatsuri",
+      "target": "natsuiro-matsuri",
+      "type": "family_mother_daughter",
+      "label": "Mamatsuri & Natsuiro Matsuri",
+      "relation_id": "mamatsuri_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mamatsuri"
+      ]
+    },
+    {
+      "id": "mamatori_family",
+      "source": "mamatori",
+      "target": "takanashi-kiara",
+      "type": "family_mother_daughter",
+      "label": "Mamatori & Takanashi Kiara",
+      "relation_id": "mamatori_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mamatori"
+      ]
+    },
+    {
+      "id": "mama-mori_family",
+      "source": "mama-mori",
+      "target": "mori-calliope",
+      "type": "family_mother_daughter",
+      "label": "Mama Mori & Mori Calliope",
+      "relation_id": "mama-mori_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mama-mori"
+      ]
+    },
+    {
+      "id": "mamarissa_family",
+      "source": "mamarissa",
+      "target": "nerissa-ravencroft",
+      "type": "family_mother_daughter",
+      "label": "Mamarissa & Nerissa Ravencroft",
+      "relation_id": "mamarissa_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mamarissa"
+      ]
+    },
+    {
+      "id": "mama-lillie_family",
+      "source": "mama-lillie",
+      "target": "kureiji-ollie",
+      "type": "family_mother_daughter",
+      "label": "Mama Lillie & Kureiji Ollie",
+      "relation_id": "mama-lillie_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mama-lillie"
+      ]
+    },
+    {
+      "id": "mami-shella_family",
+      "source": "mami-shella",
+      "target": "kobo-kanaeru",
+      "type": "family_mother_daughter",
+      "label": "Mami Shella & Kobo Kanaeru",
+      "relation_id": "mami-shella_family",
+      "directed": false,
+      "source_ids": [
+        "mom-source-mami-shella"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--pekomama",
+      "source": "pekomama",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--usada-pekora",
+      "source": "usada-pekora",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--shirogane-noel",
+      "source": "shirogane-noel",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--la-darknesss",
+      "source": "la-darknesss",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--kikirara-vivi",
+      "source": "kikirara-vivi",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--tokino-sora",
+      "source": "tokino-sora",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--otonose-kanade",
+      "source": "otonose-kanade",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_anniversary_2025--azki",
+      "source": "azki",
+      "target": "unit:pekomama_anniversary_2025",
+      "type": "member_of_named_unit",
+      "label": "Pekomama anniversary call-ins · 2025",
+      "relation_id": "pekomama_anniversary_2025",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-anniversary"
+      ]
+    },
+    {
+      "id": "pekomama_marine_birthday_2026--pekomama",
+      "source": "pekomama",
+      "target": "unit:pekomama_marine_birthday_2026",
+      "type": "member_of_named_unit",
+      "label": "Pekomama & Marine birthday collab · 2026",
+      "relation_id": "pekomama_marine_birthday_2026",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-marine"
+      ]
+    },
+    {
+      "id": "pekomama_marine_birthday_2026--usada-pekora",
+      "source": "usada-pekora",
+      "target": "unit:pekomama_marine_birthday_2026",
+      "type": "member_of_named_unit",
+      "label": "Pekomama & Marine birthday collab · 2026",
+      "relation_id": "pekomama_marine_birthday_2026",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-marine"
+      ]
+    },
+    {
+      "id": "pekomama_marine_birthday_2026--houshou-marine",
+      "source": "houshou-marine",
+      "target": "unit:pekomama_marine_birthday_2026",
+      "type": "member_of_named_unit",
+      "label": "Pekomama & Marine birthday collab · 2026",
+      "relation_id": "pekomama_marine_birthday_2026",
+      "directed": false,
+      "source_ids": [
+        "mom-source-peko-marine"
       ]
     }
   ],
@@ -15393,6 +16133,166 @@
       "title": "【SUPER MARIO MAKER 2】I'LL DO MY BEST!! LETS GO TEAM A: SUPER LADY!!【Hololive Indonesia 2nd Gen】",
       "supported_claims": [
         "Title names Team A SUPER LADY. THE SUPER LADIES!! description lists @TokinoSora (CUU4ki_5LEw), @Robocosan (vqBqiYrC8c0), @HimemoriLuna (gxc4UJTbbqs); owner Ollie is fourth. HOST POV @usadapekora is a separately credited host, not a member."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-pekomama",
+      "url": "https://www.youtube.com/watch?v=8RNfOikz3Is",
+      "title": "Pekomama debut on Pekora’s channel",
+      "supported_claims": [
+        "The stream description introduces Pekora’s mother as Pekora Mommy."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mamatsuri",
+      "url": "https://www.youtube.com/watch?v=MjPtXDAHeOs",
+      "title": "Real parent: Mama wants to be a VTuber — Natsuiro Matsuri",
+      "supported_claims": [
+        "Matsuri’s stream features her mother Mamatsuri; the description credits ままつり."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mamatori",
+      "url": "https://www.youtube.com/watch?v=hyJFOYkMMog",
+      "title": "Minecraft: Netherite mission with MAMATORI — Takanashi Kiara",
+      "supported_claims": [
+        "Kiara’s Minecraft stream with her real-life mother. Mamatori is used in the performer-owned stream title."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mama-mori",
+      "url": "https://www.youtube.com/watch?v=bsuLB-2xTj8",
+      "title": "Clubhouse 51 with My Mama — Mori Calliope",
+      "supported_claims": [
+        "Calliope’s channel explicitly presents a collaboration with her mother and credits the Mama Mori design."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mamarissa",
+      "url": "https://www.youtube.com/watch?v=RAvCm-mN8X0",
+      "title": "MAMARISSA DEBUT — Meet my mother",
+      "supported_claims": [
+        "Nerissa’s channel explicitly introduces her mother as Mamarissa."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mama-lillie",
+      "url": "https://www.youtube.com/watch?v=wcf5mqhHWNI",
+      "title": "Valentine’s stream — Kureiji Ollie",
+      "supported_claims": [
+        "Mama Lillie appears in Ollie’s Valentine stream; the source is linked from Karl’s Clips LDrpJ2VJm6Y."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-mami-shella",
+      "url": "https://game.udn.com/game/story/122089/7659863",
+      "title": "Kobo introduces her mother Shella on Mother’s Day",
+      "supported_claims": [
+        "Report identifies Shella as Kobo’s real mother and describes her public stream introduction. Secondary reporting; original stream not independently inspected."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "secondary"
+    },
+    {
+      "id": "mom-source-peko-anniversary",
+      "url": "https://www.youtube.com/watch?v=m-HUwl3MP-4",
+      "title": "Pekora sixth anniversary party with Mommy",
+      "supported_claims": [
+        "Pekora and Pekomama host call-ins from Noel, La+ Darknesss, Vivi, Sora, Kanade and AZKi on 17 July 2025."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-source-peko-marine",
+      "url": "https://dengekionline.com/article/202601/63014",
+      "title": "Pekomama and Marine first collaboration for Pekora’s birthday",
+      "supported_claims": [
+        "Dengeki reports Pekomama’s first collaboration with Marine on Pekora’s 12 January 2026 birthday stream."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "secondary"
+    },
+    {
+      "id": "mom-art-pekomama",
+      "url": "https://www.youtube.com/watch?v=8RNfOikz3Is",
+      "title": "Pekomama artwork source",
+      "supported_claims": [
+        "Pekomama debut thumbnail; model design by Hikosan."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-art-mamatsuri",
+      "url": "https://www.youtube.com/watch?v=MjPtXDAHeOs",
+      "title": "Mamatsuri artwork source",
+      "supported_claims": [
+        "Mamatsuri on the right of Matsuri’s mother collaboration thumbnail. Thumbnail credit: いよかん椛 / momomomomiZ."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-art-mamatori",
+      "url": "https://www.youtube.com/watch?v=hyJFOYkMMog",
+      "title": "Mamatori artwork source",
+      "supported_claims": [
+        "Mamatori is the adult phoenix in an apron on the left of Kiara’s Minecraft-with-Mamatori thumbnail. Thumbnail art credited to akira0053."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-art-mama-mori",
+      "url": "https://x.com/PokeyPokums/status/1519708628101459968",
+      "title": "Mama Mori artwork source",
+      "supported_claims": [
+        "Mama Mori artwork by PokeyPokums, linked in Calliope’s Clubhouse 51 stream. One stream-used design, not a single canonical model."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-art-mamarissa",
+      "url": "https://www.youtube.com/watch?v=RAvCm-mN8X0",
+      "title": "Mamarissa artwork source",
+      "supported_claims": [
+        "Mamarissa debut thumbnail, as published on Nerissa’s channel. The description links artwork posts by yomasaka and DasDokter."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "mom-art-mama-lillie",
+      "url": "https://www.youtube.com/watch?v=LDrpJ2VJm6Y",
+      "title": "Mama Lillie artwork source",
+      "supported_claims": [
+        "Mama Lillie’s on-stream avatar on the right of Karl’s Clips’ Valentine-stream excerpt. Clip links Ollie’s original stream wcf5mqhHWNI. Artist not independently identified."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "secondary"
+    },
+    {
+      "id": "mom-art-mami-shella",
+      "url": "https://x.com/anzailee1/status/1739220437610188813",
+      "title": "Mami Shella artwork source",
+      "supported_claims": [
+        "Mami Shella Ngaeru model illustration by anzai lee, posted by the artist for Kobo’s Mother’s Day stream."
       ],
       "accessed_on": "2026-10-07",
       "kind": "primary"

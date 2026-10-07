@@ -1,10 +1,18 @@
 /** The legacy alumni route flag includes all departed members. */
 export const isFormerTalent = (talent) => ["alum", "former"].includes(talent.status);
 
+export const isHololiveMom = (talent) => talent.status === "mom";
+export const isTalentVisible = (talent, { includeAlumni = true, includeMoms = false } = {}) =>
+  (includeAlumni || !isFormerTalent(talent)) && (includeMoms || !isHololiveMom(talent));
+export const isRelationVisible = (relation, { includeMoms = false } = {}) =>
+  includeMoms || !["family_mother_daughter", "family_guest_collaboration"].includes(relation.type);
+
 /** Explain the evidenced relationship without turning roleplay into a social claim. */
 export function relationTypeLabel(relation) {
   if (relation.provisional_name) return "Provisional collaboration name";
   const labels = {
+    family_mother_daughter: "Mother & daughter",
+    family_guest_collaboration: "Dated family guest collaboration",
     fictional_company_unit: "In-game roleplay company",
     game_origin_unit: "Game-origin collaboration unit",
     gaming_unit: "Named gaming team",
@@ -50,6 +58,7 @@ export function parseRoute(hash, data, topics = []) {
     selected: null,
     layout: "auto",
     includeAlumni: params.get("alumni") !== "0",
+    includeMoms: params.get("moms") === "1",
   };
   if (["auto", "force", "circle", "grid"].includes(params.get("layout")))
     route.layout = params.get("layout");
@@ -67,9 +76,10 @@ export function parseRoute(hash, data, topics = []) {
       });
       if (
         kind === "talent" &&
-        !route.includeAlumni &&
-        isFormerTalent(data.talents.find((t) => t.id === id))
+        !isTalentVisible(data.talents.find((t) => t.id === id), route)
       )
+        route.selected = null;
+      if (kind === "unit" && !isRelationVisible(data.relationships.find((r) => r.id === id), route))
         route.selected = null;
       return route;
     }
@@ -89,7 +99,7 @@ export function parseRoute(hash, data, topics = []) {
 /** Unit membership stays a group; filtering never fabricates pairwise friendships. */
 export function selectScope(
   data,
-  { mode, viewId, includeAlumni = true },
+  { mode, viewId, includeAlumni = true, includeMoms = false },
   topics = [],
 ) {
   let ids, relations;
@@ -118,12 +128,12 @@ export function selectScope(
   }
   const allowed = new Set(
     data.talents
-      .filter((t) => includeAlumni || !isFormerTalent(t))
+      .filter((t) => isTalentVisible(t, { includeAlumni, includeMoms }))
       .map((t) => t.id),
   );
   ids = new Set([...ids].filter((id) => allowed.has(id)));
   relations = relations.filter(
-    (r) => r.member_ids.filter((id) => ids.has(id)).length >=
+    (r) => isRelationVisible(r, { includeMoms }) && r.member_ids.filter((id) => ids.has(id)).length >=
       (r.member_ids.some((id) => id.startsWith("external:")) ? 1 : 2),
   );
   return { ids, relations };

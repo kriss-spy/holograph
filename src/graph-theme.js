@@ -29,7 +29,7 @@ export function graphThemeStyles(theme) {
         shape: "round-rectangle",
         "background-fit": "none",
         "background-width": "data(cropScale)",
-        "background-height": "data(cropScale)",
+        "background-height": "data(cropScaleY)",
         "background-position-x": "data(cropX)",
         "background-position-y": "data(cropY)",
         "background-clip": "node",

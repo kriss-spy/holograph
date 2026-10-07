@@ -63,3 +63,5 @@ Evidence coverage remains incomplete; a missing edge does not mean no relationsh
 This is an unofficial fan project. Portraits © COVER Corp.; artwork rights remain with their owners. Vendor license files ship with the site. Published on Vercel on 4 October 2026: https://hololive-connections-atlas.vercel.app/ . See `DEPLOYMENT.md` for the deployment record.
 
 The [dedicated Sora audit](research/sora-connection-audit.md) adds 28 primary-supported records (3 → 31 Sora connections; 155 relationships / 273 sources overall). Its [downloadable candidate ledger](research/sora-name-audit.json) preserves exact names, complete historical/external lineups and unresolved leads. See the JP, international and external primary reports for inspection boundaries.
+
+The optional **Include Hololive moms** filter adds seven public family guests as talent nodes in a separate browsing group. `moms=1` restores the filter in shared links. The default preserves the 80-member view. See [the moms evidence notes](research/hololive-moms.md); family ties and dated guest collaborations have distinct labels, and two secondary reports are explicitly identified.

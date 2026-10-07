@@ -35,7 +35,7 @@ function https(url) {
 }
 for (const t of data.talents) {
   assert(sets.cohorts.has(t.primary_cohort_id));
-  assert(["listed", "alum", "former", "affiliate"].includes(t.status));
+  assert(["listed", "alum", "former", "affiliate", "mom"].includes(t.status));
   if (t.status === "former") {
     assert.equal(t.departure_type, "contract_termination");
     assert(/^\d{4}-\d{2}-\d{2}$/.test(t.departure_date));
@@ -43,8 +43,14 @@ for (const t of data.talents) {
   }
   sourceIds(t.source_ids);
   https(t.official_profile);
-  https(t.portrait_url);
-  await access(new URL(`../public/assets/${t.id}.png`, import.meta.url));
+  if (t.status === "mom") {
+    assert.equal(t.primary_cohort_id, "hololive-moms");
+    assert(sets.talents.has(t.daughter_id) && t.source_ids.length && t.status_meaning);
+    assert([`${t.id}.jpg`, `${t.id}.png`].includes(t.portrait_asset));
+    https(t.portrait_url);
+    assert(t.portrait_credit && t.source_ids.includes(t.portrait_source_id));
+  } else https(t.portrait_url);
+  await access(new URL(`../public/assets/${t.portrait_asset || t.id + ".png"}`, import.meta.url));
 }
 const participants = new Map([...data.talents, ...(data.external_participants || [])]
   .map((participant) => [participant.id, participant]));

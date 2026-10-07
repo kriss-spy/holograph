@@ -5,7 +5,7 @@ import fcose from "cytoscape-fcose";
 import * as AtlasLayout from "./graph-layout.js";
 import D from "../data/hololive-relations.json";
 import { portraits, portraitDefault } from "./portraits.js";
-import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, relationTypeLabel, selectScope } from "./model.js";
+import { cohortAffiliations, displayCohortId, isHololiveMom, isTalentVisible, isRelationVisible, matchesDirectory, parseRoute, relationTypeLabel, selectScope } from "./model.js";
 cytoscape.use(fcose);
 const $ = (s) => document.querySelector(s),
   T = new Map(D.talents.map((t) => [t.id, t])),
@@ -84,13 +84,14 @@ const esc = (s) =>
         c
       ],
   );
-const img = (t) => "assets/" + t.id + ".png";
+const img = (t) => "assets/" + (t.portrait_asset || t.id + ".png");
 const crop = (t) => portraits[t.id] || portraitDefault;
 function avatar(t, extra = "") {
   const c = crop(t);
-  return `<span class="avatar ${extra}" aria-hidden="true" style="background-image:url('${img(t)}');background-size:${c.scale}%;background-position:${c.x}% ${c.y}%"></span>`;
+  return `<span class="avatar ${extra}" aria-hidden="true" style="background-image:url('${img(t)}');background-size:${c.scale}% ${c.scaleY || c.scale}%;background-position:${c.x}% ${c.y}%"></span>`;
 }
-const visibleStatus = (t) => $("#alumni").checked || !isFormerTalent(t);
+const visibility = () => ({ includeAlumni: $("#alumni").checked, includeMoms: $("#moms").checked });
+const visibleStatus = (t) => isTalentVisible(t, visibility());
 const affiliations = (t) => cohortAffiliations(D, t.id);
 const affiliationLabel = (m) => m.label + (m.historical ? " (historical)" : "");
 const niceType = relationTypeLabel;
@@ -117,6 +118,7 @@ function portraitElement(t, position, parent) {
       color: C.get(placement)?.color || "#cfe9f7",
       image: img(t),
       cropScale: crop(t).scale + "%",
+      cropScaleY: (crop(t).scaleY || crop(t).scale) + "%",
       cropX: crop(t).x + "%",
       cropY: crop(t).y + "%",
       ...(parent ? { parent } : {}),
@@ -132,7 +134,7 @@ function scope() {
     {
       mode,
       viewId: mode === "cohort" ? $("#cohort").value : viewId,
-      includeAlumni: $("#alumni").checked,
+      ...visibility(),
     },
     TOPICS,
   );
@@ -142,7 +144,17 @@ function draw() {
   const { ids, relations } = scope(),
     els = [];
   if (mode === "person" && !ids.has(viewId)) {
-    $("#notice").textContent = "This talent is hidden. Enable Include former members to show their historical record.";
+    $("#notice").textContent = isHololiveMom(T.get(viewId))
+      ? "This mom is hidden. Enable Include Hololive moms to show her connections."
+      : "This talent is hidden. Enable Include former members to show their historical record.";
+    $("#notice").hidden = false;
+  }
+  if (mode === "unit" && !isRelationVisible(R.get(viewId), visibility())) {
+    $("#notice").textContent = "This connection is hidden. Enable Include Hololive moms to show it.";
+    $("#notice").hidden = false;
+  }
+  if (mode === "cohort" && viewId === "hololive-moms" && !$("#moms").checked) {
+    $("#notice").textContent = "Enable Include Hololive moms to explore this group.";
     $("#notice").hidden = false;
   }
   const atlas = mode === "all" || mode === "cohort";
@@ -221,7 +233,7 @@ function draw() {
           id: "edge:" + r.id,
           source: mids[0],
           target: mids[1],
-          label: shortLabels[r.id],
+          label: r.type === "family_mother_daughter" ? "Mother & daughter" : shortLabels[r.id],
           labelOffset: i % 2 ? 18 : -18,
           relation: r.id,
         },
@@ -370,7 +382,7 @@ function mark() {
 function showDetails() {
   const box = $("#inspector");
   if (!selected) {
-    box.innerHTML = `<p class="type">${mode === "cohort" ? "Cohort overview" : "Atlas overview"}</p><h2>Explore the connections</h2><p>Select a portrait, unit or connection to read its sources. Choose a topic above for a curated view.</p><h3>In this view</h3><p>${esc($("#map-count").textContent)}</p><p class="coverage-note">This is a researched selection. Zero recorded ties means a coverage gap, not an absence of relationships.</p><h3>Reading the map</h3><p>Pastel regions show cohorts. Solid lines name duos; dotted lines show unit membership.</p><p>Use the scroll wheel or + / − to zoom toward a portrait. Drag the background to pan.</p>`;
+    box.innerHTML = `<p class="type">${mode === "cohort" ? "Cohort overview" : "Atlas overview"}</p><h2>Explore the connections</h2><p>Select a portrait, unit or connection to read its sources. Choose a topic above for a curated view.</p><h3>In this view</h3><p>${esc($("#map-count").textContent)}</p><p class="coverage-note">This is a researched selection. Zero recorded ties means a coverage gap, not an absence of relationships.</p><h3>Reading the map</h3><p>Pastel regions show cohorts. Solid lines show duos or family ties; dotted lines show unit membership.</p><p>Use the scroll wheel or + / − to zoom toward a portrait. Drag the background to pan.</p>`;
     if (mode === "cohort") {
       const cohort = D.cohorts.find((c) => c.id === $("#cohort").value);
       box.insertAdjacentHTML("beforeend", cohortContext([cohort.id]));
@@ -394,10 +406,10 @@ function showDetails() {
       )}</div>${r.member_ids.some((id) => G.has(id)) ? '<p class="coverage-note">The complete lineup includes guests outside the Hololive portrait roster. The graph shows the members in the selected roster.</p>' : ''}<p>${esc(r.claim)}</p>${r.id === "okakoro" ? "<p>Both belong to hololive GAMERS. Fubuki also describes the six members of OKFAMS, including Okayu and Korone, as close friends.</p>" : ""}<h3>When this was documented</h3><p class="time">${esc(r.time_scope)}</p><h3>Evidence</h3><ul class="sources">${r.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><small>${esc(s.evidence)}</small></li>`).join("")}${r.id === "okakoro" ? '<li><a href="https://hololive.hololivepro.com/en/talents/shirakami-fubuki/" target="_blank" rel="noopener">Fubuki’s official Q&A</a><small>Public description of the six-person OKFAMS friendship group.</small></li>' : ""}</ul><p style="font-size:10px">A documented collaboration is not a measure of personal closeness. Historical records remain visible.</p>`;
   } else {
     const t = T.get(selected.id),
-      rs = D.relationships.filter((r) => r.member_ids.includes(t.id)),
+      rs = D.relationships.filter((r) => r.member_ids.includes(t.id) && isRelationVisible(r, visibility())),
       cs = affiliations(t);
-    const statusLabel = t.status === "listed" ? "Listed talent" : t.status === "alum" ? "Alum" : t.status === "former" ? "Former member · contract terminated" : "Affiliate";
-    box.innerHTML = `${avatar(t, "portrait")}<p class="type">Talent</p><h2>${esc(t.name_en)}</h2><p>${esc(t.name_ja)}</p><span class="badge ${t.status}">${statusLabel}</span>${t.status === "former" ? `<p>Contract terminated ${esc(t.departure_date)}. This historical record remains available after departure.</p>` : ""}<h3>Cohorts</h3>${cs.map((m) => `<button class="relation-link" data-cohort="${esc(m.cohort_id)}">${esc(affiliationLabel(m))}</button>`).join("")}${cohortContext(cs.map((m) => m.cohort_id))}<h3>Recorded connections</h3>${rs.length ? rs.map((r) => `<button class="relation-link" data-unit="${r.id}">${esc(shortLabels[r.id])}</button>`).join("") : "<p>No named ties have been researched for this talent in this selection. This does not mean they have no connections.</p>"}<h3>Sources</h3><ul class="sources">${t.source_ids.map((id) => {
+    const statusLabel = t.status === "mom" ? "Hololive mom · family guest" : t.status === "listed" ? "Listed talent" : t.status === "alum" ? "Alum" : t.status === "former" ? "Former member · contract terminated" : "Affiliate";
+    box.innerHTML = `${avatar(t, "portrait")}<p class="type">Talent</p><h2>${esc(t.name_en)}</h2><p>${esc(t.name_ja)}</p><span class="badge ${t.status}">${statusLabel}</span>${isHololiveMom(t) ? `<p>${esc(t.status_meaning)}</p>` : ""}${t.status === "former" ? `<p>Contract terminated ${esc(t.departure_date)}. This historical record remains available after departure.</p>` : ""}<h3>Cohorts</h3>${cs.map((m) => `<button class="relation-link" data-cohort="${esc(m.cohort_id)}">${esc(affiliationLabel(m))}</button>`).join("")}${cohortContext(cs.map((m) => m.cohort_id))}<h3>Recorded connections</h3>${rs.length ? rs.map((r) => `<button class="relation-link" data-unit="${r.id}">${esc(shortLabels[r.id])}</button>`).join("") : "<p>No named ties have been researched for this talent in this selection. This does not mean they have no connections.</p>"}<h3>Sources</h3>${t.portrait_credit ? `<p class="artwork-credit">${esc(t.portrait_credit)}</p>` : ""}<ul class="sources">${t.source_ids.map((id) => {
       const s = D.sources.find((s) => s.id === id);
       return `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></li>`;
     }).join("")}</ul>`;
@@ -430,16 +442,20 @@ function chooseCohort(id) {
   refresh();
 }
 function renderDirectory() {
+  $("#units-tab span").textContent = D.relationships.filter((r) => isRelationVisible(r, visibility())).length;
+  const visibleTalents = D.talents.filter(visibleStatus).length;
+  $("#people-tab span").textContent = visibleTalents;
+  $("#all").textContent = "All " + visibleTalents + " talents";
   $("#clear-search").hidden = !$("#search").value;
   const q = $("#search").value.trim().toLocaleLowerCase();
   let items = directory === "units" ? D.relationships : D.talents;
-  items = items.filter((x) => (directory === "units" || visibleStatus(x)) && matchesDirectory(x, q, shortLabels[x.id]));
+  items = items.filter((x) => (directory === "units" ? isRelationVisible(x, visibility()) : visibleStatus(x)) && matchesDirectory(x, q, shortLabels[x.id]));
   $("#results").innerHTML =
     items
       .map((x) =>
         directory === "units"
           ? `<button class="result ${selected?.id === x.id ? "active" : ""}" data-unit="${x.id}"><i class="unit-dot ${x.member_ids.length === 2 ? "duo" : ""}"></i><span>${esc(shortLabels[x.id])}<small>${x.member_ids.length} talents${x.type === "media_project_cast" ? " · historical cast" : ""}</small></span></button>`
-          : `<button class="result ${selected?.id === x.id ? "active" : ""}" data-person="${x.id}">${avatar(x)}<span>${esc(x.name_en)}<small>${esc(affiliations(x).map(affiliationLabel).join(" · "))}${x.status !== "listed" ? " · " + (x.status === "former" ? "former member" : x.status) : ""}</small></span></button>`,
+          : `<button class="result ${selected?.id === x.id ? "active" : ""}" data-person="${x.id}">${avatar(x)}<span>${esc(x.name_en)}<small>${esc(affiliations(x).map(affiliationLabel).join(" · "))}${x.status !== "listed" ? " · " + (x.status === "former" ? "former member" : x.status === "mom" ? "family guest" : x.status) : ""}</small></span></button>`,
       )
       .join("") ||
     '<p class="empty">No matches. Try another name or switch between talents and units.</p>';
@@ -499,8 +515,10 @@ $("#all").onclick = () => {
 $("#cohort").onchange = () => {
   chooseCohort($("#cohort").value);
 };
-$("#alumni").onchange = () => {
+$("#alumni").onchange = $("#moms").onchange = () => {
   if (selected?.kind === "talent" && !visibleStatus(T.get(selected.id)))
+    selected = null;
+  if (selected?.kind === "unit" && !isRelationVisible(R.get(selected.id), visibility()))
     selected = null;
   saveRoute();
   refresh();
@@ -615,6 +633,7 @@ function saveRoute() {
   const params = new URLSearchParams();
   if ($("#layout").value !== "auto") params.set("layout", $("#layout").value);
   if (!$("#alumni").checked) params.set("alumni", "0");
+  if ($("#moms").checked) params.set("moms", "1");
   const hash = "#" + head + (params.size ? "&" + params : "");
   if (location.hash !== hash) history.pushState(null, "", hash);
 }
@@ -626,6 +645,7 @@ function restoreRoute() {
   $("#cohort").value = mode === "cohort" ? viewId : "";
   $("#layout").value = route.layout;
   $("#alumni").checked = route.includeAlumni;
+  $("#moms").checked = route.includeMoms;
   refresh();
 }
 window.addEventListener("hashchange", () => {

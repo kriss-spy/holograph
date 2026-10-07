@@ -44,7 +44,7 @@ test("Alumni filtering removes departed portraits and preserves documented guest
   const scope = selectScope(data, { mode: "all", includeAlumni: false });
   assert.equal(
     scope.ids.size,
-    data.talents.filter((t) => !isFormerTalent(t)).length,
+    data.talents.filter((t) => !isFormerTalent(t) && t.status !== "mom").length,
   );
   assert(
     scope.relations.every(
