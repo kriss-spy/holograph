@@ -41,7 +41,7 @@
       "s002",
       "s003"
     ],
-    "relationships_updated_on": "2026-10-06",
+    "relationships_updated_on": "2026-10-07",
     "historical_roster_updated_on": "2026-10-06"
   },
   "talents": [
@@ -5230,6 +5230,1041 @@
       "source_ids": [
         "s153"
       ]
+    },
+    {
+      "id": "azuiro",
+      "label": "AzuIro",
+      "aliases": [
+        "あずいろ"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "kazama-iroha"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2022-10-02; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=ioIDjX5MVfI",
+          "title": "【歌枠】#あずいろ コラボ歌枠！SINGING STREAM【ホロライブ / AZKi / 風真いろは】",
+          "evidence": "AZKi Channel title explicitly uses あずいろ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Kazama Iroha"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s163"
+      ]
+    },
+    {
+      "id": "azumion",
+      "label": "AzuMion",
+      "aliases": [
+        "あずみぉーん"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "ookami-mio"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2025-08-18; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=cX-Wir_k3cE",
+          "title": "【告知あり！】あずみぉーんのマシュマロ雑談 inミオ宅【 ホロライブ / 大神ミオ・AZKi 】",
+          "evidence": "Mio title prints あずみぉーん and AZKi/大神ミオ; description explicitly lists the two under あずみぉーん and prints #あずみぉーん."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Ookami Mio"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s164"
+      ]
+    },
+    {
+      "id": "fubuaz",
+      "label": "FubuAZ",
+      "aliases": [
+        "フブあず"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "shirakami-fubuki"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2024-01-18; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=z9uJZcT3Rho",
+          "title": "【歌枠】#フブあず 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 白上フブキ】",
+          "evidence": "AZKi Channel title explicitly uses フブあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Shirakami Fubuki"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s165"
+      ]
+    },
+    {
+      "id": "wataaz",
+      "label": "WataAZ",
+      "aliases": [
+        "わたあず"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "tsunomaki-watame"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2022-05-19; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=hvB26v6rBxA",
+          "title": "【歌枠】今宵は #わたあず Night Fever !!【 AZKi / 角巻わため】",
+          "evidence": "AZKi Channel title explicitly uses わたあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Tsunomaki Watame"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s166"
+      ]
+    },
+    {
+      "id": "kanaaz",
+      "label": "KanaAZ",
+      "aliases": [
+        "かなあず"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "amane-kanata"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2023-12-14; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=JmIy63FIDpQ",
+          "title": "お願い！シンデレラ #AZKi #天音かなた #歌ってみた #cover #ホロライブ #hololive #かなあず #デレステ #アイドルマスター #異次元フェス",
+          "evidence": "AZKi short title prints #かなあず, #AZKi and #天音かなた; Vocal credit explicitly lists AZKi × 天音かなた and @AmaneKanata."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Amane Kanata"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s167"
+      ]
+    },
+    {
+      "id": "koyoaz",
+      "label": "KoyoAZ",
+      "aliases": [
+        "こよあず"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "hakui-koyori"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2023-04-08; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=BBayF16LA5I",
+          "title": "【歌枠】#こよあず 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 博衣こより】",
+          "evidence": "AZKi Channel title explicitly uses こよあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Hakui Koyori"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s168"
+      ]
+    },
+    {
+      "id": "sakazuki",
+      "label": "Sakazuki",
+      "aliases": [
+        "さかずき"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "sakamata-chloe"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2023-07-18; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=4P8JxEDvCYE",
+          "title": "【歌枠】#さかずき 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 沙花叉クロヱ】",
+          "evidence": "AZKi Channel title explicitly uses さかずき and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Sakamata Chloe"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s169"
+      ]
+    },
+    {
+      "id": "azrys",
+      "label": "AZRyS",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "irys"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2022-10-12; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=qBUNfuVwKuc",
+          "title": "【歌枠】#AZRyS Collab KARAOKE！SINGING STREAM 【ホロライブ / AZKi / IRyS】",
+          "evidence": "AZKi Channel title explicitly uses AZRyS and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "IRyS"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s170"
+      ]
+    },
+    {
+      "id": "azbae",
+      "label": "AZBae",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "hakos-baelz"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2023-11-27; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=abSKWPWUBCM",
+          "title": "【歌枠】#AZBae Collab KARAOKE！SINGING STREAM 【ホロライブ / AZKi / Hakos Baelz】",
+          "evidence": "AZKi Channel title explicitly uses AZBae and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Hakos Baelz"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s171"
+      ]
+    },
+    {
+      "id": "azunose",
+      "label": "AzuNose",
+      "aliases": [
+        "あずのせ"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "otonose-kanade"
+      ],
+      "claim": "Performer-used named duo for a documented collaboration.",
+      "time_scope": "Documented 2024-03-27; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=oH9B9bNB7ks",
+          "title": "【歌枠】#あずのせ 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 音乃瀬奏】",
+          "evidence": "AZKi Channel title explicitly uses あずのせ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "AZKi",
+        "Otonose Kanade"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s172"
+      ]
+    },
+    {
+      "id": "roaris",
+      "label": "RoARiS",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "roboco-san",
+        "azki",
+        "mizumiya-su",
+        "isaki-riona"
+      ],
+      "claim": "Performer-used named four-member group for a documented collaboration.",
+      "time_scope": "Documented 2026-06-07; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=jG-EPYQ4V9g",
+          "title": "【 桃太郎電鉄２ 】RoARiSで仲良く桃鉄やるぞっ🎵【ロボ子先輩 AZKi先輩 水宮枢 響咲リオナ】",
+          "evidence": "Riona title prints RoARiS and all four names (Roboco, AZKi, Mizumiya Su and Isaki Riona); description lists RoARiS followed by the other three channel handles."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Robocosan",
+        "AZKi",
+        "Mizumiya Su",
+        "Isaki Riona"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s173"
+      ]
+    },
+    {
+      "id": "ririkana",
+      "label": "りりかな",
+      "aliases": [
+        "Ririkana"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "ichijou-ririka",
+        "otonose-kanade"
+      ],
+      "claim": "Talent/official upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2025-07-07; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=vu2eawKYuek",
+          "title": "シャーってするりりかな #shorts #ReGLOSS #Vtuber #一条莉々華 #音乃瀬奏",
+          "evidence": "Official title uses りりかな and tags Ririka and Kanade; description separates the two cast members from the broader cohort roster."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Ichijou Ririka",
+        "Otonose Kanade"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s174"
+      ]
+    },
+    {
+      "id": "ririraden",
+      "label": "りりらでん",
+      "aliases": [
+        "Ririraden"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "ichijou-ririka",
+        "juufuutei-raden"
+      ],
+      "claim": "Talent/official upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-07-13; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=KBBKr1_qv20",
+          "title": "【日本酒の会】らでんの好きな日本酒を集めました～福島編～ #りりらでん酒盛 【一条莉々華/儒烏風亭らでん 】",
+          "evidence": "Talent title uses りりらでん酒盛 and names Ririka/Raden; description also identifies Ririka as the guest. This supports the named collaboration context."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Ichijou Ririka",
+        "Juufuutei Raden"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s175"
+      ]
+    },
+    {
+      "id": "radehaji",
+      "label": "21歳拳で組",
+      "aliases": [
+        "らではじ",
+        "21-sai Kobushi de Gumi"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent/official upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-03-31, 2024-11-17; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=jugLFagTjUg",
+          "title": "【#らではじフルーツ決戦】21歳拳で組、スイカゲームオフライン対戦【轟はじめ/儒烏風亭らでん】",
+          "evidence": "Title explicitly names 21歳拳で組 and its two members Hajime and Raden."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GzfOVWWkv9c",
+          "title": "【雑談】らではじ定期旅行記～行先ヒント：ラッコとフラメンコ～【儒烏風亭らでん/轟はじめ #ReGLOSS 】",
+          "evidence": "Title uses らではじ for the same Raden/Hajime duo, supporting alias consolidation rather than a second entity."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Juufuutei Raden",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s176",
+        "s177"
+      ]
+    },
+    {
+      "id": "aho3",
+      "label": "AHO3",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent/official upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-01-25; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=I3uDHmtLjss",
+          "title": "【Minecraft】#AHO3 でイカトラップをつくる！！ｲｶｲｶ【音乃瀬奏・火威青・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Title explicitly uses AHO3 and names Kanade, Ao and Hajime; description lists their channel handles under AHO3."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Hiodoshi Ao",
+        "Otonose Kanade",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s178"
+      ]
+    },
+    {
+      "id": "shachou-banchou-kuchihacchou",
+      "label": "社長番長口八丁",
+      "aliases": [
+        "Shachou Banchou Kuchihacchou"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "ichijou-ririka",
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent/official upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-04-13; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=5Z6EiX44EMs",
+          "title": "【Puzzle Together 】まったり雑談にジグソーパズルを添えて【 #社長番長口八丁 】",
+          "evidence": "Title names the trio. Description maps 番長 to Hajime, 社長 to Ririka and 口八丁 to the uploader Raden."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Ichijou Ririka",
+        "Juufuutei Raden",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s179"
+      ]
+    },
+    {
+      "id": "momosuzu-family",
+      "label": "Momosuzu Family",
+      "aliases": [
+        "桃鈴家",
+        "Momosuzu-ke"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "sakuramiko",
+        "yozora-mel",
+        "momosuzu-nene"
+      ],
+      "claim": "Nene uses 桃鈴家 for the three-person collaboration with Sakura Miko and Yozora Mel.",
+      "time_scope": "Documented 2023-09-28; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ecn2uykQcUM",
+          "title": "桃鈴家、Party Animalsに挑むの巻！【 さくらみこ / 夜空メル / 桃鈴ねね 】",
+          "evidence": "Nene-owned title uses 桃鈴家 and explicitly names Sakura Miko, Yozora Mel and Momosuzu Nene; description repeats #桃鈴家 and tags Miko/Mel."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Sakura Miko",
+        "Yozora Mel",
+        "Momosuzu Nene"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s180"
+      ]
+    },
+    {
+      "id": "dabuchizu",
+      "label": "Dabuchizu",
+      "aliases": [
+        "だぶちーず",
+        "Dabucheese",
+        "Dabuchiizu"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "sakuramiko",
+        "momosuzu-nene"
+      ],
+      "claim": "Miko uses だぶちーず for the two-person collaboration with Momosuzu Nene.",
+      "time_scope": "Documented 2026-03-25; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ocqg-RpQURY",
+          "title": "【 #だぶちーず 】ねねちみこち！だぶちーず！非公式wiki調査するぞおおおおおおお！🔎🍑🌸【ホロライブ/さくらみこ】",
+          "evidence": "Miko-owned title uses #だぶちーず and ねねちみこち; description links @MomosuzuNene and repeats #だぶちーず."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Sakura Miko",
+        "Momosuzu Nene"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s181"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu",
+      "label": "Dorobou Kensetsu",
+      "aliases": [
+        "泥棒建設",
+        "Dorobo Construction"
+      ],
+      "type": "fictional_company_unit",
+      "member_ids": [
+        "nekomata-okayu",
+        "takane-lui",
+        "ookami-mio",
+        "shirakami-fubuki",
+        "la-darknesss",
+        "inugami-korone"
+      ],
+      "claim": "Minecraft roleplay company founded by Okayu and Lui, with Mio, Fubuki, La+ Darknesss and Korone; official voice drama documents the complete six-person lineup.",
+      "time_scope": "Documented 2024-07-25; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://shop.hololivepro.com/products/hololive_doroboconstructionvoice",
+          "title": "ホロライブ 泥棒建設ボイス",
+          "evidence": "Official shop synopsis explicitly describes Okayu and Lui founding 泥棒建設 and Mio, Fubuki, La+ Darknesss and Korone joining; participant list repeats all six; sale date 2024-07-25."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=p6J2cG4cYEw",
+          "title": "【新ボイス発表】我ら泥棒建設！",
+          "evidence": "Official voice announcement names 泥棒建設, release date 2024-07-25 and all six participating talents."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9KeOwt7xHyA",
+          "title": "【 Minecraft 】はじめての面接!?ようこそ泥棒建設へ――【 #泥棒建設 】",
+          "evidence": "Okayu Minecraft title uses #泥棒建設; description labels Lui, Mio, Fubuki and La+ as company members and Korone as the interview applicant, establishing Minecraft roleplay context without asserting recruitment timing."
+        },
+        {
+          "url": "https://shop.hololivepro.com/en/products/hololive_doroboconstructionvoice",
+          "title": "hololive Dorobo Construction Voice Drama",
+          "evidence": "Official English shop names the voice drama Dorobo Construction and lists all six performers."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Nekomata Okayu",
+        "Takane Lui",
+        "Ookami Mio",
+        "Shirakami Fubuki",
+        "La+ Darknesss",
+        "Inugami Korone"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "kanaazukoro",
+      "label": "KanaAzuKoro",
+      "aliases": [
+        "かなあずころ"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "amane-kanata",
+        "azki",
+        "inugami-korone"
+      ],
+      "claim": "Named three-person gaming collaboration; membership does not imply friendship.",
+      "time_scope": "Documented 2025-04-15; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=bExr7NEqNwQ",
+          "title": "【mocopi 3Dオフコラボ】#かなあずころ ケツバトラーで対決だ！！！！！【ホロライブ / AZKi / 天音かなた / 戌神ころね】",
+          "evidence": "AZKi target title prints #かなあずころ and names AZKi, Amane Kanata and Inugami Korone; uploader description links Kanata and Korone."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Amane Kanata",
+        "AZKi",
+        "Inugami Korone"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s185"
+      ]
+    },
+    {
+      "id": "robomiotaru",
+      "label": "RoboMioTaru",
+      "aliases": [
+        "ロボミオタール"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "roboco-san",
+        "ookami-mio",
+        "aki-rosenthal"
+      ],
+      "claim": "Named three-person collaboration for a documented fortune-telling stream.",
+      "time_scope": "Documented 2025-01-23; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=-jDyV9vW8WA",
+          "title": "【出張占い🔮】ロボタールの今年の運勢をビッグゴッドミオーン先生に占ってもらう＞＜【#ホロライブ  #ロボミオタール 】",
+          "evidence": "Roboco target title and description print #ロボミオタール; uploader description explicitly identifies collaborators @AkiRosenthal and @OokamiMio."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Robocosan",
+        "Ookami Mio",
+        "Aki Rosenthal"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s186"
+      ]
+    },
+    {
+      "id": "azulamy-koro",
+      "label": "AzuLamyKoro",
+      "aliases": [
+        "あずらみころ"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "azki",
+        "inugami-korone",
+        "yukihana-lamy"
+      ],
+      "members": [
+        "AZKi",
+        "Inugami Korone",
+        "Yukihana Lamy"
+      ],
+      "claim": "Performer-used name for a documented public collaboration.",
+      "time_scope": "Documented 2026-09-18; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
+          "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
+          "evidence": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s187"
+      ]
+    },
+    {
+      "id": "akisuba",
+      "label": "AkiSuba",
+      "aliases": [
+        "アキスバ"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "aki-rosenthal",
+        "oozora-subaru"
+      ],
+      "members": [
+        "Aki Rosenthal",
+        "Oozora Subaru"
+      ],
+      "claim": "Performer-used name for a documented public collaboration.",
+      "time_scope": "Documented 2018-10-03; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Im-5c35I5F4",
+          "title": "アキスバッ！企画考えたりする雑談【初コラボ】",
+          "evidence": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s188"
+      ]
+    },
+    {
+      "id": "aohaje",
+      "label": "あおはじぇ",
+      "aliases": [
+        "Aohaje"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "hiodoshi-ao",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-01-21; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=0nKvLHnGFJA",
+          "title": "【#あおはじぇ】オフコラボ…これが、青春ですか？そうだよ！【火威青／轟はじめ 】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Talent-owned title explicitly uses あおはじぇ and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Hiodoshi Ao",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s190"
+      ]
+    },
+    {
+      "id": "aoraden",
+      "label": "あおらでん",
+      "aliases": [
+        "Aoraden"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "hiodoshi-ao",
+        "juufuutei-raden"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-01-31; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=VG-gPShtYWU",
+          "title": "【#あおらでん】最高～！！【火威青／儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Talent-owned title explicitly uses あおらでん and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Hiodoshi Ao",
+        "Juufuutei Raden"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s191"
+      ]
+    },
+    {
+      "id": "aokana",
+      "label": "あおかな",
+      "aliases": [
+        "Aokana"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-01-20; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=4pw9GhX85WQ",
+          "title": "【オフコラボ】ゲリラあおかな【音乃瀬奏・火威青】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Talent-owned title explicitly uses あおかな and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Hiodoshi Ao",
+        "Otonose Kanade"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s192"
+      ]
+    },
+    {
+      "id": "naderade",
+      "label": "なでらで",
+      "aliases": [
+        "Naderade"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "otonose-kanade",
+        "juufuutei-raden"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-12-23; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=XWqESSMpuh4",
+          "title": "【 オフコラボ 】#なでらで で晩酌！マシュマロ食べながらしゃべっていくよ～！【音乃瀬奏・儒烏風亭らでん】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Talent-owned title explicitly uses なでらで and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Otonose Kanade",
+        "Juufuutei Raden"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s193"
+      ]
+    },
+    {
+      "id": "kanahaji",
+      "label": "かなはじ",
+      "aliases": [
+        "Kanahaji"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "otonose-kanade",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-05-21; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Lb7ewSw3VkU",
+          "title": "【 #かなはじ 】ぼたん先輩から誕プレでいただいたうまい棒を一緒に食べるよー！！【音乃瀬奏・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Talent-owned title explicitly uses かなはじ and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Otonose Kanade",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s194"
+      ]
+    },
+    {
+      "id": "ririhaji",
+      "label": "りりはじ",
+      "aliases": [
+        "Ririhaji"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2024-07-17; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=yYp6UNsQjyw",
+          "title": "【モンスターハンターパズル アイルーアイランド】#りりはじ のジーニアスはあります！遊ぶぞー！！【#一条莉々華 #轟はじめ #ReGLOSS 】",
+          "evidence": "Talent-owned title explicitly uses りりはじ and names the duo members."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Ichijou Ririka",
+        "Todoroki Hajime"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s195"
+      ]
+    },
+    {
+      "id": "aoriri",
+      "label": "あおりり",
+      "aliases": [
+        "Aoriri"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka"
+      ],
+      "claim": "Talent-owned upload explicitly uses this collaboration name for the listed members.",
+      "time_scope": "Documented 2023-12-13; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=7f6Ayn40Z2g",
+          "title": "【VCRGTA2】#4 あおりりの作戦が始まる【火威青 #hololiveDEV_IS #ReGLOSS 】",
+          "evidence": "Ao-owned title uses あおりり; its description explicitly says today’s collaborator is 莉々華ちゃん, establishing Ao/Ririka."
+        }
+      ],
+      "confidence": "high",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "members": [
+        "Hiodoshi Ao",
+        "Ichijou Ririka"
+      ],
+      "direction": "undirected",
+      "source_ids": [
+        "s196"
+      ]
     }
   ],
   "render_edges": [
@@ -7110,6 +8145,625 @@
       "source_ids": [
         "s153"
       ]
+    },
+    {
+      "id": "azuiro",
+      "source": "azki",
+      "target": "kazama-iroha",
+      "type": "named_duo",
+      "label": "AzuIro",
+      "relation_id": "azuiro",
+      "directed": false,
+      "source_ids": [
+        "s163"
+      ]
+    },
+    {
+      "id": "azumion",
+      "source": "azki",
+      "target": "ookami-mio",
+      "type": "named_duo",
+      "label": "AzuMion",
+      "relation_id": "azumion",
+      "directed": false,
+      "source_ids": [
+        "s164"
+      ]
+    },
+    {
+      "id": "fubuaz",
+      "source": "azki",
+      "target": "shirakami-fubuki",
+      "type": "named_duo",
+      "label": "FubuAZ",
+      "relation_id": "fubuaz",
+      "directed": false,
+      "source_ids": [
+        "s165"
+      ]
+    },
+    {
+      "id": "wataaz",
+      "source": "azki",
+      "target": "tsunomaki-watame",
+      "type": "named_duo",
+      "label": "WataAZ",
+      "relation_id": "wataaz",
+      "directed": false,
+      "source_ids": [
+        "s166"
+      ]
+    },
+    {
+      "id": "kanaaz",
+      "source": "azki",
+      "target": "amane-kanata",
+      "type": "named_duo",
+      "label": "KanaAZ",
+      "relation_id": "kanaaz",
+      "directed": false,
+      "source_ids": [
+        "s167"
+      ]
+    },
+    {
+      "id": "koyoaz",
+      "source": "azki",
+      "target": "hakui-koyori",
+      "type": "named_duo",
+      "label": "KoyoAZ",
+      "relation_id": "koyoaz",
+      "directed": false,
+      "source_ids": [
+        "s168"
+      ]
+    },
+    {
+      "id": "sakazuki",
+      "source": "azki",
+      "target": "sakamata-chloe",
+      "type": "named_duo",
+      "label": "Sakazuki",
+      "relation_id": "sakazuki",
+      "directed": false,
+      "source_ids": [
+        "s169"
+      ]
+    },
+    {
+      "id": "azrys",
+      "source": "azki",
+      "target": "irys",
+      "type": "named_duo",
+      "label": "AZRyS",
+      "relation_id": "azrys",
+      "directed": false,
+      "source_ids": [
+        "s170"
+      ]
+    },
+    {
+      "id": "azbae",
+      "source": "azki",
+      "target": "hakos-baelz",
+      "type": "named_duo",
+      "label": "AZBae",
+      "relation_id": "azbae",
+      "directed": false,
+      "source_ids": [
+        "s171"
+      ]
+    },
+    {
+      "id": "azunose",
+      "source": "azki",
+      "target": "otonose-kanade",
+      "type": "named_duo",
+      "label": "AzuNose",
+      "relation_id": "azunose",
+      "directed": false,
+      "source_ids": [
+        "s172"
+      ]
+    },
+    {
+      "id": "roaris--roboco-san",
+      "source": "roboco-san",
+      "target": "unit:roaris",
+      "type": "member_of_named_unit",
+      "label": "RoARiS",
+      "relation_id": "roaris",
+      "directed": false,
+      "source_ids": [
+        "s173"
+      ]
+    },
+    {
+      "id": "roaris--azki",
+      "source": "azki",
+      "target": "unit:roaris",
+      "type": "member_of_named_unit",
+      "label": "RoARiS",
+      "relation_id": "roaris",
+      "directed": false,
+      "source_ids": [
+        "s173"
+      ]
+    },
+    {
+      "id": "roaris--mizumiya-su",
+      "source": "mizumiya-su",
+      "target": "unit:roaris",
+      "type": "member_of_named_unit",
+      "label": "RoARiS",
+      "relation_id": "roaris",
+      "directed": false,
+      "source_ids": [
+        "s173"
+      ]
+    },
+    {
+      "id": "roaris--isaki-riona",
+      "source": "isaki-riona",
+      "target": "unit:roaris",
+      "type": "member_of_named_unit",
+      "label": "RoARiS",
+      "relation_id": "roaris",
+      "directed": false,
+      "source_ids": [
+        "s173"
+      ]
+    },
+    {
+      "id": "ririkana",
+      "source": "ichijou-ririka",
+      "target": "otonose-kanade",
+      "type": "named_duo",
+      "label": "りりかな",
+      "relation_id": "ririkana",
+      "directed": false,
+      "source_ids": [
+        "s174"
+      ]
+    },
+    {
+      "id": "ririraden",
+      "source": "ichijou-ririka",
+      "target": "juufuutei-raden",
+      "type": "named_duo",
+      "label": "りりらでん",
+      "relation_id": "ririraden",
+      "directed": false,
+      "source_ids": [
+        "s175"
+      ]
+    },
+    {
+      "id": "radehaji",
+      "source": "juufuutei-raden",
+      "target": "todoroki-hajime",
+      "type": "named_duo",
+      "label": "21歳拳で組",
+      "relation_id": "radehaji",
+      "directed": false,
+      "source_ids": [
+        "s176",
+        "s177"
+      ]
+    },
+    {
+      "id": "aho3--hiodoshi-ao",
+      "source": "hiodoshi-ao",
+      "target": "unit:aho3",
+      "type": "member_of_named_unit",
+      "label": "AHO3",
+      "relation_id": "aho3",
+      "directed": false,
+      "source_ids": [
+        "s178"
+      ]
+    },
+    {
+      "id": "aho3--otonose-kanade",
+      "source": "otonose-kanade",
+      "target": "unit:aho3",
+      "type": "member_of_named_unit",
+      "label": "AHO3",
+      "relation_id": "aho3",
+      "directed": false,
+      "source_ids": [
+        "s178"
+      ]
+    },
+    {
+      "id": "aho3--todoroki-hajime",
+      "source": "todoroki-hajime",
+      "target": "unit:aho3",
+      "type": "member_of_named_unit",
+      "label": "AHO3",
+      "relation_id": "aho3",
+      "directed": false,
+      "source_ids": [
+        "s178"
+      ]
+    },
+    {
+      "id": "shachou-banchou-kuchihacchou--ichijou-ririka",
+      "source": "ichijou-ririka",
+      "target": "unit:shachou-banchou-kuchihacchou",
+      "type": "member_of_named_unit",
+      "label": "社長番長口八丁",
+      "relation_id": "shachou-banchou-kuchihacchou",
+      "directed": false,
+      "source_ids": [
+        "s179"
+      ]
+    },
+    {
+      "id": "shachou-banchou-kuchihacchou--juufuutei-raden",
+      "source": "juufuutei-raden",
+      "target": "unit:shachou-banchou-kuchihacchou",
+      "type": "member_of_named_unit",
+      "label": "社長番長口八丁",
+      "relation_id": "shachou-banchou-kuchihacchou",
+      "directed": false,
+      "source_ids": [
+        "s179"
+      ]
+    },
+    {
+      "id": "shachou-banchou-kuchihacchou--todoroki-hajime",
+      "source": "todoroki-hajime",
+      "target": "unit:shachou-banchou-kuchihacchou",
+      "type": "member_of_named_unit",
+      "label": "社長番長口八丁",
+      "relation_id": "shachou-banchou-kuchihacchou",
+      "directed": false,
+      "source_ids": [
+        "s179"
+      ]
+    },
+    {
+      "id": "momosuzu-family--sakuramiko",
+      "source": "sakuramiko",
+      "target": "unit:momosuzu-family",
+      "type": "member_of_named_unit",
+      "label": "Momosuzu Family",
+      "relation_id": "momosuzu-family",
+      "directed": false,
+      "source_ids": [
+        "s180"
+      ]
+    },
+    {
+      "id": "momosuzu-family--yozora-mel",
+      "source": "yozora-mel",
+      "target": "unit:momosuzu-family",
+      "type": "member_of_named_unit",
+      "label": "Momosuzu Family",
+      "relation_id": "momosuzu-family",
+      "directed": false,
+      "source_ids": [
+        "s180"
+      ]
+    },
+    {
+      "id": "momosuzu-family--momosuzu-nene",
+      "source": "momosuzu-nene",
+      "target": "unit:momosuzu-family",
+      "type": "member_of_named_unit",
+      "label": "Momosuzu Family",
+      "relation_id": "momosuzu-family",
+      "directed": false,
+      "source_ids": [
+        "s180"
+      ]
+    },
+    {
+      "id": "dabuchizu",
+      "source": "sakuramiko",
+      "target": "momosuzu-nene",
+      "type": "named_duo",
+      "label": "Dabuchizu",
+      "relation_id": "dabuchizu",
+      "directed": false,
+      "source_ids": [
+        "s181"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--nekomata-okayu",
+      "source": "nekomata-okayu",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--takane-lui",
+      "source": "takane-lui",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--shirakami-fubuki",
+      "source": "shirakami-fubuki",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--la-darknesss",
+      "source": "la-darknesss",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu--inugami-korone",
+      "source": "inugami-korone",
+      "target": "unit:dorobou-kensetsu",
+      "type": "member_of_named_unit",
+      "label": "Dorobou Kensetsu",
+      "relation_id": "dorobou-kensetsu",
+      "directed": false,
+      "source_ids": [
+        "s182",
+        "s183",
+        "s184",
+        "s189"
+      ]
+    },
+    {
+      "id": "kanaazukoro--amane-kanata",
+      "source": "amane-kanata",
+      "target": "unit:kanaazukoro",
+      "type": "member_of_named_unit",
+      "label": "KanaAzuKoro",
+      "relation_id": "kanaazukoro",
+      "directed": false,
+      "source_ids": [
+        "s185"
+      ]
+    },
+    {
+      "id": "kanaazukoro--azki",
+      "source": "azki",
+      "target": "unit:kanaazukoro",
+      "type": "member_of_named_unit",
+      "label": "KanaAzuKoro",
+      "relation_id": "kanaazukoro",
+      "directed": false,
+      "source_ids": [
+        "s185"
+      ]
+    },
+    {
+      "id": "kanaazukoro--inugami-korone",
+      "source": "inugami-korone",
+      "target": "unit:kanaazukoro",
+      "type": "member_of_named_unit",
+      "label": "KanaAzuKoro",
+      "relation_id": "kanaazukoro",
+      "directed": false,
+      "source_ids": [
+        "s185"
+      ]
+    },
+    {
+      "id": "robomiotaru--roboco-san",
+      "source": "roboco-san",
+      "target": "unit:robomiotaru",
+      "type": "member_of_named_unit",
+      "label": "RoboMioTaru",
+      "relation_id": "robomiotaru",
+      "directed": false,
+      "source_ids": [
+        "s186"
+      ]
+    },
+    {
+      "id": "robomiotaru--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:robomiotaru",
+      "type": "member_of_named_unit",
+      "label": "RoboMioTaru",
+      "relation_id": "robomiotaru",
+      "directed": false,
+      "source_ids": [
+        "s186"
+      ]
+    },
+    {
+      "id": "robomiotaru--aki-rosenthal",
+      "source": "aki-rosenthal",
+      "target": "unit:robomiotaru",
+      "type": "member_of_named_unit",
+      "label": "RoboMioTaru",
+      "relation_id": "robomiotaru",
+      "directed": false,
+      "source_ids": [
+        "s186"
+      ]
+    },
+    {
+      "id": "azulamy-koro--azki",
+      "source": "azki",
+      "target": "unit:azulamy-koro",
+      "type": "member_of_named_unit",
+      "label": "AzuLamyKoro",
+      "relation_id": "azulamy-koro",
+      "directed": false,
+      "source_ids": [
+        "s187"
+      ]
+    },
+    {
+      "id": "azulamy-koro--inugami-korone",
+      "source": "inugami-korone",
+      "target": "unit:azulamy-koro",
+      "type": "member_of_named_unit",
+      "label": "AzuLamyKoro",
+      "relation_id": "azulamy-koro",
+      "directed": false,
+      "source_ids": [
+        "s187"
+      ]
+    },
+    {
+      "id": "azulamy-koro--yukihana-lamy",
+      "source": "yukihana-lamy",
+      "target": "unit:azulamy-koro",
+      "type": "member_of_named_unit",
+      "label": "AzuLamyKoro",
+      "relation_id": "azulamy-koro",
+      "directed": false,
+      "source_ids": [
+        "s187"
+      ]
+    },
+    {
+      "id": "akisuba",
+      "source": "aki-rosenthal",
+      "target": "oozora-subaru",
+      "type": "named_duo",
+      "label": "AkiSuba",
+      "relation_id": "akisuba",
+      "directed": false,
+      "source_ids": [
+        "s188"
+      ]
+    },
+    {
+      "id": "aohaje",
+      "source": "hiodoshi-ao",
+      "target": "todoroki-hajime",
+      "type": "named_duo",
+      "label": "あおはじぇ",
+      "relation_id": "aohaje",
+      "directed": false,
+      "source_ids": [
+        "s190"
+      ]
+    },
+    {
+      "id": "aoraden",
+      "source": "hiodoshi-ao",
+      "target": "juufuutei-raden",
+      "type": "named_duo",
+      "label": "あおらでん",
+      "relation_id": "aoraden",
+      "directed": false,
+      "source_ids": [
+        "s191"
+      ]
+    },
+    {
+      "id": "aokana",
+      "source": "hiodoshi-ao",
+      "target": "otonose-kanade",
+      "type": "named_duo",
+      "label": "あおかな",
+      "relation_id": "aokana",
+      "directed": false,
+      "source_ids": [
+        "s192"
+      ]
+    },
+    {
+      "id": "naderade",
+      "source": "otonose-kanade",
+      "target": "juufuutei-raden",
+      "type": "named_duo",
+      "label": "なでらで",
+      "relation_id": "naderade",
+      "directed": false,
+      "source_ids": [
+        "s193"
+      ]
+    },
+    {
+      "id": "kanahaji",
+      "source": "otonose-kanade",
+      "target": "todoroki-hajime",
+      "type": "named_duo",
+      "label": "かなはじ",
+      "relation_id": "kanahaji",
+      "directed": false,
+      "source_ids": [
+        "s194"
+      ]
+    },
+    {
+      "id": "ririhaji",
+      "source": "ichijou-ririka",
+      "target": "todoroki-hajime",
+      "type": "named_duo",
+      "label": "りりはじ",
+      "relation_id": "ririhaji",
+      "directed": false,
+      "source_ids": [
+        "s195"
+      ]
+    },
+    {
+      "id": "aoriri",
+      "source": "hiodoshi-ao",
+      "target": "ichijou-ririka",
+      "type": "named_duo",
+      "label": "あおりり",
+      "relation_id": "aoriri",
+      "directed": false,
+      "source_ids": [
+        "s196"
+      ]
     }
   ],
   "sources": [
@@ -8742,6 +10396,346 @@
         "Profile history records May 3, 2018 as debut and May 13, 2018 as first stream; distinguishes affiliation debut from stream debut."
       ],
       "accessed_on": "2026-10-06",
+      "kind": "primary"
+    },
+    {
+      "id": "s163",
+      "url": "https://www.youtube.com/watch?v=ioIDjX5MVfI",
+      "title": "【歌枠】#あずいろ コラボ歌枠！SINGING STREAM【ホロライブ / AZKi / 風真いろは】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses あずいろ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s164",
+      "url": "https://www.youtube.com/watch?v=cX-Wir_k3cE",
+      "title": "【告知あり！】あずみぉーんのマシュマロ雑談 inミオ宅【 ホロライブ / 大神ミオ・AZKi 】",
+      "supported_claims": [
+        "Mio title prints あずみぉーん and AZKi/大神ミオ; description explicitly lists the two under あずみぉーん and prints #あずみぉーん."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s165",
+      "url": "https://www.youtube.com/watch?v=z9uJZcT3Rho",
+      "title": "【歌枠】#フブあず 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 白上フブキ】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses フブあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s166",
+      "url": "https://www.youtube.com/watch?v=hvB26v6rBxA",
+      "title": "【歌枠】今宵は #わたあず Night Fever !!【 AZKi / 角巻わため】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses わたあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s167",
+      "url": "https://www.youtube.com/watch?v=JmIy63FIDpQ",
+      "title": "お願い！シンデレラ #AZKi #天音かなた #歌ってみた #cover #ホロライブ #hololive #かなあず #デレステ #アイドルマスター #異次元フェス",
+      "supported_claims": [
+        "AZKi short title prints #かなあず, #AZKi and #天音かなた; Vocal credit explicitly lists AZKi × 天音かなた and @AmaneKanata."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s168",
+      "url": "https://www.youtube.com/watch?v=BBayF16LA5I",
+      "title": "【歌枠】#こよあず 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 博衣こより】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses こよあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s169",
+      "url": "https://www.youtube.com/watch?v=4P8JxEDvCYE",
+      "title": "【歌枠】#さかずき 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 沙花叉クロヱ】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses さかずき and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s170",
+      "url": "https://www.youtube.com/watch?v=qBUNfuVwKuc",
+      "title": "【歌枠】#AZRyS Collab KARAOKE！SINGING STREAM 【ホロライブ / AZKi / IRyS】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses AZRyS and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s171",
+      "url": "https://www.youtube.com/watch?v=abSKWPWUBCM",
+      "title": "【歌枠】#AZBae Collab KARAOKE！SINGING STREAM 【ホロライブ / AZKi / Hakos Baelz】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses AZBae and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s172",
+      "url": "https://www.youtube.com/watch?v=oH9B9bNB7ks",
+      "title": "【歌枠】#あずのせ 歌枠コラボ！SINGING STREAM【ホロライブ / AZKi / 音乃瀬奏】",
+      "supported_claims": [
+        "AZKi Channel title explicitly uses あずのせ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s173",
+      "url": "https://www.youtube.com/watch?v=jG-EPYQ4V9g",
+      "title": "【 桃太郎電鉄２ 】RoARiSで仲良く桃鉄やるぞっ🎵【ロボ子先輩 AZKi先輩 水宮枢 響咲リオナ】",
+      "supported_claims": [
+        "Riona title prints RoARiS and all four names (Roboco, AZKi, Mizumiya Su and Isaki Riona); description lists RoARiS followed by the other three channel handles."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s174",
+      "url": "https://www.youtube.com/watch?v=vu2eawKYuek",
+      "title": "シャーってするりりかな #shorts #ReGLOSS #Vtuber #一条莉々華 #音乃瀬奏",
+      "supported_claims": [
+        "Official title uses りりかな and tags Ririka and Kanade; description separates the two cast members from the broader cohort roster."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s175",
+      "url": "https://www.youtube.com/watch?v=KBBKr1_qv20",
+      "title": "【日本酒の会】らでんの好きな日本酒を集めました～福島編～ #りりらでん酒盛 【一条莉々華/儒烏風亭らでん 】",
+      "supported_claims": [
+        "Talent title uses りりらでん酒盛 and names Ririka/Raden; description also identifies Ririka as the guest. This supports the named collaboration context."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s176",
+      "url": "https://www.youtube.com/watch?v=jugLFagTjUg",
+      "title": "【#らではじフルーツ決戦】21歳拳で組、スイカゲームオフライン対戦【轟はじめ/儒烏風亭らでん】",
+      "supported_claims": [
+        "Title explicitly names 21歳拳で組 and its two members Hajime and Raden."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s177",
+      "url": "https://www.youtube.com/watch?v=GzfOVWWkv9c",
+      "title": "【雑談】らではじ定期旅行記～行先ヒント：ラッコとフラメンコ～【儒烏風亭らでん/轟はじめ #ReGLOSS 】",
+      "supported_claims": [
+        "Title uses らではじ for the same Raden/Hajime duo, supporting alias consolidation rather than a second entity."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s178",
+      "url": "https://www.youtube.com/watch?v=I3uDHmtLjss",
+      "title": "【Minecraft】#AHO3 でイカトラップをつくる！！ｲｶｲｶ【音乃瀬奏・火威青・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Title explicitly uses AHO3 and names Kanade, Ao and Hajime; description lists their channel handles under AHO3."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s179",
+      "url": "https://www.youtube.com/watch?v=5Z6EiX44EMs",
+      "title": "【Puzzle Together 】まったり雑談にジグソーパズルを添えて【 #社長番長口八丁 】",
+      "supported_claims": [
+        "Title names the trio. Description maps 番長 to Hajime, 社長 to Ririka and 口八丁 to the uploader Raden."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s180",
+      "url": "https://www.youtube.com/watch?v=Ecn2uykQcUM",
+      "title": "桃鈴家、Party Animalsに挑むの巻！【 さくらみこ / 夜空メル / 桃鈴ねね 】",
+      "supported_claims": [
+        "Nene-owned title uses 桃鈴家 and explicitly names Sakura Miko, Yozora Mel and Momosuzu Nene; description repeats #桃鈴家 and tags Miko/Mel."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s181",
+      "url": "https://www.youtube.com/watch?v=Ocqg-RpQURY",
+      "title": "【 #だぶちーず 】ねねちみこち！だぶちーず！非公式wiki調査するぞおおおおおおお！🔎🍑🌸【ホロライブ/さくらみこ】",
+      "supported_claims": [
+        "Miko-owned title uses #だぶちーず and ねねちみこち; description links @MomosuzuNene and repeats #だぶちーず."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s182",
+      "url": "https://shop.hololivepro.com/products/hololive_doroboconstructionvoice",
+      "title": "ホロライブ 泥棒建設ボイス",
+      "supported_claims": [
+        "Official shop synopsis explicitly describes Okayu and Lui founding 泥棒建設 and Mio, Fubuki, La+ Darknesss and Korone joining; participant list repeats all six; sale date 2024-07-25."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s183",
+      "url": "https://www.youtube.com/watch?v=p6J2cG4cYEw",
+      "title": "【新ボイス発表】我ら泥棒建設！",
+      "supported_claims": [
+        "Official voice announcement names 泥棒建設, release date 2024-07-25 and all six participating talents."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s184",
+      "url": "https://www.youtube.com/watch?v=9KeOwt7xHyA",
+      "title": "【 Minecraft 】はじめての面接!?ようこそ泥棒建設へ――【 #泥棒建設 】",
+      "supported_claims": [
+        "Okayu Minecraft title uses #泥棒建設; description labels Lui, Mio, Fubuki and La+ as company members and Korone as the interview applicant, establishing Minecraft roleplay context without asserting recruitment timing."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s185",
+      "url": "https://www.youtube.com/watch?v=bExr7NEqNwQ",
+      "title": "【mocopi 3Dオフコラボ】#かなあずころ ケツバトラーで対決だ！！！！！【ホロライブ / AZKi / 天音かなた / 戌神ころね】",
+      "supported_claims": [
+        "AZKi target title prints #かなあずころ and names AZKi, Amane Kanata and Inugami Korone; uploader description links Kanata and Korone."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s186",
+      "url": "https://www.youtube.com/watch?v=-jDyV9vW8WA",
+      "title": "【出張占い🔮】ロボタールの今年の運勢をビッグゴッドミオーン先生に占ってもらう＞＜【#ホロライブ  #ロボミオタール 】",
+      "supported_claims": [
+        "Roboco target title and description print #ロボミオタール; uploader description explicitly identifies collaborators @AkiRosenthal and @OokamiMio."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s187",
+      "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
+      "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
+      "supported_claims": [
+        "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s188",
+      "url": "https://www.youtube.com/watch?v=Im-5c35I5F4",
+      "title": "アキスバッ！企画考えたりする雑談【初コラボ】",
+      "supported_claims": [
+        "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s189",
+      "url": "https://shop.hololivepro.com/en/products/hololive_doroboconstructionvoice",
+      "title": "hololive Dorobo Construction Voice Drama",
+      "supported_claims": [
+        "Official English shop names the voice drama Dorobo Construction and lists all six performers."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s190",
+      "url": "https://www.youtube.com/watch?v=0nKvLHnGFJA",
+      "title": "【#あおはじぇ】オフコラボ…これが、青春ですか？そうだよ！【火威青／轟はじめ 】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Talent-owned title explicitly uses あおはじぇ and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s191",
+      "url": "https://www.youtube.com/watch?v=VG-gPShtYWU",
+      "title": "【#あおらでん】最高～！！【火威青／儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Talent-owned title explicitly uses あおらでん and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s192",
+      "url": "https://www.youtube.com/watch?v=4pw9GhX85WQ",
+      "title": "【オフコラボ】ゲリラあおかな【音乃瀬奏・火威青】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Talent-owned title explicitly uses あおかな and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s193",
+      "url": "https://www.youtube.com/watch?v=XWqESSMpuh4",
+      "title": "【 オフコラボ 】#なでらで で晩酌！マシュマロ食べながらしゃべっていくよ～！【音乃瀬奏・儒烏風亭らでん】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Talent-owned title explicitly uses なでらで and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s194",
+      "url": "https://www.youtube.com/watch?v=Lb7ewSw3VkU",
+      "title": "【 #かなはじ 】ぼたん先輩から誕プレでいただいたうまい棒を一緒に食べるよー！！【音乃瀬奏・轟はじめ】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Talent-owned title explicitly uses かなはじ and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s195",
+      "url": "https://www.youtube.com/watch?v=yYp6UNsQjyw",
+      "title": "【モンスターハンターパズル アイルーアイランド】#りりはじ のジーニアスはあります！遊ぶぞー！！【#一条莉々華 #轟はじめ #ReGLOSS 】",
+      "supported_claims": [
+        "Talent-owned title explicitly uses りりはじ and names the duo members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s196",
+      "url": "https://www.youtube.com/watch?v=7f6Ayn40Z2g",
+      "title": "【VCRGTA2】#4 あおりりの作戦が始まる【火威青 #hololiveDEV_IS #ReGLOSS 】",
+      "supported_claims": [
+        "Ao-owned title uses あおりり; its description explicitly says today’s collaborator is 莉々華ちゃん, establishing Ao/Ririka."
+      ],
+      "accessed_on": "2026-10-07",
       "kind": "primary"
     }
   ]

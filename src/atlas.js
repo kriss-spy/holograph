@@ -3,7 +3,7 @@ import fcose from "cytoscape-fcose";
 import * as AtlasLayout from "./graph-layout.js";
 import D from "../data/hololive-relations.json";
 import { portraits, portraitDefault } from "./portraits.js";
-import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, selectScope } from "./model.js";
+import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, relationTypeLabel, selectScope } from "./model.js";
 cytoscape.use(fcose);
 const $ = (s) => document.querySelector(s),
   T = new Map(D.talents.map((t) => [t.id, t])),
@@ -90,20 +90,7 @@ function avatar(t, extra = "") {
 const visibleStatus = (t) => $("#alumni").checked || !isFormerTalent(t);
 const affiliations = (t) => cohortAffiliations(D, t.id);
 const affiliationLabel = (m) => m.label + (m.historical ? " (historical)" : "");
-const niceType = (r) =>
-  r.type === "performance_trio"
-    ? "Documented performance trio"
-    : r.type === "performance_duo"
-    ? "Documented performance pair"
-    : r.type === "music_duo"
-      ? "Music collaboration duo"
-      : r.member_ids.length === 2
-        ? "Public collaboration duo"
-        : r.type === "media_project_cast"
-          ? "Dated project cast"
-          : r.type === "named_friendship_collaboration_group"
-            ? "Public friendship & collaboration group"
-            : "Named collaboration unit";
+const niceType = relationTypeLabel;
 const cy = cytoscape({
   container: $("#graph"),
   elements: [],

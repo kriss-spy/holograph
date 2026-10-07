@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import cytoscape from "cytoscape";
 import fcose from "cytoscape-fcose";
-import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, selectScope } from "../src/model.js";
+import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, parseRoute, relationTypeLabel, selectScope } from "../src/model.js";
 import { force } from "../src/graph-layout.js";
 const data = JSON.parse(
   readFileSync(new URL("../data/hololive-relations.json", import.meta.url)),
@@ -71,7 +71,9 @@ test("Terminated contracts remain historical records and use the former-member f
     assert(!selectScope(data, { mode: "cohort", viewId: cohort, includeAlumni: false }).ids.has(id));
     assert.equal(parseRoute(`#talent=${id}&alumni=0`, data).selected, null);
     assert.equal(parseRoute(`#talent=${id}`, data).selected.id, id);
-    assert(!data.render_edges.some((e) => e.source === id || e.target === id), "Cohort membership must not invent collaboration edges");
+    assert(data.render_edges.filter((e) => e.source === id || e.target === id)
+      .every((e) => data.relationships.some((r) => r.id === e.relation_id && r.member_ids.includes(id))),
+    "Historical talent edges must come from evidenced collaborations");
   }
 });
 test("Fubuki overlaps two cohort filters with one canonical identity", () => {
@@ -138,6 +140,24 @@ test("Historical AZKi duos remain recorded when former members are hidden", () =
     assert(!hidden.relations.some((r) => r.id === relation));
     assert(data.relationships.find((r) => r.id === relation).member_ids.includes(talent));
   }
+});
+test("Wiki additions preserve complete historical lineups and keep naming leads separate", () => {
+  const family = data.relationships.find((r) => r.id === "momosuzu-family");
+  assert.deepEqual(new Set(family.member_ids), new Set(["sakuramiko", "yozora-mel", "momosuzu-nene"]));
+  const filtered = selectScope(data, { mode: "unit", viewId: family.id, includeAlumni: false });
+  assert.equal(filtered.ids.size, 2);
+  assert.equal(filtered.relations[0].member_ids.length, 3);
+  assert.equal(data.render_edges.filter((e) => e.relation_id === family.id).length, 3);
+  const dorobou = data.relationships.find((r) => r.id === "dorobou-kensetsu");
+  assert.deepEqual(new Set(dorobou.member_ids), new Set(["nekomata-okayu", "takane-lui", "ookami-mio", "shirakami-fubuki", "la-darknesss", "inugami-korone"]));
+  assert.equal(relationTypeLabel(dorobou), "In-game roleplay company");
+  assert.equal(relationTypeLabel(data.relationships.find((r) => r.id === "kanaken")), "In-game roleplay company");
+  assert.equal(relationTypeLabel(data.relationships.find((r) => r.id === "kamichamarose")), "Named gaming team");
+  assert.equal(data.render_edges.filter((e) => e.relation_id === dorobou.id).length, 6);
+  for (const [id, query] of [["azumion", "あずみぉーん"], ["koyoaz", "こよあず"], ["sakazuki", "さかずき"], ["momosuzu-family", "桃鈴家"], ["dabuchizu", "だぶちーず"], ["radehaji", "らではじ"], ["kanaazukoro", "かなあずころ"]])
+    assert(matchesDirectory(data.relationships.find((r) => r.id === id), query));
+  for (const [id, unverified] of [["azulamy-koro", "クリスマス☆むかえ隊"], ["akisuba", "エンジェルヘブン"], ["koyoaz", "KoZKi"]])
+    assert(!matchesDirectory(data.relationships.find((r) => r.id === id), unverified));
 });
 test("Ayame force layout has finite positions and no overlapping portraits or unit boxes", () => {
   const { ids, relations } = selectScope(data, {

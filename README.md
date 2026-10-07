@@ -39,6 +39,8 @@ Edit `data/hololive-relations.json`, preserve the primary evidence and dates, ad
 
 The [6 October connection completion audit](research/connection-completion.md) records 38 accepted additions across issues #3–#8 and explicit reasons for the remaining candidates. Preserve Japanese names and searchable aliases under a single canonical record.
 
+The [7 October Japanese wiki audit](research/wiki-name-audit.md) follows those gaps and audits recoverable wiki tables for issue #10. Its [candidate ledger](research/wiki-name-audit.json) retains complete memberships, primary citations, uninspected segment leads and external-member gaps separately from verified graph records. The build includes this labelled discovery audit as an About-page download. The legacy index remains inaccessible, so this is a partial audit rather than an exhaustive census.
+
 Historical roster and cohort work for issues #2 and #9 is documented in [historical roster evidence](research/historical-roster.md) and [cohort context](research/cohort-context.md). Mel and Rushia use `former` status with contract-termination dates; the former-member filter includes alumni and terminated contracts. The legacy `alumni=0` URL parameter remains supported. Secondary affiliations share one canonical talent record, and Council/Promise links provide navigation without changing membership.
 
 Topics are defined in `src/atlas.js`; all talents remains the first view. Layout helpers and pure URL/scope logic are separate modules. Unit membership stays a group rather than implied pairwise friendships.

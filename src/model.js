@@ -1,6 +1,22 @@
 /** The legacy alumni route flag includes all departed members. */
 export const isFormerTalent = (talent) => ["alum", "former"].includes(talent.status);
 
+/** Explain the evidenced relationship without turning roleplay into a social claim. */
+export function relationTypeLabel(relation) {
+  const labels = {
+    fictional_company_unit: "In-game roleplay company",
+    game_origin_unit: "Game-origin collaboration unit",
+    gaming_unit: "Named gaming team",
+    performance_trio: "Documented performance trio",
+    performance_duo: "Documented performance pair",
+    music_duo: "Music collaboration duo",
+    media_project_cast: "Dated project cast",
+    named_friendship_collaboration_group: "Public friendship & collaboration group",
+  };
+  return labels[relation.type] || (relation.member_ids.length === 2
+    ? "Public collaboration duo" : "Named collaboration unit");
+}
+
 export function cohortAffiliations(data, talentId) {
   return data.cohort_memberships
     .filter((m) => m.talent_id === talentId)

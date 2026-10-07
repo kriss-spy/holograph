@@ -5,6 +5,7 @@ await rm("dist", { recursive: true, force: true });
 await mkdir("dist", { recursive: true });
 await cp("public", "dist", { recursive: true });
 await cp("data/hololive-relations.json", "dist/hololive-relations.json");
+await cp("research/wiki-name-audit.json", "dist/wiki-name-audit.json");
 const result = await build({
   entryPoints: ["src/main.js"],
   bundle: true,

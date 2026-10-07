@@ -1,0 +1,2222 @@
+{
+  "metadata": {
+    "issue_url": "https://github.com/kriss-spy/holograph/issues/10",
+    "observed_on": "2026-10-07",
+    "original_index_url": "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93",
+    "original_index_inspected": false,
+    "scope": "Partial discovery audit: AZKi wiki unit table, ReGLOSS cohort table, recoverable Mio/Mel search-index tables and prioritized issue candidates. Not a full Japanese-index census.",
+    "access_limits": [
+      "Original legacy-EUC index returns 403 through direct HTTP/HTTPS and in-app browser; web reader corrupts EUC percent encoding and returns 404. UTF-8 spelling did not restore access. Wiki home and ASCII-title pages recovered through web reader.",
+      "Bot-gated YouTube playback and unavailable transcripts prevent spoken naming claims; readable uploader metadata remains usable."
+    ],
+    "interpretation": "Candidates stay outside graph until primary name and complete membership are supported. Romanizations are reading aids; secondary labels are not automatically verified aliases. No current activity or friendship inferred."
+  },
+  "candidates": [
+    {
+      "id": "azuiro",
+      "name": "あずいろ",
+      "romanization_aid": "AzuIro",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuIro"
+      ],
+      "aliases": [
+        "あずいろ"
+      ],
+      "member_ids": [
+        "azki",
+        "kazama-iroha"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ioIDjX5MVfI",
+          "evidence_date": "2022-10-02",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses あずいろ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azuiro",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2022-10-02; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "as-tar",
+      "name": "AS_tar",
+      "romanization_aid": "AS_tar",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AS_tar"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "hoshimachi-suisei"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=zYk8zpDXZdk",
+          "evidence_date": "2025-07-10",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title prints #AS_tar; description links @HoshimachiSuisei. INNK runaways alias/history remains unverified. Published/streamed 2025-07-10 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "as-tar",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared. Historical naming story not independently verified.",
+      "time_scope": "YouTube displayed date 2025-07-10; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false,
+      "unverified_reported_aliases": [
+        "INNK runaways"
+      ]
+    },
+    {
+      "id": "roboaz",
+      "name": "ろぼあず",
+      "romanization_aid": "RoboAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "RoboAZ"
+      ],
+      "aliases": [
+        "ろぼあず"
+      ],
+      "member_ids": [
+        "azki",
+        "roboco-san"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=nGozexS9RCM",
+          "evidence_date": "2025-11-14",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Roboco’s title prints #ろぼあず and names Roboco and AZKi; description repeats the hashtag and links @AZKi. Published/streamed 2025-11-14 on Roboco Ch. - ロボ子."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "roboaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-11-14; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azumion",
+      "name": "あずみぉーん",
+      "romanization_aid": "AzuMion",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuMion"
+      ],
+      "aliases": [
+        "あずみぉーん"
+      ],
+      "member_ids": [
+        "azki",
+        "ookami-mio"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=cX-Wir_k3cE",
+          "evidence_date": "2025-08-18",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Mio title prints あずみぉーん and AZKi/大神ミオ; description explicitly lists the two under あずみぉーん and prints #あずみぉーん."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azumion",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2025-08-18; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "fubuaz",
+      "name": "フブあず",
+      "romanization_aid": "FubuAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "FubuAZ"
+      ],
+      "aliases": [
+        "フブあず"
+      ],
+      "member_ids": [
+        "azki",
+        "shirakami-fubuki"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=z9uJZcT3Rho",
+          "evidence_date": "2024-01-18",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses フブあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "fubuaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2024-01-18; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azukoro",
+      "name": "あずころ",
+      "romanization_aid": "AzuKoro",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuKoro"
+      ],
+      "aliases": [
+        "あずころ"
+      ],
+      "member_ids": [
+        "azki",
+        "inugami-korone"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=FFHg2PT8QGA",
+          "evidence_date": "2024-06-15",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title and description print #あずころ; description identifies @InugamiKorone and links her simultaneous stream. Published/streamed 2024-06-15 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azukoro",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-06-15; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aquaz",
+      "name": "あくあず",
+      "romanization_aid": "AquAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AquAZ"
+      ],
+      "aliases": [
+        "あくあず"
+      ],
+      "member_ids": [
+        "azki",
+        "minato-aqua"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=tdMauXNMe40",
+          "evidence_date": "2024-06-13",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Aqua’s title prints #あくあず and explicitly names Minato Aqua and AZKi. Published/streamed 2024-06-13 on Aqua Ch. 湊あくあ."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aquaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-06-13; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azushio",
+      "name": "あずしお",
+      "romanization_aid": "AzuShio",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuShio"
+      ],
+      "aliases": [
+        "あずしお"
+      ],
+      "member_ids": [
+        "azki",
+        "murasaki-shion"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=--1m3Mj8uew",
+          "evidence_date": "2025-04-13",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Shion’s title prints #あずしお and explicitly names Murasaki Shion and AZKi. Published/streamed 2025-04-13 on Shion Ch. 紫咲シオン."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azushio",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-04-13; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "pekoaz",
+      "name": "ぺこあず",
+      "romanization_aid": "PekoAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "PekoAZ"
+      ],
+      "aliases": [
+        "ぺこあず"
+      ],
+      "member_ids": [
+        "azki",
+        "usada-pekora"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=7fjHXGDnKs8",
+          "evidence_date": "2024-05-01",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title names ぺこあず; description lists guest Usada Pekora and @usadapekora. Published/streamed 2024-05-01 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "pekoaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-05-01; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "wataaz",
+      "name": "わたあず",
+      "romanization_aid": "WataAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "WataAZ"
+      ],
+      "aliases": [
+        "わたあず"
+      ],
+      "member_ids": [
+        "azki",
+        "tsunomaki-watame"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=hvB26v6rBxA",
+          "evidence_date": "2022-05-19",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses わたあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "wataaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2022-05-19; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kanaaz",
+      "name": "かなあず",
+      "romanization_aid": "KanaAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KanaAZ"
+      ],
+      "aliases": [
+        "かなあず"
+      ],
+      "member_ids": [
+        "azki",
+        "amane-kanata"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=JmIy63FIDpQ",
+          "evidence_date": "2023-12-14",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi short title prints #かなあず, #AZKi and #天音かなた; Vocal credit explicitly lists AZKi × 天音かなた and @AmaneKanata."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kanaaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2023-12-14; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "neneaz",
+      "name": "ねねあず",
+      "romanization_aid": "NeneAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "NeneAZ"
+      ],
+      "aliases": [
+        "ねねあず"
+      ],
+      "member_ids": [
+        "azki",
+        "momosuzu-nene"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=PjtKGRTvH7c",
+          "evidence_date": "2022-04-10",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Nene’s title prints #ねねあず, calls it an offline collaboration and names Momosuzu Nene and AZKi. Published/streamed 2022-04-10 on Nene Ch.桃鈴ねね."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "neneaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2022-04-10; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azulamy",
+      "name": "あずらみ",
+      "romanization_aid": "AzuLamy",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuLamy"
+      ],
+      "aliases": [
+        "あずらみ"
+      ],
+      "member_ids": [
+        "azki",
+        "yukihana-lamy"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Eo8jxyDki7A",
+          "evidence_date": "2025-02-14",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi’s ASMR title prints あずらみ and explicitly names AZKi and Yukihana Lamy. Published/streamed 2025-02-14 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azulamy",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-02-14; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "koyoaz",
+      "name": "こよあず",
+      "romanization_aid": "KoyoAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KoyoAZ / AZKoyo / KoZKi"
+      ],
+      "aliases": [
+        "こよあず"
+      ],
+      "member_ids": [
+        "azki",
+        "hakui-koyori"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=BBayF16LA5I",
+          "evidence_date": "2023-04-08",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses こよあず and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "koyoaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2023-04-08; ongoing activity not separately established.",
+      "ongoing_activity_verified": false,
+      "unverified_reported_aliases": [
+        "AZKoyo",
+        "KoZKi"
+      ]
+    },
+    {
+      "id": "sakazuki",
+      "name": "さかずき",
+      "romanization_aid": "Sakazuki",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "SakAZKi"
+      ],
+      "aliases": [
+        "さかずき"
+      ],
+      "member_ids": [
+        "azki",
+        "sakamata-chloe"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=4P8JxEDvCYE",
+          "evidence_date": "2023-07-18",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses さかずき and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "sakazuki",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2023-07-18; ongoing activity not separately established.",
+      "ongoing_activity_verified": false,
+      "unverified_reported_aliases": [
+        "SakAZKi"
+      ]
+    },
+    {
+      "id": "azrys",
+      "name": "AZRyS",
+      "romanization_aid": "AZRyS",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AZRyS"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "irys"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=qBUNfuVwKuc",
+          "evidence_date": "2022-10-12",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses AZRyS and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azrys",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2022-10-12; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azbae",
+      "name": "AZBae",
+      "romanization_aid": "AZBae",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AZBae"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "hakos-baelz"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=abSKWPWUBCM",
+          "evidence_date": "2023-11-27",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses AZBae and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azbae",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2023-11-27; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "fwmcaz",
+      "name": "FWMCAZ",
+      "romanization_aid": "FWMCAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "FWMCAZ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "fuwawa-abyssgard",
+        "mococo-abyssgard"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Lk7Rlt-MVB4",
+          "evidence_date": "2024-02-09",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title and description print #FWMCAZ; description explicitly expands FUWAMOCO to Fuwawa & Mococo Abyssgard. Published/streamed 2024-02-09 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "fwmcaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-02-09; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azunose",
+      "name": "あずのせ",
+      "romanization_aid": "AzuNose",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuNose"
+      ],
+      "aliases": [
+        "あずのせ"
+      ],
+      "member_ids": [
+        "azki",
+        "otonose-kanade"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=oH9B9bNB7ks",
+          "evidence_date": "2024-03-27",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi Channel title explicitly uses あずのせ and identifies the complete participant lineup; uploader description independently identifies the collaborator channel(s). Japanese target watch-page metadata inspected 2026-10-07."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azunose",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2024-03-27; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azuraden",
+      "name": "あずらでん",
+      "romanization_aid": "AzuRaden",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuRaden"
+      ],
+      "aliases": [
+        "あずらでん"
+      ],
+      "member_ids": [
+        "azki",
+        "juufuutei-raden"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=WYEnp4mIe8Y",
+          "evidence_date": "2023-12-15",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title prints #あずらでん and explicitly names AZKi and Juufuutei Raden. Published/streamed 2023-12-15 on AZKi Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azuraden",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2023-12-15; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kalaz",
+      "name": "KALAZ",
+      "romanization_aid": "KALAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KALAZ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "amane-kanata",
+        "yukihana-lamy"
+      ],
+      "classification": "music_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=tnzNvtvJmJw",
+          "evidence_date": "2024-06-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Lamy’s cover title explicitly credits KALAZ (AZKi, Amane Kanata, Yukihana Lamy); description lists all three vocalists. Published/streamed 2024-06-25 on Lamy Ch. 雪花ラミィ."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kalaz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-06-25; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kozmy",
+      "name": "KoZMy",
+      "romanization_aid": "KoZMy",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KoZMy"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "hakui-koyori",
+        "yukihana-lamy"
+      ],
+      "classification": "music_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Mz2csaOL8Ho",
+          "evidence_date": "2025-08-03",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Koyori’s cover title and song credit explicitly name KoZMy and the three members. This source does not establish KoZKi as a Koyori/AZKi duo alias. Published/streamed 2025-08-03 on Koyori ch. 博衣こより - holoX -."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kozmy",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-08-03; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "rosamia",
+      "name": "RosaMiA",
+      "romanization_aid": "RosaMiA",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "RosaMiA"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "aki-rosenthal",
+        "ookami-mio"
+      ],
+      "classification": "music_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=PlDgodRmrn0",
+          "evidence_date": "2026-09-20",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Mio’s live title names RosaMiA and description explicitly lists RosaMiA members Aki Rosenthal, AZKi and Ookami Mio. Published/streamed 2026-09-20 on Mio Channel 大神ミオ."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "rosamia",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2026-09-20; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "goriponguess",
+      "name": "ゴリポンゲス",
+      "romanization_aid": "GoriPONGuess",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "GoriPONGuess"
+      ],
+      "aliases": [
+        "ゴリポンゲス"
+      ],
+      "member_ids": [
+        "azki",
+        "amane-kanata",
+        "roboco-san"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Yj38Hu3g2Jk",
+          "evidence_date": "2025-08-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Roboco’s title and description print #ゴリポンゲス; description identifies the other participants @AZKi and @AmaneKanata. Published/streamed 2025-08-25 on Roboco Ch. - ロボ子."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "goriponguess",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-08-25; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "goriponguess-samurai",
+      "name": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "romanization_aid": "GoriPONGuessSamurai / ゴリポンゲス侍",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "GoriPONGuessJakin"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "amane-kanata",
+        "roboco-san",
+        "kazama-iroha"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=LnUcTvD7Emg",
+          "evidence_date": "2025-12-15",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Roboco’s title prints #ゴリポンゲス侍 and explicitly lists Amane Kanata, Roboco, AZKi and Kazama Iroha. Reader spelling GoriPONGuessJakin is not primary-attested and is excluded from aliases. Published/streamed 2025-12-15 on Roboco Ch. - ロボ子."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "goriponguess-samurai",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-12-15; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false,
+      "unverified_reported_aliases": [
+        "GoriPONGuessJakin"
+      ]
+    },
+    {
+      "id": "goriponguess-hime",
+      "name": "ゴリポンゲス姫",
+      "romanization_aid": "GoriPONGuessHime",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "GoriPONGuessHime"
+      ],
+      "aliases": [
+        "ゴリポンゲス姫"
+      ],
+      "member_ids": [
+        "azki",
+        "amane-kanata",
+        "roboco-san",
+        "himemori-luna"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=emIVAwIamZ4",
+          "evidence_date": "2025-09-12",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Roboco’s title prints #ゴリポンゲス姫; description explicitly identifies @AmaneKanata, @Robocosan, @AZKi and @HimemoriLuna. Published/streamed 2025-09-12 on Roboco Ch. - ロボ子."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "goriponguess-hime",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2025-09-12; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "roaris",
+      "name": "RoARiS",
+      "romanization_aid": "RoARiS",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "RoARiS"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "roboco-san",
+        "azki",
+        "mizumiya-su",
+        "isaki-riona"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=jG-EPYQ4V9g",
+          "evidence_date": "2026-06-07",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Riona title prints RoARiS and all four names (Roboco, AZKi, Mizumiya Su and Isaki Riona); description lists RoARiS followed by the other three channel handles."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "roaris",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2026-06-07; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ashita-wa-aoi-umi",
+      "name": "Ashita wa Aoi Umi / 明日は青い海",
+      "romanization_aid": "Ashita wa Aoi Umi / 明日は青い海",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "Tomorrow's Blue Sea"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "hoshimachi-suisei",
+        "houshou-marine",
+        "hiodoshi-ao"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZWHBxVyblR0",
+          "evidence_date": "2024-06-11",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Suisei’s title prints #明日は青い海; description identifies @HoushouMarine as shift leader, @AZKi as cook and @HiodoshiAo as part-timer. English translation is a reader label, not a verified alternate official name. Published/streamed 2024-06-11 on Suisei Channel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "ashita-wa-aoi-umi",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "YouTube displayed date 2024-06-11; historical collaboration snapshot, ongoing activity not independently verified.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soraz",
+      "name": "SorAZ",
+      "romanization_aid": "SorAZ",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "SorAZ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "azki"
+      ],
+      "classification": "music_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://hololive.hololivepro.com/events/sorazlive/",
+          "evidence_date": "2020-09-26",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Concert page identifies SorAZ as the unit consisting of Tokino Sora and AZKi."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "soraz",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Official concert documented 2020-09-26 and 2024-01-27.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kanaken",
+      "name": "Kanata Construction / かなた建設 / かなけん",
+      "romanization_aid": "Kanata Construction / かなた建設 / かなけん",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KanaKen"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "amane-kanata",
+        "sakamata-chloe",
+        "azki"
+      ],
+      "classification": "fictional_company_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://shop.hololivepro.com/products/hololive_kanataconstructionvoice",
+          "evidence_date": "2024-12-23",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Voice drama description names Kanata, Chloe and AZKi founding the company, lists all three as participating talents."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/music/518/",
+          "evidence_date": "2024-12-23",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Official music page credits かなけん, release 2024-12-23."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kanaken",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented voice drama and 2024-12-23 song. Historical roster; current activity not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kanaazukoro",
+      "name": "かなあずころ",
+      "romanization_aid": "KanaAzuKoro",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "KanaAzuKoro"
+      ],
+      "aliases": [
+        "かなあずころ"
+      ],
+      "member_ids": [
+        "amane-kanata",
+        "azki",
+        "inugami-korone"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=bExr7NEqNwQ",
+          "evidence_date": "2025-04-15",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "AZKi target title prints #かなあずころ and names AZKi, Amane Kanata and Inugami Korone; uploader description links Kanata and Korone."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kanaazukoro",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2025-04-15; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "robomiotaru",
+      "name": "ロボミオタール",
+      "romanization_aid": "RoboMioTaru",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "RoboMioTaru"
+      ],
+      "aliases": [
+        "ロボミオタール"
+      ],
+      "member_ids": [
+        "roboco-san",
+        "ookami-mio",
+        "aki-rosenthal"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=-jDyV9vW8WA",
+          "evidence_date": "2025-01-23",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Roboco target title and description print #ロボミオタール; uploader description explicitly identifies collaborators @AkiRosenthal and @OokamiMio."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "robomiotaru",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2025-01-23; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azulamy-koro",
+      "name": "あずらみころ",
+      "romanization_aid": "AzuLamyKoro",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AzuLamyKoro"
+      ],
+      "aliases": [
+        "あずらみころ"
+      ],
+      "member_ids": [
+        "azki",
+        "inugami-korone",
+        "yukihana-lamy"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
+          "evidence_date": "2026-09-18",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azulamy-koro",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2026-09-18; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "akisuba",
+      "name": "アキスバ",
+      "romanization_aid": "AkiSuba",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "AkiSuba"
+      ],
+      "aliases": [
+        "アキスバ"
+      ],
+      "member_ids": [
+        "aki-rosenthal",
+        "oozora-subaru"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Im-5c35I5F4",
+          "evidence_date": "2018-10-03",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "akisuba",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2018-10-03; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "momosuzu-family",
+      "name": "桃鈴家",
+      "romanization_aid": "Momosuzu Family",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "Momosuzu Family"
+      ],
+      "aliases": [
+        "桃鈴家",
+        "Momosuzu-ke"
+      ],
+      "member_ids": [
+        "sakuramiko",
+        "yozora-mel",
+        "momosuzu-nene"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ecn2uykQcUM",
+          "evidence_date": "2023-09-28",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Nene-owned title uses 桃鈴家 and explicitly names Sakura Miko, Yozora Mel and Momosuzu Nene; description repeats #桃鈴家 and tags Miko/Mel."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "momosuzu-family",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2023-09-28; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "dabuchizu",
+      "name": "だぶちーず",
+      "romanization_aid": "Dabuchizu",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "Dabuchizu / Double Chi"
+      ],
+      "aliases": [
+        "だぶちーず",
+        "Dabucheese",
+        "Dabuchiizu"
+      ],
+      "member_ids": [
+        "sakuramiko",
+        "momosuzu-nene"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ocqg-RpQURY",
+          "evidence_date": "2026-03-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Miko-owned title uses #だぶちーず and ねねちみこち; description links @MomosuzuNene and repeats #だぶちーず."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "dabuchizu",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2026-03-25; ongoing activity not separately established.",
+      "ongoing_activity_verified": false,
+      "unverified_reported_aliases": [
+        "Double Chi"
+      ]
+    },
+    {
+      "id": "dorobou-kensetsu",
+      "name": "泥棒建設",
+      "romanization_aid": "Dorobou Kensetsu",
+      "romanization_status": "display aid unless explicitly attested in primary evidence",
+      "reported_labels": [
+        "Dorobou Kensetsu"
+      ],
+      "aliases": [
+        "泥棒建設",
+        "Dorobo Construction"
+      ],
+      "member_ids": [
+        "nekomata-okayu",
+        "takane-lui",
+        "ookami-mio",
+        "shirakami-fubuki",
+        "la-darknesss",
+        "inugami-korone"
+      ],
+      "classification": "fictional_company_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://shop.hololivepro.com/products/hololive_doroboconstructionvoice",
+          "evidence_date": "2024-07-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Official shop synopsis explicitly describes Okayu and Lui founding 泥棒建設 and Mio, Fubuki, La+ Darknesss and Korone joining; participant list repeats all six; sale date 2024-07-25."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=p6J2cG4cYEw",
+          "evidence_date": "2024-07-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Official voice announcement names 泥棒建設, release date 2024-07-25 and all six participating talents."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9KeOwt7xHyA",
+          "evidence_date": "2024-07-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Okayu Minecraft title uses #泥棒建設; description labels Lui, Mio, Fubuki and La+ as company members and Korone as the interview applicant, establishing Minecraft roleplay context without asserting recruitment timing."
+        },
+        {
+          "url": "https://shop.hololivepro.com/en/products/hololive_doroboconstructionvoice",
+          "evidence_date": "2024-07-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Official English shop names the voice drama Dorobo Construction and lists all six performers."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "dorobou-kensetsu",
+      "reason": "Primary name and complete membership supported; canonical names and aliases compared.",
+      "time_scope": "Documented 2024-07-25; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "waz",
+      "name": "WAZ / ワズ",
+      "romanization_aid": "WAZ",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "WAZ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "aki-rosenthal"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=9j_hjbj1CXo",
+          "timestamp_seconds": 2490,
+          "inspection": "secondary_segment_lead_uninspected",
+          "supports": "Potential follow-up segment; naming timestamp not verified."
+        }
+      ],
+      "verification_state": "needs_spoken_name",
+      "canonical_record_id": null,
+      "reason": "Pair verified in uploader metadata; name absent from inspected metadata. Bot-gated primary playback; original recording mirror located, sampled frames do not establish spoken name.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "rionazki",
+      "name": "RiONAZKi",
+      "romanization_aid": "RiONAZKi",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "RiONAZKi"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "isaki-riona"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY",
+          "timestamp_seconds": 2661,
+          "inspection": "secondary_segment_lead_uninspected",
+          "supports": "Potential naming segment; not independently transcribed."
+        }
+      ],
+      "verification_state": "needs_spoken_name",
+      "canonical_record_id": null,
+      "reason": "Pair metadata verified; wiki naming requires primary acceptance. Playback bot-gated; no transcript available.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soaro",
+      "name": "そあろ",
+      "romanization_aid": "SoARo",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "SoARo"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "azki",
+        "roboco-san"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/5"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps",
+          "timestamp_seconds": 426,
+          "inspection": "secondary_segment_lead_uninspected",
+          "supports": "Printed name verified; proposed introduction segment uninspected."
+        }
+      ],
+      "verification_state": "needs_explicit_membership",
+      "canonical_record_id": null,
+      "reason": "Primary title/tag names そあろ; thumbnail visually shows proposed trio. Printed or spoken full lineup still needed; thumbnail identity is not promoted to explicit evidence.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "christmas-mukaetai",
+      "name": "クリスマス☆むかえ隊",
+      "romanization_aid": "Christmas Mukaetai",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "Christmas Mukaetai"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "inugami-korone",
+        "yukihana-lamy"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/3"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
+          "timestamp_seconds": 1920,
+          "inspection": "secondary_segment_lead_uninspected",
+          "supports": "Approximate naming lead, unverified."
+        }
+      ],
+      "verification_state": "needs_spoken_name",
+      "canonical_record_id": null,
+      "reason": "Printed あずらみころ trio integrated under its own attested name. Christmas name still needs 31:00–33:00 playback; no transcript and bot-gated player.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false,
+      "related_canonical_record_id": "azulamy-koro"
+    },
+    {
+      "id": "angel-heaven",
+      "name": "エンジェルヘブン",
+      "romanization_aid": "Angel Heaven",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "Angel Heaven"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "aki-rosenthal",
+        "oozora-subaru"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/7"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=jnJGGxfxPnc",
+          "timestamp_seconds": null,
+          "inspection": "metadata_only",
+          "supports": "Guest pair verified; near-end naming segment not inspected."
+        }
+      ],
+      "verification_state": "needs_spoken_name",
+      "canonical_record_id": null,
+      "reason": "AkiSuba separately integrated from printed primary name. Angel name near later chat end needs playback; both transcript exports unavailable and players bot-gated.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false,
+      "related_canonical_record_id": "akisuba"
+    },
+    {
+      "id": "kinpatsu-gumi",
+      "name": "金髪組",
+      "romanization_aid": "Kinpatsu-gumi",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "Kinpatsu-gumi"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "aki-rosenthal",
+        "akai-haato",
+        "yuzuki-choco",
+        "yozora-mel"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/7"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=pa5Q-yLWb08",
+          "timestamp_seconds": null,
+          "inspection": "unavailable_primary",
+          "supports": "Original title/channel/metadata unavailable; secondary mirror retained in notes."
+        }
+      ],
+      "verification_state": "needs_complete_historical_lineup",
+      "canonical_record_id": null,
+      "reason": "Original four-person archives unavailable. Official from1st verifies Aki/Mel/Haato performance trio; other blonde-group four-person stream has Mel/Choco/Flare/Watame. Neither proves requested four-member unit.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soazko",
+      "name": "SoAzKo / そあっこ",
+      "romanization_aid": "SoAzKo",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "SoAzKo"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "azki",
+        "hakui-koyori"
+      ],
+      "classification": "gaming_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://en.hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "timestamp_seconds": null,
+          "inspection": "official_text",
+          "supports": "Card uses SoAzKo as effect name; not treated as sole lineup evidence."
+        }
+      ],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Wiki attributes naming to Garupa cup. Official Koyori card uses SoAzKo for effects involving Sora/AZKi, corroborating spelling but not explicit event-unit formation/membership; formation citation still needed.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "chikumaro",
+      "name": "ちくまろ",
+      "romanization_aid": "Chikumaro",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "Chikumaro"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "aki-rosenthal",
+        "yuzuki-choco",
+        "external:honma-himawari",
+        "external:yakumo-beni"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://github.com/kriss-spy/holograph/issues/7"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=L93enlVyak8",
+          "evidence_date": "2024-05-07",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata",
+          "supports": "Four vocalists credited: Aki, Choco, Honma Himawari and Yakumo Beni."
+        }
+      ],
+      "verification_state": "verified_external_scope",
+      "canonical_record_id": null,
+      "reason": "Primary four-singer credits verified. Two external talents absent from selected roster; a Hololive-only two-person projection would be false. Retained complete group outside graph pending external-roster design.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azukoto",
+      "name": "あずこと",
+      "romanization_aid": "AzuKoto",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "AzuKoto"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "external:koiwai-kotori"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [],
+      "verification_state": "needs_primary_and_external_scope",
+      "canonical_record_id": null,
+      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "azumimizushi",
+      "name": "あずみみずしー",
+      "romanization_aid": "AzuMimizushi",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "AzuMimizushi"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "external:kanade-mimi",
+        "external:mizushina-aoi"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [],
+      "verification_state": "needs_primary_and_external_scope",
+      "canonical_record_id": null,
+      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "shotgunrose",
+      "name": "ShotgunRose",
+      "romanization_aid": "ShotgunRose",
+      "romanization_status": "discovery reading aid, not verified alias",
+      "reported_labels": [
+        "ShotgunRose"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "azki",
+        "external:suzuna-subaru",
+        "external:mizushina-aoi"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi"
+      ],
+      "primary_evidence": [],
+      "verification_state": "needs_primary_and_external_scope",
+      "canonical_record_id": null,
+      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aohaje",
+      "name": "あおはじぇ",
+      "romanization_aid": "Aohaje",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "あおはじぇ"
+      ],
+      "aliases": [
+        "Aohaje"
+      ],
+      "member_ids": [
+        "hiodoshi-ao",
+        "todoroki-hajime"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=0nKvLHnGFJA",
+          "evidence_date": "2024-01-21",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses あおはじぇ and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aohaje",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-01-21; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aoraden",
+      "name": "あおらでん",
+      "romanization_aid": "Aoraden",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "あおらでん"
+      ],
+      "aliases": [
+        "Aoraden"
+      ],
+      "member_ids": [
+        "hiodoshi-ao",
+        "juufuutei-raden"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=VG-gPShtYWU",
+          "evidence_date": "2024-01-31",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses あおらでん and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aoraden",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-01-31; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aoriri",
+      "name": "あおりり",
+      "romanization_aid": "Aoriri",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "あおりり"
+      ],
+      "aliases": [
+        "Aoriri"
+      ],
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=7f6Ayn40Z2g",
+          "evidence_date": "2023-12-13",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Ao-owned title uses あおりり; its description explicitly says today’s collaborator is 莉々華ちゃん, establishing Ao/Ririka."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aoriri",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2023-12-13; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aokana",
+      "name": "あおかな",
+      "romanization_aid": "Aokana",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "あおかな"
+      ],
+      "aliases": [
+        "Aokana"
+      ],
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=4pw9GhX85WQ",
+          "evidence_date": "2024-01-20",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses あおかな and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aokana",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-01-20; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "kanahaji",
+      "name": "かなはじ",
+      "romanization_aid": "Kanahaji",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "かなはじ"
+      ],
+      "aliases": [
+        "Kanahaji"
+      ],
+      "member_ids": [
+        "otonose-kanade",
+        "todoroki-hajime"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Lb7ewSw3VkU",
+          "evidence_date": "2024-05-21",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses かなはじ and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "kanahaji",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-05-21; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "naderade",
+      "name": "なでらで",
+      "romanization_aid": "Naderade",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "なでらで"
+      ],
+      "aliases": [
+        "Naderade"
+      ],
+      "member_ids": [
+        "otonose-kanade",
+        "juufuutei-raden"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=XWqESSMpuh4",
+          "evidence_date": "2024-12-23",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses なでらで and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "naderade",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-12-23; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ririkana",
+      "name": "りりかな",
+      "romanization_aid": "Ririkana",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "りりかな"
+      ],
+      "aliases": [
+        "Ririkana"
+      ],
+      "member_ids": [
+        "ichijou-ririka",
+        "otonose-kanade"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=vu2eawKYuek",
+          "evidence_date": "2025-07-07",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Official title uses りりかな and tags Ririka and Kanade; description separates the two cast members from the broader cohort roster."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "ririkana",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2025-07-07; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ririhaji",
+      "name": "りりはじ",
+      "romanization_aid": "Ririhaji",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "りりはじ"
+      ],
+      "aliases": [
+        "Ririhaji"
+      ],
+      "member_ids": [
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=yYp6UNsQjyw",
+          "evidence_date": "2024-07-17",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned title explicitly uses りりはじ and names the duo members."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "ririhaji",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-07-17; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "ririraden",
+      "name": "りりらでん",
+      "romanization_aid": "Ririraden",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "りりらでん"
+      ],
+      "aliases": [
+        "Ririraden"
+      ],
+      "member_ids": [
+        "ichijou-ririka",
+        "juufuutei-raden"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=KBBKr1_qv20",
+          "evidence_date": "2024-07-13",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent title uses りりらでん酒盛 and names Ririka/Raden; description also identifies Ririka as the guest. This supports the named collaboration context."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "ririraden",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-07-13; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "radehaji",
+      "name": "21歳拳で組",
+      "romanization_aid": "21-sai Kobushi de Gumi",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "21歳拳で組"
+      ],
+      "aliases": [
+        "らではじ",
+        "21-sai Kobushi de Gumi"
+      ],
+      "member_ids": [
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "classification": "named_duo",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=jugLFagTjUg",
+          "evidence_date": "2024-03-31",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title explicitly names 21歳拳で組 and its two members Hajime and Raden."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GzfOVWWkv9c",
+          "evidence_date": "2024-03-31",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title uses らではじ for the same Raden/Hajime duo, supporting alias consolidation rather than a second entity."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "radehaji",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-03-31, 2024-11-17; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "aho3",
+      "name": "AHO3",
+      "romanization_aid": "AHO3",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "AHO3"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade",
+        "todoroki-hajime"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=I3uDHmtLjss",
+          "evidence_date": "2024-01-25",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title explicitly uses AHO3 and names Kanade, Ao and Hajime; description lists their channel handles under AHO3."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "aho3",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-01-25; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "shachou-banchou-kuchihacchou",
+      "name": "社長番長口八丁",
+      "romanization_aid": "Shachou Banchou Kuchihacchou",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "社長番長口八丁"
+      ],
+      "aliases": [
+        "Shachou Banchou Kuchihacchou"
+      ],
+      "member_ids": [
+        "ichijou-ririka",
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=5Z6EiX44EMs",
+          "evidence_date": "2024-04-13",
+          "timestamp_seconds": null,
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Title names the trio. Description maps 番長 to Hajime, 社長 to Ririka and 口八丁 to the uploader Raden."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "shachou-banchou-kuchihacchou",
+      "reason": "Primary name and complete membership verified.",
+      "time_scope": "Documented 2024-04-13; ongoing activity not separately established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "regloss-anego-gumi",
+      "name": "あねご組",
+      "romanization_aid": "Anego-gumi",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "あねご組"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=HW0-N2aYogs",
+          "timestamp_seconds": null,
+          "inspection": "metadata_name_or_membership_only",
+          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+        }
+      ],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Chased clipping Qlo_PXZohb0 to talent-owned formation source HW0-N2aYogs dated 2024-02-08. Source title asks for trio name and description confirms Ririka/Ao/Hajime, but final name あねご組 absent in metadata. Clipping timestamps are secondary; primary transcript/playback needed.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "regloss-kusogakizu",
+      "name": "くそがきーず",
+      "romanization_aid": "Kusogakizu",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "くそがきーず"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "otonose-kanade",
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Wiki unit table plus targeted public YouTube metadata search for exact name; no corresponding named talent-owned upload discovered. Need wiki detail citation or primary formation source; neither name nor complete membership jointly verified.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "regloss-ryoute-ni-gaki",
+      "name": "両手にガキ",
+      "romanization_aid": "Ryoute ni Gaki",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "両手にガキ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "otonose-kanade",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Wiki member-set candidate and targeted public YouTube metadata search; indexed talent trio material uses りりはじかな rather than this name. No primary exact-name/member-set link verified.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "regloss-otohibana",
+      "name": "オトヒバナ",
+      "romanization_aid": "Otohibana",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "オトヒバナ"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade",
+        "ichijou-ririka"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=V5clm9tuGLU",
+          "timestamp_seconds": null,
+          "inspection": "metadata_name_or_membership_only",
+          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+        }
+      ],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Formation citation V5clm9tuGLU dated 2024-09-09 confirms Ao/Kanade/Ririka but metadata uses 初日デビュー組. Talent spelling posts https://x.com/hiodoshiao/status/1833164984773476710 and https://x.com/ichijouririka/status/1833162895666159858 were inaccessible (X empty/403 and browser HTTP response failure). Name needs accessible primary text or timestamp.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "regloss-ri-a-ra",
+      "name": "Ri-A-Ra",
+      "romanization_aid": "Ri-A-Ra",
+      "romanization_status": "research display aid, not asserted primary alias",
+      "reported_labels": [
+        "Ri-A-Ra"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "juufuutei-raden"
+      ],
+      "classification": "named_unit",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
+          "timestamp_seconds": null,
+          "inspection": "metadata_name_or_membership_only",
+          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=YFPvDq90fyI",
+          "timestamp_seconds": null,
+          "inspection": "metadata_name_or_membership_only",
+          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+        }
+      ],
+      "verification_state": "needs_primary_name_and_membership",
+      "canonical_record_id": null,
+      "reason": "Exact name verified on official short UqddHqBatJk dated 2024-12-21, but description lists all five cohort members rather than the trio cast. Formation stream YFPvDq90fyI dated 2024-09-23 establishes Ao/Ririka/Raden but uses earlier tag 青りりらでん. A primary explicit connection from final name to complete member set still requires transcript/timepoint or exact cast metadata.",
+      "time_scope": "Activity and formation date not established.",
+      "ongoing_activity_verified": false
+    }
+  ]
+}
