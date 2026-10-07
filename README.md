@@ -51,6 +51,7 @@ Topics are defined in `src/atlas.js`; all talents remains the first view. Layout
 
 ## Release scope
 
+- One grouped theme picker: Default (light) plus all 24 Holodex themes in light and dark variants, remembered before first paint on the atlas and About page. Named palettes color the header, toolbar, directory, details, footer and canvas with distinct surfaces; PNG exports use the same canvas colors.
 - Fullscreen map with source details; 44px search-clear target; head-focused portraits.
 - Automatic fCoSE, circular and cohort-grid layouts with collision spacing for small neighborhoods.
 - Cohort, talent and unit deep links, browser Back/Forward, shareable layout/alumni filters.

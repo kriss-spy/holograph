@@ -1,3 +1,5 @@
+import { currentTheme } from "./themes.js";
+import { graphThemeStyles } from "./graph-theme.js";
 import cytoscape from "cytoscape";
 import fcose from "cytoscape-fcose";
 import * as AtlasLayout from "./graph-layout.js";
@@ -99,122 +101,11 @@ const cy = cytoscape({
   minZoom: 0.025,
   maxZoom: 3,
   wheelSensitivity: 2.5,
-  style: [
-    {
-      selector: "node",
-      style: {
-        label: "data(label)",
-        "font-family": "Noto Sans, Arial, sans-serif",
-        "font-size": 14,
-        color: "#163d55",
-        "text-wrap": "wrap",
-        "text-max-width": 135,
-        "text-valign": "bottom",
-        "text-margin-y": 10,
-        "text-outline-color": "#f5fbfe",
-        "text-outline-width": 3,
-        "background-color": "#fff",
-        "border-width": 3,
-        "border-color": "data(color)",
-        width: 68,
-        height: 68,
-      },
-    },
-    {
-      selector: "node.talent",
-      style: {
-        "background-image": "data(image)",
-        shape: "round-rectangle",
-        "background-fit": "none",
-        "background-width": "data(cropScale)",
-        "background-height": "data(cropScale)",
-        "background-position-x": "data(cropX)",
-        "background-position-y": "data(cropY)",
-        "background-clip": "node",
-        "background-image-crossorigin": "anonymous",
-      },
-    },
-    {
-      selector: "node.alum, node.former",
-      style: { "border-style": "dashed", "border-color": "#7992a2" },
-    },
-    {
-      selector: "node.affiliate",
-      style: { "border-color": "#b45309", "border-width": 4 },
-    },
-    {
-      selector: "node.unit",
-      style: {
-        shape: "round-rectangle",
-        width: 110,
-        height: 36,
-        "font-size": 12,
-        "font-weight": 600,
-        "text-valign": "center",
-        "text-margin-y": 0,
-        "text-outline-width": 0,
-        "border-width": 1,
-        "border-color": "#b7a4ce",
-        "background-color": "#eee7f6",
-        "text-max-width": 105,
-      },
-    },
-    {
-      selector: "node.cohort",
-      style: {
-        shape: "round-rectangle",
-        "background-color": "data(color)",
-        "background-opacity": 0.25,
-        "border-width": 1,
-        "border-color": "data(color)",
-        "text-valign": "top",
-        "text-halign": "left",
-        "text-margin-x": 5,
-        "text-margin-y": -12,
-        "font-size": 19,
-        "font-weight": 600,
-        padding: 40,
-        "text-outline-width": 0,
-      },
-    },
-    {
-      selector: "edge",
-      style: {
-        "curve-style": "bezier",
-        "line-color": "#a594bf",
-        width: 1.7,
-        opacity: 0.72,
-        "target-arrow-shape": "none",
-        label: "data(label)",
-        "font-size": 11,
-        color: "#675879",
-        "text-background-color": "#f5fbfe",
-        "text-background-opacity": 1,
-        "text-background-padding": 4,
-        "text-rotation": "autorotate",
-      },
-    },
-    { selector: "edge.membership", style: { "line-style": "dotted" } },
-    {
-      selector: "edge.duo",
-      style: {
-        "text-margin-y": "data(labelOffset)",
-        width: 2.7,
-        "line-color": "#b95468",
-        color: "#973c53",
-        opacity: 0.9,
-      },
-    },
-    {
-      selector: ".picked",
-      style: {
-        "overlay-color": "#00a6cc",
-        "overlay-padding": 8,
-        "overlay-opacity": 0.12,
-      },
-    },
-    { selector: "edge.picked", style: { width: 4, opacity: 1 } },
-  ],
+  style: graphThemeStyles(currentTheme()),
+});
+// Updating the stylesheet preserves elements, selection, positions and viewport.
+window.addEventListener("themechange", () => {
+  cy.style(graphThemeStyles(currentTheme()));
 });
 function portraitElement(t, position, parent) {
   const secondary = affiliations(t).filter((m) => m.cohort_id !== t.primary_cohort_id);
@@ -390,7 +281,12 @@ function draw() {
     width: atlas ? 110 : 150,
     height: (node) => node.data("partial") ? (atlas ? 54 : 74) : (atlas ? 36 : 50),
     "font-size": atlas ? 12 : 19,
-    "text-max-width": atlas ? 105 : 145,
+    "text-max-width": atlas ? 90 : 130,
+  });
+  // Measure the wrapped label before layout so collision spacing includes its full box.
+  cy.nodes(".unit").forEach((node) => {
+    const label = node.boundingBox({ includeNodes: false, includeLabels: true, includeOverlays: false });
+    node.style("height", Math.max(node.numericStyle("height"), Math.ceil(label.h) + 16));
   });
   cy.edges().style({ "font-size": atlas ? 11 : 20 });
   if (useForce) {
@@ -677,7 +573,7 @@ $("#export").onclick = async () => {
           : viewId) +
       ".png";
     a.href = cy.png({
-      bg: "#f5fbfe",
+      bg: currentTheme().colors["map-bg"],
       full: true,
       scale: 2,
       maxWidth: 5000,

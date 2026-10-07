@@ -1,3 +1,5 @@
+import { createHash } from "node:crypto";
+import { themeStylesheet } from "../src/themes.js";
 import { build } from "esbuild";
 import { readFile, writeFile, rm, mkdir, cp } from "node:fs/promises";
 import path from "node:path";
@@ -8,6 +10,21 @@ await cp("data/hololive-relations.json", "dist/hololive-relations.json");
 await cp("research/wiki-name-audit.json", "dist/wiki-name-audit.json");
 await cp("research/holodex-name-audit.json", "dist/holodex-name-audit.json");
 await cp("research/sora-name-audit.json", "dist/sora-name-audit.json");
+// A synchronous, CSP-compatible script restores the theme before CSS and first paint.
+const themeBundle = await build({
+  entryPoints: ["src/theme-bootstrap.js"],
+  bundle: true, minify: true, format: "iife", target: ["es2022"],
+  outdir: "dist", entryNames: "assets/theme-[hash]", metafile: true,
+});
+const themeFile = Object.keys(themeBundle.metafile.outputs)[0];
+const themeScript = `<script src="./${path.relative("dist", themeFile).split(path.sep).join("/")}"></script>`;
+const themeCss = themeStylesheet();
+const themeCssFile = `assets/themes-${createHash("sha256").update(themeCss).digest("hex").slice(0, 12)}.css`;
+await writeFile(path.join("dist", themeCssFile), themeCss);
+const themeStyles = `<link rel="stylesheet" href="./${themeCssFile}">`;
+let about = await readFile("public/about.html", "utf8");
+about = about.replace("<!-- THEME -->", themeScript).replace("<!-- THEME-STYLES -->", themeStyles);
+await writeFile("dist/about.html", about);
 const result = await build({
   entryPoints: ["src/main.js"],
   bundle: true,
@@ -28,9 +45,10 @@ const relative = (p) =>
   "./" + path.relative("dist", p).split(path.sep).join("/");
 let html = await readFile("src/index.html", "utf8");
 html = html
+  .replace("<!-- THEME -->", themeScript)
   .replace(
     "<!-- STYLES -->",
-    `<link rel="stylesheet" href="${relative(js[1].cssBundle)}">`,
+    `${themeStyles}<link rel="stylesheet" href="${relative(js[1].cssBundle)}">`,
   )
   .replace(
     "<!-- SCRIPTS -->",
