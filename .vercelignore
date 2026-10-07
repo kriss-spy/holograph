@@ -2,6 +2,7 @@ node_modules/
 dist/
 .github/
 *.jpg
+!public/assets/*.jpg
 README.md
 VERIFICATION.md
 DEPLOYMENT.md
