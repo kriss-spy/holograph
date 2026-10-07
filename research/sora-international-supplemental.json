@@ -1,0 +1,33 @@
+{
+  "observed_on": "2026-10-07",
+  "iosora_sources": [
+    {
+      "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+      "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+      "owner": "SoraCh. ときのそらチャンネル",
+      "evidence_date": "2022-04-16",
+      "timestamp_seconds": null,
+      "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+      "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+      "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+      "owner": "SoraCh. ときのそらチャンネル",
+      "evidence_date": "2020-09-30",
+      "timestamp_seconds": null,
+      "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+      "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+    }
+  ],
+  "external_identity": {
+    "id": "external:tenjin-kotone",
+    "display_name": "Tenjin Kotone",
+    "display_name_jp": "天神子兎音",
+    "profile_url": "https://www.universal-music.co.jp/kotone/biography/",
+    "identity_source_url": "https://www.universal-music.co.jp/kotone/news/2020-11-11/",
+    "youtube_channel": "https://www.youtube.com/channel/UCAr7rLi_Wn09G-XfTA07d4g",
+    "agency": null,
+    "note": "Label announcement explicitly prints 天神子兎音(てんじんことね), artist name Kotone. Universal Music is a music label, not asserted VTuber agency."
+  }
+}

@@ -1,0 +1,309 @@
+[
+  {
+    "id": "soraao",
+    "name": "そらあお",
+    "reading_aids": [
+      "SoraAo"
+    ],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "external:fuji-aoi"
+    ],
+    "classification": "music_duo",
+    "verification_state": "verified",
+    "canonical_record_id": "soraao",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=rn54OXCuTZs",
+        "title": "【Cover】ライオン／May'n/中島愛 - 富士葵×ときのそらコラボ「そらあお」で歌ってみた",
+        "owner": "Aoi ch.",
+        "evidence_date": "2018-06-08",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata",
+        "supports": "Original uploader title names そらあお as Fuji Aoi × Tokino Sora. Description identifies the two singers; Sora’s own preceding upload also names the duo."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=J8QHmR6PTIQ",
+        "title": "【#そらあお ファン必見！】ときのそら×富士葵、コラボ動画投稿♡前夜祭【6/7(木)生放送そらあお濃縮】",
+        "owner": "SoraCh. ときのそらチャンネル",
+        "evidence_date": "2018-06-07",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata",
+        "supports": "Sora’s original title prints #そらあお and Tokino Sora × Fuji Aoi; custom description explicitly identifies these two performers. This independently corroborates Aoi’s following-day named cover."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.youtube.com/watch?v=rn54OXCuTZs"
+    ],
+    "reason": "Both original performer uploads explicitly name the complete duo.",
+    "time_scope": "Documented 2018-06-07–08; no formation or current activity inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "april-fools",
+    "name": "ジ・エイプリルフールズ",
+    "reading_aids": [
+      "The April Fools",
+      "Ji Eipuriru Furuzu"
+    ],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "external:sarugakucho-futaba",
+      "external:hibiki-ao",
+      "external:mononobe-alice"
+    ],
+    "classification": "music_unit",
+    "verification_state": "verified",
+    "canonical_record_id": "april-fools",
+    "primary_evidence": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/information/2020/03/30/219764.html",
+        "title": "ドラマ発のユニットが歌うキャラクターソングアルバムのリリースが決定！VTuberドラマ「四月一日さん家と」",
+        "owner": "TV Tokyo",
+        "evidence_date": "2020-03-30",
+        "timestamp_seconds": null,
+        "inspection": "official_publisher_text",
+        "supports": "Broadcaster explicitly names a four-person drama music unit: Sora as Ichika, Futaba as Futaba, Ao as Mitsuki and Alice as Ikuko. Complete performer quartet retained separately from character roles; additional episode guests are not unit members."
+      },
+      {
+        "url": "https://prtimes.jp/main/html/rd/p/000003523.000002581.html",
+        "title": "四月一日さん家と キャラクターソングアルバム DMM music",
+        "owner": "DMM.com / DMM music",
+        "evidence_date": "2020-03-30",
+        "timestamp_seconds": null,
+        "inspection": "official_publisher_text",
+        "supports": "Record label announcement independently identifies the same four performers and their character roles as the drama music unit. Album scheduled 2020-06-24; source publication is not an exact formation date."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.tv-tokyo.co.jp/information/2020/03/30/219764.html"
+    ],
+    "reason": "Broadcaster and record label explicitly name the full quartet.",
+    "time_scope": "Announced 2020-03-30 for the 2020 drama and album; ongoing activity not established.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "watanuki-sisters",
+    "name": "四月一日シスターズ",
+    "reading_aids": [
+      "Watanuki Sisters"
+    ],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "external:sarugakucho-futaba",
+      "external:hibiki-ao"
+    ],
+    "classification": "media_project_cast",
+    "verification_state": "verified",
+    "canonical_record_id": "watanuki-sisters",
+    "primary_evidence": [
+      {
+        "url": "https://www.tv-tokyo.co.jp/plus/drama/entry/2019/019336.html",
+        "title": "ニコニコ超会議2019に四月一日さん家の三姉妹が登場",
+        "owner": "TV Tokyo",
+        "evidence_date": "2019-04-20",
+        "timestamp_seconds": null,
+        "inspection": "official_publisher_text",
+        "supports": "Broadcaster calls Sora, Futaba and Ao 四月一日シスターズ and names all three for its 2019 event. This is the dated three-sister drama cast, not real family relationships or the later four-member music unit."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.tv-tokyo.co.jp/plus/drama/entry/2019/019336.html"
+    ],
+    "reason": "Broadcaster supplies exact cast label and complete three-performer lineup.",
+    "time_scope": "2019-04-20 announcement for 2019-04-27–28 event; dated original drama cast.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "shinzoku-uchu-jinro",
+    "name": "親族宇宙人狼",
+    "aliases": [],
+    "reading_aids": [],
+    "member_ids": [
+      "tokino-sora",
+      "external:asano-ruri",
+      "azki",
+      "external:else",
+      "external:kaname-mahiro",
+      "external:kanade-mimi",
+      "external:ginga-alice",
+      "external:hibiki-ao",
+      "external:fuji-aoi",
+      "yozora-mel"
+    ],
+    "classification": "dated_event",
+    "verification_state": "documented_without_unit_name",
+    "canonical_record_id": null,
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=zkDN1ZTppy8",
+        "title": "【Among Us】家族のためにそらママがんばっちゃうわ【#親族宇宙人狼】",
+        "owner": "SoraCh. ときのそらチャンネル",
+        "evidence_date": "2021-06-01",
+        "inspection": "youtube_watch_uploader_metadata",
+        "timestamp_seconds": null,
+        "supports": "Original title and full custom participant credits document a ten-person dated Among Us event. The event hashtag does not establish a lasting unit, friendship or actual family relationship. No canonical unit created."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.youtube.com/watch?v=zkDN1ZTppy8"
+    ],
+    "reason": "Original title and full custom participant credits document a ten-person dated Among Us event. The event hashtag does not establish a lasting unit, friendship or actual family relationship. No canonical unit created.",
+    "time_scope": "Dated 2021-06-01 source; no continuing unit activity inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "sora-aoi-nomu-cover",
+    "name": "Sora / Aoi / Nomu cover",
+    "aliases": [],
+    "reading_aids": [],
+    "member_ids": [
+      "tokino-sora",
+      "external:fuji-aoi",
+      "external:suntory-nomu"
+    ],
+    "classification": "unnamed_music_collaboration",
+    "verification_state": "documented_without_unit_name",
+    "canonical_record_id": null,
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=35fKzdDH654",
+        "title": "檄!帝国華撃団 by燦鳥ノム・富士葵・ときのそら【歌ってみた】",
+        "owner": "燦鳥ノム - SUNTORY NOMU -",
+        "evidence_date": "2018-11-23",
+        "inspection": "youtube_watch_uploader_metadata",
+        "timestamp_seconds": null,
+        "supports": "Original title and description credit a complete three-person cover without a shared unit name. Secondary ときの & 燦鳥 catalog label remains unsupported by this original and cannot erase Aoi from the lineup. No canonical unit created."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.youtube.com/watch?v=35fKzdDH654"
+    ],
+    "reason": "Original title and description credit a complete three-person cover without a shared unit name. Secondary ときの & 燦鳥 catalog label remains unsupported by this original and cannot erase Aoi from the lineup. No canonical unit created.",
+    "time_scope": "Dated 2018-11-23 source; no continuing unit activity inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "hoshimatic-2023",
+    "name": "Hoshimatic Project — 2023 lineup",
+    "aliases": [],
+    "reading_aids": [
+      "Hoshimatic Project 2023"
+    ],
+    "member_ids": [
+      "hoshimachi-suisei",
+      "tokino-sora",
+      "aki-rosenthal",
+      "natsuiro-matsuri",
+      "oozora-subaru",
+      "tokoyami-towa",
+      "momosuzu-nene",
+      "hakui-koyori",
+      "sakamata-chloe",
+      "kazama-iroha"
+    ],
+    "classification": "music_unit",
+    "verification_state": "verified",
+    "canonical_record_id": "hoshimatic-2023",
+    "primary_evidence": [
+      {
+        "url": "https://shop.hololivepro.com/products/hoshimaticproject",
+        "title": "Hoshimatic Project 応援グッズ",
+        "owner": "hololive production official shop / COVER",
+        "evidence_date": "2023-12-30",
+        "inspection": "official_product_text",
+        "supports": "Official shop calls Hoshimatic Project a Suisei-led dance-unit project; its ten performer-specific acrylic stand variants name Sora, Suisei, Aki, Matsuri, Subaru, Towa, Nene, Koyori, Chloe and Iroha. Retain this 2023 launch merchandise lineup as a historical ten-person snapshot, not the later nine-person release cast.",
+        "timestamp_seconds": null
+      }
+    ],
+    "discovery_urls": [
+      "https://shop.hololivepro.com/products/hoshimaticproject"
+    ],
+    "reason": "Official dance-unit project merchandise supplies the complete ten-member historical lineup.",
+    "time_scope": "Official shop sale began 2023-12-30; historical launch snapshot, not continuing membership.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "hoshimatic-2026",
+    "name": "Hoshimatic Project — 2026 lineup",
+    "aliases": [],
+    "reading_aids": [
+      "Hoshimatic Project 2026"
+    ],
+    "member_ids": [
+      "hoshimachi-suisei",
+      "tokino-sora",
+      "aki-rosenthal",
+      "natsuiro-matsuri",
+      "oozora-subaru",
+      "tokoyami-towa",
+      "momosuzu-nene",
+      "hakui-koyori",
+      "kazama-iroha"
+    ],
+    "classification": "music_unit",
+    "verification_state": "verified",
+    "canonical_record_id": "hoshimatic-2026",
+    "primary_evidence": [
+      {
+        "url": "https://shop.hololivepro.com/products/hoshimaticproject_beepbeep",
+        "title": "Hoshimatic Project BEEP BEEP",
+        "owner": "hololive production official shop / COVER",
+        "evidence_date": "2026 (exact publication date not established)",
+        "inspection": "official_product_text",
+        "supports": "Official label shop explicitly names nine Hoshimatic Project members singing BEEP BEEP: Suisei, Sora, Aki, Matsuri, Subaru, Towa, Nene, Koyori and Iroha. Track release lineup retained without retroactively deleting Chloe from the historical ten-member lineup.",
+        "timestamp_seconds": null
+      },
+      {
+        "url": "https://shop.hololivepro.com/products/hoshimaticproject_2026",
+        "title": "Hoshimatic Project 2026",
+        "owner": "hololive production official shop / COVER",
+        "evidence_date": "2026 (exact publication date not established)",
+        "inspection": "official_product_text",
+        "supports": "Official 2026 merchandise calls this a Suisei-led dance-unit project and lists nine corresponding performer acrylic stand variants. This separately corroborates the nine-member snapshot; exact publication date is not established.",
+        "timestamp_seconds": null
+      }
+    ],
+    "discovery_urls": [
+      "https://shop.hololivepro.com/products/hoshimaticproject_2026"
+    ],
+    "reason": "Official unit merchandise plus explicit nine-member music release credits establish the dated 2026 lineup.",
+    "time_scope": "2026 merchandise and BEEP BEEP release snapshot; no exact membership-change date inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "nunnun-machita",
+    "name": "ぬんぬんまちた",
+    "aliases": [],
+    "reading_aids": [
+      "Nunnun Machita"
+    ],
+    "member_ids": [
+      "tokino-sora",
+      "external:machita-chima"
+    ],
+    "classification": "named_duo",
+    "verification_state": "verified",
+    "canonical_record_id": "nunnun-machita",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=0lehGReyK8M",
+        "title": "【#ぬんぬんまちた】町田ちまちゃんと質問会雑談！【ホロライブ/ときのそら/町田ちま】",
+        "owner": "SoraCh. ときのそらチャンネル",
+        "evidence_date": "2025-12-07",
+        "inspection": "youtube_watch_uploader_metadata",
+        "timestamp_seconds": null,
+        "supports": "Sora’s original title explicitly prints #ぬんぬんまちた and Tokino Sora / Machita Chima. Custom description introduces 町田ちま @MachitaChima as the guest for their first collaboration; exact duo name and complete membership are supported."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.youtube.com/watch?v=0lehGReyK8M"
+    ],
+    "reason": "Original performer title supplies exact named duo and description identifies the guest.",
+    "time_scope": "Documented 2025-12-07; first-collaboration wording does not establish an exact naming or formation timestamp.",
+    "ongoing_activity_verified": false
+  }
+]

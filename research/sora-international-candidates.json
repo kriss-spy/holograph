@@ -1,0 +1,167 @@
+[
+  {
+    "id": "irysora",
+    "name": "IRySora",
+    "reading_aids": [],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "irys"
+    ],
+    "classification": "named_duo",
+    "verification_state": "verified",
+    "canonical_record_id": "irysora",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=pv19rFUFE_E",
+        "title": "【RAFT COLLAB】Stranded with DaiSenpai【#IRySora】",
+        "owner": "IRyS Ch. hololive",
+        "evidence_date": "2022-04-14",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+        "supports": "Title prints #IRySora; description says Playing with Sora Senpai and links @TokinoSora."
+      }
+    ],
+    "discovery_urls": [
+      "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+    ],
+    "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+    "time_scope": "Documented 2022-04-14; formation date and ongoing activity are not inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "sorizeri",
+    "name": "ソリゼリ",
+    "reading_aids": [
+      "Sorizeri"
+    ],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "kureiji-ollie",
+      "vestia-zeta",
+      "isaki-riona"
+    ],
+    "classification": "gaming_unit",
+    "verification_state": "verified",
+    "canonical_record_id": "sorizeri",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=OG0nzMpcink",
+        "title": "【SUPER MARIO PARTY JAMBOREE】 ワイワイ♪友情バトル！ #ソリゼリ そら先輩・ゼータ・リオナと一緒に! 【Kureiji Ollie】",
+        "owner": "Kureiji Ollie Ch. hololive",
+        "evidence_date": "2025-04-19",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+        "supports": "Title prints #ソリゼリ with Sora, Zeta and Riona; uploader Ollie description Playing with @TokinoSora @VestiaZeta @IsakiRiona supplies complete quartet."
+      }
+    ],
+    "discovery_urls": [
+      "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+    ],
+    "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+    "time_scope": "Documented 2025-04-19; formation date and ongoing activity are not inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "super-lady",
+    "name": "SUPER LADY",
+    "reading_aids": [],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "roboco-san",
+      "himemori-luna",
+      "kureiji-ollie"
+    ],
+    "classification": "tournament_team",
+    "verification_state": "verified",
+    "canonical_record_id": "super-lady",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=edcnRQ-0_ns",
+        "title": "【SUPER MARIO MAKER 2】I'LL DO MY BEST!! LETS GO TEAM A: SUPER LADY!!【Hololive Indonesia 2nd Gen】",
+        "owner": "Kureiji Ollie Ch. hololive",
+        "evidence_date": "2023-05-06",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+        "supports": "Title names Team A SUPER LADY. THE SUPER LADIES!! description lists @TokinoSora (CUU4ki_5LEw), @Robocosan (vqBqiYrC8c0), @HimemoriLuna (gxc4UJTbbqs); owner Ollie is fourth. HOST POV @usadapekora is a separately credited host, not a member."
+      }
+    ],
+    "discovery_urls": [
+      "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+    ],
+    "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+    "time_scope": "Documented 2023-05-06; formation date and ongoing activity are not inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "seijun-wild",
+    "name": "清純ワイルド",
+    "reading_aids": [
+      "Seijun Wild",
+      "Keisotsu Wild"
+    ],
+    "aliases": [
+      "軽率ワイルド"
+    ],
+    "member_ids": [
+      "tokino-sora",
+      "external:tenjin-kotone"
+    ],
+    "classification": "named_duo",
+    "verification_state": "verified",
+    "canonical_record_id": "seijun-wild",
+    "primary_evidence": [
+      {
+        "url": "https://www.youtube.com/watch?v=ESa6luvVszQ",
+        "title": "【天神ことね】清純ワイルドでマインクラフト！【ときのそら】",
+        "owner": "天神 子兎音 Tenjin Kotone",
+        "evidence_date": "2020-06-10",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+        "supports": "Title names exact duo and label; description ときのそら links her channel."
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=0mVrvDG2SOQ",
+        "title": "【軽率ワイルド】　ときのそらちゃん！！！！！！！！！！！！！１",
+        "owner": "天神 子兎音 Tenjin Kotone",
+        "evidence_date": "2020-07-28",
+        "timestamp_seconds": null,
+        "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+        "supports": "Uploader title uses alternate 軽率ワイルド label; description ☆ときのそら links same guest. This establishes printed usage for the same duo, without a claimed formal renaming chronology."
+      }
+    ],
+    "discovery_urls": [
+      "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+    ],
+    "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+    "time_scope": "Documented 2020-06-10, 2020-07-28; formation date and ongoing activity are not inferred.",
+    "ongoing_activity_verified": false
+  },
+  {
+    "id": "sora-guild",
+    "name": "そらギルド",
+    "reading_aids": [
+      "Sora Guild"
+    ],
+    "aliases": [],
+    "member_ids": [
+      "tokino-sora",
+      "airani-iofifteen",
+      "kureiji-ollie"
+    ],
+    "classification": "minecraft_project",
+    "verification_state": "unfinished",
+    "canonical_record_id": null,
+    "primary_evidence": [],
+    "discovery_urls": [
+      "https://seesaawiki.jp/hololivetv/d/Airani%20Iofifteen",
+      "https://www.youtube.com/watch?v=_ezomyDTSiE",
+      "https://www.youtube.com/watch?v=l_vRKPyoGfA"
+    ],
+    "reason": "Secondary index lists three principal guild-house members. Discovered original titles establish a Minecraft guild project, but complete fixed named-unit membership has not been independently inspected. Guild contractors/quest customers must not automatically be members. Retain candidate only.",
+    "time_scope": "Discovery spans 2023 shared-server guild and 2025 guild rebuild; continuity and stable membership unverified.",
+    "ongoing_activity_verified": false
+  }
+]
