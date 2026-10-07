@@ -1,0 +1,1466 @@
+{
+  "metadata": {
+    "observed_on": "2026-10-07",
+    "retained_existing_record_ids": [
+      "soraz",
+      "soaro",
+      "soazko"
+    ],
+    "scope": "Dedicated bounded Sora audit: Holodex Collabs, original performer streams/posts, older archives and official music/media projects. Not an exhaustive collaboration census.",
+    "interpretation": "Only primary-supported exact names with complete membership enter canonical data. Reading aids are separate from performer-attested aliases; coappearances and generic credits do not establish named units or friendships."
+  },
+  "candidates": [
+    {
+      "id": "soraao",
+      "name": "そらあお",
+      "reading_aids": [
+        "SoraAo"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "external:fuji-aoi"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soraao",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=rn54OXCuTZs",
+          "title": "【Cover】ライオン／May'n/中島愛 - 富士葵×ときのそらコラボ「そらあお」で歌ってみた",
+          "owner": "Aoi ch.",
+          "evidence_date": "2018-06-08",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらあお as Fuji Aoi × Tokino Sora. Description identifies the two singers; Sora’s own preceding upload also names the duo."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J8QHmR6PTIQ",
+          "title": "【#そらあお ファン必見！】ときのそら×富士葵、コラボ動画投稿♡前夜祭【6/7(木)生放送そらあお濃縮】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2018-06-07",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Sora’s original title prints #そらあお and Tokino Sora × Fuji Aoi; custom description explicitly identifies these two performers. This independently corroborates Aoi’s following-day named cover."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.youtube.com/watch?v=rn54OXCuTZs"
+      ],
+      "reason": "Both original performer uploads explicitly name the complete duo.",
+      "time_scope": "Documented 2018-06-07–08; no formation or current activity inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "april-fools",
+      "name": "ジ・エイプリルフールズ",
+      "reading_aids": [
+        "The April Fools",
+        "Ji Eipuriru Furuzu"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "external:sarugakucho-futaba",
+        "external:hibiki-ao",
+        "external:mononobe-alice"
+      ],
+      "classification": "music_unit",
+      "verification_state": "verified",
+      "canonical_record_id": "april-fools",
+      "primary_evidence": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/information/2020/03/30/219764.html",
+          "title": "ドラマ発のユニットが歌うキャラクターソングアルバムのリリースが決定！VTuberドラマ「四月一日さん家と」",
+          "owner": "TV Tokyo",
+          "evidence_date": "2020-03-30",
+          "timestamp_seconds": null,
+          "inspection": "official_publisher_text",
+          "supports": "Broadcaster explicitly names a four-person drama music unit: Sora as Ichika, Futaba as Futaba, Ao as Mitsuki and Alice as Ikuko. Complete performer quartet retained separately from character roles; additional episode guests are not unit members."
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000003523.000002581.html",
+          "title": "四月一日さん家と キャラクターソングアルバム DMM music",
+          "owner": "DMM.com / DMM music",
+          "evidence_date": "2020-03-30",
+          "timestamp_seconds": null,
+          "inspection": "official_publisher_text",
+          "supports": "Record label announcement independently identifies the same four performers and their character roles as the drama music unit. Album scheduled 2020-06-24; source publication is not an exact formation date."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.tv-tokyo.co.jp/information/2020/03/30/219764.html"
+      ],
+      "reason": "Broadcaster and record label explicitly name the full quartet.",
+      "time_scope": "Announced 2020-03-30 for the 2020 drama and album; ongoing activity not established.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "watanuki-sisters",
+      "name": "四月一日シスターズ",
+      "reading_aids": [
+        "Watanuki Sisters"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "external:sarugakucho-futaba",
+        "external:hibiki-ao"
+      ],
+      "classification": "media_project_cast",
+      "verification_state": "verified",
+      "canonical_record_id": "watanuki-sisters",
+      "primary_evidence": [
+        {
+          "url": "https://www.tv-tokyo.co.jp/plus/drama/entry/2019/019336.html",
+          "title": "ニコニコ超会議2019に四月一日さん家の三姉妹が登場",
+          "owner": "TV Tokyo",
+          "evidence_date": "2019-04-20",
+          "timestamp_seconds": null,
+          "inspection": "official_publisher_text",
+          "supports": "Broadcaster calls Sora, Futaba and Ao 四月一日シスターズ and names all three for its 2019 event. This is the dated three-sister drama cast, not real family relationships or the later four-member music unit."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.tv-tokyo.co.jp/plus/drama/entry/2019/019336.html"
+      ],
+      "reason": "Broadcaster supplies exact cast label and complete three-performer lineup.",
+      "time_scope": "2019-04-20 announcement for 2019-04-27–28 event; dated original drama cast.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "shinzoku-uchu-jinro",
+      "name": "親族宇宙人狼",
+      "aliases": [],
+      "reading_aids": [],
+      "member_ids": [
+        "tokino-sora",
+        "external:asano-ruri",
+        "azki",
+        "external:else",
+        "external:kaname-mahiro",
+        "external:kanade-mimi",
+        "external:ginga-alice",
+        "external:hibiki-ao",
+        "external:fuji-aoi",
+        "yozora-mel"
+      ],
+      "classification": "dated_event",
+      "verification_state": "documented_without_unit_name",
+      "canonical_record_id": null,
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=zkDN1ZTppy8",
+          "title": "【Among Us】家族のためにそらママがんばっちゃうわ【#親族宇宙人狼】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2021-06-01",
+          "inspection": "youtube_watch_uploader_metadata",
+          "timestamp_seconds": null,
+          "supports": "Original title and full custom participant credits document a ten-person dated Among Us event. The event hashtag does not establish a lasting unit, friendship or actual family relationship. No canonical unit created."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.youtube.com/watch?v=zkDN1ZTppy8"
+      ],
+      "reason": "Original title and full custom participant credits document a ten-person dated Among Us event. The event hashtag does not establish a lasting unit, friendship or actual family relationship. No canonical unit created.",
+      "time_scope": "Dated 2021-06-01 source; no continuing unit activity inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sora-aoi-nomu-cover",
+      "name": "Sora / Aoi / Nomu cover",
+      "aliases": [],
+      "reading_aids": [],
+      "member_ids": [
+        "tokino-sora",
+        "external:fuji-aoi",
+        "external:suntory-nomu"
+      ],
+      "classification": "unnamed_music_collaboration",
+      "verification_state": "documented_without_unit_name",
+      "canonical_record_id": null,
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=35fKzdDH654",
+          "title": "檄!帝国華撃団 by燦鳥ノム・富士葵・ときのそら【歌ってみた】",
+          "owner": "燦鳥ノム - SUNTORY NOMU -",
+          "evidence_date": "2018-11-23",
+          "inspection": "youtube_watch_uploader_metadata",
+          "timestamp_seconds": null,
+          "supports": "Original title and description credit a complete three-person cover without a shared unit name. Secondary ときの & 燦鳥 catalog label remains unsupported by this original and cannot erase Aoi from the lineup. No canonical unit created."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.youtube.com/watch?v=35fKzdDH654"
+      ],
+      "reason": "Original title and description credit a complete three-person cover without a shared unit name. Secondary ときの & 燦鳥 catalog label remains unsupported by this original and cannot erase Aoi from the lineup. No canonical unit created.",
+      "time_scope": "Dated 2018-11-23 source; no continuing unit activity inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "hoshimatic-2023",
+      "name": "Hoshimatic Project — 2023 lineup",
+      "aliases": [],
+      "reading_aids": [
+        "Hoshimatic Project 2023"
+      ],
+      "member_ids": [
+        "hoshimachi-suisei",
+        "tokino-sora",
+        "aki-rosenthal",
+        "natsuiro-matsuri",
+        "oozora-subaru",
+        "tokoyami-towa",
+        "momosuzu-nene",
+        "hakui-koyori",
+        "sakamata-chloe",
+        "kazama-iroha"
+      ],
+      "classification": "music_unit",
+      "verification_state": "verified",
+      "canonical_record_id": "hoshimatic-2023",
+      "primary_evidence": [
+        {
+          "url": "https://shop.hololivepro.com/products/hoshimaticproject",
+          "title": "Hoshimatic Project 応援グッズ",
+          "owner": "hololive production official shop / COVER",
+          "evidence_date": "2023-12-30",
+          "inspection": "official_product_text",
+          "supports": "Official shop calls Hoshimatic Project a Suisei-led dance-unit project; its ten performer-specific acrylic stand variants name Sora, Suisei, Aki, Matsuri, Subaru, Towa, Nene, Koyori, Chloe and Iroha. Retain this 2023 launch merchandise lineup as a historical ten-person snapshot, not the later nine-person release cast.",
+          "timestamp_seconds": null
+        }
+      ],
+      "discovery_urls": [
+        "https://shop.hololivepro.com/products/hoshimaticproject"
+      ],
+      "reason": "Official dance-unit project merchandise supplies the complete ten-member historical lineup.",
+      "time_scope": "Official shop sale began 2023-12-30; historical launch snapshot, not continuing membership.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "hoshimatic-2026",
+      "name": "Hoshimatic Project — 2026 lineup",
+      "aliases": [],
+      "reading_aids": [
+        "Hoshimatic Project 2026"
+      ],
+      "member_ids": [
+        "hoshimachi-suisei",
+        "tokino-sora",
+        "aki-rosenthal",
+        "natsuiro-matsuri",
+        "oozora-subaru",
+        "tokoyami-towa",
+        "momosuzu-nene",
+        "hakui-koyori",
+        "kazama-iroha"
+      ],
+      "classification": "music_unit",
+      "verification_state": "verified",
+      "canonical_record_id": "hoshimatic-2026",
+      "primary_evidence": [
+        {
+          "url": "https://shop.hololivepro.com/products/hoshimaticproject_beepbeep",
+          "title": "Hoshimatic Project BEEP BEEP",
+          "owner": "hololive production official shop / COVER",
+          "evidence_date": "2026 (exact publication date not established)",
+          "inspection": "official_product_text",
+          "supports": "Official label shop explicitly names nine Hoshimatic Project members singing BEEP BEEP: Suisei, Sora, Aki, Matsuri, Subaru, Towa, Nene, Koyori and Iroha. Track release lineup retained without retroactively deleting Chloe from the historical ten-member lineup.",
+          "timestamp_seconds": null
+        },
+        {
+          "url": "https://shop.hololivepro.com/products/hoshimaticproject_2026",
+          "title": "Hoshimatic Project 2026",
+          "owner": "hololive production official shop / COVER",
+          "evidence_date": "2026 (exact publication date not established)",
+          "inspection": "official_product_text",
+          "supports": "Official 2026 merchandise calls this a Suisei-led dance-unit project and lists nine corresponding performer acrylic stand variants. This separately corroborates the nine-member snapshot; exact publication date is not established.",
+          "timestamp_seconds": null
+        }
+      ],
+      "discovery_urls": [
+        "https://shop.hololivepro.com/products/hoshimaticproject_2026"
+      ],
+      "reason": "Official unit merchandise plus explicit nine-member music release credits establish the dated 2026 lineup.",
+      "time_scope": "2026 merchandise and BEEP BEEP release snapshot; no exact membership-change date inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "nunnun-machita",
+      "name": "ぬんぬんまちた",
+      "aliases": [],
+      "reading_aids": [
+        "Nunnun Machita"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "external:machita-chima"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "nunnun-machita",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=0lehGReyK8M",
+          "title": "【#ぬんぬんまちた】町田ちまちゃんと質問会雑談！【ホロライブ/ときのそら/町田ちま】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2025-12-07",
+          "inspection": "youtube_watch_uploader_metadata",
+          "timestamp_seconds": null,
+          "supports": "Sora’s original title explicitly prints #ぬんぬんまちた and Tokino Sora / Machita Chima. Custom description introduces 町田ちま @MachitaChima as the guest for their first collaboration; exact duo name and complete membership are supported."
+        }
+      ],
+      "discovery_urls": [
+        "https://www.youtube.com/watch?v=0lehGReyK8M"
+      ],
+      "reason": "Original performer title supplies exact named duo and description identifies the guest.",
+      "time_scope": "Documented 2025-12-07; first-collaboration wording does not establish an exact naming or formation timestamp.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soramiko",
+      "name": "そらみこ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraMiko"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "sakuramiko"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soramiko",
+      "primary_evidence": [
+        {
+          "url": "https://hololive.hololivepro.com/en/music/on-stage-2/",
+          "title": "ON STAGE!",
+          "owner": "hololive official website",
+          "evidence_date": "2020-10-21",
+          "timestamp_seconds": null,
+          "inspection": "official_music_page",
+          "supports": "Official track 07 credit explicitly names そらみこ(ときのそら＆さくらみこ), confirming exact Japanese spelling and complete duo; date is album release date."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=2C6y6LriOwQ",
+          "title": "【そらみこ】そら先生の数学教室～！！【ホロライブ/ときのそら】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2024-05-23",
+          "timestamp_seconds": null,
+          "inspection": "chrome_rendered_youtube_metadata",
+          "supports": "Original uploader title names そらみこ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=qcE7wpVRhG8",
+          "title": "【#そらみこ】おしえて！そら先生✨そらみこ数学教室‼ そら先生に教わるにぇ～～～～～‼【ホロライブ/さくらみこ/ときのそら】",
+          "owner": "Miko Ch. さくらみこ",
+          "evidence_date": "2026-03-03",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらみこ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2020-10-21, 2024-05-23, 2026-03-03; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "iosora",
+      "name": "イオそら",
+      "aliases": [
+        "IoSora",
+        "イオそらコラボ"
+      ],
+      "reading_aids": [],
+      "member_ids": [
+        "tokino-sora",
+        "airani-iofifteen"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "iosora",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=uMy9WlAipsE",
+          "title": "【Human: Fall Flat】イオそらでくにゃくにゃの世界へ【ホロライブ/ときのそら】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2025-02-09",
+          "timestamp_seconds": null,
+          "inspection": "chrome_rendered_youtube_metadata",
+          "supports": "Original uploader title names イオそら and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SZ3V6iKe3Mc",
+          "title": "【It Takes Two】イオフィちゃんと協力ゲームだ！！【#IoSora/#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Latin IoSora. Description 久しぶりのかわいい妹ちゃんイオフィちゃんとのコラボ and 🎵IAirani Iofifteen イオフィちゃん links official Iofi channel UCAoy6rzhSf4ydcYjJw3WoVg."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=20uLXVP0Qx8",
+          "title": "【Fall Guys: Ultimate Knockout】はじめましてのゲームコラボ！【#イオそらコラボ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2020-09-30",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints Japanese イオそらコラボ. Description ホロライブIDのイオフィちゃんとはじめてのコラボ and Airani Iofifteen(イオフィ) same official channel link. Printed Japanese and Latin source labels can be consolidated, not duplicate duos."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2020-09-30, 2022-04-16, 2025-02-09; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorachoco",
+      "name": "そらちょこ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraChoco"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "yuzuki-choco"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorachoco",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=uDGcDJhnOJU",
+          "title": "【世界のアソビ大全51】そらちょこで対決だ！！【ときのそら/Tokinosora/ホロライブ 】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2023-09-19",
+          "timestamp_seconds": null,
+          "inspection": "chrome_rendered_youtube_metadata",
+          "supports": "Original uploader title names そらちょこ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2023-09-19; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "akisora",
+      "name": "アキそら",
+      "aliases": [
+        "AKISORA"
+      ],
+      "reading_aids": [
+        "AkiSora"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "aki-rosenthal"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "akisora",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=NfSjC2RcTp4",
+          "title": "【アキそら】AKISORA TALK～座談会～【#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2021-01-17",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names アキそら and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2021-01-17; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorakoyo",
+      "name": "そらこよ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraKoyo"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "hakui-koyori"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorakoyo",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=FxS9o_Xh2Pc",
+          "title": "【そらこよコラボ】世界のアソビ大全51で対決だ！！【#ときのそら生放送 /ホロライブ/博衣こより】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2023-02-03",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらこよ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VeCrKxI04oA",
+          "title": "【Minecraft】そらこよまったりマイクラ！【#ときのそら生放送】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2022-04-16",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらこよ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred. Original watch date of VeCrKxI04oA was 2022-04-16; secondary Japanese indexes label the same stream 2022-04-17. This is a metadata timezone difference, not formation evidence.",
+      "time_scope": "Documented 2022-04-16, 2023-02-03; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorarobo",
+      "name": "そらロボ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraRobo"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "roboco-san"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorarobo",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=k8O9S6bs730",
+          "title": "【世界のアソビ大全51】そらロボで対決しちゃうよ！！【ホロライブ/ときのそら/ロボ子さん】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2024-05-17",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらロボ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2024-05-17; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorapol",
+      "name": "そらポル",
+      "aliases": [],
+      "reading_aids": [
+        "SoraPol"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "omaru-polka"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorapol",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=o82oX7Vr0Tw",
+          "title": "【We Were Here Too】100万人目前コンビで協力ゲーだ！ #そらポル 【尾丸ポルカ視点/ときのそら/ホロライブ】",
+          "owner": "Polka Ch. 尾丸ポルカ",
+          "evidence_date": "2022-07-24",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらポル and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2022-07-24; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorariri",
+      "name": "そらりり",
+      "aliases": [],
+      "reading_aids": [
+        "SoraRiri"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "ichijou-ririka"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorariri",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=HN7EbsQnOo4",
+          "title": "【歌枠】そらりりコラボで仲良く歌うよ！！【ホロライブ/ときのそら/一条莉々華】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2024-06-27",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらりり and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2024-06-27; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorafubu",
+      "name": "そらフブ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraFubu"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "shirakami-fubuki"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorafubu",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=a4_pqQC5HYY",
+          "title": "【世界のアソビ大全51】そらフブのアソビコラボ！！【ホロライブ/ときのそら/​ 白上フブキ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2023-08-07",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらフブ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2023-08-07; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soramio",
+      "name": "そらミオ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraMio"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "ookami-mio"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soramio",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=Jp2AkWjYYYc",
+          "title": "【そらミオ】新年のコラボ歌枠！！【ホロライブ/ときのそら/大神ミオ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2025-01-07",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらミオ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2025-01-07; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorawata",
+      "name": "そらわた",
+      "aliases": [],
+      "reading_aids": [
+        "SoraWata"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "tsunomaki-watame"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorawata",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=wXwwRYtVaEo",
+          "title": "【世界のアソビ大全51】そらわたで対決だ！！【ホロライブ/ときのそら/角巻わため】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2023-07-14",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらわた and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2023-07-14; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soraden",
+      "name": "そらでん",
+      "aliases": [],
+      "reading_aids": [
+        "SoraDen"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "juufuutei-raden"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soraden",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=hwQYV7mQbwc",
+          "title": "【 #そらでん雑談 】ぬんぬんまつたけ、踊って遊ぶ【ときのそら/儒烏風亭らでん】",
+          "owner": "Raden Ch. 儒烏風亭らでん ‐ ReGLOSS",
+          "evidence_date": "2025-02-13",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらでん and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2025-02-13; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "nunnun-bancho",
+      "name": "ぬんぬんばんちょー",
+      "aliases": [],
+      "reading_aids": [
+        "Nunnun Bancho"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "todoroki-hajime"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "nunnun-bancho",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=m9pji3WGwYo",
+          "title": "【世界のアソビ大全51】ぬんぬんばんちょーで勝負！！【ホロライブ/ときのそら/轟はじめ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2024-08-24",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names ぬんぬんばんちょー and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2024-08-24; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soratoshuba",
+      "name": "そらとしゅば",
+      "aliases": [],
+      "reading_aids": [
+        "Sora to Shuba"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "oozora-subaru"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soratoshuba",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=uoOXrneAGzE",
+          "title": "【#そらとしゅば】大先輩とマブになりたいが緊張が止まらないすばる：SORA collabo stream【ホロライブ】",
+          "owner": "Subaru Ch. 大空スバル",
+          "evidence_date": "2021-12-02",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらとしゅば and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2021-12-02; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "soramatsu",
+      "name": "そらまつ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraMatsu"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "natsuiro-matsuri"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "soramatsu",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=6Dc6ig2ioSc",
+          "title": "【コラボ歌枠】そらまつの楽しい歌枠だよ！！【ホロライブ/ときのそら/夏色まつり】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2024-07-27",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらまつ and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred. Original watch metadata gives 2024-07-27; Japanese indexes give 2024-07-28. Retain provenance and do not infer first activity.",
+      "time_scope": "Documented 2024-07-27; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "yozora-no-toki",
+      "name": "夜空の時",
+      "aliases": [],
+      "reading_aids": [
+        "Yozora no Toki"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "yozora-mel"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "yozora-no-toki",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=6j3z96MY-8M",
+          "title": "【Minecraft】メルメルとマイクラ生活しちゃうよ！！【#夜空の時/#夜空メル/#ときのそら】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2021-06-29",
+          "timestamp_seconds": null,
+          "inspection": "chrome_rendered_youtube_metadata",
+          "supports": "Original uploader title names 夜空の時 and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2021-06-29; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorawataazpol",
+      "name": "そらわたあずぽる",
+      "aliases": [],
+      "reading_aids": [
+        "SoraWataAzPol"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "tsunomaki-watame",
+        "azki",
+        "omaru-polka"
+      ],
+      "classification": "collab_group",
+      "verification_state": "verified",
+      "canonical_record_id": "sorawataazpol",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=lZ7ZShIK_-o",
+          "title": "【Party Animals】4人で楽しく戦っていくぞ【ホロライブ/ときのそら/AZKi/角巻わため/尾丸ポルカ】",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2023-11-29",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Original uploader title names そらわたあずぽる and title/description identifies the complete lineup. Complete participant credits were inspected in the uploader-owned description; unrelated boilerplate is omitted."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2023-11-29; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorario",
+      "name": "そらリオ",
+      "aliases": [],
+      "reading_aids": [
+        "SoraRio"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "isaki-riona"
+      ],
+      "classification": "music_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "sorario",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=8qC9mtjNKr8",
+          "title": "そらリオでキラメキMODEという曲をリリースしました🎧たくさん聴いていただけると嬉しいです🥰🫶 #vtuber #shorts",
+          "owner": "Riona Ch. 響咲リオナ - FLOW GLOW",
+          "evidence_date": "2026-08-05",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Riona’s own title names そらリオ and says they released キラメキMODE. Pair with the label-provided original recording featuring Riona for complete duo."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=oZbqT1Mjm3I",
+          "title": "キラメキMODE！ feat. 響咲リオナ",
+          "owner": "SoraCh. ときのそらチャンネル",
+          "evidence_date": "2026-08-04",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata",
+          "supports": "Victor-provided recording on Sora’s channel credits キラメキMODE！ feat. 響咲リオナ · TOKINOSORA and release date 2026-08-05. Recording credit supports the complete Sora/Riona duo; exact そらリオ spelling comes from Riona’s own short."
+        }
+      ],
+      "discovery_urls": [
+        "https://virtual-talent-hub.com/wiki/tokino-sora"
+      ],
+      "reason": "Performer-owned source explicitly names this lineup; no friendship or formation date inferred.",
+      "time_scope": "Documented 2026-08-04, 2026-08-05; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "akisora-apple-soda-alias",
+      "name": "AppleSoda / アップルソーダ",
+      "aliases": [],
+      "reading_aids": [],
+      "member_ids": [
+        "tokino-sora",
+        "aki-rosenthal"
+      ],
+      "classification": "alias_claim",
+      "verification_state": "deferred",
+      "canonical_record_id": null,
+      "primary_evidence": [],
+      "discovery_urls": [
+        "https://akilove.net/辞典/"
+      ],
+      "reason": "Fan dictionary reports separate English and Japanese tags chosen during an earlier stream. Inspected NfSjC2RcTp4 proves アキそら / AKISORA, but does not print AppleSoda or アップルソーダ. Need exact original spelling/naming source before adding either alias.",
+      "time_scope": "Unresolved historical alias; no separate unit to add.",
+      "ongoing_activity_verified": false,
+      "related_record_id": "akisora"
+    },
+    {
+      "id": "irysora",
+      "name": "IRySora",
+      "reading_aids": [],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "irys"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "irysora",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=pv19rFUFE_E",
+          "title": "【RAFT COLLAB】Stranded with DaiSenpai【#IRySora】",
+          "owner": "IRyS Ch. hololive",
+          "evidence_date": "2022-04-14",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints #IRySora; description says Playing with Sora Senpai and links @TokinoSora."
+        }
+      ],
+      "discovery_urls": [
+        "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+      ],
+      "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+      "time_scope": "Documented 2022-04-14; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sorizeri",
+      "name": "ソリゼリ",
+      "reading_aids": [
+        "Sorizeri"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "kureiji-ollie",
+        "vestia-zeta",
+        "isaki-riona"
+      ],
+      "classification": "gaming_unit",
+      "verification_state": "verified",
+      "canonical_record_id": "sorizeri",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=OG0nzMpcink",
+          "title": "【SUPER MARIO PARTY JAMBOREE】 ワイワイ♪友情バトル！ #ソリゼリ そら先輩・ゼータ・リオナと一緒に! 【Kureiji Ollie】",
+          "owner": "Kureiji Ollie Ch. hololive",
+          "evidence_date": "2025-04-19",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title prints #ソリゼリ with Sora, Zeta and Riona; uploader Ollie description Playing with @TokinoSora @VestiaZeta @IsakiRiona supplies complete quartet."
+        }
+      ],
+      "discovery_urls": [
+        "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+      ],
+      "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+      "time_scope": "Documented 2025-04-19; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "super-lady",
+      "name": "SUPER LADY",
+      "reading_aids": [],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "roboco-san",
+        "himemori-luna",
+        "kureiji-ollie"
+      ],
+      "classification": "tournament_team",
+      "verification_state": "verified",
+      "canonical_record_id": "super-lady",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=edcnRQ-0_ns",
+          "title": "【SUPER MARIO MAKER 2】I'LL DO MY BEST!! LETS GO TEAM A: SUPER LADY!!【Hololive Indonesia 2nd Gen】",
+          "owner": "Kureiji Ollie Ch. hololive",
+          "evidence_date": "2023-05-06",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title names Team A SUPER LADY. THE SUPER LADIES!! description lists @TokinoSora (CUU4ki_5LEw), @Robocosan (vqBqiYrC8c0), @HimemoriLuna (gxc4UJTbbqs); owner Ollie is fourth. HOST POV @usadapekora is a separately credited host, not a member."
+        }
+      ],
+      "discovery_urls": [
+        "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+      ],
+      "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+      "time_scope": "Documented 2023-05-06; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "seijun-wild",
+      "name": "清純ワイルド",
+      "reading_aids": [
+        "Seijun Wild",
+        "Keisotsu Wild"
+      ],
+      "aliases": [
+        "軽率ワイルド"
+      ],
+      "member_ids": [
+        "tokino-sora",
+        "external:tenjin-kotone"
+      ],
+      "classification": "named_duo",
+      "verification_state": "verified",
+      "canonical_record_id": "seijun-wild",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=ESa6luvVszQ",
+          "title": "【天神ことね】清純ワイルドでマインクラフト！【ときのそら】",
+          "owner": "天神 子兎音 Tenjin Kotone",
+          "evidence_date": "2020-06-10",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Title names exact duo and label; description ときのそら links her channel."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0mVrvDG2SOQ",
+          "title": "【軽率ワイルド】　ときのそらちゃん！！！！！！！！！！！！！１",
+          "owner": "天神 子兎音 Tenjin Kotone",
+          "evidence_date": "2020-07-28",
+          "timestamp_seconds": null,
+          "inspection": "youtube_watch_uploader_metadata_chrome_cua",
+          "supports": "Uploader title uses alternate 軽率ワイルド label; description ☆ときのそら links same guest. This establishes printed usage for the same duo, without a claimed formal renaming chronology."
+        }
+      ],
+      "discovery_urls": [
+        "https://holodex.net/channel/UCp6993wxpyDPHUpavwDFqgg/collabs"
+      ],
+      "reason": "Original performer-owned title and description establish exact name and complete lineup.",
+      "time_scope": "Documented 2020-06-10, 2020-07-28; formation date and ongoing activity are not inferred.",
+      "ongoing_activity_verified": false
+    },
+    {
+      "id": "sora-guild",
+      "name": "そらギルド",
+      "reading_aids": [
+        "Sora Guild"
+      ],
+      "aliases": [],
+      "member_ids": [
+        "tokino-sora",
+        "airani-iofifteen",
+        "kureiji-ollie"
+      ],
+      "classification": "minecraft_project",
+      "verification_state": "unfinished",
+      "canonical_record_id": null,
+      "primary_evidence": [],
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/Airani%20Iofifteen",
+        "https://www.youtube.com/watch?v=_ezomyDTSiE",
+        "https://www.youtube.com/watch?v=l_vRKPyoGfA"
+      ],
+      "reason": "Secondary index lists three principal guild-house members. Discovered original titles establish a Minecraft guild project, but complete fixed named-unit membership has not been independently inspected. Guild contractors/quest customers must not automatically be members. Retain candidate only.",
+      "time_scope": "Discovery spans 2023 shared-server guild and 2025 guild rebuild; continuity and stable membership unverified.",
+      "ongoing_activity_verified": false
+    }
+  ]
+}

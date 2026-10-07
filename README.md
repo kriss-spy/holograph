@@ -60,3 +60,5 @@ Topics are defined in `src/atlas.js`; all talents remains the first view. Layout
 Evidence coverage remains incomplete; a missing edge does not mean no relationship exists. Force-directed layout reduces crowding but cannot guarantee a crossing-free dense graph. The data is a dated snapshot, not a live roster.
 
 This is an unofficial fan project. Portraits © COVER Corp.; artwork rights remain with their owners. Vendor license files ship with the site. Published on Vercel on 4 October 2026: https://hololive-connections-atlas.vercel.app/ . See `DEPLOYMENT.md` for the deployment record.
+
+The [dedicated Sora audit](research/sora-connection-audit.md) adds 28 primary-supported records (3 → 31 Sora connections; 155 relationships / 273 sources overall). Its [downloadable candidate ledger](research/sora-name-audit.json) preserves exact names, complete historical/external lineups and unresolved leads. See the JP, international and external primary reports for inspection boundaries.
