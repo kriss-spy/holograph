@@ -620,6 +620,9 @@ cy.on("tap", "edge", (event) => {
   showDetails();
   renderDirectory();
 });
+cy.on("dbltap", "node.talent", (event) => {
+  choose("talent", event.target.id());
+});
 function saveRoute() {
   const key = mode === "person" ? "talent" : mode;
   const head =
