@@ -1,5 +1,7 @@
 # AZKi deferred-name follow-up — issues #5 / #10
 
+Later same-day reconciliation: RiONAZKi and そあろ now have inspected primary-scene evidence; see [final AZKi evidence](connection-azki-final.md). Earlier remaining-evidence statements below describe the previous pass.
+
 Research observed 2026-10-07 (Asia/Shanghai). All fourteen previously deferred candidate families are accounted for: **eleven now have complete name and membership evidence in independently inspected talent-owned metadata**; one has naming metadata plus a clearly identifiable primary thumbnail; two retain concrete spoken-name leads. This is additional evidence, not an assertion that all collaboration names or their origin dates have been verified.
 
 ## Method and scope

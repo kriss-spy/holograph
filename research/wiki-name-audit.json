@@ -4,10 +4,10 @@
     "observed_on": "2026-10-07",
     "original_index_url": "https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e9%a5%a4%a5%d6%a1%da%a5%b3%a5%f3%a5%d3%a1%bf%a5%e6%a5%cb%a5%c3%a5%c8%cc%be%b0%ec%cd%f7%a1%db?order=0,1,2,3&keyword=%E3%83%AD%E3%83%9C%E5%AD%90%E3%81%95%E3%82%93",
     "original_index_inspected": false,
-    "scope": "Partial discovery audit: AZKi wiki unit table, ReGLOSS cohort table, recoverable Mio/Mel search-index tables and prioritized issue candidates. Not a full Japanese-index census.",
+    "scope": "Partial Japanese index audit with primary stream, scene and post follow-up; complemented by a separate Holodex discovery audit. Not a full Japanese-index census.",
     "access_limits": [
       "Original legacy-EUC index returns 403 through direct HTTP/HTTPS and in-app browser; web reader corrupts EUC percent encoding and returns 404. UTF-8 spelling did not restore access. Wiki home and ASCII-title pages recovered through web reader.",
-      "Bot-gated YouTube playback and unavailable transcripts prevent spoken naming claims; readable uploader metadata remains usable."
+      "Some YouTube uploads have unavailable captions; successful Chrome transcript exports and original source-scene inspections are now retained for resolved naming candidates. Automatic-caption limitations remain explicit."
     ],
     "interpretation": "Candidates stay outside graph until primary name and complete membership are supported. Romanizations are reading aids; secondary labels are not automatically verified aliases. No current activity or friendship inferred."
   },
@@ -1138,7 +1138,7 @@
           "evidence_date": "2026-09-18",
           "timestamp_seconds": null,
           "inspection": "uploader_metadata_or_official_text",
-          "supports": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+          "supports": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. The later inspected scene independently confirms the Christmas Mukaetai name."
         }
       ],
       "verification_state": "verified",
@@ -1172,7 +1172,7 @@
           "evidence_date": "2018-10-03",
           "timestamp_seconds": null,
           "inspection": "uploader_metadata_or_official_text",
-          "supports": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+          "supports": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. An alternate original stream independently confirms Angel Heaven."
         }
       ],
       "verification_state": "verified",
@@ -1320,11 +1320,13 @@
       "id": "waz",
       "name": "WAZ / ワズ",
       "romanization_aid": "WAZ",
-      "romanization_status": "discovery reading aid, not verified alias",
+      "romanization_status": "Latin reading follows spoken letter discussion; no original printed spelling verified.",
       "reported_labels": [
         "WAZ"
       ],
-      "aliases": [],
+      "aliases": [
+        "ワズ"
+      ],
       "member_ids": [
         "azki",
         "aki-rosenthal"
@@ -1336,23 +1338,23 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=9j_hjbj1CXo",
-          "timestamp_seconds": 2490,
-          "inspection": "secondary_segment_lead_uninspected",
-          "supports": "Potential follow-up segment; naming timestamp not verified."
+          "url": "https://www.youtube.com/watch?v=9j_hjbj1CXo&t=5010s",
+          "timestamp_seconds": 5010,
+          "inspection": "original_audio_local_asr_and_scene",
+          "supports": "Original audio at 1:23:30–1:24:23 discusses W/double-A/Z spelling, agrees on ワズ, and adopts it for this duo. Local Japanese ASR of the archived original audio supplies the passage; source scene and uploader metadata independently confirm both performers. Machine transcription is imperfect; original printed Latin spelling is not claimed."
         }
       ],
-      "verification_state": "needs_spoken_name",
-      "canonical_record_id": null,
-      "reason": "Pair verified in uploader metadata; name absent from inspected metadata. Bot-gated primary playback; original recording mirror located, sampled frames do not establish spoken name.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "waz",
+      "reason": "AZKi and Aki adopt the spoken duo name ワズ in the original naming discussion. Latin WAZ follows the spoken letter discussion and matching published usage; no printed original spelling was verified.",
+      "time_scope": "Documented 2023-03-16; continuing activity and exact earlier formation date are not inferred.",
       "ongoing_activity_verified": false
     },
     {
       "id": "rionazki",
       "name": "RiONAZKi",
       "romanization_aid": "RiONAZKi",
-      "romanization_status": "discovery reading aid, not verified alias",
+      "romanization_status": "Exact mixed-case Latin spelling independently inspected in the performer-added primary source heading.",
       "reported_labels": [
         "RiONAZKi"
       ],
@@ -1368,16 +1370,17 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY",
-          "timestamp_seconds": 2661,
-          "inspection": "secondary_segment_lead_uninspected",
-          "supports": "Potential naming segment; not independently transcribed."
+          "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY&t=887s",
+          "evidence_date": "2025-10-20",
+          "timestamp_seconds": 887,
+          "inspection": "primary_source_scene_and_uploader_metadata",
+          "supports": "Inspected primary source frame at 14:47 shows performer-added RiONAZKi heading above AZKi and Riona. Naming discussion and acceptance corroborated in automatically generated captions at 8:13–14:50; exact capitalization comes from the visible heading."
         }
       ],
-      "verification_state": "needs_spoken_name",
-      "canonical_record_id": null,
-      "reason": "Pair metadata verified; wiki naming requires primary acceptance. Playback bot-gated; no transcript available.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "rionazki",
+      "reason": "Name and complete lineup independently verified in primary uploader text or inspected source scene; retained in one canonical record.",
+      "time_scope": "Documented 2025-10-20; ongoing activity not separately established.",
       "ongoing_activity_verified": false
     },
     {
@@ -1394,22 +1397,23 @@
         "azki",
         "roboco-san"
       ],
-      "classification": "named_unit",
+      "classification": "gaming_unit",
       "discovery_urls": [
         "https://github.com/kriss-spy/holograph/issues/5"
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps",
-          "timestamp_seconds": 426,
-          "inspection": "secondary_segment_lead_uninspected",
-          "supports": "Printed name verified; proposed introduction segment uninspected."
+          "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps&t=290s",
+          "evidence_date": "2023-07-23",
+          "timestamp_seconds": 290,
+          "inspection": "primary_source_scene_and_uploader_metadata",
+          "supports": "Uploader title and description print #そあろ. Inspected original UNO scene at 4:50 has exactly three occupied player slots: robocosan0523, tokinosora515 and azki_vdiva, plus an empty invite slot, corroborated by the three source avatars."
         }
       ],
-      "verification_state": "needs_explicit_membership",
-      "canonical_record_id": null,
-      "reason": "Primary title/tag names そあろ; thumbnail visually shows proposed trio. Printed or spoken full lineup still needed; thumbnail identity is not promoted to explicit evidence.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "soaro",
+      "reason": "Name and complete lineup independently verified in primary uploader text or inspected source scene; retained in one canonical record.",
+      "time_scope": "Documented 2023-07-23; ongoing activity not separately established.",
       "ongoing_activity_verified": false
     },
     {
@@ -1432,16 +1436,17 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
-          "timestamp_seconds": 1920,
-          "inspection": "secondary_segment_lead_uninspected",
-          "supports": "Approximate naming lead, unverified."
+          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA&t=1924s",
+          "evidence_date": "2026-09-18",
+          "timestamp_seconds": 1924,
+          "inspection": "primary_source_scene_and_uploader_metadata",
+          "supports": "Independently inspected original source scene at 32:04 prints グループ名：クリスマス☆むかえ隊 above the three performers. Original title and description explicitly identify Lamy, AZKi and Korone; automatic captions locate the naming discussion at 31:17–32:15."
         }
       ],
-      "verification_state": "needs_spoken_name",
-      "canonical_record_id": null,
-      "reason": "Printed あずらみころ trio integrated under its own attested name. Christmas name still needs 31:00–33:00 playback; no transcript and bot-gated player.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "azulamy-koro",
+      "reason": "Name and complete lineup independently verified in primary uploader text or inspected source scene; retained in one canonical record.",
+      "time_scope": "Documented 2026-09-18; ongoing activity not separately established.",
       "ongoing_activity_verified": false,
       "related_canonical_record_id": "azulamy-koro"
     },
@@ -1453,7 +1458,11 @@
       "reported_labels": [
         "Angel Heaven"
       ],
-      "aliases": [],
+      "aliases": [
+        "Angel Heaven",
+        "エンジェルヘブン",
+        "エンジェルヘヴン"
+      ],
       "member_ids": [
         "aki-rosenthal",
         "oozora-subaru"
@@ -1464,28 +1473,31 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=jnJGGxfxPnc",
+          "url": "https://www.youtube.com/watch?v=bUeZ9E-mdoU",
+          "evidence_date": "2023-08-31",
           "timestamp_seconds": null,
-          "inspection": "metadata_only",
-          "supports": "Guest pair verified; near-end naming segment not inspected."
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Verified Aki channel title explicitly names エンジェルヘブン and Aki/Subaru; description identifies @OozoraSubaru and prints both #エンジェルヘブン and #エンジェルヘヴン. Stream displayed date 2023-08-31."
         }
       ],
-      "verification_state": "needs_spoken_name",
-      "canonical_record_id": null,
-      "reason": "AkiSuba separately integrated from printed primary name. Angel name near later chat end needs playback; both transcript exports unavailable and players bot-gated.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "akisuba",
+      "reason": "Independent Aki-owned title and description explicitly establish name and complete duo; consolidated with existing Aki/Subaru record. First naming story not asserted.",
+      "time_scope": "Documented 2023-08-31; ongoing activity not separately established.",
       "ongoing_activity_verified": false,
       "related_canonical_record_id": "akisuba"
     },
     {
       "id": "kinpatsu-gumi",
-      "name": "金髪組",
+      "name": "Kinpatsu-gumi / 金髪組",
       "romanization_aid": "Kinpatsu-gumi",
-      "romanization_status": "discovery reading aid, not verified alias",
+      "romanization_status": "Romanization of the original Japanese written name; not separately printed in primary footage.",
       "reported_labels": [
         "Kinpatsu-gumi"
       ],
-      "aliases": [],
+      "aliases": [
+        "金髪組"
+      ],
       "member_ids": [
         "aki-rosenthal",
         "akai-haato",
@@ -1498,27 +1510,36 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=pa5Q-yLWb08",
-          "timestamp_seconds": null,
-          "inspection": "unavailable_primary",
-          "supports": "Original title/channel/metadata unavailable; secondary mirror retained in notes."
+          "url": "https://www.bilibili.com/video/BV1Yb411g77o/",
+          "timestamp_seconds": 3,
+          "inspection": "preserved_original_recording_visual",
+          "supports": "Actual reproduced original intro at clip 00:03–00:04 prints 金髪組こらぼ beside Mel, Choco, Haato and Aki. Actual recording at 00:16/00:31 shows all four in Choco’s clinic. The mirror links original pa5Q-yLWb08, currently unavailable; original-stream timestamp mapping and mirror-reported title/date/owner are not independently verified."
+        },
+        {
+          "url": "https://archive.ragtag.moe/embed/ASHMZVS7HQk",
+          "timestamp_seconds": 5786.5,
+          "inspection": "archived_original_audio_local_asr",
+          "supports": "Original Mel audio around 1:36:26.5 uses 金髪組 and discusses herself and Choco. Local Japanese ASR is imperfect. This independently corroborates performer use of the name; it alone does not establish Aki/Haato membership."
         }
       ],
-      "verification_state": "needs_complete_historical_lineup",
-      "canonical_record_id": null,
-      "reason": "Original four-person archives unavailable. Official from1st verifies Aki/Mel/Haato performance trio; other blonde-group four-person stream has Mel/Choco/Flare/Watame. Neither proves requested four-member unit.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "kinpatsu-gumi",
+      "reason": "Historical four-member collaboration of Aki, Haato, Choco and Mel. The preserved original intro prints 金髪組こらぼ with all four; the following clinic footage confirms the complete lineup. The fan mirror preserves the original footage; its added subtitles and reported metadata are separate from the inspected original graphic.",
+      "time_scope": "Historical recording preserved in a mirror uploaded 2019-04-05. The mirror reports the original stream as 2018-11-09; original metadata is unavailable. Formation and continuing activity are not established.",
       "ongoing_activity_verified": false
     },
     {
       "id": "soazko",
-      "name": "SoAzKo / そあっこ",
+      "name": "SoAzKo",
       "romanization_aid": "SoAzKo",
-      "romanization_status": "discovery reading aid, not verified alias",
+      "romanization_status": "Exact Latin spelling printed on official card; Japanese alias is a phonetic reading aid.",
       "reported_labels": [
         "SoAzKo"
       ],
-      "aliases": [],
+      "aliases": [
+        "そあっこ",
+        "そらあずこよ"
+      ],
       "member_ids": [
         "tokino-sora",
         "azki",
@@ -1530,16 +1551,34 @@
       ],
       "primary_evidence": [
         {
+          "url": "https://www.youtube.com/watch?v=Ordk4xfoNmE&t=569s",
+          "timestamp_seconds": null,
+          "inspection": "Original rendered YouTube player/frame and original-stream audio inspected via local unprompted ASR",
+          "supports": "Official original tournament player frame at9:29–9:32 explicitly prints AZKi / ときのそら / 博衣こより under チームピュア. Unprompted local faster-whisper small transcription of the original audio at9:29.84–9:34.54 gives 私たちのチームは、ソアッコーっていう名前…, followed by 3人でね; AZKi at9:48.50–9:52.50 says ソアッコー3人で練習たくさんしてきましたので. Exact Latin spelling SoAzKo is independently printed on official Japanese Koyori card hSD01-015 with Sora/AZKi collab effects and art ピュアピュアピュア～. Composite supports exact Latin name and complete trio. Hiragana そあっこ is a phonetic alias from secondary discovery, corroborated in pronunciation; original audio cannot establish written kana."
+        },
+        {
           "url": "https://en.hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
           "timestamp_seconds": null,
-          "inspection": "official_text",
-          "supports": "Card uses SoAzKo as effect name; not treated as sole lineup evidence."
+          "inspection": "Official primary text via web reader",
+          "supports": "Koyori card explicitly uses SoAzKo for effect concerning Tokino Sora and AZKi; not sole proof of named unit membership."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cS_A7BCxL7M",
+          "timestamp_seconds": null,
+          "inspection": "Original rendered YouTube uploader metadata in Chrome",
+          "supports": "Original practice stream title identifies そらあずこよ team. Inspected automatic transcript closing59:42–59:54 asks for そらあずこよ hashtag; no exact SoAzKo spelling in inspected metadata."
+        },
+        {
+          "url": "https://hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "timestamp_seconds": null,
+          "inspection": "Official Japanese card text, web reader plus public HTTP HTML text extraction",
+          "supports": "Exact card keyword SoAzKo. Official text: ■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。 ■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。 アーツ ピュアピュアピュア～. Original tournament TeamPure trio provides separate full-membership proof; card date is release date, not group formation."
         }
       ],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Wiki attributes naming to Garupa cup. Official Koyori card uses SoAzKo for effects involving Sora/AZKi, corroborating spelling but not explicit event-unit formation/membership; formation citation still needed.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "soazko",
+      "reason": "Named Sora/AZKi/Koyori gaming team. The original tournament names the trio as Team Pure; its naming audio and the official Koyori card jointly support SoAzKo. そあっこ is a phonetic search aid, not a claim of inspected original hiragana writing.",
+      "time_scope": "Documented on 2022-08-28; formation date and current continuity not inferred.",
       "ongoing_activity_verified": false
     },
     {
@@ -1566,14 +1605,14 @@
           "url": "https://www.youtube.com/watch?v=L93enlVyak8",
           "evidence_date": "2024-05-07",
           "timestamp_seconds": null,
-          "inspection": "uploader_metadata",
-          "supports": "Four vocalists credited: Aki, Choco, Honma Himawari and Yakumo Beni."
+          "inspection": "uploader_metadata_or_official_text",
+          "supports": "Talent-owned cover title names all four singers. Description explicitly calls #ちくまろ a four-person group and credits Choco, Aki, Honma Himawari and Yakumo Beni; complete lineup is preserved."
         }
       ],
-      "verification_state": "verified_external_scope",
-      "canonical_record_id": null,
-      "reason": "Primary four-singer credits verified. Two external talents absent from selected roster; a Hololive-only two-person projection would be false. Retained complete group outside graph pending external-roster design.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "chikumaro",
+      "reason": "Name and complete lineup independently verified in primary uploader text or inspected source scene; retained in one canonical record.",
+      "time_scope": "Documented 2024-05-07; ongoing activity not separately established.",
       "ongoing_activity_verified": false
     },
     {
@@ -1584,7 +1623,9 @@
       "reported_labels": [
         "AzuKoto"
       ],
-      "aliases": [],
+      "aliases": [
+        "あずことASMR"
+      ],
       "member_ids": [
         "azki",
         "external:koiwai-kotori"
@@ -1593,11 +1634,18 @@
       "discovery_urls": [
         "https://seesaawiki.jp/hololivetv/d/AZKi"
       ],
-      "primary_evidence": [],
-      "verification_state": "needs_primary_and_external_scope",
-      "canonical_record_id": null,
-      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
-      "time_scope": "Activity and formation date not established.",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=yE8NM5c476U",
+          "timestamp_seconds": null,
+          "inspection": "Original rendered YouTube uploader metadata in Chrome",
+          "supports": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azukoto",
+      "reason": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context.",
+      "time_scope": "Documented on 2023-06-07; formation date and current continuity not inferred.",
       "ongoing_activity_verified": false
     },
     {
@@ -1618,22 +1666,31 @@
       "discovery_urls": [
         "https://seesaawiki.jp/hololivetv/d/AZKi"
       ],
-      "primary_evidence": [],
-      "verification_state": "needs_primary_and_external_scope",
-      "canonical_record_id": null,
-      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
-      "time_scope": "Activity and formation date not established.",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+          "timestamp_seconds": null,
+          "inspection": "Original rendered YouTube uploader metadata in Chrome",
+          "supports": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "azumimizushi",
+      "reason": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved.",
+      "time_scope": "Documented on 2023-04-20; formation date and current continuity not inferred.",
       "ongoing_activity_verified": false
     },
     {
       "id": "shotgunrose",
-      "name": "ShotgunRose",
+      "name": "Shotgun Rose",
       "romanization_aid": "ShotgunRose",
       "romanization_status": "discovery reading aid, not verified alias",
       "reported_labels": [
         "ShotgunRose"
       ],
-      "aliases": [],
+      "aliases": [
+        "ショットガンローズ"
+      ],
       "member_ids": [
         "azki",
         "external:suzuna-subaru",
@@ -1643,11 +1700,24 @@
       "discovery_urls": [
         "https://seesaawiki.jp/hololivetv/d/AZKi"
       ],
-      "primary_evidence": [],
-      "verification_state": "needs_primary_and_external_scope",
-      "canonical_record_id": null,
-      "reason": "Wiki discovery lineup retained completely. Primary name/full-membership verification and external-roster scope decision needed; no partial projection added.",
-      "time_scope": "Activity and formation date not established.",
+      "primary_evidence": [
+        {
+          "url": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+          "timestamp_seconds": null,
+          "inspection": "Original rendered YouTube uploader metadata in Chrome",
+          "supports": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/talents/azki/",
+          "timestamp_seconds": null,
+          "inspection": "Official primary text via web reader",
+          "supports": "Official unit field lists Shotgun Rose. This supplies exact Latin spelling; guest membership is supplied by original collaboration metadata."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "shotgunrose",
+      "reason": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity.",
+      "time_scope": "Documented on 2020-05-31; formation date and current continuity not inferred.",
       "ongoing_activity_verified": false
     },
     {
@@ -2086,27 +2156,43 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=HW0-N2aYogs",
+          "url": "https://x.com/hiodoshiao/status/1755594892435464631",
           "timestamp_seconds": null,
-          "inspection": "metadata_name_or_membership_only",
-          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+          "inspection": "performer_authored_post_public_oembed",
+          "supports": "Ao’s own 8 February 2024 post explicitly prints ReGLOSSのあねご組 and #あねご組. Public oEmbed verifies author and exact original spelling; the same-day stream independently supplies the complete trio."
+        },
+        {
+          "url": "https://x.com/ichijouririka/status/1755592646389854688",
+          "timestamp_seconds": null,
+          "inspection": "performer_authored_post_public_oembed",
+          "supports": "Ririka’s own 8 February 2024 post uses #あねご組 and quotes her trio-stream announcement. Public oEmbed independently confirms her authored name usage and date."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HW0-N2aYogs&t=9948s",
+          "timestamp_seconds": null,
+          "inspection": "original_uploader_metadata_and_automatic_transcript",
+          "supports": "Ririka-owned Minecraft stream explicitly credits Ao and Hajime with the host, preserving the full trio. Its original automatic naming transcript at 2:45:48–2:46:42 discusses the name but drops ね; performer posts independently establish exact spelling."
         }
       ],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Chased clipping Qlo_PXZohb0 to talent-owned formation source HW0-N2aYogs dated 2024-02-08. Source title asks for trio name and description confirms Ririka/Ao/Hajime, but final name あねご組 absent in metadata. Clipping timestamps are secondary; primary transcript/playback needed.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "regloss-anego-gumi",
+      "reason": "Ao formation-day post explicitly writes ReGLOSSのあねご組 and #あねご組; Ririka writes same hashtag and quotes own trio stream announcement. Full membership from uploader custom description Ao/Hajime plus Ririka owner. Original automatic naming passage2:45:48–2:46:42 discusses hiragana prefix and kanji組; exact spelling independently fixed by both talent posts.",
+      "time_scope": "Documented 2024-02-08; formation date and continuing activity not inferred.",
       "ongoing_activity_verified": false
     },
     {
       "id": "regloss-kusogakizu",
-      "name": "くそがきーず",
+      "name": "くそがきーず（仮）",
       "romanization_aid": "Kusogakizu",
-      "romanization_status": "research display aid, not asserted primary alias",
+      "romanization_status": "Reading aid for expressly provisional Japanese nickname; no finalized name verified.",
       "reported_labels": [
         "くそがきーず"
       ],
-      "aliases": [],
+      "aliases": [
+        "くそがきーず",
+        "やきいもーず",
+        "やきいもーず（仮）"
+      ],
       "member_ids": [
         "otonose-kanade",
         "juufuutei-raden",
@@ -2116,12 +2202,32 @@
       "discovery_urls": [
         "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
       ],
-      "primary_evidence": [],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Wiki unit table plus targeted public YouTube metadata search for exact name; no corresponding named talent-owned upload discovered. Need wiki detail citation or primary formation source; neither name nor complete membership jointly verified.",
-      "time_scope": "Activity and formation date not established.",
-      "ongoing_activity_verified": false
+      "primary_evidence": [
+        {
+          "url": "https://x.com/juufuuteiraden/status/1887814696973283770",
+          "timestamp_seconds": null,
+          "inspection": "performer_authored_post_public_oembed",
+          "supports": "Raden’s own 7 February 2025 post expressly prints both くそがきーず(仮) and やきいもーず(仮), marking both provisional, and quotes Hajime’s collaboration announcement. Exact wording and author are confirmed by public oEmbed."
+        },
+        {
+          "url": "https://x.com/todoroki_hajime/status/1887812182311845942",
+          "timestamp_seconds": null,
+          "inspection": "performer_authored_post_public_oembed",
+          "supports": "Hajime’s same-day own post explicitly names らでんかなではじめ as the full collaboration trio. This supplies membership; Raden’s linked post independently supplies the provisional nicknames."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QKQAxDDu2QU",
+          "timestamp_seconds": null,
+          "inspection": "original_uploader_metadata_and_automatic_transcript",
+          "supports": "Hajime-owned stream title names Raden, Kanade and Hajime; custom description links both guests. Original Japanese automatic transcript at 9:49–10:00 and 1:05:56–1:06:50 explicitly discusses their still-undecided unit name. Exact provisional spellings come from Raden’s own written post, not these noisy captions."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "regloss-kusogakizu",
+      "reason": "Raden, Kanade and Hajime publicly use two expressly tentative names: くそがきーず（仮） and やきいもーず（仮）. Raden’s own post marks both provisional; the same-day original stream says their unit name is still undecided. These are alternative provisional nicknames for one complete trio, not two finalized units.",
+      "time_scope": "Documented 2025-02-07; names expressly provisional; later finalized adoption not verified.",
+      "ongoing_activity_verified": false,
+      "provisional_name": true
     },
     {
       "id": "regloss-ryoute-ni-gaki",
@@ -2141,11 +2247,18 @@
       "discovery_urls": [
         "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
       ],
-      "primary_evidence": [],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Wiki member-set candidate and targeted public YouTube metadata search; indexed talent trio material uses りりはじかな rather than this name. No primary exact-name/member-set link verified.",
-      "time_scope": "Activity and formation date not established.",
+      "primary_evidence": [
+        {
+          "url": "https://x.com/ichijouririka/status/1861773065170067872",
+          "timestamp_seconds": null,
+          "inspection": "performer_authored_post_public_oembed",
+          "supports": "Ririka own post explicitly writes 番長、莉々華、奏 「両手にガキ」. Both name and full lineup are in performer-authored text. Quoted fan image is not required for this evidence."
+        }
+      ],
+      "verification_state": "verified",
+      "canonical_record_id": "regloss-ryoute-ni-gaki",
+      "reason": "Ririka own post explicitly writes 番長、莉々華、奏 「両手にガキ」. Both name and full lineup are in performer-authored text. Quoted fan image is not required for this evidence.",
+      "time_scope": "Documented 2024-11-27; formation date and continuing activity not inferred.",
       "ongoing_activity_verified": false
     },
     {
@@ -2168,16 +2281,31 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=V5clm9tuGLU",
+          "url": "https://www.youtube.com/watch?v=V5clm9tuGLU&t=2799s",
+          "evidence_date": "2024-09-09",
+          "timestamp_seconds": 2799,
+          "inspection": "uploader_metadata_and_primary_automatic_captions",
+          "supports": "Official formation stream title and custom description identify Ao, Kanade and Ririka. Original automatic naming discussion at 46:19–47:23 and 51:07–51:31 selects Otohibana; contemporary talent posts establish exact katakana spelling."
+        },
+        {
+          "url": "https://x.com/hiodoshiao/status/1833164984773476710",
+          "evidence_date": "2024-09-09",
           "timestamp_seconds": null,
-          "inspection": "metadata_name_or_membership_only",
-          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+          "inspection": "primary_talent_post_via_public_oembed",
+          "supports": "Ao's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
+        },
+        {
+          "url": "https://x.com/ichijouririka/status/1833162895666159858",
+          "evidence_date": "2024-09-09",
+          "timestamp_seconds": null,
+          "inspection": "primary_talent_post_via_public_oembed",
+          "supports": "Ririka's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
         }
       ],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Formation citation V5clm9tuGLU dated 2024-09-09 confirms Ao/Kanade/Ririka but metadata uses 初日デビュー組. Talent spelling posts https://x.com/hiodoshiao/status/1833164984773476710 and https://x.com/ichijouririka/status/1833162895666159858 were inaccessible (X empty/403 and browser HTTP response failure). Name needs accessible primary text or timestamp.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "otohibana",
+      "reason": "Original naming discussion and explicitly credited trio are matched with two contemporaneous talent-owned posts printing exact オトヒバナ; public oEmbed recovers primary post text.",
+      "time_scope": "Documented 2024-09-09; ongoing activity not separately established.",
       "ongoing_activity_verified": false
     },
     {
@@ -2188,7 +2316,9 @@
       "reported_labels": [
         "Ri-A-Ra"
       ],
-      "aliases": [],
+      "aliases": [
+        "リアラ"
+      ],
       "member_ids": [
         "hiodoshi-ao",
         "ichijou-ririka",
@@ -2200,22 +2330,24 @@
       ],
       "primary_evidence": [
         {
-          "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
-          "timestamp_seconds": null,
-          "inspection": "metadata_name_or_membership_only",
-          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+          "url": "https://www.youtube.com/watch?v=YFPvDq90fyI&t=3339s",
+          "evidence_date": "2024-09-23",
+          "timestamp_seconds": 3339,
+          "inspection": "primary_automatic_captions_and_official_metadata",
+          "supports": "Exported original Japanese automatic transcript: 55:39–55:47 states all three names 一条リリカ / 火威青 / 儒烏風亭らでん and that unit name リアラ has been decided. At23:44–23:59 it derives the name from Ririka/Ao/Raden;28:54–29:02 gives final decision. Automatic transcription has misspellings; name/member interpretation is normalized from matching title and clear context."
         },
         {
-          "url": "https://www.youtube.com/watch?v=YFPvDq90fyI",
+          "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
+          "evidence_date": "2024-12-21",
           "timestamp_seconds": null,
-          "inspection": "metadata_name_or_membership_only",
-          "supports": "Inspected metadata supports name or lineup separately; exact name/full-membership connection remains unverified. See candidate reason."
+          "inspection": "official_upload_title",
+          "supports": "Official channel rendered watch title confirms exact Ri-A-Ra Latin spelling. Description promotes full cohort and is not trio membership evidence; membership is supplied by formation transcript."
         }
       ],
-      "verification_state": "needs_primary_name_and_membership",
-      "canonical_record_id": null,
-      "reason": "Exact name verified on official short UqddHqBatJk dated 2024-12-21, but description lists all five cohort members rather than the trio cast. Formation stream YFPvDq90fyI dated 2024-09-23 establishes Ao/Ririka/Raden but uses earlier tag 青りりらでん. A primary explicit connection from final name to complete member set still requires transcript/timepoint or exact cast metadata.",
-      "time_scope": "Activity and formation date not established.",
+      "verification_state": "verified",
+      "canonical_record_id": "ri-a-ra",
+      "reason": "Formation transcript explicitly links the final name to the full trio; official ReGLOSS short supplies exact Latin spelling. Generic cohort promo credits are not used to infer trio membership.",
+      "time_scope": "Documented 2024-09-23 and 2024-12-21; ongoing activity not separately established.",
       "ongoing_activity_verified": false
     }
   ]

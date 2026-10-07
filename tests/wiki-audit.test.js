@@ -25,6 +25,10 @@ test("Wiki audit keeps uncertainty outside canonical facts and checks complete m
       assert(c.primary_evidence.length, c.id);
       assert(c.primary_evidence.every((s) => record.sources.some((r) => r.url === s.url)), c.id);
       assert(c.primary_evidence.every((s) => !s.inspection.includes("uninspected")), c.id);
+      if (c.provisional_name) {
+        assert.equal(record.provisional_name, true, c.id);
+        assert(record.label.includes("（仮）"), c.id);
+      }
     } else {
       assert.equal(c.canonical_record_id, null, c.id);
     }
@@ -33,5 +37,27 @@ test("Wiki audit keeps uncertainty outside canonical facts and checks complete m
   const external = audit.candidates.find((c) => c.id === "chikumaro");
   assert.equal(external.member_ids.length, 4);
   assert.equal(external.member_ids.filter((id) => id.startsWith("external:")).length, 2);
-  assert(!data.relationships.some((r) => r.id === "chikumaro"));
+  assert.equal(external.verification_state, "verified");
+  assert.equal(external.canonical_record_id, "chikumaro");
+});
+
+test("Holodex discoveries retain primary provenance and canonical complete lineups", () => {
+  const discoveries = read("../research/holodex-name-audit.json");
+  const ids = new Set();
+  for (const candidate of discoveries.candidates) {
+    assert(!ids.has(candidate.id));
+    ids.add(candidate.id);
+    const record = data.relationships.find((r) => r.id === candidate.canonical_record_id);
+    assert(record, candidate.id);
+    assert.deepEqual(new Set(candidate.member_ids), new Set(record.member_ids));
+    assert(candidate.discovery_urls.length && candidate.discovery_method);
+    assert.equal(candidate.verification_state, "verified");
+    assert.equal(candidate.ongoing_activity_verified, false);
+    assert(candidate.primary_evidence.length);
+    for (const source of candidate.primary_evidence) {
+      assert.equal(new URL(source.url).protocol, "https:");
+      assert(record.sources.some((s) => s.url === source.url));
+      assert(source.owner && source.evidence_date && source.supports);
+    }
+  }
 });

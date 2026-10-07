@@ -11,7 +11,8 @@
       "Historical context JP/ID/EN/DEV_IS is not the current management hierarchy.",
       "Unknown dates and continuing activity stay unknown; retrieved date is not relationship start date.",
       "Character lore and in-game company roles must be labeled as such.",
-      "Listed status does not establish current streaming activity."
+      "Listed status does not establish current streaming activity.",
+      "Cross-agency units retain complete guest membership in source panels; external guests do not inflate the selected Hololive portrait roster. Graph labels state how many members are shown."
     ],
     "references": [
       {
@@ -3516,19 +3517,24 @@
     },
     {
       "id": "ccgg",
-      "label": "CCGG / Gigi & Cecilia",
+      "label": "Autofister / CCGG",
       "type": "named_duo",
       "members": [
         "Gigi Murin",
         "Cecilia Immergreen"
       ],
-      "claim": "Public collaboration and concert duo.",
-      "time_scope": "Official unit interview dated 2026-06-11.",
+      "claim": "Official interview and concert report document this named collaboration duo.",
+      "time_scope": "Documented in June 2026 interviews and July 2026 Serendipity performances; ongoing activity not separately established.",
       "sources": [
         {
           "url": "https://serendipity.hololivepro.com/news/interview06/",
           "title": "Exclusive Serendipity Unit Interview: Gigi & Cecilia",
-          "evidence": "Names both talents as the unit; both describe its dynamic as CCGG madness. The nickname Autofister was not verified in this source."
+          "evidence": "Names both talents as the unit; both describe its dynamic as CCGG madness."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 1 report explicitly names Autofister as Gigi Murin and Cecilia Immergreen and identifies their CCGG Madness performance."
         }
       ],
       "confidence": "high",
@@ -3537,28 +3543,39 @@
         "cecilia-immergreen"
       ],
       "source_ids": [
-        "s108"
+        "s108",
+        "s198"
       ],
       "direction": "undirected",
       "evidence_grade": "primary_explicit",
       "temporal_status": "documented_snapshot",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "aliases": [
+        "Autofister",
+        "CCGG",
+        "Gigi & Cecilia"
+      ]
     },
     {
       "id": "nerissa_elizabeth",
-      "label": "Nerissa & Elizabeth",
-      "type": "performance_duo",
+      "label": "Bloodraven / Nerissa & Elizabeth",
+      "type": "named_duo",
       "members": [
         "Nerissa Ravencroft",
         "Elizabeth Rose Bloodflame"
       ],
-      "claim": "Musical collaboration duo with a cover and Serendipity concert unit.",
-      "time_scope": "Official unit interview dated 2026-06-12. Bloodraven nickname not verified here.",
+      "claim": "Official interview and concert report document this named collaboration duo.",
+      "time_scope": "Documented in June 2026 interviews and July 2026 Serendipity performances; ongoing activity not separately established.",
       "sources": [
         {
           "url": "https://serendipity.hololivepro.com/news/interview07/",
           "title": "Exclusive Serendipity Unit Interview: Nerissa & Elizabeth",
           "evidence": "Both identified as unit partners; Nerissa describes their Rondo Revolution cover and planned stage debut as a duo."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 2 report names Bloodraven, then explicitly identifies Nerissa Ravencroft and Elizabeth Rose Bloodflame as its duet performers."
         }
       ],
       "confidence": "high",
@@ -3567,12 +3584,16 @@
         "elizabeth-rose-bloodflame"
       ],
       "source_ids": [
-        "s109"
+        "s109",
+        "s198"
       ],
       "direction": "undirected",
       "evidence_grade": "primary_explicit",
       "temporal_status": "documented_snapshot",
-      "ongoing_activity_verified": false
+      "ongoing_activity_verified": false,
+      "aliases": [
+        "Bloodraven"
+      ]
     },
     {
       "id": "koyokuro",
@@ -5969,9 +5990,12 @@
     },
     {
       "id": "azulamy-koro",
-      "label": "AzuLamyKoro",
+      "label": "Christmas Mukaetai / クリスマス☆むかえ隊",
       "aliases": [
-        "あずらみころ"
+        "あずらみころ",
+        "AzuLamyKoro",
+        "Christmas Mukaetai",
+        "クリスマス☆むかえ隊"
       ],
       "type": "named_unit",
       "member_ids": [
@@ -5984,13 +6008,18 @@
         "Inugami Korone",
         "Yukihana Lamy"
       ],
-      "claim": "Performer-used name for a documented public collaboration.",
+      "claim": "Lamy, AZKi and Korone name their trio クリスマス☆むかえ隊 during the documented あずらみころ stream.",
       "time_scope": "Documented 2026-09-18; ongoing activity not separately established.",
       "sources": [
         {
           "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
           "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
-          "evidence": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+          "evidence": "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. The separate inspected naming scene confirms Christmas Mukaetai."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SEuGEowBpCA&t=1924s",
+          "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
+          "evidence": "Independently inspected original source scene at 32:04 prints グループ名：クリスマス☆むかえ隊 above the three performers. Original title and description explicitly identify Lamy, AZKi and Korone; automatic captions locate the naming discussion at 31:17–32:15."
         }
       ],
       "confidence": "high",
@@ -5999,14 +6028,20 @@
       "temporal_status": "documented_snapshot",
       "ongoing_activity_verified": false,
       "source_ids": [
-        "s187"
+        "s187",
+        "s199"
       ]
     },
     {
       "id": "akisuba",
-      "label": "AkiSuba",
+      "label": "Angel Heaven / エンジェルヘブン",
       "aliases": [
-        "アキスバ"
+        "アキスバ",
+        "AkiSuba",
+        "アキスバッ",
+        "Angel Heaven",
+        "エンジェルヘブン",
+        "エンジェルヘヴン"
       ],
       "type": "named_duo",
       "member_ids": [
@@ -6017,13 +6052,18 @@
         "Aki Rosenthal",
         "Oozora Subaru"
       ],
-      "claim": "Performer-used name for a documented public collaboration.",
-      "time_scope": "Documented 2018-10-03; ongoing activity not separately established.",
+      "claim": "Aki and Subaru document their public collaboration duo under アキスバ and エンジェルヘブン / エンジェルヘヴン. No first-naming date is inferred.",
+      "time_scope": "Documented as アキスバ on 2018-10-03 and エンジェルヘブン on 2023-08-31; ongoing activity not separately established.",
       "sources": [
         {
           "url": "https://www.youtube.com/watch?v=Im-5c35I5F4",
           "title": "アキスバッ！企画考えたりする雑談【初コラボ】",
-          "evidence": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+          "evidence": "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=bUeZ9E-mdoU",
+          "title": "エンジェルヘブン再出発【アキ・ローゼンタール×大空スバル/ホロライブ】",
+          "evidence": "Verified Aki channel title explicitly names エンジェルヘブン and Aki/Subaru; description identifies @OozoraSubaru and prints both #エンジェルヘブン and #エンジェルヘヴン. Stream displayed date 2023-08-31."
         }
       ],
       "confidence": "high",
@@ -6032,7 +6072,8 @@
       "temporal_status": "documented_snapshot",
       "ongoing_activity_verified": false,
       "source_ids": [
-        "s188"
+        "s188",
+        "s197"
       ]
     },
     {
@@ -6264,6 +6305,1030 @@
       "direction": "undirected",
       "source_ids": [
         "s196"
+      ]
+    },
+    {
+      "id": "last-writes",
+      "label": "Last Writes",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "mori-calliope",
+        "shiori-novella"
+      ],
+      "members": [
+        "Mori Calliope",
+        "Shiori Novella"
+      ],
+      "claim": "Named unit documented in the official Serendipity concert report; scope is the dated performance, not a private relationship.",
+      "time_scope": "Documented 2026-07-03; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 1 report explicitly names Last Writes and its two members Mori Calliope and Shiori Novella."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "octoclock",
+      "label": "Octo’clock",
+      "aliases": [
+        "Octo'clock"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "ninomae-inanis",
+        "ouro-kronii"
+      ],
+      "members": [
+        "Ninomae Ina’nis",
+        "Ouro Kronii"
+      ],
+      "claim": "Named unit documented in the official Serendipity concert report; scope is the dated performance, not a private relationship.",
+      "time_scope": "Documented 2026-07-03; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 1 report explicitly names Octo’clock and its two members Ninomae Ina’nis and Ouro Kronii."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "rocku-wawa",
+      "label": "Rocku Wawa",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "takanashi-kiara",
+        "koseki-bijou"
+      ],
+      "members": [
+        "Takanashi Kiara",
+        "Koseki Bijou"
+      ],
+      "claim": "Named unit documented in the official Serendipity concert report; scope is the dated performance, not a private relationship.",
+      "time_scope": "Documented 2026-07-04; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 2 report explicitly names Rocku Wawa and its two members Takanashi Kiara and Koseki Bijou."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "bff",
+      "label": "B.F.F",
+      "aliases": [
+        "BFF",
+        "Beeg, fluffy and fuzzy"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "fuwawa-abyssgard",
+        "mococo-abyssgard",
+        "raora-panthera"
+      ],
+      "members": [
+        "Fuwawa Abyssgard",
+        "Mococo Abyssgard",
+        "Raora Panthera"
+      ],
+      "claim": "Named unit documented in the official Serendipity concert report; scope is the dated performance, not a private relationship.",
+      "time_scope": "Documented 2026-07-04; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+          "title": "hololive English 4th Concert -Serendipity- — official concert report",
+          "evidence": "Official Day 2 report explicitly names B.F.F as FUWAMOCO and Raora Panthera. The official cast separately lists Fuwawa Abyssgard and Mococo Abyssgard; all three are preserved."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "rionazki",
+      "label": "RiONAZKi",
+      "aliases": [
+        "リオナズキ"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "isaki-riona"
+      ],
+      "members": [
+        "AZKi",
+        "Isaki Riona"
+      ],
+      "claim": "Talent-owned source explicitly documents this named collaboration and its complete listed lineup.",
+      "time_scope": "Documented 2025-10-20; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY&t=887s",
+          "title": "【オフコラボ】あずき先輩と初オフコラボ！マシュマロ読むよ🫶【ホロライブ DEV_IS 響咲リオナ】",
+          "evidence": "Inspected primary source frame at 14:47 shows performer-added RiONAZKi heading above AZKi and Riona. Naming discussion and acceptance corroborated in automatically generated captions at 8:13–14:50; exact capitalization comes from the visible heading."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s200"
+      ]
+    },
+    {
+      "id": "soaro",
+      "label": "SoARo / そあろ",
+      "aliases": [
+        "そあろ"
+      ],
+      "type": "gaming_unit",
+      "member_ids": [
+        "tokino-sora",
+        "azki",
+        "roboco-san"
+      ],
+      "members": [
+        "Tokino Sora",
+        "AZKi",
+        "Robocosan"
+      ],
+      "claim": "Talent-owned source explicitly documents this named collaboration and its complete listed lineup.",
+      "time_scope": "Documented 2023-07-23; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps&t=290s",
+          "title": "【UNO】今日のボク達夜更かしだぁ～～～🌃 【 ＃そあろ  /ホロライブ】",
+          "evidence": "Uploader title and description print #そあろ. Inspected original UNO scene at 4:50 has exactly three occupied player slots: robocosan0523, tokinosora515 and azki_vdiva, plus an empty invite slot, corroborated by the three source avatars."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s201"
+      ]
+    },
+    {
+      "id": "smitten",
+      "label": "SMITTEN",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "kaela-kovalskia",
+        "raora-panthera"
+      ],
+      "members": [
+        "Kaela Kovalskia",
+        "Raora Panthera"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2026-09-22; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=LxJcG_8O-tE",
+          "title": "【Human Fall Flat】Kaela falls flat but I don't guess why 【SMITTEN】",
+          "evidence": "SMITTEN appears in the title; title identifies Kaela and uploader is Raora. This documents the named duo."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s202"
+      ]
+    },
+    {
+      "id": "pizzatimesmith",
+      "label": "PizzaTimeSmith",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "raora-panthera",
+        "kaela-kovalskia",
+        "ouro-kronii"
+      ],
+      "members": [
+        "Raora Panthera",
+        "Kaela Kovalskia",
+        "Ouro Kronii"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2026-09-14; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=ZOP2gGe6JzI",
+          "title": "【How To Fish】I am just here to eat! 【PizzaTimeSmith Collab】",
+          "evidence": "Title explicitly says PizzaTimeSmith Collab; description opens with “with @KaelaKovalskia and @OuroKronii”. Raora is uploader. These identify all three members."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s203"
+      ]
+    },
+    {
+      "id": "grindstone",
+      "label": "GrindStone",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "koseki-bijou",
+        "kaela-kovalskia"
+      ],
+      "members": [
+        "Koseki Bijou",
+        "Kaela Kovalskia"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2023-09-17; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=OdGHVkp6P4E",
+          "title": "【MINECRAFT COLLAB】with @KaelaKovalskia Let's Go GrindStone!",
+          "evidence": "Title names GrindStone and @KaelaKovalskia; uploader is Bijou. Graondstone is separately verified as the Kaela/Bijou/Raora trio; it is not a spelling alias."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s204"
+      ]
+    },
+    {
+      "id": "pavonova",
+      "label": "PavoNova",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "moona-hoshinova",
+        "pavolia-reine"
+      ],
+      "members": [
+        "Moona Hoshinova",
+        "Pavolia Reine"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2021-02-06; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=b5XNn0ewF00",
+          "title": "【Minecraft】Building holoID Shop - Part 2【PavoNova】",
+          "evidence": "PavoNova appears in title. Custom description links “Reine POV” to iEEblPHpG80, displayed as “【MOONA x REINE】Building holoID Shop Part 2 #PavoNova【hololiveID 2nd generation】”; custom profiles identify Reine and Moona. Generic generation promo list was excluded from lineup evidence."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s205"
+      ]
+    },
+    {
+      "id": "tsunemos",
+      "label": "常MOS",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "oozora-subaru",
+        "ookami-mio",
+        "nekomata-okayu",
+        "tokoyami-towa"
+      ],
+      "members": [
+        "Oozora Subaru",
+        "Ookami Mio",
+        "Nekomata Okayu",
+        "Tokoyami Towa"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2022-12-04; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=KSuo3sKW7WA",
+          "title": "【#常MOS】このメンバー、なんか落ち着くんだよ～Raftで漂流中！【Raft】",
+          "evidence": "Title contains #常MOS. Custom description “めんばー！” lists 大空スバル @OozoraSubaru / 大神ミオ ※チャンネル主 / 猫又おかゆ @NekomataOkayu / 常闇トワ @TokoyamiTowa. This is a four-person lineup, distinct from SMOK. TsuneMOS is only a reading aid unless official Latin spelling is separately established."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s206"
+      ]
+    },
+    {
+      "id": "cereines",
+      "label": "CeReines",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "pavolia-reine",
+        "ceres-fauna"
+      ],
+      "members": [
+        "Pavolia Reine",
+        "Ceres Fauna"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2022-03-06; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=6qxx91dcB8Y",
+          "title": "(EN) THE BIRDS & THE TREES. Reine Indonesian Classroom w/ Fauna! #CeReines【Reine/hololiveID 2nd gen】",
+          "evidence": "Title contains #CeReines and names Reine and Fauna; custom description “Today's Student: @CeresFauna” links Fauna’s channel. Named duo, rather than proof of permanent formal unit status."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s207"
+      ]
+    },
+    {
+      "id": "reirys",
+      "label": "ReiRyS",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "pavolia-reine",
+        "irys"
+      ],
+      "members": [
+        "Pavolia Reine",
+        "IRyS"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2022-04-09; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=wsoCTHLgfek",
+          "title": "(EN) HARAPAN has Descended. Reine Indonesian Classroom w/ IRyS! #ReiRyS 【Reine/hololiveID 2nd gen】",
+          "evidence": "Title contains #ReiRyS and names Reine and IRyS; custom description “Today's Student: @IRyS” links IRyS’s channel. Complete named duo."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s208"
+      ]
+    },
+    {
+      "id": "sharpea",
+      "label": "sharpea",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "pavolia-reine",
+        "gawr-gura"
+      ],
+      "members": [
+        "Pavolia Reine",
+        "Gawr Gura"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2022-09-21; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=iX8WRcP4NX0",
+          "title": "(EN) BIG BREINE SHARK! Reine Indonesian Classroom feeturing Gura #sharpea 【Reine/hololiveID 2nd gen】",
+          "evidence": "Title contains #sharpea and names Reine and Gura; custom description “today's student: @GawrGura” links Gura’s channel. Keep source-exact lower-case spelling; title really spells “feeturing”."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s209"
+      ]
+    },
+    {
+      "id": "pavonashi",
+      "label": "pavonashi",
+      "aliases": [],
+      "type": "named_duo",
+      "member_ids": [
+        "pavolia-reine",
+        "takanashi-kiara"
+      ],
+      "members": [
+        "Pavolia Reine",
+        "Takanashi Kiara"
+      ],
+      "claim": "Named collaboration documented in a talent-owned stream title and explicit participant metadata.",
+      "time_scope": "Documented 2023-02-06; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=RYd690kstl4",
+          "title": "(EN) BIRDS IN KIMONO Reine Indonesian Classroom w/Kiara #pavonashi【Pavolia Reine/hololiveID 2nd gen】",
+          "evidence": "Title explicitly names Reine, Kiara and #pavonashi; uploader is verified Reine channel. This identifies the complete duo. Keep exact lower-case hashtag spelling rather than invent official camel case."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s210"
+      ]
+    },
+    {
+      "id": "chikumaro",
+      "label": "Chikumaro / ちくまろ",
+      "aliases": [
+        "ちくまろ"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "aki-rosenthal",
+        "yuzuki-choco",
+        "external:honma-himawari",
+        "external:yakumo-beni"
+      ],
+      "members": [
+        "Aki Rosenthal",
+        "Yuzuki Choco",
+        "Honma Himawari",
+        "Yakumo Beni"
+      ],
+      "claim": "Four-person cross-agency named collaboration, documented by the complete vocal credits of its talent-owned cover. The two guests are retained as context participants outside the Hololive portrait roster.",
+      "time_scope": "Documented 2024-05-07; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=L93enlVyak8",
+          "title": "【歌ってみた】ようこそ！ジャパリパークへ/Covered by癒月ちょこ＆アキロゼ＆本間ひまわり＆八雲べに【ホロライブ/にじさんじ/ぶいすぽ】",
+          "evidence": "Talent-owned cover title names all four singers. Description explicitly calls #ちくまろ a four-person group and credits Choco, Aki, Honma Himawari and Yakumo Beni; complete lineup is preserved."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s211"
+      ]
+    },
+    {
+      "id": "ri-a-ra",
+      "label": "Ri-A-Ra",
+      "aliases": [
+        "リアラ"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "juufuutei-raden"
+      ],
+      "members": [
+        "Hiodoshi Ao",
+        "Ichijou Ririka",
+        "Juufuutei Raden"
+      ],
+      "claim": "Named trio documented by its formation stream and an official ReGLOSS upload; complete Ao/Ririka/Raden membership is retained.",
+      "time_scope": "Documented 2024-09-23 and 2024-12-21; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=YFPvDq90fyI&t=3339s",
+          "title": "SUPERDUPERって何!?ユニット会議！【火威青×一条莉々華×儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Exported original Japanese automatic transcript: 55:39–55:47 states all three names 一条リリカ / 火威青 / 儒烏風亭らでん and that unit name リアラ has been decided. At23:44–23:59 it derives the name from Ririka/Ao/Raden;28:54–29:02 gives final decision. Automatic transcription has misspellings; name/member interpretation is normalized from matching title and clear context."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
+          "title": "【Ri-A-Ra】ポーズ揃うかチャレンジ！【相性チェックゲーム】 #ReGLOSS #shorts #Vtuber",
+          "evidence": "Official channel rendered watch title confirms exact Ri-A-Ra Latin spelling. Description promotes full cohort and is not trio membership evidence; membership is supplied by formation transcript."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s212",
+        "s213"
+      ]
+    },
+    {
+      "id": "otohibana",
+      "label": "オトヒバナ",
+      "aliases": [
+        "Otohibana"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade",
+        "ichijou-ririka"
+      ],
+      "members": [
+        "Hiodoshi Ao",
+        "Otonose Kanade",
+        "Ichijou Ririka"
+      ],
+      "claim": "Ao, Kanade and Ririka name their trio オトヒバナ in a first-debut-day anniversary stream; contemporaneous Ao and Ririka posts independently confirm the exact spelling.",
+      "time_scope": "Documented 2024-09-09; ongoing activity not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=V5clm9tuGLU&t=2799s",
+          "title": "【祝】初日デビュー組１周年！【火威青×音乃瀬奏×一条莉々華 】#hololiveDEV_IS #ReGLOSS",
+          "evidence": "Official formation stream title and custom description identify Ao, Kanade and Ririka. Original automatic naming discussion at 46:19–47:23 and 51:07–51:31 selects Otohibana; contemporary talent posts establish exact katakana spelling."
+        },
+        {
+          "url": "https://x.com/hiodoshiao/status/1833164984773476710",
+          "title": "Ao — オトヒバナ naming post (9 September 2024)",
+          "evidence": "Ao's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
+        },
+        {
+          "url": "https://x.com/ichijouririka/status/1833162895666159858",
+          "title": "Ririka — オトヒバナ naming post (9 September 2024)",
+          "evidence": "Ririka's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s214",
+        "s215",
+        "s216"
+      ]
+    },
+    {
+      "id": "waz",
+      "label": "WAZ / ワズ",
+      "aliases": [
+        "ワズ"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "aki-rosenthal"
+      ],
+      "members": [
+        "AZKi",
+        "Aki Rosenthal"
+      ],
+      "claim": "AZKi and Aki adopt the spoken duo name ワズ in the original naming discussion. Latin WAZ follows the spoken letter discussion and matching published usage; no printed original spelling was verified.",
+      "time_scope": "Documented 2023-03-16; continuing activity and exact earlier formation date are not inferred.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=9j_hjbj1CXo&t=5010s",
+          "title": "AZKi / Aki Rosenthal — GeoGuessr duo naming (16 March 2023)",
+          "evidence": "Original audio at 1:23:30–1:24:23 discusses W/double-A/Z spelling, agrees on ワズ, and adopts it for this duo. Local Japanese ASR of the archived original audio supplies the passage; source scene and uploader metadata independently confirm both performers. Machine transcription is imperfect; original printed Latin spelling is not claimed."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s217"
+      ]
+    },
+    {
+      "id": "azumimizushi",
+      "label": "あずみみずしー",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "azki",
+        "external:kanade-mimi",
+        "external:mizushina-aoi"
+      ],
+      "members": [
+        "AZKi",
+        "Kanade Mimi",
+        "Mizushina Aoi"
+      ],
+      "claim": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved.",
+      "time_scope": "Documented on 2023-04-20; formation date and current continuity not inferred.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+          "title": "【歌枠】#あずみみずしー コラボ歌枠【AZKi/奏みみ/水科葵】",
+          "evidence": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s218"
+      ],
+      "reading_aids": [
+        "AzuMimizushi"
+      ]
+    },
+    {
+      "id": "azukoto",
+      "label": "あずこと",
+      "aliases": [
+        "あずことASMR"
+      ],
+      "type": "named_duo",
+      "member_ids": [
+        "azki",
+        "external:koiwai-kotori"
+      ],
+      "members": [
+        "AZKi",
+        "Koiwai Kotori"
+      ],
+      "claim": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context.",
+      "time_scope": "Documented on 2023-06-07; formation date and current continuity not inferred.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=yE8NM5c476U",
+          "title": "【ASMR】重大告知あり！？ 初めてのASMR！教えて小岩井ことり先生！#あずことASMR",
+          "evidence": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s219"
+      ],
+      "reading_aids": [
+        "AzuKoto"
+      ]
+    },
+    {
+      "id": "shotgunrose",
+      "label": "Shotgun Rose",
+      "aliases": [
+        "ショットガンローズ"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "azki",
+        "external:suzuna-subaru",
+        "external:mizushina-aoi"
+      ],
+      "members": [
+        "AZKi",
+        "Suzuna Subaru",
+        "Mizushina Aoi"
+      ],
+      "claim": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity.",
+      "time_scope": "Documented on 2020-05-31; formation date and current continuity not inferred.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+          "title": "【#3コミコラボ】検証！ホラー映画鈴鳴すばるがいたら怖くない説【タッカーとデイル同時視聴】",
+          "evidence": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity."
+        },
+        {
+          "url": "https://hololive.hololivepro.com/talents/azki/",
+          "title": "AZKi official talent profile",
+          "evidence": "Official unit field lists Shotgun Rose. This supplies exact Latin spelling; guest membership is supplied by original collaboration metadata."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s220",
+        "s221"
+      ]
+    },
+    {
+      "id": "kinpatsu-gumi",
+      "label": "Kinpatsu-gumi / 金髪組",
+      "aliases": [
+        "金髪組"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "aki-rosenthal",
+        "akai-haato",
+        "yuzuki-choco",
+        "yozora-mel"
+      ],
+      "members": [
+        "Aki Rosenthal",
+        "Akai Haato",
+        "Yuzuki Choco",
+        "Yozora Mel"
+      ],
+      "claim": "Historical four-member collaboration of Aki, Haato, Choco and Mel. The preserved original intro prints 金髪組こらぼ with all four; the following clinic footage confirms the complete lineup. The fan mirror preserves the original footage; its added subtitles and reported metadata are separate from the inspected original graphic.",
+      "time_scope": "Historical recording preserved in a mirror uploaded 2019-04-05. The mirror reports the original stream as 2018-11-09; original metadata is unavailable. Formation and continuing activity are not established.",
+      "sources": [
+        {
+          "url": "https://www.bilibili.com/video/BV1Yb411g77o/",
+          "title": "Kinpatsu-gumi — preserved original four-member clinic recording",
+          "evidence": "Actual reproduced original intro at clip 00:03–00:04 prints 金髪組こらぼ beside Mel, Choco, Haato and Aki. Actual recording at 00:16/00:31 shows all four in Choco’s clinic. The mirror links original pa5Q-yLWb08, currently unavailable; original-stream timestamp mapping and mirror-reported title/date/owner are not independently verified."
+        },
+        {
+          "url": "https://archive.ragtag.moe/embed/ASHMZVS7HQk",
+          "title": "Mel — archived original retrospective mentioning 金髪組 (27 October 2022 JST)",
+          "evidence": "Original Mel audio around 1:36:26.5 uses 金髪組 and discusses herself and Choco. Local Japanese ASR is imperfect. This independently corroborates performer use of the name; it alone does not establish Aki/Haato membership."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_recording_composite",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s222",
+        "s223"
+      ]
+    },
+    {
+      "id": "soazko",
+      "label": "SoAzKo",
+      "aliases": [
+        "そあっこ",
+        "そらあずこよ"
+      ],
+      "type": "gaming_unit",
+      "member_ids": [
+        "tokino-sora",
+        "azki",
+        "hakui-koyori"
+      ],
+      "members": [
+        "Tokino Sora",
+        "AZKi",
+        "Hakui Koyori"
+      ],
+      "claim": "Named Sora/AZKi/Koyori gaming team. The original tournament names the trio as Team Pure; its naming audio and the official Koyori card jointly support SoAzKo. そあっこ is a phonetic search aid, not a claim of inspected original hiragana writing.",
+      "time_scope": "Documented on 2022-08-28; formation date and current continuity not inferred.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ordk4xfoNmE&t=569s",
+          "title": "ガルパホロライブカップinホロライブサマー【#ガルパホロライブサマー】",
+          "evidence": "Official original tournament player frame at9:29–9:32 explicitly prints AZKi / ときのそら / 博衣こより under チームピュア. Unprompted local faster-whisper small transcription of the original audio at9:29.84–9:34.54 gives 私たちのチームは、ソアッコーっていう名前…, followed by 3人でね; AZKi at9:48.50–9:52.50 says ソアッコー3人で練習たくさんしてきましたので. Exact Latin spelling SoAzKo is independently printed on official Japanese Koyori card hSD01-015 with Sora/AZKi collab effects and art ピュアピュアピュア～. Composite supports exact Latin name and complete trio. Hiragana そあっこ is a phonetic alias from secondary discovery, corroborated in pronunciation; original audio cannot establish written kana."
+        },
+        {
+          "url": "https://en.hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "title": "Hakui Koyori — official card list",
+          "evidence": "Koyori card explicitly uses SoAzKo for effect concerning Tokino Sora and AZKi; not sole proof of named unit membership."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cS_A7BCxL7M",
+          "title": "【#ガルパホロライブサマー】そらあずこよチーム！ガルパ初心者がんばります！【ホロライブ / AZKi】",
+          "evidence": "Original practice stream title identifies そらあずこよ team. Inspected automatic transcript closing59:42–59:54 asks for そらあずこよ hashtag; no exact SoAzKo spelling in inspected metadata."
+        },
+        {
+          "url": "https://hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "title": "博衣こより hSD01-015 — official Japanese card list",
+          "evidence": "Exact card keyword SoAzKo. Official text: ■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。 ■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。 アーツ ピュアピュアピュア～. Original tournament TeamPure trio provides separate full-membership proof; card date is release date, not group formation."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_composite",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s224",
+        "s225",
+        "s226",
+        "s227"
+      ]
+    },
+    {
+      "id": "graondstone",
+      "label": "Graondstone",
+      "aliases": [
+        "GRAONDSTONE"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "kaela-kovalskia",
+        "koseki-bijou",
+        "raora-panthera"
+      ],
+      "members": [
+        "Kaela Kovalskia",
+        "Koseki Bijou",
+        "Raora Panthera"
+      ],
+      "claim": "Exact original Raora-owned title names GRAONDSTONE and explicitly identifies both other participants, Biboo and Kaela. Uploader supplies third member Raora. Complete named trio established directly by primary title. Distinct from GrindStone duo; never an alias of that duo.",
+      "time_scope": "Documented 2024-09-24; ongoing activity and formation date not separately established.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=9TroI9swAuo",
+          "title": "【GRAONDSTONE】 Lethal Company with Biboo and Kaela! 🩷❤️💜",
+          "evidence": "Exact original Raora-owned title names GRAONDSTONE and explicitly identifies both other participants, Biboo and Kaela. Uploader supplies third member Raora. Complete named trio established directly by primary title. Distinct from GrindStone duo; never an alias of that duo."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_explicit",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s228"
+      ]
+    },
+    {
+      "id": "regloss-anego-gumi",
+      "label": "あねご組",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "members": [
+        "Hiodoshi Ao",
+        "Ichijou Ririka",
+        "Todoroki Hajime"
+      ],
+      "claim": "Ao formation-day post explicitly writes ReGLOSSのあねご組 and #あねご組; Ririka writes same hashtag and quotes own trio stream announcement. Full membership from uploader custom description Ao/Hajime plus Ririka owner. Original automatic naming passage2:45:48–2:46:42 discusses hiragana prefix and kanji組; exact spelling independently fixed by both talent posts.",
+      "time_scope": "Documented 2024-02-08; formation date and continuing activity not inferred.",
+      "sources": [
+        {
+          "url": "https://x.com/hiodoshiao/status/1755594892435464631",
+          "title": "Performer-authored あねご組 post (2024-02-08)",
+          "evidence": "Ao’s own 8 February 2024 post explicitly prints ReGLOSSのあねご組 and #あねご組. Public oEmbed verifies author and exact original spelling; the same-day stream independently supplies the complete trio."
+        },
+        {
+          "url": "https://x.com/ichijouririka/status/1755592646389854688",
+          "title": "Performer-authored あねご組 post (2024-02-08)",
+          "evidence": "Ririka’s own 8 February 2024 post uses #あねご組 and quotes her trio-stream announcement. Public oEmbed independently confirms her authored name usage and date."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HW0-N2aYogs&t=9948s",
+          "title": "Ririka — complete あねご組 naming stream (8 February 2024)",
+          "evidence": "Ririka-owned Minecraft stream explicitly credits Ao and Hajime with the host, preserving the full trio. Its original automatic naming transcript at 2:45:48–2:46:42 discusses the name but drops ね; performer posts independently establish exact spelling."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_composite",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s229",
+        "s230",
+        "s231"
+      ],
+      "reading_aids": [
+        "Anego-gumi"
+      ]
+    },
+    {
+      "id": "regloss-ryoute-ni-gaki",
+      "label": "両手にガキ",
+      "aliases": [],
+      "type": "named_unit",
+      "member_ids": [
+        "otonose-kanade",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "members": [
+        "Otonose Kanade",
+        "Ichijou Ririka",
+        "Todoroki Hajime"
+      ],
+      "claim": "Ririka own post explicitly writes 番長、莉々華、奏 「両手にガキ」. Both name and full lineup are in performer-authored text. Quoted fan image is not required for this evidence.",
+      "time_scope": "Documented 2024-11-27; formation date and continuing activity not inferred.",
+      "sources": [
+        {
+          "url": "https://x.com/ichijouririka/status/1861773065170067872",
+          "title": "Performer-authored 両手にガキ post (2024-11-27)",
+          "evidence": "Ririka own post explicitly writes 番長、莉々華、奏 「両手にガキ」. Both name and full lineup are in performer-authored text. Quoted fan image is not required for this evidence."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_composite",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s232"
+      ],
+      "reading_aids": [
+        "Ryoute ni Gaki"
+      ]
+    },
+    {
+      "id": "regloss-kusogakizu",
+      "label": "くそがきーず（仮）",
+      "aliases": [
+        "くそがきーず",
+        "やきいもーず",
+        "やきいもーず（仮）"
+      ],
+      "type": "named_unit",
+      "member_ids": [
+        "otonose-kanade",
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "members": [
+        "Otonose Kanade",
+        "Juufuutei Raden",
+        "Todoroki Hajime"
+      ],
+      "claim": "Raden, Kanade and Hajime publicly use two expressly tentative names: くそがきーず（仮） and やきいもーず（仮）. Raden’s own post marks both provisional; the same-day original stream says their unit name is still undecided. These are alternative provisional nicknames for one complete trio, not two finalized units.",
+      "time_scope": "Documented 2025-02-07; names expressly provisional; later finalized adoption not verified.",
+      "sources": [
+        {
+          "url": "https://x.com/juufuuteiraden/status/1887814696973283770",
+          "title": "Performer-authored くそがきーず（仮） post (2025-02-07)",
+          "evidence": "Raden’s own 7 February 2025 post expressly prints both くそがきーず(仮) and やきいもーず(仮), marking both provisional, and quotes Hajime’s collaboration announcement. Exact wording and author are confirmed by public oEmbed."
+        },
+        {
+          "url": "https://x.com/todoroki_hajime/status/1887812182311845942",
+          "title": "Performer-authored くそがきーず（仮） post (2025-02-07)",
+          "evidence": "Hajime’s same-day own post explicitly names らでんかなではじめ as the full collaboration trio. This supplies membership; Raden’s linked post independently supplies the provisional nicknames."
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QKQAxDDu2QU",
+          "title": "【Human: Fall Flat】らでんかなではじめで、ぐにゃぐにゃの頂点へ【轟はじめ/ReGLOSS】 #hololivedev_is",
+          "evidence": "Hajime-owned stream title names Raden, Kanade and Hajime; custom description links both guests. Original Japanese automatic transcript at 9:49–10:00 and 1:05:56–1:06:50 explicitly discusses their still-undecided unit name. Exact provisional spellings come from Raden’s own written post, not these noisy captions."
+        }
+      ],
+      "confidence": "high",
+      "direction": "undirected",
+      "evidence_grade": "primary_composite",
+      "temporal_status": "documented_snapshot",
+      "ongoing_activity_verified": false,
+      "source_ids": [
+        "s233",
+        "s234",
+        "s235"
+      ],
+      "provisional_name": true,
+      "reading_aids": [
+        "Kusogakizu"
       ]
     }
   ],
@@ -6899,10 +7964,11 @@
       "target": "cecilia-immergreen",
       "relation_id": "ccgg",
       "type": "named_duo",
-      "label": "CCGG / Gigi & Cecilia",
+      "label": "Autofister / CCGG",
       "directed": false,
       "source_ids": [
-        "s108"
+        "s108",
+        "s198"
       ]
     },
     {
@@ -6910,11 +7976,12 @@
       "source": "nerissa-ravencroft",
       "target": "elizabeth-rose-bloodflame",
       "relation_id": "nerissa_elizabeth",
-      "type": "performance_duo",
-      "label": "Nerissa & Elizabeth",
+      "type": "named_duo",
+      "label": "Bloodraven / Nerissa & Elizabeth",
       "directed": false,
       "source_ids": [
-        "s109"
+        "s109",
+        "s198"
       ]
     },
     {
@@ -8638,11 +9705,12 @@
       "source": "azki",
       "target": "unit:azulamy-koro",
       "type": "member_of_named_unit",
-      "label": "AzuLamyKoro",
+      "label": "Christmas Mukaetai / クリスマス☆むかえ隊",
       "relation_id": "azulamy-koro",
       "directed": false,
       "source_ids": [
-        "s187"
+        "s187",
+        "s199"
       ]
     },
     {
@@ -8650,11 +9718,12 @@
       "source": "inugami-korone",
       "target": "unit:azulamy-koro",
       "type": "member_of_named_unit",
-      "label": "AzuLamyKoro",
+      "label": "Christmas Mukaetai / クリスマス☆むかえ隊",
       "relation_id": "azulamy-koro",
       "directed": false,
       "source_ids": [
-        "s187"
+        "s187",
+        "s199"
       ]
     },
     {
@@ -8662,11 +9731,12 @@
       "source": "yukihana-lamy",
       "target": "unit:azulamy-koro",
       "type": "member_of_named_unit",
-      "label": "AzuLamyKoro",
+      "label": "Christmas Mukaetai / クリスマス☆むかえ隊",
       "relation_id": "azulamy-koro",
       "directed": false,
       "source_ids": [
-        "s187"
+        "s187",
+        "s199"
       ]
     },
     {
@@ -8674,11 +9744,12 @@
       "source": "aki-rosenthal",
       "target": "oozora-subaru",
       "type": "named_duo",
-      "label": "AkiSuba",
+      "label": "Angel Heaven / エンジェルヘブン",
       "relation_id": "akisuba",
       "directed": false,
       "source_ids": [
-        "s188"
+        "s188",
+        "s197"
       ]
     },
     {
@@ -8763,6 +9834,775 @@
       "directed": false,
       "source_ids": [
         "s196"
+      ]
+    },
+    {
+      "id": "last-writes",
+      "source": "mori-calliope",
+      "target": "shiori-novella",
+      "type": "named_duo",
+      "label": "Last Writes",
+      "relation_id": "last-writes",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "octoclock",
+      "source": "ninomae-inanis",
+      "target": "ouro-kronii",
+      "type": "named_duo",
+      "label": "Octo’clock",
+      "relation_id": "octoclock",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "rocku-wawa",
+      "source": "takanashi-kiara",
+      "target": "koseki-bijou",
+      "type": "named_duo",
+      "label": "Rocku Wawa",
+      "relation_id": "rocku-wawa",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "bff--fuwawa-abyssgard",
+      "source": "fuwawa-abyssgard",
+      "target": "unit:bff",
+      "type": "member_of_named_unit",
+      "label": "B.F.F",
+      "relation_id": "bff",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "bff--mococo-abyssgard",
+      "source": "mococo-abyssgard",
+      "target": "unit:bff",
+      "type": "member_of_named_unit",
+      "label": "B.F.F",
+      "relation_id": "bff",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "bff--raora-panthera",
+      "source": "raora-panthera",
+      "target": "unit:bff",
+      "type": "member_of_named_unit",
+      "label": "B.F.F",
+      "relation_id": "bff",
+      "directed": false,
+      "source_ids": [
+        "s198"
+      ]
+    },
+    {
+      "id": "rionazki",
+      "source": "azki",
+      "target": "isaki-riona",
+      "type": "named_duo",
+      "label": "RiONAZKi",
+      "relation_id": "rionazki",
+      "directed": false,
+      "source_ids": [
+        "s200"
+      ]
+    },
+    {
+      "id": "soaro--tokino-sora",
+      "source": "tokino-sora",
+      "target": "unit:soaro",
+      "type": "member_of_named_unit",
+      "label": "SoARo / そあろ",
+      "relation_id": "soaro",
+      "directed": false,
+      "source_ids": [
+        "s201"
+      ]
+    },
+    {
+      "id": "soaro--azki",
+      "source": "azki",
+      "target": "unit:soaro",
+      "type": "member_of_named_unit",
+      "label": "SoARo / そあろ",
+      "relation_id": "soaro",
+      "directed": false,
+      "source_ids": [
+        "s201"
+      ]
+    },
+    {
+      "id": "soaro--roboco-san",
+      "source": "roboco-san",
+      "target": "unit:soaro",
+      "type": "member_of_named_unit",
+      "label": "SoARo / そあろ",
+      "relation_id": "soaro",
+      "directed": false,
+      "source_ids": [
+        "s201"
+      ]
+    },
+    {
+      "id": "smitten",
+      "source": "kaela-kovalskia",
+      "target": "raora-panthera",
+      "type": "named_duo",
+      "label": "SMITTEN",
+      "relation_id": "smitten",
+      "directed": false,
+      "source_ids": [
+        "s202"
+      ]
+    },
+    {
+      "id": "pizzatimesmith--raora-panthera",
+      "source": "raora-panthera",
+      "target": "unit:pizzatimesmith",
+      "type": "member_of_named_unit",
+      "label": "PizzaTimeSmith",
+      "relation_id": "pizzatimesmith",
+      "directed": false,
+      "source_ids": [
+        "s203"
+      ]
+    },
+    {
+      "id": "pizzatimesmith--kaela-kovalskia",
+      "source": "kaela-kovalskia",
+      "target": "unit:pizzatimesmith",
+      "type": "member_of_named_unit",
+      "label": "PizzaTimeSmith",
+      "relation_id": "pizzatimesmith",
+      "directed": false,
+      "source_ids": [
+        "s203"
+      ]
+    },
+    {
+      "id": "pizzatimesmith--ouro-kronii",
+      "source": "ouro-kronii",
+      "target": "unit:pizzatimesmith",
+      "type": "member_of_named_unit",
+      "label": "PizzaTimeSmith",
+      "relation_id": "pizzatimesmith",
+      "directed": false,
+      "source_ids": [
+        "s203"
+      ]
+    },
+    {
+      "id": "grindstone",
+      "source": "koseki-bijou",
+      "target": "kaela-kovalskia",
+      "type": "named_duo",
+      "label": "GrindStone",
+      "relation_id": "grindstone",
+      "directed": false,
+      "source_ids": [
+        "s204"
+      ]
+    },
+    {
+      "id": "pavonova",
+      "source": "moona-hoshinova",
+      "target": "pavolia-reine",
+      "type": "named_duo",
+      "label": "PavoNova",
+      "relation_id": "pavonova",
+      "directed": false,
+      "source_ids": [
+        "s205"
+      ]
+    },
+    {
+      "id": "tsunemos--oozora-subaru",
+      "source": "oozora-subaru",
+      "target": "unit:tsunemos",
+      "type": "member_of_named_unit",
+      "label": "常MOS",
+      "relation_id": "tsunemos",
+      "directed": false,
+      "source_ids": [
+        "s206"
+      ]
+    },
+    {
+      "id": "tsunemos--ookami-mio",
+      "source": "ookami-mio",
+      "target": "unit:tsunemos",
+      "type": "member_of_named_unit",
+      "label": "常MOS",
+      "relation_id": "tsunemos",
+      "directed": false,
+      "source_ids": [
+        "s206"
+      ]
+    },
+    {
+      "id": "tsunemos--nekomata-okayu",
+      "source": "nekomata-okayu",
+      "target": "unit:tsunemos",
+      "type": "member_of_named_unit",
+      "label": "常MOS",
+      "relation_id": "tsunemos",
+      "directed": false,
+      "source_ids": [
+        "s206"
+      ]
+    },
+    {
+      "id": "tsunemos--tokoyami-towa",
+      "source": "tokoyami-towa",
+      "target": "unit:tsunemos",
+      "type": "member_of_named_unit",
+      "label": "常MOS",
+      "relation_id": "tsunemos",
+      "directed": false,
+      "source_ids": [
+        "s206"
+      ]
+    },
+    {
+      "id": "cereines",
+      "source": "pavolia-reine",
+      "target": "ceres-fauna",
+      "type": "named_duo",
+      "label": "CeReines",
+      "relation_id": "cereines",
+      "directed": false,
+      "source_ids": [
+        "s207"
+      ]
+    },
+    {
+      "id": "reirys",
+      "source": "pavolia-reine",
+      "target": "irys",
+      "type": "named_duo",
+      "label": "ReiRyS",
+      "relation_id": "reirys",
+      "directed": false,
+      "source_ids": [
+        "s208"
+      ]
+    },
+    {
+      "id": "sharpea",
+      "source": "pavolia-reine",
+      "target": "gawr-gura",
+      "type": "named_duo",
+      "label": "sharpea",
+      "relation_id": "sharpea",
+      "directed": false,
+      "source_ids": [
+        "s209"
+      ]
+    },
+    {
+      "id": "pavonashi",
+      "source": "pavolia-reine",
+      "target": "takanashi-kiara",
+      "type": "named_duo",
+      "label": "pavonashi",
+      "relation_id": "pavonashi",
+      "directed": false,
+      "source_ids": [
+        "s210"
+      ]
+    },
+    {
+      "id": "chikumaro--aki-rosenthal",
+      "source": "aki-rosenthal",
+      "target": "unit:chikumaro",
+      "type": "member_of_named_unit",
+      "label": "Chikumaro / ちくまろ",
+      "relation_id": "chikumaro",
+      "directed": false,
+      "source_ids": [
+        "s211"
+      ]
+    },
+    {
+      "id": "chikumaro--yuzuki-choco",
+      "source": "yuzuki-choco",
+      "target": "unit:chikumaro",
+      "type": "member_of_named_unit",
+      "label": "Chikumaro / ちくまろ",
+      "relation_id": "chikumaro",
+      "directed": false,
+      "source_ids": [
+        "s211"
+      ]
+    },
+    {
+      "id": "chikumaro--external:honma-himawari",
+      "source": "external:honma-himawari",
+      "target": "unit:chikumaro",
+      "type": "member_of_named_unit",
+      "label": "Chikumaro / ちくまろ",
+      "relation_id": "chikumaro",
+      "directed": false,
+      "source_ids": [
+        "s211"
+      ]
+    },
+    {
+      "id": "chikumaro--external:yakumo-beni",
+      "source": "external:yakumo-beni",
+      "target": "unit:chikumaro",
+      "type": "member_of_named_unit",
+      "label": "Chikumaro / ちくまろ",
+      "relation_id": "chikumaro",
+      "directed": false,
+      "source_ids": [
+        "s211"
+      ]
+    },
+    {
+      "id": "ri-a-ra--hiodoshi-ao",
+      "source": "hiodoshi-ao",
+      "target": "unit:ri-a-ra",
+      "type": "member_of_named_unit",
+      "label": "Ri-A-Ra",
+      "relation_id": "ri-a-ra",
+      "directed": false,
+      "source_ids": [
+        "s212",
+        "s213"
+      ]
+    },
+    {
+      "id": "ri-a-ra--ichijou-ririka",
+      "source": "ichijou-ririka",
+      "target": "unit:ri-a-ra",
+      "type": "member_of_named_unit",
+      "label": "Ri-A-Ra",
+      "relation_id": "ri-a-ra",
+      "directed": false,
+      "source_ids": [
+        "s212",
+        "s213"
+      ]
+    },
+    {
+      "id": "ri-a-ra--juufuutei-raden",
+      "source": "juufuutei-raden",
+      "target": "unit:ri-a-ra",
+      "type": "member_of_named_unit",
+      "label": "Ri-A-Ra",
+      "relation_id": "ri-a-ra",
+      "directed": false,
+      "source_ids": [
+        "s212",
+        "s213"
+      ]
+    },
+    {
+      "id": "otohibana--hiodoshi-ao",
+      "source": "hiodoshi-ao",
+      "target": "unit:otohibana",
+      "type": "member_of_named_unit",
+      "label": "オトヒバナ",
+      "relation_id": "otohibana",
+      "directed": false,
+      "source_ids": [
+        "s214",
+        "s215",
+        "s216"
+      ]
+    },
+    {
+      "id": "otohibana--otonose-kanade",
+      "source": "otonose-kanade",
+      "target": "unit:otohibana",
+      "type": "member_of_named_unit",
+      "label": "オトヒバナ",
+      "relation_id": "otohibana",
+      "directed": false,
+      "source_ids": [
+        "s214",
+        "s215",
+        "s216"
+      ]
+    },
+    {
+      "id": "otohibana--ichijou-ririka",
+      "source": "ichijou-ririka",
+      "target": "unit:otohibana",
+      "type": "member_of_named_unit",
+      "label": "オトヒバナ",
+      "relation_id": "otohibana",
+      "directed": false,
+      "source_ids": [
+        "s214",
+        "s215",
+        "s216"
+      ]
+    },
+    {
+      "id": "waz",
+      "source": "azki",
+      "target": "aki-rosenthal",
+      "type": "named_duo",
+      "label": "WAZ / ワズ",
+      "relation_id": "waz",
+      "directed": false,
+      "source_ids": [
+        "s217"
+      ]
+    },
+    {
+      "id": "azumimizushi--azki",
+      "source": "azki",
+      "target": "unit:azumimizushi",
+      "type": "member_of_named_unit",
+      "label": "あずみみずしー",
+      "relation_id": "azumimizushi",
+      "directed": false,
+      "source_ids": [
+        "s218"
+      ]
+    },
+    {
+      "id": "azumimizushi--external:kanade-mimi",
+      "source": "external:kanade-mimi",
+      "target": "unit:azumimizushi",
+      "type": "member_of_named_unit",
+      "label": "あずみみずしー",
+      "relation_id": "azumimizushi",
+      "directed": false,
+      "source_ids": [
+        "s218"
+      ]
+    },
+    {
+      "id": "azumimizushi--external:mizushina-aoi",
+      "source": "external:mizushina-aoi",
+      "target": "unit:azumimizushi",
+      "type": "member_of_named_unit",
+      "label": "あずみみずしー",
+      "relation_id": "azumimizushi",
+      "directed": false,
+      "source_ids": [
+        "s218"
+      ]
+    },
+    {
+      "id": "azukoto",
+      "source": "azki",
+      "target": "external:koiwai-kotori",
+      "type": "named_duo",
+      "label": "あずこと",
+      "relation_id": "azukoto",
+      "directed": false,
+      "source_ids": [
+        "s219"
+      ]
+    },
+    {
+      "id": "shotgunrose--azki",
+      "source": "azki",
+      "target": "unit:shotgunrose",
+      "type": "member_of_named_unit",
+      "label": "Shotgun Rose",
+      "relation_id": "shotgunrose",
+      "directed": false,
+      "source_ids": [
+        "s220",
+        "s221"
+      ]
+    },
+    {
+      "id": "shotgunrose--external:suzuna-subaru",
+      "source": "external:suzuna-subaru",
+      "target": "unit:shotgunrose",
+      "type": "member_of_named_unit",
+      "label": "Shotgun Rose",
+      "relation_id": "shotgunrose",
+      "directed": false,
+      "source_ids": [
+        "s220",
+        "s221"
+      ]
+    },
+    {
+      "id": "shotgunrose--external:mizushina-aoi",
+      "source": "external:mizushina-aoi",
+      "target": "unit:shotgunrose",
+      "type": "member_of_named_unit",
+      "label": "Shotgun Rose",
+      "relation_id": "shotgunrose",
+      "directed": false,
+      "source_ids": [
+        "s220",
+        "s221"
+      ]
+    },
+    {
+      "id": "kinpatsu-gumi--aki-rosenthal",
+      "source": "aki-rosenthal",
+      "target": "unit:kinpatsu-gumi",
+      "type": "member_of_named_unit",
+      "label": "Kinpatsu-gumi / 金髪組",
+      "relation_id": "kinpatsu-gumi",
+      "directed": false,
+      "source_ids": [
+        "s222",
+        "s223"
+      ]
+    },
+    {
+      "id": "kinpatsu-gumi--akai-haato",
+      "source": "akai-haato",
+      "target": "unit:kinpatsu-gumi",
+      "type": "member_of_named_unit",
+      "label": "Kinpatsu-gumi / 金髪組",
+      "relation_id": "kinpatsu-gumi",
+      "directed": false,
+      "source_ids": [
+        "s222",
+        "s223"
+      ]
+    },
+    {
+      "id": "kinpatsu-gumi--yuzuki-choco",
+      "source": "yuzuki-choco",
+      "target": "unit:kinpatsu-gumi",
+      "type": "member_of_named_unit",
+      "label": "Kinpatsu-gumi / 金髪組",
+      "relation_id": "kinpatsu-gumi",
+      "directed": false,
+      "source_ids": [
+        "s222",
+        "s223"
+      ]
+    },
+    {
+      "id": "kinpatsu-gumi--yozora-mel",
+      "source": "yozora-mel",
+      "target": "unit:kinpatsu-gumi",
+      "type": "member_of_named_unit",
+      "label": "Kinpatsu-gumi / 金髪組",
+      "relation_id": "kinpatsu-gumi",
+      "directed": false,
+      "source_ids": [
+        "s222",
+        "s223"
+      ]
+    },
+    {
+      "id": "soazko--tokino-sora",
+      "source": "tokino-sora",
+      "target": "unit:soazko",
+      "type": "member_of_named_unit",
+      "label": "SoAzKo",
+      "relation_id": "soazko",
+      "directed": false,
+      "source_ids": [
+        "s224",
+        "s225",
+        "s226",
+        "s227"
+      ]
+    },
+    {
+      "id": "soazko--azki",
+      "source": "azki",
+      "target": "unit:soazko",
+      "type": "member_of_named_unit",
+      "label": "SoAzKo",
+      "relation_id": "soazko",
+      "directed": false,
+      "source_ids": [
+        "s224",
+        "s225",
+        "s226",
+        "s227"
+      ]
+    },
+    {
+      "id": "soazko--hakui-koyori",
+      "source": "hakui-koyori",
+      "target": "unit:soazko",
+      "type": "member_of_named_unit",
+      "label": "SoAzKo",
+      "relation_id": "soazko",
+      "directed": false,
+      "source_ids": [
+        "s224",
+        "s225",
+        "s226",
+        "s227"
+      ]
+    },
+    {
+      "id": "graondstone--kaela-kovalskia",
+      "source": "kaela-kovalskia",
+      "target": "unit:graondstone",
+      "type": "member_of_named_unit",
+      "label": "Graondstone",
+      "relation_id": "graondstone",
+      "directed": false,
+      "source_ids": [
+        "s228"
+      ]
+    },
+    {
+      "id": "graondstone--koseki-bijou",
+      "source": "koseki-bijou",
+      "target": "unit:graondstone",
+      "type": "member_of_named_unit",
+      "label": "Graondstone",
+      "relation_id": "graondstone",
+      "directed": false,
+      "source_ids": [
+        "s228"
+      ]
+    },
+    {
+      "id": "graondstone--raora-panthera",
+      "source": "raora-panthera",
+      "target": "unit:graondstone",
+      "type": "member_of_named_unit",
+      "label": "Graondstone",
+      "relation_id": "graondstone",
+      "directed": false,
+      "source_ids": [
+        "s228"
+      ]
+    },
+    {
+      "id": "regloss-anego-gumi--hiodoshi-ao",
+      "source": "hiodoshi-ao",
+      "target": "unit:regloss-anego-gumi",
+      "type": "member_of_named_unit",
+      "label": "あねご組",
+      "relation_id": "regloss-anego-gumi",
+      "directed": false,
+      "source_ids": [
+        "s229",
+        "s230",
+        "s231"
+      ]
+    },
+    {
+      "id": "regloss-anego-gumi--ichijou-ririka",
+      "source": "ichijou-ririka",
+      "target": "unit:regloss-anego-gumi",
+      "type": "member_of_named_unit",
+      "label": "あねご組",
+      "relation_id": "regloss-anego-gumi",
+      "directed": false,
+      "source_ids": [
+        "s229",
+        "s230",
+        "s231"
+      ]
+    },
+    {
+      "id": "regloss-anego-gumi--todoroki-hajime",
+      "source": "todoroki-hajime",
+      "target": "unit:regloss-anego-gumi",
+      "type": "member_of_named_unit",
+      "label": "あねご組",
+      "relation_id": "regloss-anego-gumi",
+      "directed": false,
+      "source_ids": [
+        "s229",
+        "s230",
+        "s231"
+      ]
+    },
+    {
+      "id": "regloss-ryoute-ni-gaki--otonose-kanade",
+      "source": "otonose-kanade",
+      "target": "unit:regloss-ryoute-ni-gaki",
+      "type": "member_of_named_unit",
+      "label": "両手にガキ",
+      "relation_id": "regloss-ryoute-ni-gaki",
+      "directed": false,
+      "source_ids": [
+        "s232"
+      ]
+    },
+    {
+      "id": "regloss-ryoute-ni-gaki--ichijou-ririka",
+      "source": "ichijou-ririka",
+      "target": "unit:regloss-ryoute-ni-gaki",
+      "type": "member_of_named_unit",
+      "label": "両手にガキ",
+      "relation_id": "regloss-ryoute-ni-gaki",
+      "directed": false,
+      "source_ids": [
+        "s232"
+      ]
+    },
+    {
+      "id": "regloss-ryoute-ni-gaki--todoroki-hajime",
+      "source": "todoroki-hajime",
+      "target": "unit:regloss-ryoute-ni-gaki",
+      "type": "member_of_named_unit",
+      "label": "両手にガキ",
+      "relation_id": "regloss-ryoute-ni-gaki",
+      "directed": false,
+      "source_ids": [
+        "s232"
+      ]
+    },
+    {
+      "id": "regloss-kusogakizu--otonose-kanade",
+      "source": "otonose-kanade",
+      "target": "unit:regloss-kusogakizu",
+      "type": "member_of_named_unit",
+      "label": "くそがきーず（仮）",
+      "relation_id": "regloss-kusogakizu",
+      "directed": false,
+      "source_ids": [
+        "s233",
+        "s234",
+        "s235"
+      ]
+    },
+    {
+      "id": "regloss-kusogakizu--juufuutei-raden",
+      "source": "juufuutei-raden",
+      "target": "unit:regloss-kusogakizu",
+      "type": "member_of_named_unit",
+      "label": "くそがきーず（仮）",
+      "relation_id": "regloss-kusogakizu",
+      "directed": false,
+      "source_ids": [
+        "s233",
+        "s234",
+        "s235"
+      ]
+    },
+    {
+      "id": "regloss-kusogakizu--todoroki-hajime",
+      "source": "todoroki-hajime",
+      "target": "unit:regloss-kusogakizu",
+      "type": "member_of_named_unit",
+      "label": "くそがきーず（仮）",
+      "relation_id": "regloss-kusogakizu",
+      "directed": false,
+      "source_ids": [
+        "s233",
+        "s234",
+        "s235"
       ]
     }
   ],
@@ -10643,7 +12483,7 @@
       "url": "https://www.youtube.com/watch?v=SEuGEowBpCA",
       "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
       "supported_claims": [
-        "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. Christmas Mukaetai is an unverified naming lead, excluded from aliases."
+        "Lamy title explicitly names #あずらみころ and all three members; description identifies AZKi and Korone. The separate inspected naming scene confirms Christmas Mukaetai."
       ],
       "accessed_on": "2026-10-07",
       "kind": "primary"
@@ -10653,7 +12493,7 @@
       "url": "https://www.youtube.com/watch?v=Im-5c35I5F4",
       "title": "アキスバッ！企画考えたりする雑談【初コラボ】",
       "supported_claims": [
-        "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru. Angel Heaven remains a separate unverified naming lead."
+        "Aki first-collaboration title uses アキスバッ and description prints #アキスバ and identifies Subaru."
       ],
       "accessed_on": "2026-10-07",
       "kind": "primary"
@@ -10737,6 +12577,466 @@
       ],
       "accessed_on": "2026-10-07",
       "kind": "primary"
+    },
+    {
+      "id": "s197",
+      "url": "https://www.youtube.com/watch?v=bUeZ9E-mdoU",
+      "title": "エンジェルヘブン再出発【アキ・ローゼンタール×大空スバル/ホロライブ】",
+      "supported_claims": [
+        "Verified Aki channel title explicitly names エンジェルヘブン and Aki/Subaru; description identifies @OozoraSubaru and prints both #エンジェルヘブン and #エンジェルヘヴン. Stream displayed date 2023-08-31."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s198",
+      "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+      "title": "hololive English 4th Concert -Serendipity- — official concert report",
+      "supported_claims": [
+        "Official Day 1 report explicitly names Last Writes and its two members Mori Calliope and Shiori Novella.",
+        "Official Day 1 report explicitly names Octo’clock and its two members Ninomae Ina’nis and Ouro Kronii.",
+        "Official Day 2 report explicitly names Rocku Wawa and its two members Takanashi Kiara and Koseki Bijou.",
+        "Official Day 2 report explicitly names B.F.F as FUWAMOCO and Raora Panthera. The official cast separately lists Fuwawa Abyssgard and Mococo Abyssgard; all three are preserved.",
+        "Official Day 2 report names Bloodraven, then explicitly identifies Nerissa Ravencroft and Elizabeth Rose Bloodflame as its duet performers.",
+        "Official Day 1 report explicitly names Autofister as Gigi Murin and Cecilia Immergreen and identifies their CCGG Madness performance."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s199",
+      "url": "https://www.youtube.com/watch?v=SEuGEowBpCA&t=1924s",
+      "title": "【急遽雑談】#あずらみころ 女子会するぞ～！！【​AZKi・戌神ころね・雪花ラミィ /ホロライブ】",
+      "supported_claims": [
+        "Independently inspected original source scene at 32:04 prints グループ名：クリスマス☆むかえ隊 above the three performers. Original title and description explicitly identify Lamy, AZKi and Korone; automatic captions locate the naming discussion at 31:17–32:15."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s200",
+      "url": "https://www.youtube.com/watch?v=RfD1NIpuQLY&t=887s",
+      "title": "【オフコラボ】あずき先輩と初オフコラボ！マシュマロ読むよ🫶【ホロライブ DEV_IS 響咲リオナ】",
+      "supported_claims": [
+        "Inspected primary source frame at 14:47 shows performer-added RiONAZKi heading above AZKi and Riona. Naming discussion and acceptance corroborated in automatically generated captions at 8:13–14:50; exact capitalization comes from the visible heading."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s201",
+      "url": "https://www.youtube.com/watch?v=K_OxiN5J1ps&t=290s",
+      "title": "【UNO】今日のボク達夜更かしだぁ～～～🌃 【 ＃そあろ  /ホロライブ】",
+      "supported_claims": [
+        "Uploader title and description print #そあろ. Inspected original UNO scene at 4:50 has exactly three occupied player slots: robocosan0523, tokinosora515 and azki_vdiva, plus an empty invite slot, corroborated by the three source avatars."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s202",
+      "url": "https://www.youtube.com/watch?v=LxJcG_8O-tE",
+      "title": "【Human Fall Flat】Kaela falls flat but I don't guess why 【SMITTEN】",
+      "supported_claims": [
+        "SMITTEN appears in the title; title identifies Kaela and uploader is Raora. This documents the named duo."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s203",
+      "url": "https://www.youtube.com/watch?v=ZOP2gGe6JzI",
+      "title": "【How To Fish】I am just here to eat! 【PizzaTimeSmith Collab】",
+      "supported_claims": [
+        "Title explicitly says PizzaTimeSmith Collab; description opens with “with @KaelaKovalskia and @OuroKronii”. Raora is uploader. These identify all three members."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s204",
+      "url": "https://www.youtube.com/watch?v=OdGHVkp6P4E",
+      "title": "【MINECRAFT COLLAB】with @KaelaKovalskia Let's Go GrindStone!",
+      "supported_claims": [
+        "Title names GrindStone and @KaelaKovalskia; uploader is Bijou. Graondstone is separately verified as the Kaela/Bijou/Raora trio; it is not a spelling alias."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s205",
+      "url": "https://www.youtube.com/watch?v=b5XNn0ewF00",
+      "title": "【Minecraft】Building holoID Shop - Part 2【PavoNova】",
+      "supported_claims": [
+        "PavoNova appears in title. Custom description links “Reine POV” to iEEblPHpG80, displayed as “【MOONA x REINE】Building holoID Shop Part 2 #PavoNova【hololiveID 2nd generation】”; custom profiles identify Reine and Moona. Generic generation promo list was excluded from lineup evidence."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s206",
+      "url": "https://www.youtube.com/watch?v=KSuo3sKW7WA",
+      "title": "【#常MOS】このメンバー、なんか落ち着くんだよ～Raftで漂流中！【Raft】",
+      "supported_claims": [
+        "Title contains #常MOS. Custom description “めんばー！” lists 大空スバル @OozoraSubaru / 大神ミオ ※チャンネル主 / 猫又おかゆ @NekomataOkayu / 常闇トワ @TokoyamiTowa. This is a four-person lineup, distinct from SMOK. TsuneMOS is only a reading aid unless official Latin spelling is separately established."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s207",
+      "url": "https://www.youtube.com/watch?v=6qxx91dcB8Y",
+      "title": "(EN) THE BIRDS & THE TREES. Reine Indonesian Classroom w/ Fauna! #CeReines【Reine/hololiveID 2nd gen】",
+      "supported_claims": [
+        "Title contains #CeReines and names Reine and Fauna; custom description “Today's Student: @CeresFauna” links Fauna’s channel. Named duo, rather than proof of permanent formal unit status."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s208",
+      "url": "https://www.youtube.com/watch?v=wsoCTHLgfek",
+      "title": "(EN) HARAPAN has Descended. Reine Indonesian Classroom w/ IRyS! #ReiRyS 【Reine/hololiveID 2nd gen】",
+      "supported_claims": [
+        "Title contains #ReiRyS and names Reine and IRyS; custom description “Today's Student: @IRyS” links IRyS’s channel. Complete named duo."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s209",
+      "url": "https://www.youtube.com/watch?v=iX8WRcP4NX0",
+      "title": "(EN) BIG BREINE SHARK! Reine Indonesian Classroom feeturing Gura #sharpea 【Reine/hololiveID 2nd gen】",
+      "supported_claims": [
+        "Title contains #sharpea and names Reine and Gura; custom description “today's student: @GawrGura” links Gura’s channel. Keep source-exact lower-case spelling; title really spells “feeturing”."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s210",
+      "url": "https://www.youtube.com/watch?v=RYd690kstl4",
+      "title": "(EN) BIRDS IN KIMONO Reine Indonesian Classroom w/Kiara #pavonashi【Pavolia Reine/hololiveID 2nd gen】",
+      "supported_claims": [
+        "Title explicitly names Reine, Kiara and #pavonashi; uploader is verified Reine channel. This identifies the complete duo. Keep exact lower-case hashtag spelling rather than invent official camel case."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s211",
+      "url": "https://www.youtube.com/watch?v=L93enlVyak8",
+      "title": "【歌ってみた】ようこそ！ジャパリパークへ/Covered by癒月ちょこ＆アキロゼ＆本間ひまわり＆八雲べに【ホロライブ/にじさんじ/ぶいすぽ】",
+      "supported_claims": [
+        "Talent-owned cover title names all four singers. Description explicitly calls #ちくまろ a four-person group and credits Choco, Aki, Honma Himawari and Yakumo Beni; complete lineup is preserved."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s212",
+      "url": "https://www.youtube.com/watch?v=YFPvDq90fyI&t=3339s",
+      "title": "SUPERDUPERって何!?ユニット会議！【火威青×一条莉々華×儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Exported original Japanese automatic transcript: 55:39–55:47 states all three names 一条リリカ / 火威青 / 儒烏風亭らでん and that unit name リアラ has been decided. At23:44–23:59 it derives the name from Ririka/Ao/Raden;28:54–29:02 gives final decision. Automatic transcription has misspellings; name/member interpretation is normalized from matching title and clear context."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s213",
+      "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
+      "title": "【Ri-A-Ra】ポーズ揃うかチャレンジ！【相性チェックゲーム】 #ReGLOSS #shorts #Vtuber",
+      "supported_claims": [
+        "Official channel rendered watch title confirms exact Ri-A-Ra Latin spelling. Description promotes full cohort and is not trio membership evidence; membership is supplied by formation transcript."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s214",
+      "url": "https://www.youtube.com/watch?v=V5clm9tuGLU&t=2799s",
+      "title": "【祝】初日デビュー組１周年！【火威青×音乃瀬奏×一条莉々華 】#hololiveDEV_IS #ReGLOSS",
+      "supported_claims": [
+        "Official formation stream title and custom description identify Ao, Kanade and Ririka. Original automatic naming discussion at 46:19–47:23 and 51:07–51:31 selects Otohibana; contemporary talent posts establish exact katakana spelling."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s215",
+      "url": "https://x.com/hiodoshiao/status/1833164984773476710",
+      "title": "Ao — オトヒバナ naming post (9 September 2024)",
+      "supported_claims": [
+        "Ao's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s216",
+      "url": "https://x.com/ichijouririka/status/1833162895666159858",
+      "title": "Ririka — オトヒバナ naming post (9 September 2024)",
+      "supported_claims": [
+        "Ririka's own 9 September 2024 post explicitly prints おつオトヒバナ. X's public oEmbed response verifies the author's handle and exact original katakana spelling; matched to that day's explicitly credited three-person formation stream."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s217",
+      "url": "https://www.youtube.com/watch?v=9j_hjbj1CXo&t=5010s",
+      "title": "AZKi / Aki Rosenthal — GeoGuessr duo naming (16 March 2023)",
+      "supported_claims": [
+        "Original audio at 1:23:30–1:24:23 discusses W/double-A/Z spelling, agrees on ワズ, and adopts it for this duo. Local Japanese ASR of the archived original audio supplies the passage; source scene and uploader metadata independently confirm both performers. Machine transcription is imperfect; original printed Latin spelling is not claimed."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s218",
+      "url": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+      "title": "【歌枠】#あずみみずしー コラボ歌枠【AZKi/奏みみ/水科葵】",
+      "supported_claims": [
+        "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s219",
+      "url": "https://www.youtube.com/watch?v=yE8NM5c476U",
+      "title": "【ASMR】重大告知あり！？ 初めてのASMR！教えて小岩井ことり先生！#あずことASMR",
+      "supported_claims": [
+        "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s220",
+      "url": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+      "title": "【#3コミコラボ】検証！ホラー映画鈴鳴すばるがいたら怖くない説【タッカーとデイル同時視聴】",
+      "supported_claims": [
+        "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s221",
+      "url": "https://hololive.hololivepro.com/talents/azki/",
+      "title": "AZKi official talent profile",
+      "supported_claims": [
+        "Official unit field lists Shotgun Rose. This supplies exact Latin spelling; guest membership is supplied by original collaboration metadata."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s222",
+      "url": "https://www.bilibili.com/video/BV1Yb411g77o/",
+      "title": "Kinpatsu-gumi — preserved original four-member clinic recording",
+      "supported_claims": [
+        "Actual reproduced original intro at clip 00:03–00:04 prints 金髪組こらぼ beside Mel, Choco, Haato and Aki. Actual recording at 00:16/00:31 shows all four in Choco’s clinic. The mirror links original pa5Q-yLWb08, currently unavailable; original-stream timestamp mapping and mirror-reported title/date/owner are not independently verified."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary_recording_mirror"
+    },
+    {
+      "id": "s223",
+      "url": "https://archive.ragtag.moe/embed/ASHMZVS7HQk",
+      "title": "Mel — archived original retrospective mentioning 金髪組 (27 October 2022 JST)",
+      "supported_claims": [
+        "Original Mel audio around 1:36:26.5 uses 金髪組 and discusses herself and Choco. Local Japanese ASR is imperfect. This independently corroborates performer use of the name; it alone does not establish Aki/Haato membership."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s224",
+      "url": "https://www.youtube.com/watch?v=Ordk4xfoNmE&t=569s",
+      "title": "ガルパホロライブカップinホロライブサマー【#ガルパホロライブサマー】",
+      "supported_claims": [
+        "Official original tournament player frame at9:29–9:32 explicitly prints AZKi / ときのそら / 博衣こより under チームピュア. Unprompted local faster-whisper small transcription of the original audio at9:29.84–9:34.54 gives 私たちのチームは、ソアッコーっていう名前…, followed by 3人でね; AZKi at9:48.50–9:52.50 says ソアッコー3人で練習たくさんしてきましたので. Exact Latin spelling SoAzKo is independently printed on official Japanese Koyori card hSD01-015 with Sora/AZKi collab effects and art ピュアピュアピュア～. Composite supports exact Latin name and complete trio. Hiragana そあっこ is a phonetic alias from secondary discovery, corroborated in pronunciation; original audio cannot establish written kana."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s225",
+      "url": "https://en.hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+      "title": "Hakui Koyori — official card list",
+      "supported_claims": [
+        "Koyori card explicitly uses SoAzKo for effect concerning Tokino Sora and AZKi; not sole proof of named unit membership."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s226",
+      "url": "https://www.youtube.com/watch?v=cS_A7BCxL7M",
+      "title": "【#ガルパホロライブサマー】そらあずこよチーム！ガルパ初心者がんばります！【ホロライブ / AZKi】",
+      "supported_claims": [
+        "Original practice stream title identifies そらあずこよ team. Inspected automatic transcript closing59:42–59:54 asks for そらあずこよ hashtag; no exact SoAzKo spelling in inspected metadata."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s227",
+      "url": "https://hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+      "title": "博衣こより hSD01-015 — official Japanese card list",
+      "supported_claims": [
+        "Exact card keyword SoAzKo. Official text: ■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。 ■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。 アーツ ピュアピュアピュア～. Original tournament TeamPure trio provides separate full-membership proof; card date is release date, not group formation."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s228",
+      "url": "https://www.youtube.com/watch?v=9TroI9swAuo",
+      "title": "【GRAONDSTONE】 Lethal Company with Biboo and Kaela! 🩷❤️💜",
+      "supported_claims": [
+        "Exact original Raora-owned title names GRAONDSTONE and explicitly identifies both other participants, Biboo and Kaela. Uploader supplies third member Raora. Complete named trio established directly by primary title. Distinct from GrindStone duo; never an alias of that duo."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s229",
+      "url": "https://x.com/hiodoshiao/status/1755594892435464631",
+      "title": "Performer-authored あねご組 post (2024-02-08)",
+      "supported_claims": [
+        "Ao’s own 8 February 2024 post explicitly prints ReGLOSSのあねご組 and #あねご組. Public oEmbed verifies author and exact original spelling; the same-day stream independently supplies the complete trio."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s230",
+      "url": "https://x.com/ichijouririka/status/1755592646389854688",
+      "title": "Performer-authored あねご組 post (2024-02-08)",
+      "supported_claims": [
+        "Ririka’s own 8 February 2024 post uses #あねご組 and quotes her trio-stream announcement. Public oEmbed independently confirms her authored name usage and date."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s231",
+      "url": "https://www.youtube.com/watch?v=HW0-N2aYogs&t=9948s",
+      "title": "Ririka — complete あねご組 naming stream (8 February 2024)",
+      "supported_claims": [
+        "Ririka-owned Minecraft stream explicitly credits Ao and Hajime with the host, preserving the full trio. Its original automatic naming transcript at 2:45:48–2:46:42 discusses the name but drops ね; performer posts independently establish exact spelling."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s232",
+      "url": "https://x.com/ichijouririka/status/1861773065170067872",
+      "title": "Performer-authored 両手にガキ post (2024-11-27)",
+      "supported_claims": [
+        "Ririka own post explicitly writes 番長、莉々華、奏 「両手にガキ」. Both name and full lineup are in performer-authored text. Quoted fan image is not required for this evidence."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s233",
+      "url": "https://x.com/juufuuteiraden/status/1887814696973283770",
+      "title": "Performer-authored くそがきーず（仮） post (2025-02-07)",
+      "supported_claims": [
+        "Raden’s own 7 February 2025 post expressly prints both くそがきーず(仮) and やきいもーず(仮), marking both provisional, and quotes Hajime’s collaboration announcement. Exact wording and author are confirmed by public oEmbed."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s234",
+      "url": "https://x.com/todoroki_hajime/status/1887812182311845942",
+      "title": "Performer-authored くそがきーず（仮） post (2025-02-07)",
+      "supported_claims": [
+        "Hajime’s same-day own post explicitly names らでんかなではじめ as the full collaboration trio. This supplies membership; Raden’s linked post independently supplies the provisional nicknames."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    },
+    {
+      "id": "s235",
+      "url": "https://www.youtube.com/watch?v=QKQAxDDu2QU",
+      "title": "【Human: Fall Flat】らでんかなではじめで、ぐにゃぐにゃの頂点へ【轟はじめ/ReGLOSS】 #hololivedev_is",
+      "supported_claims": [
+        "Hajime-owned stream title names Raden, Kanade and Hajime; custom description links both guests. Original Japanese automatic transcript at 9:49–10:00 and 1:05:56–1:06:50 explicitly discusses their still-undecided unit name. Exact provisional spellings come from Raden’s own written post, not these noisy captions."
+      ],
+      "accessed_on": "2026-10-07",
+      "kind": "primary"
+    }
+  ],
+  "external_participants": [
+    {
+      "id": "external:honma-himawari",
+      "name_en": "Honma Himawari",
+      "name_ja": "本間ひまわり",
+      "agency": "Nijisanji",
+      "official_profile": "https://www.nijisanji.jp/talents/l/himawari-honma",
+      "source_ids": [
+        "s211"
+      ],
+      "context": "Guest credited in the 2024-05-07 Chikumaro cover; outside the selected Hololive portrait roster."
+    },
+    {
+      "id": "external:yakumo-beni",
+      "name_en": "Yakumo Beni",
+      "name_ja": "八雲べに",
+      "agency": "VSPO!",
+      "official_profile": "https://vspo.jp/member/",
+      "source_ids": [
+        "s211"
+      ],
+      "context": "Guest credited in the 2024-05-07 Chikumaro cover; outside the selected Hololive portrait roster."
+    },
+    {
+      "id": "external:kanade-mimi",
+      "name_en": "Kanade Mimi",
+      "name_ja": "奏みみ",
+      "official_profile": "https://www.youtube.com/@KANADEMiMich",
+      "source_ids": [
+        "s218"
+      ],
+      "context": "External performer explicitly credited by the original uploader; outside the selected Hololive portrait roster. Current agency and activity are not inferred."
+    },
+    {
+      "id": "external:mizushina-aoi",
+      "name_en": "Mizushina Aoi",
+      "name_ja": "水科葵",
+      "official_profile": "https://www.youtube.com/@gemscompany_Mizushina",
+      "source_ids": [
+        "s218",
+        "s220"
+      ],
+      "context": "External performer explicitly credited by the original uploader; outside the selected Hololive portrait roster. Current agency and activity are not inferred."
+    },
+    {
+      "id": "external:koiwai-kotori",
+      "name_en": "Koiwai Kotori",
+      "name_ja": "小岩井ことり",
+      "official_profile": "https://www.youtube.com/@koiwai_kotori",
+      "source_ids": [
+        "s219"
+      ],
+      "context": "External performer explicitly credited by the original uploader; outside the selected Hololive portrait roster. Current agency and activity are not inferred."
+    },
+    {
+      "id": "external:suzuna-subaru",
+      "name_en": "Suzuna Subaru",
+      "name_ja": "鈴鳴すばる",
+      "official_profile": "https://x.com/SuzunaSubaru",
+      "source_ids": [
+        "s220"
+      ],
+      "context": "External performer explicitly credited by the original uploader; outside the selected Hololive portrait roster. Current agency and activity are not inferred."
     }
   ]
 }

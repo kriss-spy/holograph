@@ -40,7 +40,7 @@ test("Gen 1 and Gen 3 retain evidenced internal ties, including partial units", 
   );
   assert.equal(third.relations.find((r) => r.id === "mvp").member_ids.length, 3);
 });
-test("Alumni filtering removes portraits and ties with fewer than two visible members", () => {
+test("Alumni filtering removes departed portraits and preserves documented guest units", () => {
   const scope = selectScope(data, { mode: "all", includeAlumni: false });
   assert.equal(
     scope.ids.size,
@@ -48,7 +48,8 @@ test("Alumni filtering removes portraits and ties with fewer than two visible me
   );
   assert(
     scope.relations.every(
-      (r) => r.member_ids.filter((id) => scope.ids.has(id)).length >= 2,
+      (r) => r.member_ids.filter((id) => scope.ids.has(id)).length >=
+        (r.member_ids.some((id) => id.startsWith("external:")) ? 1 : 2),
     ),
   );
   assert(
@@ -112,11 +113,51 @@ test("Named collaborations are discoverable by Japanese names and romanizations"
     ["nenenetowawa", "ねねねトワワ"],
     ["oriends", "オレンズ"],
     ["goriponguess-samurai", "Samurai"],
+    ["akisuba", "エンジェルヘヴン"],
+    ["akisuba", "AkiSuba"],
+    ["ccgg", "Autofister"],
+    ["nerissa_elizabeth", "Bloodraven"],
+    ["octoclock", "Octo'clock"],
+    ["azulamy-koro", "クリスマス☆むかえ隊"],
+    ["rionazki", "RiONAZKi"],
+    ["soaro", "そあろ"],
+    ["pizzatimesmith", "PizzaTimeSmith"],
+    ["graondstone", "GRAONDSTONE"],
+    ["kinpatsu-gumi", "金髪組"],
+    ["soazko", "そらあずこよ"],
+    ["azukoto", "AzuKoto"],
+    ["regloss-anego-gumi", "Anego-gumi"],
   ]) {
     const record = data.relationships.find((r) => r.id === id);
     assert(record, `Missing accepted record ${id}`);
     assert(matchesDirectory(record, ` ${query} `), `Unsearchable name ${query}`);
     assert.equal(parseRoute(`#unit=${id}`, data).selected.id, id);
+  }
+});
+test("Cross-agency units preserve guests without creating a Hololive-only duo", () => {
+  const record = data.relationships.find((r) => r.id === "chikumaro");
+  const guests = data.external_participants.filter((guest) => record.member_ids.includes(guest.id));
+  assert.equal(record.member_ids.length, 4);
+  assert.equal(guests.length, 2);
+  assert(guests.every((guest) => record.member_ids.includes(guest.id)));
+  assert(guests.every((guest) => !data.talents.some((t) => t.id === guest.id)));
+  const scope = selectScope(data, { mode: "unit", viewId: "chikumaro" });
+  assert.deepEqual([...scope.ids].sort(), ["aki-rosenthal", "yuzuki-choco"]);
+  assert.equal(scope.relations[0].member_ids.length, 4);
+  const edges = data.render_edges.filter((edge) => edge.relation_id === record.id);
+  assert.equal(edges.length, 4);
+  assert(edges.every((edge) => edge.type === "member_of_named_unit" && edge.target === "unit:chikumaro"));
+  assert.equal(parseRoute("#unit=chikumaro", data).selected.id, "chikumaro");
+});
+test("External groups remain visible with one portrait and preserve complete source membership", () => {
+  for (const [id, total] of [["azukoto", 2], ["azumimizushi", 3], ["shotgunrose", 3]]) {
+    const scope = selectScope(data, { mode: "unit", viewId: id });
+    assert.deepEqual([...scope.ids], ["azki"]);
+    assert.equal(scope.relations.length, 1);
+    assert.equal(scope.relations[0].member_ids.length, total);
+    assert.equal(scope.relations[0].member_ids.filter((member) => member.startsWith("external:")).length, total - 1);
+    assert.equal(parseRoute(`#unit=${id}`, data).selected.id, id);
+    assert(selectScope(data, { mode: "person", viewId: "azki" }).relations.some((r) => r.id === id));
   }
 });
 test("Complete named groups stay distinct from cohorts and expanded lineups", () => {
@@ -131,6 +172,9 @@ test("Complete named groups stay distinct from cohorts and expanded lineups", ()
   assert.equal(mvp.relations.length, 1);
   assert.equal(data.render_edges.filter((e) => e.relation_id === "mvp").length, 3);
   assert(data.render_edges.filter((e) => e.relation_id === "mvp").every((e) => e.target === "unit:mvp"));
+  const tentative = data.relationships.find((r) => r.id === "regloss-kusogakizu");
+  assert.equal(relationTypeLabel(tentative), "Provisional collaboration name");
+  assert(matchesDirectory(tentative, "やきいもーず"));
 });
 test("Historical AZKi duos remain recorded when former members are hidden", () => {
   for (const [relation, talent] of [["aquaz", "minato-aqua"], ["azushio", "murasaki-shion"]]) {
@@ -156,7 +200,7 @@ test("Wiki additions preserve complete historical lineups and keep naming leads 
   assert.equal(data.render_edges.filter((e) => e.relation_id === dorobou.id).length, 6);
   for (const [id, query] of [["azumion", "あずみぉーん"], ["koyoaz", "こよあず"], ["sakazuki", "さかずき"], ["momosuzu-family", "桃鈴家"], ["dabuchizu", "だぶちーず"], ["radehaji", "らではじ"], ["kanaazukoro", "かなあずころ"]])
     assert(matchesDirectory(data.relationships.find((r) => r.id === id), query));
-  for (const [id, unverified] of [["azulamy-koro", "クリスマス☆むかえ隊"], ["akisuba", "エンジェルヘブン"], ["koyoaz", "KoZKi"]])
+  for (const [id, unverified] of [["koyoaz", "KoZKi"], ["as-tar", "INNK runaways"]])
     assert(!matchesDirectory(data.relationships.find((r) => r.id === id), unverified));
 });
 test("Ayame force layout has finite positions and no overlapping portraits or unit boxes", () => {

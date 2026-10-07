@@ -10,15 +10,17 @@ assert(
   "Public data contains a private path",
 );
 const sets = {};
-for (const field of ["talents", "cohorts", "relationships", "sources"]) {
-  sets[field] = new Set(data[field].map((x) => x.id));
+for (const field of ["talents", "external_participants", "cohorts", "relationships", "sources"]) {
+  const records = data[field] || [];
+  sets[field] = new Set(records.map((x) => x.id));
   assert.equal(
     sets[field].size,
-    data[field].length,
+    records.length,
     `Duplicate IDs in ${field}`,
   );
   assert(
-    data[field].every((x) => /^[a-zA-Z0-9_-]+$/.test(x.id)),
+    records.every((x) => (field === "external_participants"
+      ? /^external:[a-z0-9-]+$/ : /^[a-zA-Z0-9_-]+$/).test(x.id)),
     `Unsafe ID in ${field}`,
   );
 }
@@ -44,13 +46,22 @@ for (const t of data.talents) {
   https(t.portrait_url);
   await access(new URL(`../public/assets/${t.id}.png`, import.meta.url));
 }
+const participants = new Map([...data.talents, ...(data.external_participants || [])]
+  .map((participant) => [participant.id, participant]));
+for (const guest of data.external_participants || []) {
+  assert(guest.name_en && guest.name_ja && guest.source_ids.length,
+    `Missing guest context in ${guest.id}`);
+  sourceIds(guest.source_ids);
+  https(guest.official_profile);
+  assert(!sets.talents.has(guest.id), "Guests must not inflate the Hololive portrait roster");
+}
 for (const r of data.relationships) {
   assert(
     r.member_ids.length >= 2 &&
       new Set(r.member_ids).size === r.member_ids.length,
   );
   assert(
-    r.member_ids.every((id) => sets.talents.has(id)),
+    r.member_ids.every((id) => participants.has(id)),
     `Unknown member in ${r.id}`,
   );
   assert(
@@ -61,7 +72,7 @@ for (const r of data.relationships) {
   r.sources.forEach((s) => https(s.url));
   assert(
     r.member_ids.every((id, index) =>
-      data.talents.find((t) => t.id === id).name_en === r.members[index]),
+      participants.get(id).name_en === r.members[index]),
     `Member names disagree with canonical IDs in ${r.id}`,
   );
   assert(

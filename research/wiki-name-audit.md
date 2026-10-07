@@ -1,6 +1,6 @@
 # Japanese collaboration-name audit — issue #10
 
-Observed 7 October 2026. This audit integrates **30 additional primary-supported records** and retains a **65-candidate ledger**, including already documented names. It does not establish the size of the full Japanese wiki index or current activity. The roster observation remains 3 October; historical roster evidence remains 6 October.
+Observed 7 October 2026. The original batch integrated **30 additional primary-supported records** and retained a **65-candidate ledger**, including already documented names. The subsequent [connection reconciliation and Holodex expansion](connection-knowledge-final.md) resolves additional names and retains external guests in complete unit lineups. That report and the current machine-readable ledger supersede the first-pass unfinished decisions below. Neither batch establishes the size of the full Japanese wiki index or current activity. The roster observation remains 3 October; historical roster evidence remains 6 October.
 
 ## Discovery coverage and access
 
@@ -8,14 +8,14 @@ The [supplied Seesaa index](https://seesaawiki.jp/hololivetv/d/%a5%db%a5%ed%a5%e
 
 The readable [AZKi unit table](https://seesaawiki.jp/hololivetv/d/AZKi) and [ReGLOSS cohort table](https://seesaawiki.jp/hololivetv/d/ReGLOSS) supplied Japanese spellings, membership hypotheses and citation leads. Recoverable search-index excerpts of Mio/Mel tables provided further discovery leads. The wiki homepage distinguishes internal/external unit lists, and the ReGLOSS cohort page explicitly reproduces its relevant index section. This is a partial audit of those recoverable tables and the prioritized candidates from issues #3/#5/#6/#7, **not a reconstructed full-index census**. No missing-coverage percentage is claimed.
 
-The [machine-readable ledger](wiki-name-audit.json) compares candidates with canonical names, aliases and complete memberships. Each row records discovery URLs, member IDs, classification, primary evidence, timestamps or uninspected segment leads, verification state and remaining uncertainty. Different lineups and different names sharing a lineup are not automatically merged. `external:` identifiers exist only in the research ledger, never in the canonical talent roster.
+The [machine-readable ledger](wiki-name-audit.json) compares candidates with canonical names, aliases and complete memberships. Each row records discovery URLs, member IDs, classification, primary evidence, timestamps or uninspected segment leads, verification state and remaining uncertainty. Different lineups and different names sharing a lineup are not automatically merged. Verified `external:` identifiers now live in a separate canonical guest registry, never in the Hololive portrait roster.
 
 ## Accepted batch
 
 - Eleven previously deferred AZKi collaborations: AzuIro, AzuMion, FubuAZ, WataAZ, KanaAZ, KoyoAZ, Sakazuki, AZRyS, AZBae, AzuNose and RoARiS. [Evidence and fourteen-candidate reconciliation](wiki-azki-followup.md).
 - Momosuzu Family (complete Miko/Mel/Nene trio), Dabuchizu and six-person Dorobou Kensetsu. [Evidence and historical-lineup investigation](wiki-korone-nene-followup.md).
 - Twelve ReGLOSS names: the ten cohort duos (including 21歳拳で組 with the independently attested らではじ alias), AHO3, and 社長番長口八丁. [All seventeen cohort candidates and primary citations](wiki-regloss-followup.md).
-- Four additional primary-attested names: KanaAzuKoro, RoboMioTaru, AzuLamyKoro (あずらみころ), and AkiSuba (アキスバ). The last two retain the verified naming evidence without asserting Christmas Mukaetai or Angel Heaven as aliases.
+- Four additional primary-attested names: KanaAzuKoro, RoboMioTaru, AzuLamyKoro (あずらみころ), and AkiSuba (アキスバ). The first pass retained their verified metadata names; the subsequent pass verifies Christmas Mukaetai and Angel Heaven and consolidates those names into the same records.
 
 [AZKi's 2025-04-15 stream](https://www.youtube.com/watch?v=bExr7NEqNwQ) explicitly prints かなあずころ and names AZKi, Kanata and Korone. [Roboco's 2025-01-23 stream](https://www.youtube.com/watch?v=-jDyV9vW8WA) prints ロボミオタール and lists Aki and Mio as collaborators. These primary metadata inspections are retained in [additional evidence](wiki-additional-primary-metadata.json).
 
@@ -23,16 +23,16 @@ Japanese spellings are preserved exactly, including small ぉ in あずみぉー
 
 All new records have aligned global/inline primary sources and derived edges. Groups retain complete membership spokes; they do not create all-pairs friendships. Dorobou uses the official shop's explicit six-person narrative, not an old interview applicant list as proof of hiring. Its source panel now labels it **In-game roleplay company**, alongside Kanaken; game-origin units and gaming teams have separate labels.
 
-## Unfinished evidence
+## Subsequent evidence recovery
 
-WAZ, RiONAZKi, Christmas Mukaetai and Angel Heaven still need independently inspected spoken-name evidence. Real transcript/player attempts were made; readable metadata is available, but playback requests bot sign-in and transcript exports were unavailable. The ledger marks approximate secondary segment leads as uninspected, rather than verified timestamps. WAZ's original recording mirror was located and a few actual frames inspected without establishing the spoken name.
+The later pass recovered Chrome playback, original caption exports, original source scenes and archived original audio. RiONAZKi is printed at 14:47, Christmas Mukaetai at 32:04, and Angel Heaven is explicit in an alternate Aki-owned stream. WAZ’s original audio at 1:23:30–1:24:23 establishes the spoken name ワズ and letter discussion; Latin spelling is not claimed to be printed in the inspected frame. SoARo combines the uploader’s そあろ title with the inspected complete three-player lobby.
 
-SoARo has a primary そあろ title and a recognizable three-person uploader thumbnail, but remains outside the graph pending explicit full-lineup evidence. Kinpatsu-gumi's requested four-person original archives are unavailable. An official three-person performance and a different four-person blonde lineup cannot stand in for the requested Aki/Haato/Choco/Mel group.
+Kinpatsu-gumi’s preserved original intro actually prints 金髪組こらぼ with Aki/Haato/Choco/Mel, followed by all four in Choco’s clinic. Mirror-reported original title/date/owner remain distinct from inspected original footage. Mel’s original retrospective audio corroborates the name, but is not used alone as quartet evidence.
 
-Chikumaro's primary four-person credits include Honma Himawari and Yakumo Beni. The ledger preserves all four; no Aki/Choco-only projection is added. Three additional external wiki groups require both primary verification and an external-roster design. SoAzKo's official card spelling corroborates a wiki lead, but its card effect is not treated as sole explicit event-unit membership evidence.
+Chikumaro retains all four members through sourced guest context. あずこと, あずみみずしー and Shotgun Rose now have primary names and complete external lineups. These groups appear as explicitly partial graph nodes when only one Hololive portrait is visible. Current guest agencies are not guessed.
 
-Issue #6's remaining two named candidates are now supported. Issues #3/#5/#7 retain the precise gaps above. Broad issue #10 remains open because the full legacy index is inaccessible and the ledger still contains unfinished primary investigations.
+All named candidates in issues #3/#5/#6/#7 are now supported. Unsupported translations, competing aliases and naming-history claims remain explicitly logged; they are not graph facts. The subsequent pass resolves the remaining ReGLOSS candidates. Its 65 selected entries now have primary support, including an expressly provisional trio; the full legacy index remains inaccessible. Ri-A-Ra and オトヒバナ are resolved by composite original-stream and exact primary written-name evidence. See the [current reconciliation](connection-knowledge-final.md) for subsequent additions and final verification.
 
 ## Verification
 
-`npm run check` passes model/layout regressions, candidate-ledger consistency, source/member/derived-edge validation, local portrait checks, production build and public links. Browser checks on the built preview verified Japanese alias lookup, Dorobou's six-person source panel and roleplay label, Momosuzu Family's complete historical lineup after hiding former members, and route navigation. Unverified naming leads never become searchable verified aliases.
+`npm run check` passes model/layout regressions, candidate-ledger consistency, source/member/derived-edge validation, local portrait checks, production build and public links. Browser checks on the built preview verified Japanese alias lookup, Dorobou's six-person source panel and roleplay label, Momosuzu Family's complete historical lineup after hiding former members, and route navigation. Unsupported competing aliases remain excluded. The subsequently verified provisional ReGLOSS name is explicitly labelled provisional; it is not asserted as a final adoption.

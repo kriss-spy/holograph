@@ -1,0 +1,31 @@
+{
+  "observed_on": "2026-10-07",
+  "angel_heaven": {
+    "video_id": "bUeZ9E-mdoU",
+    "url": "https://www.youtube.com/watch?v=bUeZ9E-mdoU",
+    "title": "エンジェルヘブン再出発【アキ・ローゼンタール×大空スバル/ホロライブ】",
+    "displayed_date": "2023/08/31 にライブ配信",
+    "owner_name": "アキロゼCh。Vtuber/ホロライブ所属",
+    "owner_channel_id": "UCFTLzh12_nrtzqBPsTCqenA",
+    "owner_handle": "/@AkiRosenthal",
+    "description_excerpt": "5年の時を経て再び\n‪@OozoraSubaru‬ \n#エンジェルヘブン #エンジェルヘヴン",
+    "inspection": "Target YouTube watch-page uploader metadata inspected independently; playback not required for the printed-name claim."
+  },
+  "serendipity": {
+    "url": "https://hololive.hololivepro.com/en/events/serendipity/",
+    "inspection": "Official complete concert report text; Day 1 and Day 2 performing-unit paragraphs and complete cast inspected.",
+    "event_dates": [
+      "2026-07-03",
+      "2026-07-04"
+    ],
+    "timezone": "PDT",
+    "record_ids": [
+      "ccgg",
+      "nerissa_elizabeth",
+      "last-writes",
+      "octoclock",
+      "rocku-wawa",
+      "bff"
+    ]
+  }
+}

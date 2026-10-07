@@ -1,5 +1,6 @@
 # Korone and Aki connection completion research
 
+Later update: the [7 October final reconciliation](connection-knowledge-final.md) and current canonical snapshot supersede this historical pass’s deferred naming and external-lineup decisions.
 Update, 7 October: [wiki follow-up evidence](wiki-korone-nene-followup.md) resolves Dorobou Kensetsu's six-person roster and integrates the independently printed names あずらみころ and アキスバ. Christmas Mukaetai and Angel Heaven remain unverified naming leads; Kinpatsu-gumi still needs its requested four-person historical lineup. Mel is available, so roster absence is no longer a dependency. The following entries preserve the earlier pass.
 
 Researched 2026-10-06 for GitHub issues [#3](https://github.com/kriss-spy/holograph/issues/3) and [#7](https://github.com/kriss-spy/holograph/issues/7). Issue bodies were read with `gh issue view`. Reddit and unofficial sites were used as discovery leads only; accepted records below were inspected on the actual talent-owned YouTube watch pages (title, date, channel owner, and description). Web fetches intermittently failed, so direct public page HTML and its rendered `ytInitialData` fields supplied primary evidence. No video playback or spoken claims were asserted as verified.

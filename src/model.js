@@ -3,6 +3,7 @@ export const isFormerTalent = (talent) => ["alum", "former"].includes(talent.sta
 
 /** Explain the evidenced relationship without turning roleplay into a social claim. */
 export function relationTypeLabel(relation) {
+  if (relation.provisional_name) return "Provisional collaboration name";
   const labels = {
     fictional_company_unit: "In-game roleplay company",
     game_origin_unit: "Game-origin collaboration unit",
@@ -35,7 +36,7 @@ export function displayCohortId(talent, { mode, viewId }) {
 /** Canonical records remain searchable by their documented alternate names. */
 export function matchesDirectory(item, query, displayName = "") {
   const names = item.member_ids
-    ? [item.label, ...(item.aliases || []), ...item.members]
+    ? [item.label, ...(item.aliases || []), ...(item.reading_aids || []), ...item.members]
     : [item.name_en, item.name_ja, ...item.aliases];
   return [displayName, ...names].join(" ").toLocaleLowerCase().includes(query.trim().toLocaleLowerCase());
 }
@@ -122,7 +123,8 @@ export function selectScope(
   );
   ids = new Set([...ids].filter((id) => allowed.has(id)));
   relations = relations.filter(
-    (r) => r.member_ids.filter((id) => ids.has(id)).length >= 2,
+    (r) => r.member_ids.filter((id) => ids.has(id)).length >=
+      (r.member_ids.some((id) => id.startsWith("external:")) ? 1 : 2),
   );
   return { ids, relations };
 }

@@ -1,5 +1,6 @@
 # Connection knowledge completion — 6 October 2026
 
+Later update: the [7 October final reconciliation](connection-knowledge-final.md) and current canonical snapshot supersede this historical pass’s deferred naming and external-lineup decisions.
 38 primary-source-backed relationship records added: 31 → 69 ties, 114 → 153 source records. The selected roster remains 78 talents as observed on 3 October; only the relationship research date is advanced to 6 October. English display names may be transliterations of primary Japanese names rather than official English spellings. Dates describe the inspected evidence, never implied formation or last activity.
 
 | Issue | Accepted candidates | Deferred candidates | Evidence audit |

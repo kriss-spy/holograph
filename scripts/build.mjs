@@ -6,6 +6,7 @@ await mkdir("dist", { recursive: true });
 await cp("public", "dist", { recursive: true });
 await cp("data/hololive-relations.json", "dist/hololive-relations.json");
 await cp("research/wiki-name-audit.json", "dist/wiki-name-audit.json");
+await cp("research/holodex-name-audit.json", "dist/holodex-name-audit.json");
 const result = await build({
   entryPoints: ["src/main.js"],
   bundle: true,

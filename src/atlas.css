@@ -379,6 +379,21 @@ input[type="search"] {
   gap: 8px;
   margin: 15px 0;
 }
+.external-guest small {
+  display: block;
+  font-size: 11px;
+  color: #587386;
+}
+.member.external-guest {
+  width: 112px;
+  padding: 12px 8px;
+  border: 1px solid #d5e9f2;
+  border-radius: 8px;
+  align-self: flex-start;
+}
+.member.external-guest > span {
+  font-size: 12px;
+}
 .member {
   padding: 0;
   border: 0;

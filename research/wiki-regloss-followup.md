@@ -1,5 +1,7 @@
 # ReGLOSS cohort-unit follow-up — issue #10
 
+Later same-day reconciliation: Ri-A-Ra now has original naming/member evidence plus official spelling; オトヒバナ has original naming context and two contemporaneous talent posts recovered through public oEmbed. See [final naming report](regloss-final-naming.md) and [reconciliation](connection-knowledge-final.md). Earlier remaining-evidence statements below describe the previous pass.
+
 Audit date: 2026-10-07. Discovery source: [Japanese wiki cohort table](https://seesaawiki.jp/hololivetv/d/ReGLOSS), section 同期内ユニット. The 10 duo member sets and 7 trio member sets below are deduplicated candidates, not friendship or current-activity claims. The 21歳拳で組 / らではじ names are one member set. Romanizations are research reading aids, not verified aliases.
 
 Twelve candidates have primary name and membership evidence suitable for review. Five remain in the discovery backlog after citation chasing. Parent integration added all twelve supported records to the canonical dataset. Existing-member-set checks were against the current canonical JSON when this file was generated.

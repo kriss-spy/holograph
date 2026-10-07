@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "observed_on": "2026-10-07",
+    "scope": "Four remaining broader AZKi naming candidates",
+    "eligible_count": 4,
+    "canonical_modified": false,
+    "external_scope": "Preserve complete external lineup. Graph projection is a parent implementation choice."
+  },
+  "records": [
+    {
+      "id": "azumimizushi",
+      "label": "あずみみずしー",
+      "aliases": [],
+      "type": "named_collab",
+      "member_ids": [
+        "azki",
+        "external:kanade-mimi",
+        "external:mizushina-aoi"
+      ],
+      "date": "2023-04-20",
+      "owner": "水科葵 [GEMS COMPANY ジェムカン]",
+      "url": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+      "title": "【歌枠】#あずみみずしー コラボ歌枠【AZKi/奏みみ/水科葵】",
+      "evidence": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+          "title": "【歌枠】#あずみみずしー コラボ歌枠【AZKi/奏みみ/水科葵】",
+          "date": "2023-04-20",
+          "owner": "水科葵 [GEMS COMPANY ジェムカン]",
+          "evidence": "Exact named hashtag and all three singers appear in the uploader title. Custom description says あずみみずしー集結 / ３人 and credits AZKi and 奏みみ as guests; uploader is 水科葵. Complete lineup established; all three preserved.",
+          "inspection": "Original rendered YouTube uploader metadata in Chrome"
+        }
+      ],
+      "external_participants": [
+        {
+          "id": "external:kanade-mimi",
+          "credited_name": "奏みみ",
+          "performer_owned_urls": [
+            "https://www.youtube.com/@KANADEMiMich",
+            "https://x.com/kanademimimi"
+          ],
+          "identity_evidence_source": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+          "agency": null,
+          "agency_note": "No current affiliation inferred."
+        },
+        {
+          "id": "external:mizushina-aoi",
+          "credited_name": "水科葵",
+          "performer_owned_urls": [
+            "https://www.youtube.com/@gemscompany_Mizushina",
+            "https://www.youtube.com/channel/UCVFpIqGoTmFaoMmyFPRYrKA",
+            "https://x.com/Mizushina_Aoi"
+          ],
+          "identity_evidence_source": "https://www.youtube.com/watch?v=C2lb_hccIJc",
+          "agency": null,
+          "agency_note": "No current affiliation inferred."
+        }
+      ],
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://azki-song-db.vercel.app/watch?q=video_id%3AKOiBtVh9ju4&v=KOiBtVh9ju4"
+      ],
+      "verification_state": "verified_primary_title_and_complete_lineup",
+      "time_scope": "Documented on 2023-04-20; formation date and current continuity not inferred."
+    },
+    {
+      "id": "azukoto",
+      "label": "あずこと",
+      "aliases": [
+        "あずことASMR"
+      ],
+      "type": "named_collab",
+      "member_ids": [
+        "azki",
+        "external:koiwai-kotori"
+      ],
+      "date": "2023-06-07",
+      "owner": "AZKi Channel",
+      "url": "https://www.youtube.com/watch?v=yE8NM5c476U",
+      "title": "【ASMR】重大告知あり！？ 初めてのASMR！教えて小岩井ことり先生！#あずことASMR",
+      "evidence": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=yE8NM5c476U",
+          "title": "【ASMR】重大告知あり！？ 初めてのASMR！教えて小岩井ことり先生！#あずことASMR",
+          "date": "2023-06-07",
+          "owner": "AZKi Channel",
+          "evidence": "Uploader title and custom description use #あずことASMR for AZKi with 特別ゲスト：小岩井ことりさん and @koiwai_kotori. This supports the あずこと named duo in ASMR context; observed exact event hashtag retained as an alias. Custom description also credits the duet 銀河と海路 feat. 小岩井ことり, linked to CdGZUER6Jpo, as additional complete duet context.",
+          "inspection": "Original rendered YouTube uploader metadata in Chrome"
+        }
+      ],
+      "external_participants": [
+        {
+          "id": "external:koiwai-kotori",
+          "credited_name": "小岩井ことり",
+          "performer_owned_urls": [
+            "https://www.youtube.com/@koiwai_kotori",
+            "https://x.com/koiwai_kotori",
+            "https://www.kotoneiro.com/"
+          ],
+          "identity_evidence_source": "https://www.youtube.com/watch?v=yE8NM5c476U",
+          "agency": null,
+          "agency_note": "No current affiliation inferred."
+        }
+      ],
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://ckworks.jp/vinforadar/video/kirinuki/gAblsMZt0VE"
+      ],
+      "verification_state": "verified_primary_title_and_complete_lineup",
+      "time_scope": "Documented on 2023-06-07; formation date and current continuity not inferred."
+    },
+    {
+      "id": "shotgunrose",
+      "label": "Shotgun Rose",
+      "aliases": [
+        "ショットガンローズ"
+      ],
+      "type": "named_collab",
+      "member_ids": [
+        "azki",
+        "external:suzuna-subaru",
+        "external:mizushina-aoi"
+      ],
+      "date": "2020-05-31",
+      "owner": "AZKi Channel",
+      "url": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+      "title": "【#3コミコラボ】検証！ホラー映画鈴鳴すばるがいたら怖くない説【タッカーとデイル同時視聴】",
+      "evidence": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+          "title": "【#3コミコラボ】検証！ホラー映画鈴鳴すばるがいたら怖くない説【タッカーとデイル同時視聴】",
+          "date": "2020-05-31",
+          "owner": "AZKi Channel",
+          "evidence": "AZKi-owned custom description begins ショットガンローズコラボ！！, identifies custom guests 鈴鳴すばる and 水科葵, and refers to the three by すばる・あずき・みずしーの3コードミラクル. AZKi official talent profile independently lists exact Latin name Shotgun Rose under ユニット. Composite verifies name and complete three-member lineup. No claim of ongoing activity.",
+          "inspection": "Original rendered YouTube uploader metadata in Chrome"
+        },
+        {
+          "url": "https://hololive.hololivepro.com/talents/azki/",
+          "title": "AZKi official talent profile",
+          "date": null,
+          "owner": "hololive production",
+          "evidence": "Official unit field lists Shotgun Rose. This supplies exact Latin spelling; guest membership is supplied by original collaboration metadata.",
+          "inspection": "Official primary text via web reader"
+        }
+      ],
+      "external_participants": [
+        {
+          "id": "external:suzuna-subaru",
+          "credited_name": "鈴鳴すばる",
+          "performer_owned_urls": [
+            "https://x.com/SuzunaSubaru",
+            "https://www.youtube.com/@MaRiNaSu",
+            "https://www.youtube.com/channel/UCDgH-CfHO85D0rxtXnXeN2w"
+          ],
+          "identity_evidence_source": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+          "agency": null,
+          "agency_note": "No current affiliation inferred."
+        },
+        {
+          "id": "external:mizushina-aoi",
+          "credited_name": "水科葵",
+          "performer_owned_urls": [
+            "https://x.com/Mizushina_Aoi",
+            "https://www.youtube.com/@gemscompany_Mizushina",
+            "https://www.youtube.com/channel/UCVFpIqGoTmFaoMmyFPRYrKA"
+          ],
+          "identity_evidence_source": "https://www.youtube.com/watch?v=nsDsb9_7n2E",
+          "agency": null,
+          "agency_note": "No current affiliation inferred."
+        }
+      ],
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://musicbrainz.org/release/b6d2b0ae-92be-4bdb-828c-7d4e656facbc"
+      ],
+      "verification_state": "verified_primary_composite",
+      "time_scope": "Documented on 2020-05-31; formation date and current continuity not inferred."
+    },
+    {
+      "id": "soazko",
+      "label": "SoAzKo",
+      "aliases": [
+        "そあっこ"
+      ],
+      "type": "named_collab",
+      "member_ids": [
+        "tokino-sora",
+        "azki",
+        "hakui-koyori"
+      ],
+      "date": "2022-08-28",
+      "owner": "hololive ホロライブ - VTuber Group",
+      "url": "https://www.youtube.com/watch?v=Ordk4xfoNmE&t=569s",
+      "title": "ガルパホロライブカップinホロライブサマー【#ガルパホロライブサマー】",
+      "evidence": "Official original tournament player frame at9:29–9:32 explicitly prints AZKi / ときのそら / 博衣こより under チームピュア. Unprompted local faster-whisper small transcription of the original audio at9:29.84–9:34.54 gives 私たちのチームは、ソアッコーっていう名前…, followed by 3人でね; AZKi at9:48.50–9:52.50 says ソアッコー3人で練習たくさんしてきましたので. Exact Latin spelling SoAzKo is independently printed on official Japanese Koyori card hSD01-015 with Sora/AZKi collab effects and art ピュアピュアピュア～. Composite supports exact Latin name and complete trio. Hiragana そあっこ is a phonetic alias from secondary discovery, corroborated in pronunciation; original audio cannot establish written kana.",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ordk4xfoNmE&t=569s",
+          "title": "ガルパホロライブカップinホロライブサマー【#ガルパホロライブサマー】",
+          "date": "2022-08-28",
+          "owner": "hololive ホロライブ - VTuber Group",
+          "evidence": "Official original tournament player frame at9:29–9:32 explicitly prints AZKi / ときのそら / 博衣こより under チームピュア. Unprompted local faster-whisper small transcription of the original audio at9:29.84–9:34.54 gives 私たちのチームは、ソアッコーっていう名前…, followed by 3人でね; AZKi at9:48.50–9:52.50 says ソアッコー3人で練習たくさんしてきましたので. Exact Latin spelling SoAzKo is independently printed on official Japanese Koyori card hSD01-015 with Sora/AZKi collab effects and art ピュアピュアピュア～. Composite supports exact Latin name and complete trio. Hiragana そあっこ is a phonetic alias from secondary discovery, corroborated in pronunciation; original audio cannot establish written kana.",
+          "inspection": "Original rendered YouTube player/frame and original-stream audio inspected via local unprompted ASR",
+          "audio_transcription": {
+            "method": "faster-whisper small, CPU int8, language ja, beam_size5, no initial_prompt; PCM16 mono16k clip567–596s from public Ragtag mirror of original",
+            "segments": [
+              {
+                "start_seconds": 569.84,
+                "end_seconds": 574.54,
+                "text": "私たちのチームは、ソアッコーっていう名前をさきつきまして"
+              },
+              {
+                "start_seconds": 575.54,
+                "end_seconds": 579.5,
+                "text": "3人でね、頑張っていきたいなと思っているので"
+              },
+              {
+                "start_seconds": 588.5,
+                "end_seconds": 592.5,
+                "text": "ソアッコー3人で練習たくさんしてきましたので"
+              }
+            ],
+            "limitations": "Machine transcription; mangled surrounding words retained. This is not a claim of manually heard audio or exact hiragana writing."
+          }
+        },
+        {
+          "url": "https://en.hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "title": "Hakui Koyori — official card list",
+          "date": null,
+          "owner": "hololive OFFICIAL CARD GAME",
+          "evidence": "Koyori card explicitly uses SoAzKo for effect concerning Tokino Sora and AZKi; not sole proof of named unit membership.",
+          "inspection": "Official primary text via web reader"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cS_A7BCxL7M",
+          "title": "【#ガルパホロライブサマー】そらあずこよチーム！ガルパ初心者がんばります！【ホロライブ / AZKi】",
+          "date": "2022-08-10",
+          "owner": "AZKi Channel",
+          "evidence": "Original practice stream title identifies そらあずこよ team. Inspected automatic transcript closing59:42–59:54 asks for そらあずこよ hashtag; no exact SoAzKo spelling in inspected metadata.",
+          "inspection": "Original rendered YouTube uploader metadata in Chrome"
+        },
+        {
+          "url": "https://hololive-official-cardgame.com/cardlist/?expansion=hSD01&id=15&view=image",
+          "title": "博衣こより hSD01-015 — official Japanese card list",
+          "date": "2024-09-20",
+          "owner": "hololive OFFICIAL CARD GAME",
+          "evidence": "Exact card keyword SoAzKo. Official text: ■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。 ■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。 アーツ ピュアピュアピュア～. Original tournament TeamPure trio provides separate full-membership proof; card date is release date, not group formation.",
+          "inspection": "Official Japanese card text, web reader plus public HTTP HTML text extraction"
+        }
+      ],
+      "external_participants": [],
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/AZKi",
+        "https://archive.ragtag.moe/watch?v=Ordk4xfoNmE"
+      ],
+      "verification_state": "verified_primary_composite",
+      "time_scope": "Documented on 2022-08-28; formation date and current continuity not inferred."
+    }
+  ],
+  "limitations": [
+    "Secondary music release references locate EP catalog QECD-0018 /2020-11-01 and A&G shop153597214, but original shop fetch failed; no claim of inspected album credits.",
+    "Performer-owned guest URLs are explicitly linked/credited by original uploader metadata; these were not separately audited for current agency/status.",
+    "YouTube automatic captions are noisy; local small-model ASR improves SoAzKo phonetic-name context but is not written-kana proof or manually heard transcription.",
+    "Music coappearance alone is not treated as naming proof. All three eligible groups have explicit named title/description or official profile context."
+  ],
+  "supplementary_records": [
+    {
+      "id": "graondstone",
+      "label": "Graondstone",
+      "aliases": [
+        "GRAONDSTONE"
+      ],
+      "type": "named_collab",
+      "member_ids": [
+        "kaela-kovalskia",
+        "koseki-bijou",
+        "raora-panthera"
+      ],
+      "date": "2024-09-24",
+      "owner": "Raora Panthera Ch. hololive",
+      "url": "https://www.youtube.com/watch?v=9TroI9swAuo",
+      "title": "【GRAONDSTONE】 Lethal Company with Biboo and Kaela! 🩷❤️💜",
+      "evidence": "Exact original Raora-owned title names GRAONDSTONE and explicitly identifies both other participants, Biboo and Kaela. Uploader supplies third member Raora. Complete named trio established directly by primary title. Distinct from GrindStone duo; never an alias of that duo.",
+      "discovery_urls": [
+        "https://holodex.net/channel/UCZLZ8Jjx_RN2CXloOmgTHVg/collabs",
+        "https://holo-clips.com/archives/446529"
+      ],
+      "verification_state": "verified_primary_title_and_complete_lineup",
+      "time_scope": "Documented2024-09-24; no formation date, ongoing membership or permanence inferred."
+    }
+  ],
+  "prior_batch_membership_bounds": {
+    "scope": "Nine already proposed Holodex groups; review of inspected complete titles/custom descriptions, plus current Graondstone lead. Not exhaustive historical absence proof.",
+    "findings": [
+      "GrindStone=Kaela/Bijou duo. Graondstone=Kaela/Bijou/Raora trio separately established. Preserve as distinct records; do not union members or alias labels.",
+      "常MOS=Subaru/Mio/Okayu/Towa from exact four-person custom credits. Distinct from SMOK (Korone), already separate canonical candidate.",
+      "PizzaTimeSmith=Raora/Kaela/Kronii and SMITTEN=Raora/Kaela from named title and custom guest metadata. Distinct units; a guest appearance alone does not expand membership.",
+      "PavoNova=Moona/Reine; CeReines=Fauna/Reine; ReiRyS=IRyS/Reine; sharpea=Gura/Reine; pavonashi=Kiara/Reine. Each has uploader-owned named title and specific custom student/partner context. No observed alternate complete lineup in inspected primary records."
+    ],
+    "recommended_bounds": "Treat membership as the source-documented named lineup on the cited date. These sources establish named collaborations, not permanence, current activity or an exhaustive roster history."
+  }
+}

@@ -7,6 +7,7 @@ import { cohortAffiliations, displayCohortId, isFormerTalent, matchesDirectory, 
 cytoscape.use(fcose);
 const $ = (s) => document.querySelector(s),
   T = new Map(D.talents.map((t) => [t.id, t])),
+  G = new Map((D.external_participants || []).map((g) => [g.id, g])),
   R = new Map(D.relationships.map((r) => [r.id, r]));
 const shortLabels = {
   micomet: "miComet",
@@ -27,8 +28,8 @@ const shortLabels = {
   kanaken: "Kanaken",
   chadcast: "CHADCast",
   baerys: "BaeRyS",
-  ccgg: "CCGG",
-  nerissa_elizabeth: "Nerissa & Elizabeth",
+  ccgg: "Autofister / CCGG",
+  nerissa_elizabeth: "Bloodraven",
   koyokuro: "KoyoKuro",
   fams: "FAMS",
   okfams: "OKFAMS",
@@ -323,7 +324,7 @@ function draw() {
   const custom = mode === "topic" ? topicById.get(viewId).hubs : {};
   relations.forEach((r, i) => {
     const mids = r.member_ids.filter((id) => ids.has(id));
-    if (r.member_ids.length === 2) {
+    if (r.member_ids.length === 2 && mids.length === 2) {
       els.push({
         data: {
           id: "edge:" + r.id,
@@ -359,6 +360,7 @@ function draw() {
               : ""),
           relation: r.id,
           kind: "unit",
+          partial: mids.length < r.member_ids.length,
         },
         position,
         classes: "unit",
@@ -386,8 +388,9 @@ function draw() {
   });
   cy.nodes(".unit").style({
     width: atlas ? 110 : 150,
-    height: atlas ? 36 : 50,
+    height: (node) => node.data("partial") ? (atlas ? 54 : 74) : (atlas ? 36 : 50),
     "font-size": atlas ? 12 : 19,
+    "text-max-width": atlas ? 105 : 145,
   });
   cy.edges().style({ "font-size": atlas ? 11 : 20 });
   if (useForce) {
@@ -445,10 +448,10 @@ function draw() {
       : mode === "all"
         ? "Explore recorded connections across cohorts. Try circular or force-directed layout."
         : mode === "cohort"
-          ? "Recorded ties involving two or more members here. Shared units may include others."
+          ? "Recorded ties involving members here. Shared units may include others."
           : "Selected ties from the research snapshot; dates appear in the source panel.";
   $("#map-count").textContent =
-    `${ids.size} talents / ${relations.length} recorded ${relations.length === 1 ? "tie" : "ties"}`;
+    `${ids.size} ${ids.size === 1 ? "talent" : "talents"} / ${relations.length} recorded ${relations.length === 1 ? "tie" : "ties"}`;
   document.querySelectorAll("[data-topic]").forEach((b) => {
     const active = mode === "topic" && viewId === b.dataset.topic;
     b.classList.toggle("active", active);
@@ -484,11 +487,15 @@ function showDetails() {
     box.innerHTML = `<p class="type">${niceType(r)}</p><h2>${esc(shortLabels[r.id])}</h2><div class="members">${r.member_ids
       .map((id) => {
         const t = T.get(id);
+        if (!t) {
+          const guest = G.get(id);
+          return `<span class="member external-guest"><span><a href="${esc(guest.official_profile)}" target="_blank" rel="noopener">${esc(guest.name_en)}</a><small>Guest${guest.agency ? " · " + esc(guest.agency) : ""}</small></span></span>`;
+        }
         return `<button class="member" data-person="${id}">${avatar(t)}<span>${esc(t.name_en)}</span></button>`;
       })
       .join(
         "",
-      )}</div><p>${esc(r.claim)}</p>${r.id === "okakoro" ? "<p>Both belong to hololive GAMERS. Fubuki also describes the six members of OKFAMS, including Okayu and Korone, as close friends.</p>" : ""}<h3>When this was documented</h3><p class="time">${esc(r.time_scope)}</p><h3>Evidence</h3><ul class="sources">${r.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><small>${esc(s.evidence)}</small></li>`).join("")}${r.id === "okakoro" ? '<li><a href="https://hololive.hololivepro.com/en/talents/shirakami-fubuki/" target="_blank" rel="noopener">Fubuki’s official Q&A</a><small>Public description of the six-person OKFAMS friendship group.</small></li>' : ""}</ul><p style="font-size:10px">A documented collaboration is not a measure of personal closeness. Historical records remain visible.</p>`;
+      )}</div>${r.member_ids.some((id) => G.has(id)) ? '<p class="coverage-note">The complete lineup includes guests outside the Hololive portrait roster. The graph shows the members in the selected roster.</p>' : ''}<p>${esc(r.claim)}</p>${r.id === "okakoro" ? "<p>Both belong to hololive GAMERS. Fubuki also describes the six members of OKFAMS, including Okayu and Korone, as close friends.</p>" : ""}<h3>When this was documented</h3><p class="time">${esc(r.time_scope)}</p><h3>Evidence</h3><ul class="sources">${r.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><small>${esc(s.evidence)}</small></li>`).join("")}${r.id === "okakoro" ? '<li><a href="https://hololive.hololivepro.com/en/talents/shirakami-fubuki/" target="_blank" rel="noopener">Fubuki’s official Q&A</a><small>Public description of the six-person OKFAMS friendship group.</small></li>' : ""}</ul><p style="font-size:10px">A documented collaboration is not a measure of personal closeness. Historical records remain visible.</p>`;
   } else {
     const t = T.get(selected.id),
       rs = D.relationships.filter((r) => r.member_ids.includes(t.id)),
@@ -736,7 +743,7 @@ cy.on("free", "node", () => AtlasLayout.edgeLabels(cy));
 cy.on("zoom", () => {
   $("#zoom-level").textContent = Math.round(cy.zoom() * 100) + "%";
 });
-const covered = new Set(D.relationships.flatMap((r) => r.member_ids));
+const covered = new Set(D.relationships.flatMap((r) => r.member_ids).filter((id) => T.has(id)));
 $("#units-tab span").textContent = D.relationships.length;
 $("#people-tab span").textContent = D.talents.length;
 $("#all").textContent = "All " + D.talents.length + " talents";

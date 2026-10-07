@@ -1,5 +1,7 @@
 # Korone, Aki and Nene wiki follow-up — issue #10
 
+Later same-day reconciliation: Christmas Mukaetai is now visually verified at32:04 of the original Lamy stream; Angel Heaven has an explicit Aki-owned named stream. Both consolidate into their existing member-set records. See [final Korone/Aki evidence](connection-korone-aki-final.md). Earlier unverified-name statements below describe the previous pass.
+
 Investigated 7 October 2026. Primary watch-page metadata (Japanese title, displayed date, channel and description) is retained in `wiki-korone-nene-primary-metadata.json`; accepted records are integrated in `data/hololive-relations.json`, while remaining candidates are retained in `wiki-name-audit.json`. English transliterations are navigation labels, not performer-declared English names unless noted.
 
 ## Resolved candidates

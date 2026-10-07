@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "observed_on": "2026-10-07",
+    "scope": "Remaining five issue10 ReGLOSS naming candidates; original transcripts and player-frame follow-up",
+    "canonical_modified": false,
+    "transcript_language": "Japanese automatic; errors retained as explicit limitations",
+    "eligible_count": 2
+  },
+  "records": [
+    {
+      "id": "ri-a-ra",
+      "label": "Ri-A-Ra",
+      "aliases": [
+        "リアラ"
+      ],
+      "type": "named_collab",
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "juufuutei-raden"
+      ],
+      "verification_state": "verified_primary_composite",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=YFPvDq90fyI&t=3339s",
+          "title": "SUPERDUPERって何!?ユニット会議！【火威青×一条莉々華×儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+          "date": "2024-09-23",
+          "owner": "Ao Ch. 火威青 ‐ ReGLOSS",
+          "evidence": "Exported original Japanese automatic transcript: 55:39–55:47 states all three names 一条リリカ / 火威青 / 儒烏風亭らでん and that unit name リアラ has been decided. At23:44–23:59 it derives the name from Ririka/Ao/Raden;28:54–29:02 gives final decision. Automatic transcription has misspellings; name/member interpretation is normalized from matching title and clear context.",
+          "timestamps": [
+            "23:44–23:59",
+            "28:54–29:02",
+            "55:39–55:47"
+          ],
+          "method": "Chrome original watch page plus exported Japanese automatic transcript"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UqddHqBatJk",
+          "title": "【Ri-A-Ra】ポーズ揃うかチャレンジ！【相性チェックゲーム】 #ReGLOSS #shorts #Vtuber",
+          "date": "2024-12-21",
+          "owner": "hololive ReGLOSS",
+          "evidence": "Official channel rendered watch title confirms exact Ri-A-Ra Latin spelling. Description promotes full cohort and is not trio membership evidence; membership is supplied by formation transcript.",
+          "method": "Chrome rendered original official short watch page"
+        }
+      ],
+      "decision": "eligible_for_parent_review",
+      "date": "2024-09-23",
+      "url": "https://www.youtube.com/watch?v=YFPvDq90fyI&t=3339s",
+      "title": "SUPERDUPERって何!?ユニット会議！【火威青×一条莉々華×儒烏風亭らでん 】#hololiveDEV_IS #ReGLOSS",
+      "owner": "Ao Ch. 火威青 ‐ ReGLOSS",
+      "evidence": "Exported original Japanese automatic transcript: 55:39–55:47 states all three names 一条リリカ / 火威青 / 儒烏風亭らでん and that unit name リアラ has been decided. At23:44–23:59 it derives the name from Ririka/Ao/Raden;28:54–29:02 gives final decision. Automatic transcription has misspellings; name/member interpretation is normalized from matching title and clear context.",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ]
+    },
+    {
+      "id": "anego-gumi",
+      "label": "あねご組",
+      "aliases": [],
+      "type": "named_collab",
+      "member_ids": [
+        "hiodoshi-ao",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "verification_state": "primary_naming_context_recovered_asr_spelling_noisy",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=HW0-N2aYogs&t=9948s",
+          "title": "ちょべりば作業の会！三人のグループ名欲しいな～～！！！！ #Minecraft【#一条莉々華/hololive DEV_IS】",
+          "date": "2024-02-08",
+          "owner": "Ririka Ch. 一条莉々華 ‐ ReGLOSS",
+          "evidence": "Official custom description identifies Ao and Hajime as collaborators, uploader is Ririka. Original automatic transcript2:42:40–2:43:29 derives name from 姉御肌 and says this applies to all three.2:45:48–2:46:42 discusses 姉/あねご in hiragana plus 組 in kanji, rejects gummy spelling because it makes Hajime the gummy, and finalizes the group name with cheer. ASR repeatedly drops ね from あねご and renders あご; normalized あねご組 reading is context-based and matches discovery spelling. No performer-added on-screen written heading or independently accurate audio transcription established.",
+          "timestamps": [
+            "2:42:40–2:43:29",
+            "2:45:48–2:46:42"
+          ],
+          "method": "Chrome original watch page; visible Show transcript was clicked, then transcript export succeeded after initial unavailable result"
+        }
+      ],
+      "decision": "parent_review_required_for_exact_spelling_threshold",
+      "date": "2024-02-08",
+      "url": "https://www.youtube.com/watch?v=HW0-N2aYogs&t=9948s",
+      "title": "ちょべりば作業の会！三人のグループ名欲しいな～～！！！！ #Minecraft【#一条莉々華/hololive DEV_IS】",
+      "owner": "Ririka Ch. 一条莉々華 ‐ ReGLOSS",
+      "evidence": "Official custom description identifies Ao and Hajime as collaborators, uploader is Ririka. Original automatic transcript2:42:40–2:43:29 derives name from 姉御肌 and says this applies to all three.2:45:48–2:46:42 discusses 姉/あねご in hiragana plus 組 in kanji, rejects gummy spelling because it makes Hajime the gummy, and finalizes the group name with cheer. ASR repeatedly drops ね from あねご and renders あご; normalized あねご組 reading is context-based and matches discovery spelling. No performer-added on-screen written heading or independently accurate audio transcription established.",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ]
+    },
+    {
+      "id": "otohibana",
+      "label": "オトヒバナ",
+      "aliases": [],
+      "type": "named_collab",
+      "member_ids": [
+        "hiodoshi-ao",
+        "otonose-kanade",
+        "ichijou-ririka"
+      ],
+      "verification_state": "verified_primary_composite",
+      "sources": [
+        {
+          "url": "https://www.youtube.com/watch?v=V5clm9tuGLU&t=2799s",
+          "title": "【祝】初日デビュー組１周年！【火威青×音乃瀬奏×一条莉々華 】#hololiveDEV_IS #ReGLOSS",
+          "date": "2024-09-09",
+          "owner": "Ao Ch. 火威青 ‐ ReGLOSS",
+          "evidence": "Original title and custom description give complete Ao/Kanade/Ririka trio. Japanese automatic transcript39:01–39:06 explicitly frames name selection for Ao/Kanade/Ririka.46:19–47:23 settles name and discusses hiragana versus katakana choice; ASR mangles spoken name as 音花火 / お花.51:07–51:31 corrects Ao-hibana to oto-hibana. Frames inspected at47:15 and51:32 had avatars/backdrop, without performer-added final-name text. These establish naming context but do not independently verify final exact katakana script オトヒバナ.",
+          "timestamps": [
+            "39:01–39:06",
+            "46:19–47:23",
+            "51:07–51:31"
+          ],
+          "method": "Chrome watch metadata, exported automatic transcript, two player-frame screenshots"
+        },
+        {
+          "url": "https://x.com/hiodoshiao/status/1833164984773476710",
+          "title": "Talent post confirming オトヒバナ spelling",
+          "date": "2024-09-09",
+          "owner": "火威青🖋️ReGLOSS ホロライブDEV_IS卒業生",
+          "author_url": "https://x.com/hiodoshiao",
+          "evidence": "Public X oEmbed returns the author-owned post text with exact オトヒバナ spelling; paired with formation stream explicit trio membership and naming decision.",
+          "public_oembed_html": "<blockquote class=\"twitter-tweet\"><p lang=\"ja\" dir=\"ltr\">おつオトヒバナ〜！！！<br>来年も初日デビュー組の回しようね！<br>そしてReGLOSS全員1周年！おめでとう〜！！✨ <a href=\"https://t.co/5XzuIHcu0A\">pic.twitter.com/5XzuIHcu0A</a></p>&mdash; 火威青🖋️ReGLOSS ホロライブDEV_IS卒業生 (@hiodoshiao) <a href=\"https://x.com/hiodoshiao/status/1833164984773476710?ref_src=twsrc%5Etfw\">September 9, 2024</a></blockquote>\n\n",
+          "method": "Unauthenticated public publish.twitter.com/oembed GET; status200; no credentials used"
+        },
+        {
+          "url": "https://x.com/ichijouririka/status/1833162895666159858",
+          "title": "Talent post confirming オトヒバナ spelling",
+          "date": "2024-09-09",
+          "owner": "一条莉々華🌃ReGLOSS",
+          "author_url": "https://x.com/ichijouririka",
+          "evidence": "Public X oEmbed returns the author-owned post text with exact オトヒバナ spelling; paired with formation stream explicit trio membership and naming decision.",
+          "public_oembed_html": "<blockquote class=\"twitter-tweet\"><p lang=\"ja\" dir=\"ltr\">おつオトヒバナ✨💞<br>これからもReGLOSS活動がんばってくよー！！<br>らでん、ばんちょーも配信中に<br>駆けつけてくれてありがとーー！！！！ <a href=\"https://t.co/uM15BAuC0t\">pic.twitter.com/uM15BAuC0t</a></p>&mdash; 一条莉々華🌃ReGLOSS (@ichijouririka) <a href=\"https://x.com/ichijouririka/status/1833162895666159858?ref_src=twsrc%5Etfw\">September 9, 2024</a></blockquote>\n\n",
+          "method": "Unauthenticated public publish.twitter.com/oembed GET; status200; no credentials used"
+        }
+      ],
+      "decision": "eligible_for_parent_review",
+      "date": "2024-09-09",
+      "url": "https://www.youtube.com/watch?v=V5clm9tuGLU&t=2799s",
+      "title": "【祝】初日デビュー組１周年！【火威青×音乃瀬奏×一条莉々華 】#hololiveDEV_IS #ReGLOSS",
+      "owner": "Ao Ch. 火威青 ‐ ReGLOSS",
+      "evidence": "Complete Ao/Kanade/Ririka lineup and final naming context established by official formation stream V5clm9tuGLU. Exact オトヒバナ spelling independently confirmed by public X oEmbed of Ao1833164984773476710 and Ririka1833162895666159858 posts dated2024-09-09, both containing おつオトヒバナ. Combined evidence is verified; original stream automatic transcript alone did not establish exact script.",
+      "discovery_urls": [
+        "https://seesaawiki.jp/hololivetv/d/ReGLOSS"
+      ],
+      "previous_verification_state": "primary_naming_pronunciation_context_recovered_exact_script_pending",
+      "historical_access_failures": "Ao post remained loading in Chrome; web search gave no useful text. Later public oEmbed succeeded for both known exact post URLs."
+    }
+  ],
+  "unresolved": [
+    {
+      "label": "くそがきーず",
+      "member_ids": [
+        "otonose-kanade",
+        "juufuutei-raden",
+        "todoroki-hajime"
+      ],
+      "reason": "Focused web query returned cohort wiki, no new original named source. No absence claim."
+    },
+    {
+      "label": "両手にガキ",
+      "member_ids": [
+        "otonose-kanade",
+        "ichijou-ririka",
+        "todoroki-hajime"
+      ],
+      "reason": "Focused web query returned no useful primary named-source lead. Prior りりはじかな uploads are not proof of this exact alias."
+    }
+  ],
+  "access_notes": [
+    "Earlier Ao X post remained loading in Chrome; later unauthenticated public oEmbed retrieval succeeded for both known Ao/Ririka posts, resolving exact オトヒバナ script.",
+    "YouTube transcript export can initially report unavailable before transcript panel loads; clicking visible Show transcript recovered HW0-N2aYogs export.",
+    "Do not use full-cohort promo descriptions as evidence for trio membership.",
+    "No manual spoken-audio verification claimed; timestamped text comes from automatic transcript exports.",
+    "Final targeted source chase found no known primary post URLs for あねご組/くそがきーず/両手にガキ. ReGLOSS table has no post citations for these three; exact-name web searches gave no useful original post IDs. Linked Japanese member pages were rewritten to invalid replacement-character URLs by web reader. No guessed post IDs used."
+  ]
+}
