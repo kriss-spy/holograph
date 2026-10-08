@@ -132,9 +132,19 @@ export function selectScope(
       .map((t) => t.id),
   );
   ids = new Set([...ids].filter((id) => allowed.has(id)));
+  if (mode === "person" && !ids.has(viewId))
+    return { ids: new Set(), relations: [] };
   relations = relations.filter(
     (r) => isRelationVisible(r, { includeMoms }) && r.member_ids.filter((id) => ids.has(id)).length >=
       (r.member_ids.some((id) => id.startsWith("external:")) ? 1 : 2),
   );
+  // Focused views derive portraits from surviving ties, keeping a visible
+  // selected talent even when they have no recorded connections.
+  if (mode === "person" || mode === "unit") {
+    const connected = new Set(relations.flatMap((r) => r.member_ids));
+    ids = new Set([...ids].filter((id) =>
+      connected.has(id) || (mode === "person" && id === viewId),
+    ));
+  }
   return { ids, relations };
 }

@@ -36,8 +36,52 @@ test('Shared mom links and family scopes honor both independent filters', () => 
   assert.deepEqual([...family.ids].sort(), ['pekomama', 'usada-pekora']);
   assert.equal(family.relations.length, 1);
   assert.equal(selectScope(data, { mode: 'unit', viewId: 'pekomama_family' }).relations.length, 0);
+  assert.equal(selectScope(data, { mode: 'unit', viewId: 'pekomama_family' }).ids.size, 0);
   assert.equal(selectScope(data, { mode: 'cohort', viewId: 'hololive-moms' }).ids.size, 0);
   assert.equal(selectScope(data, { mode: 'cohort', viewId: 'hololive-moms', includeMoms: true }).ids.size, 7);
+});
+
+test('AZKi shows Vivi only when their shared anniversary event is visible', () => {
+  const normal = selectScope(data, { mode: 'person', viewId: 'azki' });
+  assert(normal.ids.has('azki'));
+  assert(!normal.ids.has('kikirara-vivi'));
+  assert(!normal.relations.some((r) => r.id === 'pekomama_anniversary_2025'));
+  // Other guests keep their independently documented AZKi connections.
+  assert(normal.ids.has('usada-pekora'));
+  assert(normal.ids.has('tokino-sora'));
+
+  const included = selectScope(data, { mode: 'person', viewId: 'azki', includeMoms: true });
+  assert(included.ids.has('kikirara-vivi'));
+  assert(included.relations.some((r) => r.id === 'pekomama_anniversary_2025'));
+});
+
+test('Talent and unit views do not retain portraits from filtered-out connections', () => {
+  for (const includeMoms of [false, true]) {
+    for (const includeAlumni of [false, true]) {
+      const filters = { includeMoms, includeAlumni };
+      for (const talent of data.talents) {
+        const scope = selectScope(data, { mode: 'person', viewId: talent.id, ...filters });
+        if ((!includeMoms && talent.status === 'mom') ||
+            (!includeAlumni && ['alum', 'former'].includes(talent.status))) {
+          assert.equal(scope.ids.size, 0, `Hidden talent ${talent.id} has portraits`);
+          assert.equal(scope.relations.length, 0, `Hidden talent ${talent.id} has connections`);
+        } else {
+          assert(scope.ids.has(talent.id));
+          for (const id of scope.ids) {
+            assert(id === talent.id || scope.relations.some((r) => r.member_ids.includes(id)),
+              `${id} has no visible connection in ${talent.id}'s view`);
+          }
+        }
+      }
+      for (const relation of data.relationships) {
+        const scope = selectScope(data, { mode: 'unit', viewId: relation.id, ...filters });
+        for (const id of scope.ids) {
+          assert(scope.relations.some((r) => r.member_ids.includes(id)),
+            `${id} remains in filtered unit ${relation.id}`);
+        }
+      }
+    }
+  }
 });
 
 test('Guest streams keep complete lineups and never create pairwise friendships', () => {
